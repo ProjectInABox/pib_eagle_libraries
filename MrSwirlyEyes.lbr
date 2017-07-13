@@ -445,7 +445,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="L4940V5_LINEAR_LDO_REG_TO220_5V_1.5A" prefix="U">
+<deviceset name="L4940V5_LINEAR_LDO_REG_TO220_5V_1.5A" prefix="VREG">
 <description>http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf</description>
 <gates>
 <gate name="G$1" symbol="L4940V5_LINEAR_LDO_REG_TO220_5V_1.5A" x="0" y="0"/>
