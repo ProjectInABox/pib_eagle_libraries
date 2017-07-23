@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -655,7 +655,7 @@
 <pad name="14" x="3.81" y="7.62" drill="0.8128" diameter="1.778"/>
 <circle x="-1.905" y="7.62" radius="0.508" width="0.254" layer="21"/>
 <text x="0" y="10.16" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.16" size="1.27" layer="27" font="vector" align="top-center">ATTINY84</text>
+<text x="0" y="-10.16" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
 <pad name="1" x="-3.81" y="7.62" drill="0.8128" diameter="1.778" shape="square"/>
 <wire x1="3.556" y1="8.6614" x2="3.556" y2="9.8552" width="0.1524" layer="21"/>
 <wire x1="-3.556" y1="7.112" x2="-3.556" y2="8.128" width="0" layer="51"/>
@@ -742,7 +742,7 @@
 <wire x1="-1.6013" y1="4.6078" x2="-0.5964" y2="4.6078" width="0.2032" layer="21"/>
 <circle x="-0.91085" y="3.80465" radius="0.254" width="0.2032" layer="21"/>
 <text x="0" y="5.08" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="10" align="top-center">ATTINY84</text>
+<text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <smd name="1" x="-2.4638" y="3.81" dx="1.9812" dy="0.5588" layer="1" roundness="50"/>
 <smd name="2" x="-2.4638" y="2.54" dx="1.9812" dy="0.5588" layer="1" roundness="50"/>
 <smd name="3" x="-2.4638" y="1.27" dx="1.9812" dy="0.5588" layer="1" roundness="50"/>
@@ -1281,7 +1281,7 @@
 <pin name="(PCINT9/XTAL2/D9)PB1" x="33.02" y="-10.16" length="short" rot="R180"/>
 <pin name="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" x="33.02" y="-12.7" length="short" rot="R180"/>
 <pin name="(PCINT11/!RESET!/DW/D11)PB3" x="33.02" y="-15.24" length="short" rot="R180"/>
-<text x="2.54" y="18.288" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">ATTINY84</text>
+<text x="2.54" y="18.288" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
 <text x="2.54" y="20.32" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 </symbol>
 <symbol name="ATTINY85_8PINS_8BIT_8KB_20MHZ">
@@ -2117,6 +2117,7 @@
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATTINY84A-SSU" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="ATTINY84" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2146,6 +2147,7 @@
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATTINY84A-PU" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="ATTINY84" constant="no"/>
 </technology>
 </technologies>
 </device>
