@@ -295,21 +295,6 @@
 <smd name="4" x="2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" roundness="50" rot="R90"/>
 <text x="0" y="3.302" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
 </package>
-<package name="CAP_POL_ALUM-ELECTROLYTIC_220UF-16V-20%_6.3LW-6.10H">
-<wire x1="3.3" y1="-3.3" x2="-2.2" y2="-3.3" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="-3.3" x2="-3.3" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="-2.2" x2="-3.3" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="2.2" x2="-2.2" y2="3.3" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="3.3" x2="3.3" y2="3.3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="-3.3" x2="3.3" y2="3.3" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3.15" width="0.127" layer="21"/>
-<text x="-2" y="1.5" size="1.27" layer="21" ratio="10" rot="R180" align="center">+</text>
-<smd name="A" x="-2.4" y="0" dx="3" dy="1.5" layer="1" roundness="50" rot="R180"/>
-<smd name="K" x="2.4" y="0" dx="3" dy="1.5" layer="1" roundness="50" rot="R180"/>
-<text x="2" y="1.5" size="1.27" layer="21" ratio="10" align="center">-</text>
-<text x="0" y="-3.81" size="0.8128" layer="27" font="vector" ratio="10" align="center">220uF/16V</text>
-<text x="0" y="3.81" size="0.8128" layer="25" ratio="10" align="center">&gt;Name</text>
-</package>
 <package name="RES_SMD-805_10K-5%-1/8W">
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -575,7 +560,7 @@
 </polygon>
 <text x="0" y="1.651" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
 </package>
-<package name="CAP_POL_ALUM-ELECTROLYTIC_100UF-16V-20%_6.3LW-6.10H">
+<package name="CAP_POL_ALUM-ELECTROLYTIC_20%_6.3LW-6.10H">
 <wire x1="3.3" y1="-3.3" x2="-2.2" y2="-3.3" width="0.127" layer="21"/>
 <wire x1="-2.2" y1="-3.3" x2="-3.3" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="-3.3" y1="-2.2" x2="-3.3" y2="2.2" width="0.127" layer="21"/>
@@ -587,7 +572,7 @@
 <smd name="A" x="-2.4" y="0" dx="3" dy="1.5" layer="1" roundness="50" rot="R180"/>
 <smd name="K" x="2.4" y="0" dx="3" dy="1.5" layer="1" roundness="50" rot="R180"/>
 <text x="2" y="1.5" size="1.27" layer="21" ratio="10" align="center">-</text>
-<text x="0" y="-3.81" size="0.8128" layer="27" font="vector" ratio="10" align="center">100uF/16V</text>
+<text x="0" y="-3.81" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <text x="0" y="3.81" size="0.8128" layer="25" ratio="10" align="center">&gt;Name</text>
 </package>
 <package name="CONNECTOR_TMP36">
@@ -984,15 +969,6 @@
 <text x="0" y="2.54" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;Name</text>
 <text x="0" y="-1.524" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;Value</text>
 </symbol>
-<symbol name="CAPACITOR_POLARIZED_220UF-16V-20%">
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="K" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-0.508" y="0.508" size="1.27" layer="95" ratio="10" rot="R90">&gt;Name</text>
-<text x="-1.016" y="-2.794" size="1.27" layer="94" ratio="10" align="bottom-center">+</text>
-<wire x1="3.2004" y1="-2.54" x2="3.2004" y2="2.54" width="0.254" layer="94" curve="-63.50962"/>
-<text x="1.27" y="0" size="1.27" layer="96" font="vector" ratio="10" rot="R90" align="center">220uF/16V</text>
-</symbol>
 <symbol name="RES_SMD-805_10K">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
@@ -1213,14 +1189,14 @@
 <text x="0" y="15.494" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;Name</text>
 <text x="0" y="13.716" size="1.27" layer="96" font="vector" ratio="10" align="center">DRV8837C</text>
 </symbol>
-<symbol name="CAPACITOR_POLARIZED_100UF-16V-20%">
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="K" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-0.508" y="0.508" size="1.27" layer="95" ratio="10" rot="R90">&gt;Name</text>
-<text x="-1.016" y="-2.794" size="1.27" layer="94" ratio="10" align="bottom-center">+</text>
-<wire x1="3.2004" y1="-2.54" x2="3.2004" y2="2.54" width="0.254" layer="94" curve="-63.50962"/>
-<text x="1.27" y="0" size="1.27" layer="96" font="vector" ratio="10" rot="R90" align="center">100uF/16V</text>
+<symbol name="CAPACITOR_POLARIZED_ALUM-ELECTROLYTIC">
+<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="K" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="0.508" y="0.508" size="1.27" layer="95" ratio="10">&gt;Name</text>
+<text x="-2.794" y="1.016" size="1.27" layer="94" ratio="10" rot="R270" align="bottom-center">+</text>
+<wire x1="-2.54" y1="-3.2004" x2="2.54" y2="-3.2004" width="0.254" layer="94" curve="-63.50962"/>
+<text x="0" y="-1.27" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="TMP36">
 <wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
@@ -1572,23 +1548,20 @@
 </deviceset>
 <deviceset name="CAP_POL_ALUM-ELECTROLYTIC_SMD_220UF-16V-20%" prefix="C">
 <gates>
-<gate name="G$1" symbol="CAPACITOR_POLARIZED_220UF-16V-20%" x="0" y="0"/>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED_ALUM-ELECTROLYTIC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CAP_POL_ALUM-ELECTROLYTIC_220UF-16V-20%_6.3LW-6.10H">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
+<device name="" package="CAP_POL_ALUM-ELECTROLYTIC_20%_6.3LW-6.10H">
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1240.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTPN" value="P15089CT-ND" constant="no"/>
-<attribute name="MFR" value="  Panasonic Electronic Components" constant="no"/>
+<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="MPN" value="EEE-FT1C221AP" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="220uF/16V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1997,10 +1970,10 @@
 </deviceset>
 <deviceset name="CAP_POL_ALUM-ELECTROLYTIC_SMD_100UF-16V-20%" prefix="C">
 <gates>
-<gate name="G$1" symbol="CAPACITOR_POLARIZED_100UF-16V-20%" x="0" y="0"/>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED_ALUM-ELECTROLYTIC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CAP_POL_ALUM-ELECTROLYTIC_100UF-16V-20%_6.3LW-6.10H">
+<device name="" package="CAP_POL_ALUM-ELECTROLYTIC_20%_6.3LW-6.10H">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -2014,6 +1987,7 @@
 <attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="MPN" value="EEE-FK1C101P" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="100UF/16V" constant="no"/>
 </technology>
 </technologies>
 </device>
