@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2129,7 +2129,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRSKY_GIMBAL">
+<deviceset name="FRSKY_GIMBAL" prefix="J" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="FRSKY_GIMBAL" x="0" y="0"/>
 </gates>
@@ -2152,8 +2152,9 @@
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://www.digikey.com/products/en?keywords=A100106-ND" constant="no"/>
+<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1735446&amp;DocType=Customer+Drawing&amp;DocLang=English" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=A100106-ND" constant="no"/>
 <attribute name="DISTPN" value="A100106-ND" constant="no"/>
 <attribute name="MFR" value="TE Connectivity AMP Connectors" constant="no"/>
 <attribute name="MPN" value="1-1735446-2" constant="no"/>
@@ -2164,7 +2165,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" prefix="S">
+<deviceset name="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" prefix="S" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" x="0" y="0"/>
 </gates>
@@ -2181,17 +2182,18 @@
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MA_Series_.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DIST2" value="Sparkfun" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=679-1847-1-ND" constant="no"/>
 <attribute name="DISTPN" value="679-1847-1-ND" constant="no"/>
 <attribute name="DISTPN2" value="COM-10860" constant="no"/>
 <attribute name="MFR" value="APEM" constant="no"/>
 <attribute name="MFRPN" value="MA12RTR" constant="no"/>
+<attribute name="VALUE" value="SLIDE-SW_300mA/4V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VREG_LM317T_LINEAR_ADJ_TO220_1.5A" prefix="VREG">
-<description>http://www.ti.com/lit/ds/symlink/lm317.pdf</description>
+<deviceset name="VREG_LM317T_LINEAR_ADJ_TO220_1.5A" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VREG-LINEAR-ADJ_TO220_1.5A" x="0" y="0"/>
 </gates>
@@ -2205,18 +2207,20 @@
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://www.fairchildsemi.com/datasheets/LM/LM317T.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTPN" value="497-1575-5-ND" constant="no"/>
-<attribute name="MFR" value="STMicroelectronics" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LM317TFS-ND" constant="no"/>
+<attribute name="DISTPN" value="LM317TFS-ND" constant="no"/>
+<attribute name="MFR" value="Fairchild/ON Semiconductor" constant="no"/>
 <attribute name="MPN" value="LM317T" constant="no"/>
 <attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="LM317T" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VREG_L4940V5_LINEAR_LDO_TO220_1.5A-5V" prefix="VREG">
+<deviceset name="VREG_L4940V5_LINEAR_LDO_TO220_1.5A-5V" prefix="U" uservalue="yes">
 <description>http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf</description>
 <gates>
 <gate name="G$1" symbol="VREG-LINEAR-LDO_TO220_1.5A" x="0" y="0"/>
@@ -2233,16 +2237,18 @@
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1404-5-ND" constant="no"/>
 <attribute name="DISTPN" value="497-1404-5-ND" constant="no"/>
 <attribute name="MFR" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="L4940V5" constant="no"/>
 <attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L4940V5" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VREG_L4940V5_LINEAR_LDO_TO220_1.5A-5V_HEATSINK" prefix="VREG">
+<deviceset name="VREG_L4940V5_LINEAR_LDO_TO220_1.5A-5V_HEATSINK" prefix="U" uservalue="yes">
 <description>http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf</description>
 <gates>
 <gate name="G$1" symbol="VREG-LINEAR-LDO_TO220_1.5A" x="0" y="0"/>
@@ -2259,18 +2265,20 @@
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1404-5-ND" constant="no"/>
 <attribute name="DISTPN" value="497-1404-5-ND" constant="no"/>
 <attribute name="HEATSINK_DIMENSION" value="21x15x11mm" constant="no"/>
 <attribute name="HEATSINK_MFR" value="https://www.amazon.com/21x15x11mm-Black-Aluminum-Heat-Transistors/dp/B00REFDSOY" constant="no"/>
 <attribute name="MFR" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="L4940V5" constant="no"/>
 <attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L4940V5" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VREG_L7805ABV_LINEAR_TO220_1.5A-5V" prefix="VREG">
+<deviceset name="VREG_L7805ABV_LINEAR_TO220_1.5A-5V" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VREG-LINEAR_TO220_1.5A" x="0" y="0"/>
 </gates>
@@ -2286,16 +2294,18 @@
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-2947-5-ND" constant="no"/>
 <attribute name="DISTPN" value="497-2947-5-ND" constant="no"/>
 <attribute name="MFR" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="L7805ABV" constant="no"/>
 <attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L7805ABV" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VREG_L7805ABV_LINEAR_TO220_1.5A-5V_HEATSINK" prefix="VREG">
+<deviceset name="VREG_L7805ABV_LINEAR_TO220_1.5A-5V_HEATSINK" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VREG-LINEAR_TO220_1.5A" x="0" y="0"/>
 </gates>
@@ -2311,18 +2321,20 @@
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-2947-5-ND" constant="no"/>
 <attribute name="DISTPN" value="497-2947-5-ND" constant="no"/>
 <attribute name="HEATSINK_DIMENSIONS" value="21x15x11mm" constant="no"/>
 <attribute name="HEATSINK_MFR" value="https://www.amazon.com/21x15x11mm-Black-Aluminum-Heat-Transistors/dp/B00REFDSOY" constant="no"/>
 <attribute name="MFR" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="L7805ABV" constant="no"/>
 <attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L7805ABV" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VREG_L7806ABV_LINEAR_TO220_1.5A-6V" prefix="VREG">
+<deviceset name="VREG_L7806ABV_LINEAR_TO220_1.5A-6V" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VREG-LINEAR_TO220_1.5A" x="0" y="0"/>
 </gates>
@@ -2338,16 +2350,18 @@
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1444-5-ND" constant="no"/>
 <attribute name="DISTPN" value="497-1444-5-ND" constant="no"/>
 <attribute name="MFR" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="L7806ABV" constant="no"/>
 <attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L7806ABV" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VREG_L7806ABV_LINEAR_TO220_1.5A-6V_HEATSINK" prefix="VREG">
+<deviceset name="VREG_L7806ABV_LINEAR_TO220_1.5A-6V_HEATSINK" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VREG-LINEAR_TO220_1.5A" x="0" y="0"/>
 </gates>
@@ -2363,18 +2377,20 @@
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1444-5-ND" constant="no"/>
 <attribute name="DISTPN" value="497-1444-5-ND" constant="no"/>
 <attribute name="HEATSINK_DIMENSIONS" value="21x15x11mm" constant="no"/>
 <attribute name="HEATSINK_MFR" value="https://www.amazon.com/21x15x11mm-Black-Aluminum-Heat-Transistors/dp/B00REFDSOY" constant="no"/>
 <attribute name="MFR" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="L7806ABV" constant="no"/>
 <attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L7806ABV" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SWITCH_MOMENTARY_SPST-NO_SMD_12V_50MA_5.2MM" prefix="SW">
+<deviceset name="SWITCH_MOMENTARY_SPST-NO_SMD_12V_50MA_5.2MM" prefix="S" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SWITCH_MOMENTARY" x="0" y="0"/>
 </gates>
@@ -2389,16 +2405,18 @@
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/C&amp;K/RS-187R05-DS%20MT_RT.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CKN10361CT-ND" constant="no"/>
 <attribute name="DISTPN" value="CKN10361CT-ND" constant="no"/>
 <attribute name="MFR" value="C&amp;K" constant="no"/>
 <attribute name="MPN" value="RS-187R05A2-DS MT RT" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="TACTILE-SW_500mA/12V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR_CERAMIC" prefix="C">
+<deviceset name="CAPACITOR_CERAMIC" prefix="C" uservalue="yes">
 <description>Ceramic Capacitors
 Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <gates>
@@ -2415,6 +2433,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1666-1-ND" constant="no"/>
 <attribute name="DISTPN" value="490-1666-1-ND" constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" constant="no"/>
@@ -2433,6 +2452,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://psearch.en.murata.com/capacitor/product/GRM21BR71H224KA01%23.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1670-1-ND" constant="no"/>
 <attribute name="DISTPN" value="490-1670-1-ND" constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GRM21BR71H224KA01L" constant="no"/>
@@ -2451,6 +2471,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-5523-1-ND" constant="no"/>
 <attribute name="DISTPN" value="490-5523-1-ND" constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GRM21BR61E106KA73L" constant="no"/>
@@ -2469,16 +2490,18 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E120JW01-01.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-5531-1-ND" constant="no"/>
 <attribute name="DISTPN" value="490-5531-1-ND " constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GRM21A5C2E120JW01D " constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="12pF/250V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED-DISCRETE_SMD-805_GREEN" prefix="L">
+<deviceset name="LED-DISCRETE_SMD-805_GREEN" prefix="L" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -2503,7 +2526,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CD74HC4067-SM96_16:1_MUX-DEMUX" prefix="U">
+<deviceset name="CD74HC4067-SM96_16:1_MUX-DEMUX" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CD74HC4067-SM96_16:1_MUX-DEMUX" x="0" y="0"/>
 </gates>
@@ -2540,16 +2563,18 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-9226-1-ND" constant="no"/>
 <attribute name="DISTPN" value="296-9226-1-ND" constant="no"/>
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="CD74HC4067SM96" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="CH16_MUX-DEMUX" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PCA9685_16-CH_12-BIT_PWM-DRIVER" prefix="U">
+<deviceset name="PCA9685_16-CH_12-BIT_PWM-DRIVER" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="PCA9685_16-CH_12-BIT_PWM-DRIVER" x="0" y="0"/>
 </gates>
@@ -2590,15 +2615,17 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=568-11925-1-ND" constant="no"/>
 <attribute name="DISTPN" value="568-11925-1-ND" constant="no"/>
 <attribute name="MFR" value="NXP USA Inc." constant="no"/>
 <attribute name="MPN" value="PCA9685PW,118" constant="no"/>
+<attribute name="VALUE" value="PCA9685" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET-N-CH_SI2302CDS_2.6A_20V_57MΩ_SOT23-3" prefix="T">
+<deviceset name="MOSFET-N-CH_SI2302CDS_2.6A_20V_57MΩ_SOT23-3" prefix="T" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SI2302CDS-MOSFET-N-CH_2.6A_20V_57MΩ" x="0" y="0"/>
 </gates>
@@ -2614,10 +2641,12 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.vishay.com/docs/68645/si2302cds.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/vishay-siliconix/SI2302CDS-T1-GE3/SI2302CDS-T1-GE3CT-ND/1978877" constant="no"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-GE3CT-ND" constant="no"/>
 <attribute name="MFR" value="Vishay Siliconix" constant="no"/>
-<attribute name="MPN" value="SI2302CDS-T1-E3" constant="no"/>
+<attribute name="MPN" value="SI2302CDS-T1-GE3" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="2.6A/20V/57mΩ" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2679,7 +2708,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VIBE_MOTOR_100MA/3V" prefix="V">
+<deviceset name="VIBE_MOTOR_100MA/3V" prefix="M" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VIBE_MOTOR" x="0" y="0"/>
 </gates>
@@ -2694,6 +2723,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.vibration-motor.com/products/download/C0825B002F.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1670-1002-ND" constant="no"/>
 <attribute name="DISTPN" value="1670-1002-ND" constant="no"/>
 <attribute name="MFR" value="Jinlong Machinery &amp; Electronics, Inc." constant="no"/>
 <attribute name="MPN" value="C0825B002F" constant="no"/>
@@ -2704,7 +2734,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE_SMD_GP_1A-50V-SOD123F" prefix="D">
+<deviceset name="DIODE_SMD_GP_1A-50V-SOD123F" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="DIODE_GP_1A-50V" x="0" y="0"/>
 </gates>
@@ -2719,16 +2749,18 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.comchiptech.com/cms/UserFiles/CGRKM4001-HF%20Thru.%20CGRKM4007-HF%20RevG.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=641-1511-1-ND" constant="no"/>
 <attribute name="DISTPN" value="641-1511-1-ND" constant="no"/>
 <attribute name="MFR" value="Comchip Technology" constant="no"/>
 <attribute name="MPN" value="CGRKM4001-HF" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1A/50V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PELTIER-CM23-1.9-05AC_1.9A-2.8V_8X6X2MM" prefix="P">
+<deviceset name="PELTIER-CM23-1.9-05AC_1.9A-2.8V_8X6X2MM" prefix="P" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="PELTIER" x="0" y="0"/>
 </gates>
@@ -2743,6 +2775,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.marlow.com/downloads/dl/file/id/192/product/291/cm23_1_9.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1681-1001-ND" constant="no"/>
 <attribute name="DISTPN" value="1681-1001-ND" constant="no"/>
 <attribute name="MFR" value="Marlow Industries, Inc." constant="no"/>
 <attribute name="MPN" value="CM23-1.9-05AC" constant="no"/>
@@ -2753,7 +2786,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DRV8837C_H-BRIDGE_1A_WSON-8-PAD" prefix="U">
+<deviceset name="DRV8837C_H-BRIDGE_1A_WSON-8-PAD" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="DRV8837C_H-BRIDGE_1A_WSON-8-PAD" x="0" y="0"/>
 </gates>
@@ -2774,16 +2807,18 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/drv8837c.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-44747-1-ND" constant="no"/>
 <attribute name="DISTPN" value="296-44747-1-ND" constant="no"/>
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="DRV8837CDSGT" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="DRV8837C" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR_POLARIZED" prefix="C">
+<deviceset name="CAPACITOR_POLARIZED" prefix="C" uservalue="yes">
 <description>Polarized Capacitors
 Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <gates>
@@ -2800,6 +2835,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0120+EEEFK1C101P+7+WW" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PCE3783CT-ND" constant="no"/>
 <attribute name="DISTPN" value="PCE3783CT-ND" constant="no"/>
 <attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="MPN" value="EEE-FK1C101P" constant="no"/>
@@ -2818,6 +2854,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1240.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=P15089CT-ND" constant="no"/>
 <attribute name="DISTPN" value="P15089CT-ND" constant="no"/>
 <attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="MPN" value="EEE-FT1C221AP" constant="no"/>
@@ -2828,7 +2865,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEMPERATURE-SENSOR_TMP36" prefix="A">
+<deviceset name="TEMPERATURE-SENSOR_TMP36" prefix="A" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="TMP36" x="0" y="0"/>
 </gates>
@@ -2844,6 +2881,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=TMP36GT9Z-ND" constant="no"/>
 <attribute name="DISTPN" value="TMP36GT9Z-ND" constant="no"/>
 <attribute name="MFR" value="Analog Devices Inc." constant="no"/>
 <attribute name="MPN" value="TMP36GT9Z" constant="no"/>
@@ -2854,7 +2892,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FSR_FORCE-SENSATIVE-RESISTOR_PRESS-SENSOR" prefix="F">
+<deviceset name="FSR_FORCE-SENSATIVE-RESISTOR_PRESS-SENSOR" prefix="F" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="FSR" x="2.54" y="0"/>
 </gates>
@@ -2869,6 +2907,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.interlinkelectronics.com/datasheets/Datasheet_FSR.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1027-1014-ND" constant="no"/>
 <attribute name="DISTPN" value="1027-1014-ND" constant="no"/>
 <attribute name="MFR" value="Interlink Electronics" constant="no"/>
 <attribute name="MPN" value="34-00004" constant="no"/>
@@ -2880,7 +2919,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SERVO-GENERIC" prefix="S">
+<deviceset name="SERVO" prefix="M" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SERVO-GENERIC" x="0" y="0"/>
 </gates>
@@ -2899,9 +2938,26 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
+<device name="-HK15298B" package="CONNECTOR_SERVO">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="SIG" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DIST" value="HobbyKing" constant="no"/>
+<attribute name="DISTLINK" value="https://hobbyking.com/en_us/hobbykingtm-coreless-digital-hv-mg-bb-servo-20kg-0-16sec-66g.html?___store=en_us" constant="no"/>
+<attribute name="DISTPN" value="HK15298B" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="HK15298B" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY84_14PINS_8BIT_8KB_20MHZ" prefix="U">
+<deviceset name="ATTINY84_14PINS_8BIT_8KB_20MHZ" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINY84_14PINS_8BIT_8KB_20MHZ" x="0" y="0"/>
 </gates>
@@ -2928,6 +2984,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-SSU-ND" constant="no"/>
 <attribute name="DISTPN" value="ATTINY84A-SSU-ND" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATTINY84A-SSU" constant="no"/>
@@ -2958,6 +3015,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-PU-ND" constant="no"/>
 <attribute name="DISTPN" value="ATTINY84A-PU-ND" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATTINY84A-PU" constant="no"/>
@@ -2968,7 +3026,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY85_8PINS_8BIT_8KB_20MHZ" prefix="U">
+<deviceset name="ATTINY85_8PINS_8BIT_8KB_20MHZ" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINY85_8PINS_8BIT_8KB_20MHZ" x="0" y="0"/>
 </gates>
@@ -2989,6 +3047,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20SU-ND" constant="no"/>
 <attribute name="DISTPN" value="ATTINY85-20SU-ND" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATTINY85-20SU" constant="no"/>
@@ -3013,6 +3072,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
 <attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="  ATTINY85-20PU" constant="no"/>
@@ -3023,7 +3083,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PCA9633_16_CH_4_BIT_PWM-DRIVER" prefix="U">
+<deviceset name="PCA9633_16_CH_4_BIT_PWM-DRIVER" prefix="U" uservalue="yes">
 <description>4 bit I2C PWM MUX</description>
 <gates>
 <gate name="G$1" symbol="PCA9633_16_CH_4_BIT_PWM-DRIVER" x="0" y="0"/>
@@ -3053,10 +3113,12 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://www.mouser.com/ds/2/302/PCA9633-1127691.pdf" constant="no"/>
 <attribute name="DIST" value="Mouser" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=771-PCA9633PW112%20" constant="no"/>
 <attribute name="DISTPN" value="771-PCA9633PW112 " constant="no"/>
 <attribute name="MFR" value="NXP Semiconductors" constant="no"/>
 <attribute name="MPN" value="PCA9633PW,112" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="PCA9633" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3082,7 +3144,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805JR-07100RL"/>
 <attribute name="TESTED" value="YES" constant="no"/>
-<attribute name="VALUE" value="100"/>
+<attribute name="VALUE" value="100Ω"/>
 </technology>
 </technologies>
 </device>
@@ -3099,7 +3161,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805JR-0710KL"/>
 <attribute name="TESTED" value="YES" constant="no"/>
-<attribute name="VALUE" value="10K"/>
+<attribute name="VALUE" value="10KΩ"/>
 </technology>
 </technologies>
 </device>
@@ -3116,7 +3178,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805JR-07330RL"/>
 <attribute name="TESTED" value="YES" constant="no"/>
-<attribute name="VALUE" value="330"/>
+<attribute name="VALUE" value="330Ω"/>
 </technology>
 </technologies>
 </device>
@@ -3133,7 +3195,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805JR-075K1L"/>
 <attribute name="TESTED" value="YES" constant="no"/>
-<attribute name="VALUE" value="5.1K"/>
+<attribute name="VALUE" value="5.1KΩ"/>
 </technology>
 </technologies>
 </device>
@@ -3150,7 +3212,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710R7L"/>
 <attribute name="TESTED" value="YES" constant="no"/>
-<attribute name="VALUE" value="10.7"/>
+<attribute name="VALUE" value="10.7Ω"/>
 </technology>
 </technologies>
 </device>
@@ -3167,7 +3229,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-074R99L"/>
 <attribute name="TESTED" value="YES" constant="no"/>
-<attribute name="VALUE" value="4.99"/>
+<attribute name="VALUE" value="4.99Ω"/>
 </technology>
 </technologies>
 </device>
@@ -3184,13 +3246,13 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0402JR-07220KL"/>
 <attribute name="TESTED" value="YES" constant="no"/>
-<attribute name="VALUE" value="220" constant="no"/>
+<attribute name="VALUE" value="220Ω" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328P" prefix="U">
+<deviceset name="ATMEGA328P" prefix="U" uservalue="yes">
 <description>Atmel ATMEGA 328 Series</description>
 <gates>
 <gate name="A" symbol="ATMEGA328P-28PIN" x="0" y="0"/>
@@ -3233,10 +3295,12 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATMEGA328P-MMHRCT-ND%20" constant="no"/>
 <attribute name="DISTPN" value="ATMEGA328P-MMHRCT-ND " constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATMEGA328P-MMHR " constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="ATMEGA328P" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3268,7 +3332,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVR_SPI_PRG_6" prefix="J">
+<deviceset name="AVR_SPI_PRG_6" prefix="J" uservalue="yes">
 <description>&lt;b&gt;AVR ISP 6 Pin&lt;/b&gt;
 This is the reduced ISP connector for AVR programming. Common on Arduino. This footprint will take up less PCB space and can be used with a 10-pin to 6-pin adapter such as SKU: BOB-08508</description>
 <gates>
@@ -3288,6 +3352,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <technology name="">
 <attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=609-3234-ND" constant="no"/>
 <attribute name="DISTPN" value="609-3234-ND"/>
 <attribute name="MFR" value="Amphenol FCI"/>
 <attribute name="MPN" value="67997-206HLF"/>
@@ -3311,6 +3376,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <technology name="">
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/abm3b.pdf"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=535-9122-1-ND" constant="no"/>
 <attribute name="DISTPN" value="535-9122-1-ND"/>
 <attribute name="MFR" value="Abracon LLC"/>
 <attribute name="MPN" value="ABM3B-16.000MHZ-B2-T"/>
@@ -3321,7 +3387,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="RPI-GPIO_CONNECTOR" prefix="J">
+<deviceset name="RPI-GPIO_CONNECTOR" prefix="J" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="RPI-GPIO_CONNECTOR" x="0" y="0"/>
 </gates>
@@ -3374,6 +3440,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="https://cdn.sparkfun.com/datasheets/Dev/RaspberryPi/12313.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1462-ND" constant="no"/>
 <attribute name="DISTPN" value="1568-1462-ND" constant="no"/>
 <attribute name="MFR" value="SparkFun Electronics" constant="no"/>
 <attribute name="MPN" value="PRT-14017" constant="no"/>
@@ -3384,7 +3451,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED-SUPERBRIGHT_PTH-5MM_GREEN" prefix="L">
+<deviceset name="LED-SUPERBRIGHT_PTH-5MM_GREEN" prefix="L" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -3409,7 +3476,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED-SUPERBRIGHT_PTH-5MM_RED" prefix="L">
+<deviceset name="LED-SUPERBRIGHT_PTH-5MM_RED" prefix="L" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -3459,7 +3526,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED-5MM-PTH_RGB-CA" prefix="L">
+<deviceset name="LED-5MM-PTH_RGB-CA" prefix="L" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LED-5MM-PTH_RGB-CA" x="0" y="0"/>
 </gates>
