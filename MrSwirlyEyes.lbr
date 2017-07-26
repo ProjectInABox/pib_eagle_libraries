@@ -1470,6 +1470,23 @@
 <wire x1="22.225" y1="-2.54" x2="22.86" y2="-1.905" width="0.2032" layer="21"/>
 <wire x1="-25.4" y1="1.905" x2="-24.765" y2="2.54" width="0.2032" layer="21"/>
 </package>
+<package name="LED5MM-PTH">
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="22"/>
+<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
+<text x="0" y="3.81" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.27" layer="25" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRSKY_GIMBAL">
@@ -1577,7 +1594,7 @@
 <text x="0" y="-1.27" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
-<symbol name="LED_GREEN_SMD-805">
+<symbol name="LED">
 <pin name="K" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -1599,8 +1616,8 @@
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
-<text x="0.254" y="0.254" size="0.8128" layer="95" font="vector" ratio="10">&gt;Name</text>
-<text x="0.254" y="-3.556" size="0.8128" layer="96" font="vector" ratio="10">GREEN</text>
+<text x="0.254" y="0.254" size="0.8128" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="0.254" y="-3.556" size="0.8128" layer="96" font="vector" ratio="10">&gt;VALUE</text>
 </symbol>
 <symbol name="CD74HC4067-SM96_16:1_MUX-DEMUX">
 <wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
@@ -2426,7 +2443,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </deviceset>
 <deviceset name="LED-DISCRETE_SMD-805_GREEN" prefix="L">
 <gates>
-<gate name="G$1" symbol="LED_GREEN_SMD-805" x="0" y="0"/>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="LED_SMD-805_GREEN">
@@ -2443,6 +2460,7 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="MFR" value="Lite-On Inc." constant="no"/>
 <attribute name="MPN" value="LTST-C170GKT" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3324,6 +3342,81 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MPN" value="PRT-14017" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="RPI-GPIO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-SUPERBRIGHT_PTH-5MM_GREEN">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED5MM-PTH">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/YSL-R542G5C-A14.pdf" constant="no"/>
+<attribute name="DIST" value="Sparkfun" constant="no"/>
+<attribute name="DISTPN" value="COM-08285" constant="no"/>
+<attribute name="MFR" value="SunLED" constant="no"/>
+<attribute name="MPN" value="YSL-R542G5C-A14" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-SUPERBRIGHT_PTH-5MM_RED">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED5MM-PTH">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/YSL-R531R3C-A13.pdf" constant="no"/>
+<attribute name="DIST" value="Sparkfun" constant="no"/>
+<attribute name="DISTPN" value="COM-00528" constant="no"/>
+<attribute name="MFR" value="SunLED" constant="no"/>
+<attribute name="MPN" value="YSL-R531R3C-A13" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="RED" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-SUPERBRIGHT_PTH-5MM_BLUE">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED5MM-PTH">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/YSL-R542B5C-A11.pdf" constant="no"/>
+<attribute name="DIST" value="Sparkfun" constant="no"/>
+<attribute name="DISTPN" value="COM-00529" constant="no"/>
+<attribute name="MFR" value="SunLED" constant="no"/>
+<attribute name="MPN" value="YSL-R542B5C-A11" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="BLUE" constant="no"/>
 </technology>
 </technologies>
 </device>
