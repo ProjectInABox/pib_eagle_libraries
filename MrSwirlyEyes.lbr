@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3261,6 +3261,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-100ARCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-100ARCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805JR-07100RL"/>
@@ -3278,6 +3279,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-10KARCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-10KARCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805JR-0710KL"/>
@@ -3295,6 +3297,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-330ARCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-330ARCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805JR-07330RL"/>
@@ -3363,6 +3366,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-220KJRCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-220KJRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0402JR-07220KL"/>
