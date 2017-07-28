@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1770,6 +1770,26 @@
 <wire x1="6.5" y1="6.4" x2="6.5" y2="-6.4" width="0.127" layer="39"/>
 <wire x1="6.5" y1="-6.4" x2="-6.4" y2="-6.4" width="0.127" layer="39"/>
 <wire x1="-6.4" y1="-6.4" x2="-6.4" y2="6.4" width="0.127" layer="39"/>
+</package>
+<package name="SW_SPDT_RA_5A/28V/120VAC">
+<hole x="-2.54" y="-2.54" drill="1.09"/>
+<hole x="2.54" y="-2.54" drill="1.09"/>
+<wire x1="-5.08" y1="2.92" x2="5.08" y2="2.92" width="0.127" layer="21"/>
+<wire x1="5.08" y1="2.92" x2="5.08" y2="-7.87" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-7.87" x2="-5.08" y2="-7.87" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-7.87" x2="-5.08" y2="2.92" width="0.127" layer="21"/>
+<wire x1="-2.79" y1="-8" x2="-2.79" y2="-11.1" width="0.127" layer="21"/>
+<wire x1="2.79" y1="-8" x2="2.79" y2="-11.1" width="0.127" layer="21"/>
+<wire x1="-2.79" y1="-11.1" x2="2.79" y2="-11.1" width="0.127" layer="21"/>
+<text x="0" y="-4.064" size="1.27" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="-7.112" size="1.27" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="2.54" drill="1.09" diameter="1.27" shape="long" rot="R90"/>
+<pad name="2" x="0" y="2.54" drill="1.09" diameter="1.27" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="2.54" drill="1.09" diameter="1.27" shape="long" rot="R90"/>
+<circle x="-2.54" y="-2.54" radius="1.524" width="0" layer="40"/>
+<circle x="2.54" y="-2.54" radius="1.524" width="0" layer="40"/>
+<circle x="-2.54" y="-2.54" radius="1.524" width="0" layer="39"/>
+<circle x="2.54" y="-2.54" radius="1.524" width="0" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -4123,6 +4143,33 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MFR" value="Atmel"/>
 <attribute name="MPN" value="ATMEGA128RFA1-ZUR00"/>
 <attribute name="PRICE" value="10.21"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SW_SPDT_RA_3A/28V/120VAC">
+<gates>
+<gate name="G$1" symbol="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SW_SPDT_RA_5A/28V/120VAC">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="S1" pad="2"/>
+<connect gate="G$1" pin="S2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://spec_sheets.e-switch.com/specs/T551101.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=EG2483-ND" constant="no"/>
+<attribute name="DISTPN" value="EG2483-ND" constant="no"/>
+<attribute name="MFR" value="E-Switch" constant="no"/>
+<attribute name="MPN" value="500ASSP1M6QE" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="SPDT" constant="no"/>
 </technology>
 </technologies>
 </device>
