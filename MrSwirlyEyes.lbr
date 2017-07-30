@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1267,19 +1267,19 @@
 <circle x="-2.1" y="2.1" radius="0.360553125" width="0" layer="21"/>
 </package>
 <package name="DUAL_SMD_PADS">
-<text x="-1.5" y="1" size="1.27" layer="21" font="vector">+</text>
-<wire x1="-2.5" y1="-1.75" x2="-2.5" y2="2.25" width="0.127" layer="39"/>
-<wire x1="-2.5" y1="-1.75" x2="3.5" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.25" x2="-2.5" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.25" x2="3.5" y2="2.25" width="0.127" layer="39"/>
-<text x="0.5" y="3" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="1.5" y="1" size="1.27" layer="21" font="vector">-</text>
-<wire x1="3.5" y1="-1.75" x2="-2.5" y2="-1.75" width="0.127" layer="39"/>
-<wire x1="3.5" y1="-1.75" x2="3.5" y2="2.25" width="0.127" layer="21"/>
-<wire x1="3.5" y1="2.25" x2="-2.5" y2="2.25" width="0.127" layer="21"/>
-<wire x1="3.5" y1="2.25" x2="3.5" y2="-1.75" width="0.127" layer="39"/>
-<smd name="V+" x="-1" y="0" dx="2" dy="2" layer="1" rot="R90"/>
-<smd name="V-" x="2" y="0" dx="2" dy="2" layer="1" rot="R90"/>
+<text x="-2.008" y="1" size="1.27" layer="21" font="vector">+</text>
+<wire x1="-3.008" y1="-1.75" x2="-3.008" y2="2.25" width="0.127" layer="39"/>
+<wire x1="-3.008" y1="-1.75" x2="2.992" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-3.008" y1="2.25" x2="-3.008" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-3.008" y1="2.25" x2="2.992" y2="2.25" width="0.127" layer="39"/>
+<text x="-0.008" y="3" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0.992" y="1" size="1.27" layer="21" font="vector">-</text>
+<wire x1="2.992" y1="-1.75" x2="-3.008" y2="-1.75" width="0.127" layer="39"/>
+<wire x1="2.992" y1="-1.75" x2="2.992" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.992" y1="2.25" x2="-3.008" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.992" y1="2.25" x2="2.992" y2="-1.75" width="0.127" layer="39"/>
+<smd name="V+" x="-1.508" y="0" dx="2" dy="2" layer="1" rot="R90"/>
+<smd name="V-" x="1.492" y="0" dx="2" dy="2" layer="1" rot="R90"/>
 </package>
 <package name="LED-5MM-PTH">
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="22"/>
@@ -1791,6 +1791,31 @@
 <circle x="-2.54" y="-2.54" radius="1.524" width="0" layer="39"/>
 <circle x="2.54" y="-2.54" radius="1.524" width="0" layer="39"/>
 </package>
+<package name="D2PAK-3">
+<smd name="P$1" x="0" y="-4" dx="8.38" dy="10.49" layer="1" rot="R90"/>
+<smd name="P$2" x="-2.54" y="-14" dx="3.504" dy="1.016" layer="1" rot="R90"/>
+<smd name="P$3" x="2.54" y="-14" dx="3.504" dy="1.016" layer="1" rot="R90"/>
+</package>
+<package name="SOT223">
+<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3114" y="-3.0988" dx="1.25" dy="2.5" layer="1" roundness="50"/>
+<smd name="2" x="0" y="-3.0988" dx="1.25" dy="2.5" layer="1" roundness="50"/>
+<smd name="3" x="2.3114" y="-3.0988" dx="1.25" dy="2.5" layer="1" roundness="50"/>
+<smd name="4" x="0" y="3.099" dx="4" dy="2.5" layer="1" roundness="50"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<text x="0" y="0.254" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRSKY_GIMBAL">
@@ -1838,7 +1863,7 @@
 <text x="1.27" y="4.318" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;Name</text>
 <text x="1.27" y="-4.318" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;Value</text>
 </symbol>
-<symbol name="VREG-LINEAR-ADJ_TO220_1.5A">
+<symbol name="VREG-LINEAR-ADJ">
 <wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -1852,7 +1877,7 @@
 <text x="5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VOUT</text>
 <text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="center">ADJ</text>
 </symbol>
-<symbol name="VREG-LINEAR-LDO_TO220_1.5A">
+<symbol name="VREG-LINEAR-LDO">
 <wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -1866,14 +1891,14 @@
 <text x="5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VOUT</text>
 <text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="center">GND</text>
 </symbol>
-<symbol name="VREG-LINEAR_TO220_1.5A">
+<symbol name="VREG-LINEAR">
 <wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<pin name="VIN" x="-10.16" y="0" visible="pad" length="short" direction="in"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="VOUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="VIN" x="-10.16" y="0" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="VOUT" x="10.16" y="0" visible="off" length="short" direction="out" rot="R180"/>
 <text x="0" y="5.08" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;Name</text>
 <text x="0" y="3.556" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;Value</text>
 <text x="-5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VIN</text>
@@ -2633,7 +2658,7 @@
 </deviceset>
 <deviceset name="VREG_LM317T_LINEAR_ADJ_TO220_1.5A" prefix="U" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR-ADJ_TO220_1.5A" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR-ADJ" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO-220-HEATSINK">
@@ -2661,7 +2686,7 @@
 <deviceset name="VREG_L4940V5_LINEAR_LDO_TO220_1.5A-5V" prefix="U" uservalue="yes">
 <description>http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf</description>
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR-LDO_TO220_1.5A" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR-LDO" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO-220">
@@ -2689,7 +2714,7 @@
 <deviceset name="VREG_L4940V5_LINEAR_LDO_TO220_1.5A-5V_HEATSINK" prefix="U" uservalue="yes">
 <description>http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf</description>
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR-LDO_TO220_1.5A" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR-LDO" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO-220-HEATSINK">
@@ -2718,7 +2743,7 @@
 </deviceset>
 <deviceset name="VREG_L7805ABV_LINEAR_TO220_1.5A-5V" prefix="U" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR_TO220_1.5A" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO-220">
@@ -2745,7 +2770,7 @@
 </deviceset>
 <deviceset name="VREG_L7805ABV_LINEAR_TO220_1.5A-5V_HEATSINK" prefix="U" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR_TO220_1.5A" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO-220-HEATSINK">
@@ -2774,7 +2799,7 @@
 </deviceset>
 <deviceset name="VREG_L7806ABV_LINEAR_TO220_1.5A-6V" prefix="U" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR_TO220_1.5A" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO-220">
@@ -2801,7 +2826,7 @@
 </deviceset>
 <deviceset name="VREG_L7806ABV_LINEAR_TO220_1.5A-6V_HEATSINK" prefix="U" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR_TO220_1.5A" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO-220-HEATSINK">
@@ -4155,9 +4180,9 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <devices>
 <device name="" package="SW_SPDT_RA_5A/28V/120VAC">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
-<connect gate="G$1" pin="S1" pad="2"/>
-<connect gate="G$1" pin="S2" pad="3"/>
+<connect gate="G$1" pin="P" pad="2"/>
+<connect gate="G$1" pin="S1" pad="3"/>
+<connect gate="G$1" pin="S2" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
@@ -4170,6 +4195,33 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MPN" value="500ASSP1M6QE" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="SPDT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_LM340_LDO_1.5A-5V">
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR-LDO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lm340.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LM340MP-5.0%2FNOPBCT-ND" constant="no"/>
+<attribute name="DISTPN" value="LM340MP-5.0/NOPBCT-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM340MP-5.0/NOPB" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1.5A/5V" constant="no"/>
 </technology>
 </technologies>
 </device>
