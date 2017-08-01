@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4299,7 +4299,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="RPI-GPIO_CONNECTOR" prefix="J" uservalue="yes">
+<deviceset name="LED-5MM-PTH_RGB-CA" prefix="L" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LED-5MM-PTH_RGB-CA" x="0" y="0"/>
 </gates>
@@ -4740,6 +4740,70 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATMEGA328P-AUR" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RPI-GPIO_CONNECTOR" prefix="J">
+<gates>
+<gate name="G$1" symbol="RPI-GPIO_CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONNECTOR_RPI-GPIO">
+<connects>
+<connect gate="G$1" pin="(RXD0)GPIO15" pad="10"/>
+<connect gate="G$1" pin="(SPI_CE0_N)GPIO7" pad="26"/>
+<connect gate="G$1" pin="(SPI_CE0_N)GPIO8" pad="24"/>
+<connect gate="G$1" pin="(TXD0)GPIO14" pad="8"/>
+<connect gate="G$1" pin="3.3V@1" pad="1"/>
+<connect gate="G$1" pin="3.3V@2" pad="17"/>
+<connect gate="G$1" pin="5V@1" pad="2"/>
+<connect gate="G$1" pin="5V@2" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="9"/>
+<connect gate="G$1" pin="GND@2" pad="25"/>
+<connect gate="G$1" pin="GND@3" pad="39"/>
+<connect gate="G$1" pin="GND@4" pad="6"/>
+<connect gate="G$1" pin="GND@5" pad="14"/>
+<connect gate="G$1" pin="GND@6" pad="20"/>
+<connect gate="G$1" pin="GND@7" pad="30"/>
+<connect gate="G$1" pin="GND@8" pad="34"/>
+<connect gate="G$1" pin="GPIO10(SPI_MOSI)" pad="19"/>
+<connect gate="G$1" pin="GPIO11(SPI_CLK)" pad="23"/>
+<connect gate="G$1" pin="GPIO12" pad="32"/>
+<connect gate="G$1" pin="GPIO13" pad="33"/>
+<connect gate="G$1" pin="GPIO16" pad="36"/>
+<connect gate="G$1" pin="GPIO17" pad="11"/>
+<connect gate="G$1" pin="GPIO18" pad="12"/>
+<connect gate="G$1" pin="GPIO19" pad="35"/>
+<connect gate="G$1" pin="GPIO2(SDA1,I2C)" pad="3"/>
+<connect gate="G$1" pin="GPIO20" pad="38"/>
+<connect gate="G$1" pin="GPIO21" pad="40"/>
+<connect gate="G$1" pin="GPIO22" pad="15"/>
+<connect gate="G$1" pin="GPIO23" pad="16"/>
+<connect gate="G$1" pin="GPIO24" pad="18"/>
+<connect gate="G$1" pin="GPIO25" pad="22"/>
+<connect gate="G$1" pin="GPIO26" pad="37"/>
+<connect gate="G$1" pin="GPIO27" pad="13"/>
+<connect gate="G$1" pin="GPIO3(SCL1,I2C)" pad="5"/>
+<connect gate="G$1" pin="GPIO4" pad="7"/>
+<connect gate="G$1" pin="GPIO5" pad="29"/>
+<connect gate="G$1" pin="GPIO6" pad="31"/>
+<connect gate="G$1" pin="GPIO9(SPI_MISO)" pad="21"/>
+<connect gate="G$1" pin="ID_SC(I2C_ID_EEPROM)" pad="28"/>
+<connect gate="G$1" pin="ID_SD(I2C_ID_EEPROM)" pad="27"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/PRT-14017_Web.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1462-ND" constant="no"/>
+<attribute name="DISTPN" value="1568-1462-ND" constant="no"/>
+<attribute name="MFR" value="Sparkfun Electronics" constant="no"/>
+<attribute name="MPN" value="PRT-14017" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="RPI-GPIO" constant="no"/>
 </technology>
 </technologies>
 </device>
