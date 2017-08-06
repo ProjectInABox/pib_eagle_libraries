@@ -214,7 +214,7 @@
 <hole x="-1.5" y="0" drill="0.9"/>
 <hole x="1.5" y="0" drill="0.9"/>
 <wire x1="-1.4" y1="2.8" x2="-0.1" y2="2.8" width="0.127" layer="51"/>
-<text x="0" y="-3.048" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
+<text x="0" y="0" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="TO-220-HEATSINK">
 <wire x1="5.08" y1="1.397" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
