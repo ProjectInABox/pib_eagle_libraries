@@ -606,7 +606,7 @@
 <pad name="20" x="3.81" y="11.43" drill="0.8128" diameter="1.778"/>
 <circle x="-1.905" y="11.43" radius="0.508" width="0.254" layer="21"/>
 <text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-14.224" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="-14.097" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <pad name="1" x="-3.81" y="11.43" drill="0.8128" diameter="1.778" shape="square"/>
 <wire x1="3.556" y1="12.4714" x2="3.556" y2="13.6652" width="0.1524" layer="21"/>
 <wire x1="-3.556" y1="10.922" x2="-3.556" y2="11.938" width="0" layer="51"/>
@@ -963,8 +963,8 @@ type 0207, grid 7.5 mm</description>
 <pin name="(MISO/DO/PCINT6/D15)PB6" x="33.02" y="-5.08" length="short" rot="R180"/>
 <pin name="(USCK/SCL/SCK/PCINT7/D16)PB7" x="33.02" y="-7.62" length="short" rot="R180"/>
 <pin name="(ICPI/PCINT17/D8)PD6" x="33.02" y="-27.94" length="short" rot="R180"/>
-<text x="0" y="-30.988" size="0.8128" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<text x="0" y="23.368" size="0.8128" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-30.988" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="23.368" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <pin name="(PCINT11/RXD/D0)PD0" x="33.02" y="-12.7" length="short" rot="R180"/>
 <pin name="(PCINT12/TXD/D1)PD1" x="33.02" y="-15.24" length="short" rot="R180"/>
 <pin name="(PCINT13/CKOUT/XCK/INT0/D4)PD2" x="33.02" y="-17.78" length="short" rot="R180"/>

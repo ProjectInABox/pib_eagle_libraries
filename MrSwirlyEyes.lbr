@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -323,8 +323,10 @@
 <vertex x="-0.508" y="0.635"/>
 </polygon>
 <wire x1="0.381" y1="-0.635" x2="0.381" y2="0.635" width="0.127" layer="21"/>
-<text x="0" y="0.7366" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.0414" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.0414" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9906" y1="-0.8636" x2="0.9906" y2="-0.8636" width="0.127" layer="21"/>
+<wire x1="-0.9906" y1="0.8636" x2="0.9906" y2="0.8636" width="0.127" layer="21"/>
 </package>
 <package name="SSOP-24">
 <wire x1="2.5" y1="4.25" x2="2.5" y2="-4.25" width="0.2032" layer="21"/>
@@ -2437,26 +2439,26 @@
 <text x="-0.508" y="-5.334" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </symbol>
 <symbol name="ATTINY84_14PINS_8BIT_8KB_20MHZ">
-<wire x1="-30.48" y1="17.78" x2="-30.48" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-30.48" y1="-17.78" x2="30.48" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-17.78" x2="30.48" y2="17.78" width="0.254" layer="94"/>
-<wire x1="30.48" y1="17.78" x2="-30.48" y2="17.78" width="0.254" layer="94"/>
-<pin name="VCC" x="-33.02" y="15.24" length="short"/>
-<pin name="GND" x="-33.02" y="-15.24" length="short"/>
-<pin name="(ADC0/AREF/PCINT0/D0-A0)PA0" x="33.02" y="15.24" length="short" rot="R180"/>
-<pin name="(ADC1/AIN0/PCINT1/D1-A1)PA1" x="33.02" y="12.7" length="short" rot="R180"/>
-<pin name="(ADC2/AIN1/PCINT2/D2-A2)PA2" x="33.02" y="10.16" length="short" rot="R180"/>
-<pin name="(ADC3/T0/PCINT3/D7-A3)PA3" x="33.02" y="7.62" length="short" rot="R180"/>
-<pin name="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" x="33.02" y="5.08" length="short" rot="R180"/>
-<pin name="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" x="33.02" y="2.54" length="short" rot="R180"/>
-<pin name="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" x="33.02" y="0" length="short" rot="R180"/>
-<pin name="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" x="33.02" y="-2.54" length="short" rot="R180"/>
-<pin name="(PCINT8/XTAL1/CLKI/D10)PB0" x="33.02" y="-7.62" length="short" rot="R180"/>
-<pin name="(PCINT9/XTAL2/D9)PB1" x="33.02" y="-10.16" length="short" rot="R180"/>
-<pin name="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" x="33.02" y="-12.7" length="short" rot="R180"/>
-<pin name="(PCINT11/!RESET!/DW/D11)PB3" x="33.02" y="-15.24" length="short" rot="R180"/>
-<text x="2.54" y="18.288" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
-<text x="2.54" y="20.32" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<wire x1="-33.02" y1="17.78" x2="-33.02" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-17.78" x2="33.02" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-17.78" x2="33.02" y2="17.78" width="0.254" layer="94"/>
+<wire x1="33.02" y1="17.78" x2="-33.02" y2="17.78" width="0.254" layer="94"/>
+<pin name="VCC" x="-35.56" y="15.24" length="short"/>
+<pin name="GND" x="-35.56" y="-15.24" length="short"/>
+<pin name="(ADC0/AREF/PCINT0/D0-A0)PA0" x="35.56" y="15.24" length="short" rot="R180"/>
+<pin name="(ADC1/AIN0/PCINT1/D1-A1)PA1" x="35.56" y="12.7" length="short" rot="R180"/>
+<pin name="(ADC2/AIN1/PCINT2/D2-A2)PA2" x="35.56" y="10.16" length="short" rot="R180"/>
+<pin name="(ADC3/T0/PCINT3/D7-A3)PA3" x="35.56" y="7.62" length="short" rot="R180"/>
+<pin name="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" x="35.56" y="5.08" length="short" rot="R180"/>
+<pin name="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" x="35.56" y="2.54" length="short" rot="R180"/>
+<pin name="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" x="35.56" y="0" length="short" rot="R180"/>
+<pin name="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" x="35.56" y="-2.54" length="short" rot="R180"/>
+<pin name="(PCINT8/XTAL1/CLKI/D10)PB0" x="35.56" y="-7.62" length="short" rot="R180"/>
+<pin name="(PCINT9/XTAL2/D9)PB1" x="35.56" y="-10.16" length="short" rot="R180"/>
+<pin name="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" x="35.56" y="-12.7" length="short" rot="R180"/>
+<pin name="(PCINT11/!RESET!/DW/D11)PB3" x="35.56" y="-15.24" length="short" rot="R180"/>
+<text x="0" y="-18.288" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="18.288" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 </symbol>
 <symbol name="ATTINY85_8PINS_8BIT_8KB_20MHZ">
 <wire x1="-38.1" y1="-15.24" x2="38.1" y2="-15.24" width="0.254" layer="94"/>
