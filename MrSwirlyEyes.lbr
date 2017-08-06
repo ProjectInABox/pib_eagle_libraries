@@ -323,8 +323,8 @@
 <vertex x="-0.508" y="0.635"/>
 </polygon>
 <wire x1="0.381" y1="-0.635" x2="0.381" y2="0.635" width="0.127" layer="21"/>
-<text x="0" y="0.8636" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;Name</text>
-<text x="0" y="-0.889" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="0.7366" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
 <package name="SSOP-24">
 <wire x1="2.5" y1="4.25" x2="2.5" y2="-4.25" width="0.2032" layer="21"/>
@@ -898,7 +898,7 @@
 <wire x1="-1.67" y1="-0.94" x2="-1.67" y2="0.94" width="0.05" layer="39"/>
 <wire x1="-1.67" y1="0.94" x2="1.67" y2="0.94" width="0.05" layer="39"/>
 <text x="0" y="0" size="0.6096" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <polygon width="0.01" layer="31">
 <vertex x="-1.415" y="0"/>
 <vertex x="-1.415" y="0.46"/>
