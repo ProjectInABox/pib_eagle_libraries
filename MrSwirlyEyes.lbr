@@ -2084,6 +2084,24 @@
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
 </package>
+<package name="CAPACITOR_DIA-5_PS-2">
+<wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="0" x2="-1.778" y2="0" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-0.254" x2="-2.032" y2="0.254" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="-" x="1.016" y="0" drill="0.762" diameter="1.397"/>
+<pad name="+" x="-1.016" y="0" drill="0.762" diameter="1.397" shape="square"/>
+<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRSKY_GIMBAL">
@@ -2392,10 +2410,10 @@
 <wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
 <pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="K" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<text x="0.508" y="0.508" size="1.27" layer="95" ratio="10">&gt;Name</text>
+<text x="0" y="-0.762" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="-2.794" y="1.016" size="1.27" layer="94" ratio="10" rot="R270" align="bottom-center">+</text>
 <wire x1="-2.54" y1="-3.2004" x2="2.54" y2="-3.2004" width="0.254" layer="94" curve="-63.50962"/>
-<text x="0" y="-1.27" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="-1.778" size="0.8128" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="TMP36">
 <wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
@@ -3794,6 +3812,25 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
+<device name="_ALUM-ELECTROLYTIC_PTH_10UF-50V-20%" package="CAPACITOR_DIA-5_PS-2">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="K" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1050.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en/capacitors/aluminum-electrolytic-capacitors/58?k=P828-ND" constant="no"/>
+<attribute name="DISTPN" value="ECE-A1HKA100" constant="no"/>
+<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MPN" value="ECE-A1HKA100" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="10uF/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TEMPERATURE-SENSOR_TMP36" prefix="A" uservalue="yes">
@@ -3888,7 +3925,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY84_14PINS_8BIT_8KB_20MHZ" prefix="U" uservalue="yes">
+<deviceset name="ATTINY84_14PINS_8BIT_8KB_20MHZ" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINY84_14PINS_8BIT_8KB_20MHZ" x="0" y="0"/>
 </gates>
@@ -3945,11 +3982,17 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY84A-PU-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=AE9989-ND" constant="no"/>
 <attribute name="DISTPN" value="ATTINY84A-PU-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="AE9989-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
 <attribute name="MPN" value="ATTINY84A-PU" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="A 14-LC-TT" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="ATTINY84" constant="no"/>
 </technology>
@@ -3957,7 +4000,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY85_8PINS_8BIT_8KB_20MHZ" prefix="U" uservalue="yes">
+<deviceset name="ATTINY85_8PINS_8BIT_8KB_20MHZ" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINY85_8PINS_8BIT_8KB_20MHZ" x="0" y="0"/>
 </gates>
@@ -4002,11 +4045,17 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=AE9986-ND" constant="no"/>
 <attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="AE9986-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
 <attribute name="MPN" value="  ATTINY85-20PU" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="A 08-LC-TT" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="ATTINY85" constant="no"/>
 </technology>

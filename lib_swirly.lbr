@@ -791,6 +791,24 @@ type 0207, grid 7.5 mm</description>
 <text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.635" size="0.6096" layer="28" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
+<package name="E2-5">
+<wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="0" x2="-1.778" y2="0" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-0.254" x2="-2.032" y2="0.254" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="-" x="1.016" y="0" drill="0.762" diameter="1.397"/>
+<pad name="+" x="-1.016" y="0" drill="0.762" diameter="1.397" shape="square"/>
+<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP3008">
@@ -1325,7 +1343,7 @@ type 0207, grid 7.5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY-X313" prefix="U" uservalue="yes">
+<deviceset name="ATTINY-X313" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINYX313" x="0" y="0"/>
 </gates>
@@ -1357,11 +1375,17 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.atmel.com/Images/doc8246.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY2313A-PU-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=A%2020-LC-TT" constant="no"/>
 <attribute name="DISTPN" value="ATTINY2313A-PU-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="AE9998-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
 <attribute name="MPN" value="ATTINY2313A-PU" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="A 20-LC-TT" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="ATTINY2313/2KB" constant="no"/>
 </technology>
@@ -1394,11 +1418,17 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.mouser.com/ds/2/268/doc8246-1066134.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
 <attribute name="DIST" value="Mouser" constant="no"/>
 <attribute name="DISTLINK" value="http://www.mouser.com/ProductDetail/Microchip/ATTINY4313-PU/?qs=%2fha2pyFaduivAD6Ch6lPuPOHKnaBplwxsvsJ29HXQhmH%252baCX9sZRsQ%3d%3d" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=A%2020-LC-TT" constant="no"/>
 <attribute name="DISTPN" value="556-ATTINY4313-PU" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="AE9998-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
 <attribute name="MPN" value="ATTINY4313-PU" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="A 20-LC-TT" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="ATTINY4313" constant="no"/>
 </technology>
