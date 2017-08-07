@@ -441,8 +441,8 @@
 <rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
 <rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<text x="0" y="0.254" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.254" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
 <package name="SW_SPDT_VERT_21L-15W">
 <pad name="P" x="0" y="0" drill="1.25" diameter="2.5"/>
@@ -697,9 +697,6 @@
 <wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-0.635" width="0.2032" layer="21"/>
 <wire x1="-5.08" y1="0.635" x2="-4.445" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-5.715" y1="-1.27" x2="-7.62" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="1.27" x2="-5.715" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="-5.715" y1="1.27" x2="-5.08" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.2032" layer="21"/>
@@ -719,7 +716,7 @@
 <pad name="SDA" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
 <pad name="SCL" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
 <pad name="SQW" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="32K" x="-6.35" y="0" drill="1.016" diameter="1.8796" shape="square" rot="R270"/>
+<pad name="32K" x="-6.35" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51" rot="R180"/>
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51" rot="R180"/>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51" rot="R180"/>
@@ -741,14 +738,19 @@
 <wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="5.715" y1="1.27" x2="6.985" y2="1.27" width="0.2032" layer="21"/>
-<text x="-6.35" y="-1.921" size="0.762" layer="21" font="vector" ratio="10" rot="SR0" align="center">32K</text>
-<text x="-3.81" y="-1.921" size="0.762" layer="21" font="vector" ratio="10" rot="SR0" align="center">SQW</text>
-<text x="-1.27" y="-1.921" size="0.762" layer="21" font="vector" ratio="10" rot="SR0" align="center">SCL</text>
-<text x="1.27" y="-1.921" size="0.762" layer="21" font="vector" ratio="10" align="center">SDA</text>
-<text x="3.81" y="-1.921" size="0.762" layer="21" font="vector" ratio="10" align="center">VCC</text>
-<text x="6.35" y="-1.921" size="0.762" layer="21" font="vector" ratio="10" align="center">GND</text>
+<text x="-6.35" y="-1.794" size="0.6096" layer="21" font="vector" ratio="10" rot="SR0" align="center">32K</text>
+<text x="-3.81" y="-1.794" size="0.6096" layer="21" font="vector" ratio="10" rot="SR0" align="center">SQW</text>
+<text x="-1.27" y="-1.794" size="0.6096" layer="21" font="vector" ratio="10" rot="SR0" align="center">SCL</text>
+<text x="1.27" y="-1.794" size="0.6096" layer="21" font="vector" ratio="10" align="center">SDA</text>
+<text x="3.81" y="-1.794" size="0.6096" layer="21" font="vector" ratio="10" align="center">VCC</text>
+<text x="6.35" y="-1.794" size="0.6096" layer="21" font="vector" ratio="10" align="center">GND</text>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51" rot="R180"/>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51" rot="R180"/>
+<wire x1="-5.715" y1="-1.27" x2="-6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="0.635" x2="-6.985" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-6.985" y1="-1.27" x2="-7.62" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-0.635" x2="-7.62" y2="0.635" width="0.2032" layer="21"/>
 </package>
 <package name="RESISTOR-PTH-0207/7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -1262,7 +1264,7 @@ type 0207, grid 7.5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VREG_NCP1117_LDO_1A-3.3V">
+<deviceset name="VREG_NCP1117_LDO_1A-3.3V" prefix="VREG" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VREG-LINEAR-LDO" x="0" y="0"/>
 </gates>
@@ -1528,11 +1530,17 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="N/A" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
 <attribute name="DIST" value="Amazon" constant="no"/>
 <attribute name="DISTLINK" value="https://www.amazon.com/Donop-DS3231-AT24C32-precision-Arduino/dp/B00HCB7VYS" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-receptacles-female-sockets/315?k=S7004-ND" constant="no"/>
 <attribute name="DISTPN" value="N/A" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S7004-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
 <attribute name="MFR" value="N/A" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="N/A" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PPTC061LFBN-RC" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="RTC-DS3231" constant="no"/>
 </technology>

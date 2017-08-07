@@ -307,8 +307,8 @@
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1" roundness="50"/>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
-<text x="0" y="1.524" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
 <package name="LED_SMD-805_">
 <wire x1="0.45" y1="0.625" x2="-0.45" y2="0.625" width="0.1016" layer="51"/>
@@ -2205,8 +2205,8 @@
 <wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<text x="0.254" y="0.254" size="1.27" layer="95" ratio="10">&gt;Name</text>
-<text x="0" y="-1.27" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="-0.762" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.778" size="0.8128" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 <symbol name="LED_GREEN_SMD-805">
