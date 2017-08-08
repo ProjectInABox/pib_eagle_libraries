@@ -1555,19 +1555,25 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="N/A" constant="no"/>
+<attribute name="DATASHEET_BATT" value="https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Inustrial/CR_Series.pdf" constant="no"/>
 <attribute name="DATASHEET_CONNECTOR" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
 <attribute name="DIST" value="Amazon" constant="no"/>
 <attribute name="DISTLINK" value="https://www.amazon.com/Donop-DS3231-AT24C32-precision-Arduino/dp/B00HCB7VYS" constant="no"/>
+<attribute name="DISTLINK_BATT" value="https://www.digikey.com/products/en/battery-products/batteries-non-rechargeable-primary/90?k=P189-ND" constant="no"/>
 <attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-receptacles-female-sockets/315?k=S7004-ND" constant="no"/>
 <attribute name="DISTPN" value="N/A" constant="no"/>
+<attribute name="DISTPN_BATT" value="P189-ND" constant="no"/>
 <attribute name="DISTPN_CONNECTOR" value="S7004-ND" constant="no"/>
+<attribute name="DIST_BATT" value="Digikey" constant="no"/>
 <attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
 <attribute name="MFR" value="N/A" constant="no"/>
+<attribute name="MFR_BATT" value="Panasonic - BSG" constant="no"/>
 <attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="N/A" constant="no"/>
+<attribute name="MPN_BATT" value="CR2032" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="PPTC061LFBN-RC" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="RTC-DS3231" constant="no"/>
+<attribute name="VALUE" value="DS3231" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1586,6 +1592,7 @@ type 0207, grid 7.5 mm</description>
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Inustrial/CR_Series.pdf" constant="no"/>
 <attribute name="DATASHEET_CONNECTOR" value="http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/panasonic-bsg/CR2032/P189-ND/31939" constant="no"/>
