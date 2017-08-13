@@ -1518,8 +1518,8 @@
 <pad name="G" x="-0.635" y="0" drill="0.762" diameter="0.8128" shape="long" rot="R90"/>
 <pad name="B" x="-1.905" y="0" drill="0.762" diameter="0.8128" shape="long" rot="R90"/>
 <wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="22"/>
-<text x="0" y="2.8575" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.8575" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<text x="0" y="2.8575" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.8575" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21" curve="-316.397181"/>
 <text x="1.905" y="1.016" size="0.508" layer="21" font="vector" ratio="10" align="bottom-center">R</text>
@@ -2101,6 +2101,29 @@
 <text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="21"/>
+</package>
+<package name="D0-201AD">
+<pad name="A" x="-8" y="0" drill="1.4" diameter="2.5" shape="square"/>
+<pad name="K" x="8" y="0" drill="1.4" diameter="2.5"/>
+<wire x1="4.75" y1="-2.65" x2="-4.75" y2="-2.65" width="0.127" layer="21"/>
+<wire x1="-4.75" y1="-2.65" x2="-4.75" y2="2.65" width="0.127" layer="21"/>
+<wire x1="-4.75" y1="2.65" x2="4.75" y2="2.65" width="0.127" layer="21"/>
+<wire x1="4.75" y1="2.65" x2="4.75" y2="-2.65" width="0.127" layer="21"/>
+<rectangle x1="2.75" y1="-2.65" x2="4.75" y2="2.65" layer="21" rot="R180"/>
+<text x="-6" y="0" size="1.27" layer="21" font="vector" ratio="10" rot="R180" align="center">+</text>
+<text x="6" y="0" size="1.27" layer="21" font="vector" ratio="10" rot="R180" align="center">-</text>
+<wire x1="0" y1="1.5" x2="0" y2="-1.5" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="0"/>
+<vertex x="-2" y="-1.5"/>
+<vertex x="-2" y="1.5"/>
+</polygon>
+<wire x1="-9.5" y1="3" x2="9.5" y2="3" width="0.127" layer="39"/>
+<wire x1="9.5" y1="3" x2="9.5" y2="-3" width="0.127" layer="39"/>
+<wire x1="9.5" y1="-3" x2="-9.5" y2="-3" width="0.127" layer="39"/>
+<wire x1="-9.5" y1="-3" x2="-9.5" y2="3" width="0.127" layer="39"/>
+<text x="0" y="3.302" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.302" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -3649,12 +3672,12 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE_SMD_GP_1A-50V-SOD123F" prefix="D" uservalue="yes">
+<deviceset name="DIODE" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="DIODE_GP_1A-50V" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIODE_SMD_1A-50V-SOD123F">
+<device name="SMD_GP_1A-50V-SOD123F" package="DIODE_SMD_1A-50V-SOD123F">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -3670,6 +3693,25 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="MPN" value="CGRKM4001-HF" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="1A/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="POWER-SCHOTTKY_5A-60V_D0-201AD" package="D0-201AD">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/57/3c/bc/f9/25/f5/43/2b/CD00002924.pdf/files/CD00002924.pdf/jcr:content/translations/en.CD00002924.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/stmicroelectronics/STPS5L60/497-12673-1-ND/2864639" constant="no"/>
+<attribute name="DISTPN" value="497-12673-1-ND" constant="no"/>
+<attribute name="MFR" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="STPS5L60" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="STPS5L60" constant="no"/>
 </technology>
 </technologies>
 </device>
