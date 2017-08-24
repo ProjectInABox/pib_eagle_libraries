@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1712,6 +1712,12 @@
 <wire x1="6" y1="-8" x2="6" y2="7.6" width="0.1" layer="39"/>
 <wire x1="6" y1="7.6" x2="-5" y2="7.6" width="0.1" layer="39"/>
 <wire x1="-5" y1="7.6" x2="-5" y2="-8" width="0.1" layer="39"/>
+<wire x1="4.5" y1="1.58" x2="4" y2="2.08" width="0" layer="46" curve="-90"/>
+<wire x1="4" y1="2.08" x2="4" y2="4.28" width="0" layer="46"/>
+<wire x1="4" y1="4.28" x2="4.5" y2="4.78" width="0" layer="46" curve="-90"/>
+<wire x1="4.5" y1="4.78" x2="5" y2="4.28" width="0" layer="46" curve="-90"/>
+<wire x1="5" y1="4.28" x2="5" y2="2.08" width="0" layer="46"/>
+<wire x1="5" y1="2.08" x2="4.5" y2="1.58" width="0" layer="46" curve="-90"/>
 </package>
 <package name="DUAL_SMD_PADS_L">
 <text x="-3.508" y="-3.5" size="1.27" layer="21" font="vector">+</text>
@@ -2164,6 +2170,19 @@
 <wire x1="3.778" y1="0" x2="4.286" y2="0" width="0.1524" layer="21"/>
 <text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="10" align="center">CHECK DIAMETER OF LEADS</text>
 <circle x="0" y="0" radius="7.25" width="0.1524" layer="39"/>
+</package>
+<package name="SW-SLIDE_SPDT_5A-28V_13L-7W">
+<pad name="P$1" x="-4.7" y="0" drill="1.875" diameter="3.075" rot="R90"/>
+<pad name="P$2" x="0" y="0" drill="1.875" diameter="3.075" rot="R90"/>
+<pad name="P$3" x="4.7" y="0" drill="1.875" diameter="3.075" rot="R90"/>
+<wire x1="-6.5" y1="-3.5" x2="6.5" y2="-3.5" width="0.1" layer="21"/>
+<wire x1="6.5" y1="-3.5" x2="6.5" y2="3.5" width="0.1" layer="21"/>
+<wire x1="6.5" y1="3.5" x2="-6.5" y2="3.5" width="0.1" layer="21"/>
+<wire x1="-6.5" y1="3.5" x2="-6.5" y2="-3.5" width="0.1" layer="21"/>
+<wire x1="6.858" y1="-3.81" x2="-6.858" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="-6.858" y1="-3.81" x2="-6.858" y2="3.81" width="0.127" layer="39"/>
+<wire x1="-6.858" y1="3.81" x2="6.858" y2="3.81" width="0.127" layer="39"/>
+<wire x1="6.858" y1="3.81" x2="6.858" y2="-3.81" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -3235,7 +3254,7 @@
 <gate name="G$1" symbol="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SW_SPDT_SLIDE_RA_SMD_4V_300MA">
+<device name="RA_SMD_300MA-4V" package="SW_SPDT_SLIDE_RA_SMD_4V_300MA">
 <connects>
 <connect gate="G$1" pin="P" pad="2"/>
 <connect gate="G$1" pin="S1" pad="1"/>
@@ -3254,6 +3273,16 @@
 <attribute name="MFRPN" value="MA12RTR" constant="no"/>
 <attribute name="VALUE" value="SLIDE-SW_300mA/4V" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="5A-28V_13L-7W" package="SW-SLIDE_SPDT_5A-28V_13L-7W">
+<connects>
+<connect gate="G$1" pin="P" pad="P$2"/>
+<connect gate="G$1" pin="S1" pad="P$1"/>
+<connect gate="G$1" pin="S2" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
