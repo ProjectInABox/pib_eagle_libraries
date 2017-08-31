@@ -723,6 +723,76 @@
 <wire x1="-12.7" y1="-0.635" x2="-12.7" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="12.7" y1="-0.635" x2="12.7" y2="0.635" width="0.2032" layer="21"/>
 </package>
+<package name="1X10-VERT-FEMALE">
+<wire x1="-12.95" y1="1.27" x2="-12.95" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="1" x="-11.43" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="-8.89" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="-6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
+<rectangle x1="-11.684" y1="-0.254" x2="-11.176" y2="0.254" layer="51"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<pad name="4" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="7" x="3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<pad name="8" x="6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="9" x="8.89" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
+<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
+<rectangle x1="11.176" y1="-0.254" x2="11.684" y2="0.254" layer="51"/>
+<pad name="10" x="11.43" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<wire x1="-12.95" y1="1.27" x2="13.0175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="13.0175" y1="1.27" x2="13.0175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="13.0175" y1="-1.27" x2="-12.95" y2="-1.27" width="0.2032" layer="21"/>
+</package>
+<package name="1X08-VERT-FEMALE">
+<wire x1="-10.41" y1="1.27" x2="-10.41" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="1" x="-8.89" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="-6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<pad name="4" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="7" x="6.35" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
+<pad name="8" x="8.89" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<wire x1="-10.41" y1="1.27" x2="10.4775" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="10.4775" y1="1.27" x2="10.4775" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="10.4775" y1="-1.27" x2="-10.41" y2="-1.27" width="0.2032" layer="21"/>
+</package>
+<package name="1X04-VERT-FEMALE">
+<wire x1="-5.33" y1="1.27" x2="5.33" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.33" y1="-1.27" x2="-5.33" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-5.33" y1="1.27" x2="-5.33" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<wire x1="5.33" y1="1.27" x2="5.33" y2="-1.27" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1X14">
@@ -998,6 +1068,30 @@
 </technology>
 </technologies>
 </device>
+<device name="VERT-FEMALE" package="1X04-VERT-FEMALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=PPPC041LFBN-RC&amp;v=35" constant="no"/>
+<attribute name="DISTPN" value="S7037-ND
+" constant="no"/>
+<attribute name="MFR" value="Sullins Connector Solutions
+" constant="no"/>
+<attribute name="MPN" value="PPPC041LFBN-RC
+" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1x04-VERT-FEMALE" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="1X06" prefix="J" uservalue="yes">
@@ -1083,6 +1177,34 @@
 </technology>
 </technologies>
 </device>
+<device name="VERT-FEMALE" package="1X08-VERT-FEMALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=PPTC081LFBN-RC&amp;v=35" constant="no"/>
+<attribute name="DISTPN" value="S7006-ND
+" constant="no"/>
+<attribute name="MFR" value="Sullins Connector Solutions
+" constant="no"/>
+<attribute name="MPN" value="PPTC081LFBN-RC
+" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1x08-VERT-FEMALE" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="1X03" prefix="J" uservalue="yes">
@@ -1156,12 +1278,41 @@
 <attribute name="DATASHEET" value="http://www.sullinscorp.com/catalogs/77_PAGE108-109_.100_MALE_HDR.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC10SAAN" constant="no"/>
-<attribute name="DISTPN" value="S1012E-10-ND
-" constant="no"/>
+<attribute name="DISTPN" value="S1012E-10-ND " constant="no"/>
 <attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="PEC10SAAN" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="1x10-VERT-MALE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="VERT-FEMALE" package="1X10-VERT-FEMALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=PPPC101LFBN-RC&amp;v=35" constant="no"/>
+<attribute name="DISTPN" value="S7043-ND
+" constant="no"/>
+<attribute name="MFR" value="Sullins Connector Solutions
+" constant="no"/>
+<attribute name="MPN" value="PPPC101LFBN-RC
+" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1x10-VERT-FEMALE" constant="no"/>
 </technology>
 </technologies>
 </device>
