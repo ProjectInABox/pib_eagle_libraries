@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -198,8 +198,8 @@
 <wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<text x="-5.08" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="-20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.302" y="-7.366" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="0" y="5.08" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
@@ -244,13 +244,13 @@
 <attribute name="DISTPN" value="732-2230-6-ND"/>
 <attribute name="MFR" value="Wurth Electronics Inc"/>
 <attribute name="MPN" value="748421245"/>
-<attribute name="PRICE" value="2.63"/>
+<attribute name="VALUE" value="748421245" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ANTENNA">
+<deviceset name="ANTENNA" prefix="A">
 <description>&lt;b&gt;Chip antenna&lt;/b&gt;&lt;p&gt;
 Single endded antenna. Common with smaller chip antennas. CHIP4 package is the GPS Chip Antenna &lt;b&gt;SKU:&lt;/b&gt; GPS-08418. CHIP5 package is 2.4GHz chip antenna &lt;b&gt;SKU:&lt;/b&gt; WRL-00144.</description>
 <gates>
@@ -263,13 +263,13 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </connects>
 <technologies>
 <technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://www.linxtechnologies.com/resources/data-guides/ant-xxx-chp-x.pdf"/>
 <attribute name="DIST" value="Digikey"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ANT-2.45-CHPCT-ND" constant="no"/>
 <attribute name="DISTPN" value="ANT-2.45-CHPCT-ND"/>
 <attribute name="MFR" value="Linx Technologies Inc."/>
 <attribute name="MPN" value="ANT-2.45-CHP-T"/>
-<attribute name="PRICE" value="3.16"/>
 </technology>
 </technologies>
 </device>
