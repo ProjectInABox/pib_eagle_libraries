@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1561,7 +1560,7 @@
 <wire x1="14.4" y1="-1.7" x2="-1.7" y2="-1.7" width="0.127" layer="39"/>
 <wire x1="-1.7" y1="-1.7" x2="-1.7" y2="1.7" width="0.127" layer="39"/>
 </package>
-<package name="QFN-64">
+<package name="VFQFN-64">
 <circle x="-3.442" y="3.45" radius="0.2" width="0.09" layer="51"/>
 <text x="-6.666" y="5.2922" size="1.27" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
 <wire x1="-4.5" y1="-4.5" x2="-4.2" y2="-4.5" width="0.2032" layer="21"/>
@@ -2784,10 +2783,12 @@
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
 <text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.778" size="0.762" layer="96" ratio="15">&gt;VALUE</text>
+<text x="2.54" y="1.016" size="0.762" layer="95" ratio="15">&gt;NAME</text>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-1.27" y="0.254" size="0.508" layer="97" font="vector" ratio="15" rot="R90">X2</text>
+<text x="1.778" y="0.254" size="0.508" layer="97" ratio="15" rot="R90">X1</text>
 </symbol>
 <symbol name="TC4422">
 <pin name="OUTPUT@1" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
@@ -3684,6 +3685,63 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="MPN" value="GRM21A5C2E120JW01D " constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="12pF/250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-805-1UF-25V-10%" package="CAP_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM216R61E105KA12D/490-1700-1-ND/587586" constant="no"/>
+<attribute name="DISTPN" value="490-1700-1-ND " constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
+<attribute name="MPN" value="GRM216R61E105KA12D " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1uF/25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-805_22PF-250V-5%" package="CAP_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E220JW01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21A5C2E220JW01D/490-5534-1-ND/2334930" constant="no"/>
+<attribute name="DISTPN" value="490-5534-1-ND " constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
+<attribute name="MPN" value="GRM21A5C2E220JW01D " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="22PF/250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-805-0.75PF-100V-33%" package="CAP_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2AR75CB01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GQM2195C2AR75CB01D/490-3585-1-ND/789585" constant="no"/>
+<attribute name="DISTPN" value="490-3585-1-ND " constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
+<attribute name="MPN" value="GQM2195C2AR75CB01D " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="0.75PF/100V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4679,6 +4737,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-5.1KARCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-5.1KARCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805JR-075K1L"/>
@@ -4696,6 +4755,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-10.7CRCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-10.7CRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710R7L"/>
@@ -4713,6 +4773,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-4.99CRCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-4.99CRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-074R99L"/>
@@ -4748,6 +4809,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <technology name="">
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-51ARCT-ND" constant="no"/>
 <attribute name="DISTPN" value="311-51ARCT-ND " constant="no"/>
 <attribute name="MFR" value="Yageo" constant="no"/>
 <attribute name="MPN" value="RC0805JR-0751RL" constant="no"/>
@@ -4804,6 +4866,25 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <attribute name="MPN" value="RC0805JR-072K2L" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="2.2KΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD-0805_1/8W_1K_5%" package="RESC2012X60_HS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0805JR-071KL/311-1.0KARCT-ND/731165" constant="no"/>
+<attribute name="DISTPN" value="311-1.0KARCT-ND " constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0805JR-071KL " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1K" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5206,7 +5287,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <gate name="G$1" symbol="ATMEGA128RFA1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="QFN-64">
+<device name="" package="VFQFN-64">
 <connects>
 <connect gate="G$1" pin="AREF" pad="62"/>
 <connect gate="G$1" pin="AVDD" pad="60"/>
@@ -5266,13 +5347,14 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="Swanson" constant="no"/>
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-8266-MCU_Wireless-ATmega128RFA1_Datasheet.pdf"/>
 <attribute name="DIST" value="Digikey"/>
-<attribute name="DISTPN" value="ATMEGA128RFA1-ZUR00DKR-ND"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=ATMEGA128RFA1-ZU" constant="no"/>
+<attribute name="DISTPN" value="ATMEGA128RFA1-ZU-ND "/>
 <attribute name="MFR" value="Atmel"/>
-<attribute name="MPN" value="ATMEGA128RFA1-ZUR00"/>
-<attribute name="PRICE" value="10.21"/>
+<attribute name="MPN" value="ATMEGA128RFA1-ZU "/>
+<attribute name="TESTED" value="YES" constant="no"/>
 </technology>
 </technologies>
 </device>
