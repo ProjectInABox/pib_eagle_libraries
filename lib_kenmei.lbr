@@ -156,7 +156,7 @@
 </layers>
 <library>
 <packages>
-<package name="BALUN">
+<package name="0805_BALUN">
 <circle x="-0.76" y="-0.13" radius="0.0447" width="0.127" layer="21"/>
 <wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
@@ -227,7 +227,7 @@
 <gate name="G$1" symbol="BALUN" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="0805" package="BALUN">
+<device name="0805" package="0805_BALUN">
 <connects>
 <connect gate="G$1" pin="GND@2" pad="2"/>
 <connect gate="G$1" pin="GND@5" pad="5"/>
