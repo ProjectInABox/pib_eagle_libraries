@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -595,14 +595,19 @@
 <smd name="A" x="-2.65" y="0" dx="3.5" dy="1.6" layer="1" roundness="50" rot="R180"/>
 <smd name="K" x="2.65" y="0" dx="3.5" dy="1.6" layer="1" roundness="50" rot="R180"/>
 <text x="2" y="1.5" size="1.27" layer="21" font="vector" ratio="10" align="center">-</text>
-<text x="0.4572" y="0" size="0.6096" layer="27" font="vector" ratio="10" rot="R90" align="center">&gt;VALUE</text>
-<text x="-0.381" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="0.127" y="-1.8542" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="2.032" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
 <rectangle x1="-3.75" y1="-0.325" x2="-0.9" y2="0.325" layer="51"/>
 <rectangle x1="0.9" y1="-0.325" x2="3.75" y2="0.325" layer="51"/>
 <wire x1="4.873" y1="3.673" x2="-4.873" y2="3.673" width="0.1" layer="39"/>
 <wire x1="-4.873" y1="3.673" x2="-4.873" y2="-3.673" width="0.1" layer="39"/>
 <wire x1="-4.873" y1="-3.673" x2="4.873" y2="-3.673" width="0.1" layer="39"/>
 <wire x1="4.873" y1="-3.673" x2="4.873" y2="3.673" width="0.1" layer="39"/>
+<wire x1="-1.27" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.762" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="0.762" width="0.127" layer="21"/>
+<wire x1="0.4445" y1="-0.762" x2="0.4445" y2="0.762" width="0.127" layer="21" curve="-68.760689"/>
 </package>
 <package name="CONNECTOR_TMP36">
 <pad name="1" x="-2.54" y="-1.27" drill="0.8128" diameter="1.8796"/>
@@ -2014,8 +2019,8 @@
 </package>
 <package name="POTENTIOMETER">
 <pad name="S" x="0" y="0" drill="0.8" diameter="1.6"/>
-<pad name="E" x="-5.08" y="0" drill="0.8" diameter="1.6"/>
-<pad name="A" x="5.08" y="0" drill="0.8" diameter="1.6"/>
+<pad name="CCW" x="-5.08" y="0" drill="0.8" diameter="1.6"/>
+<pad name="CW" x="5.08" y="0" drill="0.8" diameter="1.6"/>
 <wire x1="-7" y1="3" x2="-7" y2="-3" width="0.127" layer="21"/>
 <wire x1="-7" y1="-3" x2="-2" y2="-3" width="0.127" layer="21"/>
 <wire x1="-2" y1="-3" x2="2" y2="-3" width="0.127" layer="21"/>
@@ -2309,6 +2314,34 @@
 <wire x1="0" y1="-1.27" x2="0" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.127" layer="21"/>
 <wire x1="0" y1="-0.762" x2="-0.635" y2="0.508" width="0.127" layer="21"/>
+</package>
+<package name="CONNECTOR_SERVO_NO-MARKINGS">
+<wire x1="-4.06" y1="1.27" x2="4.06" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-4.06" y1="1.27" x2="-4.06" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.06" y1="-1.27" x2="-4.06" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.06" y1="1.27" x2="4.06" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<text x="0" y="1.651" size="0.6096" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.54" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="CONNECTOR_POTENTIOMETER_NO-MARKINGS_FEMALE-HEADER">
+<wire x1="-4.06" y1="1.27" x2="4.06" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.06" y1="-1.27" x2="-4.06" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-4.06" y1="1.27" x2="-4.06" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="S" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="CCW" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="CW" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<text x="0" y="1.778" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="4.06" y1="1.27" x2="4.06" y2="-1.27" width="0.2032" layer="21"/>
+<text x="0" y="2.667" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -3184,8 +3217,8 @@
 <wire x1="2.54" y1="1.016" x2="2.54" y2="-1.016" width="0.2032" layer="94"/>
 <text x="2.032" y="3.81" size="0.8128" layer="95" font="vector" ratio="10">&gt;NAME</text>
 <text x="2.032" y="2.54" size="0.8128" layer="96" font="vector" ratio="10">&gt;VALUE</text>
-<pin name="A" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="E" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="CW" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="CCW" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="1.016" y1="-0.254" x2="-1.016" y2="0.381" width="0.2032" layer="94"/>
 <wire x1="-1.016" y1="-0.889" x2="1.016" y2="-0.254" width="0.2032" layer="94"/>
@@ -3379,7 +3412,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" prefix="S" uservalue="yes">
+<deviceset name="SWITCH_SPDT" prefix="S" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SWITCH_SPDT_SLIDE_RA_SMD_4V_300MA" x="0" y="0"/>
 </gates>
@@ -3412,7 +3445,17 @@
 <connect gate="G$1" pin="S2" pad="P$3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://www.e-switch.com/system/asset/product_line/data_sheet/129/100.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=%09EG2355-ND" constant="no"/>
+<attribute name="DISTPN" value="EG2355-ND" constant="no"/>
+<attribute name="MFR" value="E-Switch" constant="no"/>
+<attribute name="MPN" value="100SP1T1B4M2QE" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="5A/28V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4516,7 +4559,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="DATASHEET" value="N/A" constant="no"/>
 <attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
 <attribute name="DIST" value="Amazon" constant="no"/>
-<attribute name="DISTLINK" value="https://www.amazon.com/TowerPro-MG90S-Geared-Helicopter-Trex450/dp/B009NP4K40/ref=pd_sim_21_4?_encoding=UTF8&amp;psc=1&amp;refRID=5X25THZBP5SDBMN14NS9" constant="no"/>
+<attribute name="DISTLINK" value="https://www.amazon.com/RioRand-MG90S-Metal-Geared-Helicopter/dp/B00M8SR0ZK/ref=sr_1_1?s=toys-and-games&amp;ie=UTF8&amp;qid=1472114876&amp;sr=1-1&amp;keywords=MG90s+Micro+Metal+Geared+Servo" constant="no"/>
 <attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PEC03SAAN" constant="no"/>
 <attribute name="DISTPN" value="N/A" constant="no"/>
 <attribute name="DISTPN_CONNECTOR" value="S1012E-03-ND" constant="no"/>
@@ -4525,6 +4568,32 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="MG90S" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="PEC03SAAN" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="MG90S" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MG90S_NO-MARKINGS" package="CONNECTOR_SERVO_NO-MARKINGS">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="SIG" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.towerpro.com.tw/product/mg90s-3/" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
+<attribute name="DIST" value="Amazon" constant="no"/>
+<attribute name="DISTLINK" value="https://www.amazon.com/RioRand-MG90S-Metal-Geared-Helicopter/dp/B00M8SR0ZK/ref=sr_1_1?s=toys-and-games&amp;ie=UTF8&amp;qid=1472114876&amp;sr=1-1&amp;keywords=MG90s+Micro+Metal+Geared+Servo" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PPTC031LFBN-RC" constant="no"/>
+<attribute name="DISTPN" value="N/A" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S7001-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="TowerPro" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="MG90S" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="MG90S" constant="no"/>
 </technology>
@@ -5671,8 +5740,8 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <devices>
 <device name="GENERIC" package="POTENTIOMETER">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="CCW" pad="CCW"/>
+<connect gate="G$1" pin="CW" pad="CW"/>
 <connect gate="G$1" pin="S" pad="S"/>
 </connects>
 <technologies>
@@ -5680,6 +5749,32 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="10K - made up" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="NO-MARKINGS_VERT-FEMALE" package="CONNECTOR_POTENTIOMETER_NO-MARKINGS_FEMALE-HEADER">
+<connects>
+<connect gate="G$1" pin="CCW" pad="CCW"/>
+<connect gate="G$1" pin="CW" pad="CW"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.bourns.com/docs/Product-Datasheets/PDB18.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=237407307&amp;uq=636398593910533334" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PPTC031LFBN-RC" constant="no"/>
+<attribute name="DISTPN" value="PDB181-K420K-203B-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S7001-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Bourns Inc." constant="no"/>
+<attribute name="MFR_CONNECTOR" value="	
+Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PDB181-K420K-203B" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" constant="no"/>
+<attribute name="VALUE" value="20KΩ" constant="no"/>
 </technology>
 </technologies>
 </device>
