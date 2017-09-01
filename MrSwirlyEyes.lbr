@@ -3428,13 +3428,11 @@
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MA_Series_.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DIST2" value="Sparkfun" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=679-1847-1-ND" constant="no"/>
 <attribute name="DISTPN" value="679-1847-1-ND" constant="no"/>
-<attribute name="DISTPN2" value="COM-10860" constant="no"/>
 <attribute name="MFR" value="APEM" constant="no"/>
-<attribute name="MFRPN" value="MA12RTR" constant="no"/>
-<attribute name="VALUE" value="SLIDE-SW_300mA/4V" constant="no"/>
+<attribute name="MPN" value="MA12RTR" constant="no"/>
+<attribute name="VALUE" value="300mA/4V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5779,8 +5777,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="DISTPN_CONNECTOR" value="S7001-ND" constant="no"/>
 <attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
 <attribute name="MFR" value="Bourns Inc." constant="no"/>
-<attribute name="MFR_CONNECTOR" value="	
-Sullins Connector Solutions" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="  Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="PDB181-K420K-203B" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" constant="no"/>
 <attribute name="VALUE" value="20KΩ" constant="no"/>
