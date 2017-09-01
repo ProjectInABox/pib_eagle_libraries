@@ -1387,11 +1387,17 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="https://learn.sparkfun.com/tutorials/sound-detector-hookup-guide" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/catalogs/77_PAGE108-109_.100_MALE_HDR.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1290-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PEC05SAAN" constant="no"/>
 <attribute name="DISTPN" value="1568-1290-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S1012E-05-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikeu" constant="no"/>
 <attribute name="MFR" value="Sparkfun" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="SEN-12642" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PEC05SAAN" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="SOUND DETECTOR" constant="no"/>
 </technology>
