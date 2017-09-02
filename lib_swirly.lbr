@@ -1864,12 +1864,18 @@ type 0207, grid 7.5 mm</description>
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://keyelco.com/userAssets/file/M65p30.pdf" constant="no"/>
+<attribute name="DATASHEET" value="http://na.industrial.panasonic.com/sites/default/pidsa/files/panasonic_alkaline_batteries_9v_series_6lf22xwa.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://keyelco.com/userAssets/file/M65p30.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=36-232-ND" constant="no"/>
-<attribute name="DISTPN" value="36-232-ND" constant="no"/>
-<attribute name="MFR" value="Keystone Electronics" constant="no"/>
-<attribute name="MPN" value="232" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=6LF22XWA%2FB" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=36-232-ND" constant="no"/>
+<attribute name="DISTPN" value="P687-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="36-232-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Panasonic - BSG" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Keystone Electronics" constant="no"/>
+<attribute name="MPN" value="6LF22XWA/B" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="232" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="9V" constant="no"/>
 </technology>
