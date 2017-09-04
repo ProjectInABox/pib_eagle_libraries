@@ -709,7 +709,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPU6500">
+<deviceset name="MPU6500" prefix="IMU">
 <description>MPU 6500 6DOF IMU</description>
 <gates>
 <gate name="G$1" symbol="MPU6500" x="0" y="0"/>

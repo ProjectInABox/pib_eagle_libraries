@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4997,7 +4997,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="MFR" value="AVX Corporation" constant="no"/>
 <attribute name="MPN" value="TCJA106M020R0150" constant="no"/>
 <attribute name="TESTED" value="No" constant="no"/>
-<attribute name="VALUE" value="4.7uF/20V" constant="no"/>
+<attribute name="VALUE" value="10µF/20V" constant="no"/>
 </technology>
 </technologies>
 </device>
