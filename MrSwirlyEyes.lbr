@@ -2158,29 +2158,25 @@
 <smd name="P$2" x="-2.54" y="-14" dx="3.504" dy="1.016" layer="1" rot="R90"/>
 <smd name="P$3" x="2.54" y="-14" dx="3.504" dy="1.016" layer="1" rot="R90"/>
 </package>
-<package name="SOT223">
-<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
-<smd name="1" x="-2.3114" y="-3.1988" dx="1.25" dy="2.8" layer="1" roundness="50"/>
-<smd name="2" x="0" y="-3.1988" dx="1.25" dy="2.8" layer="1" roundness="50"/>
-<smd name="3" x="2.3" y="-3.1988" dx="1.25" dy="2.8" layer="1" roundness="50"/>
-<smd name="4" x="0" y="3.099" dx="4" dy="2.5" layer="1" roundness="50"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<package name="SOT223-4">
+<wire x1="3.25" y1="1.75" x2="3.25" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="3.25" y1="-1.75" x2="-3.25" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-3.25" y1="-1.75" x2="-3.25" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="-3.25" y1="1.75" x2="3.25" y2="1.75" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
+<smd name="2" x="0" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
+<smd name="3" x="2.3" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
+<smd name="4" x="0" y="3.099" dx="3.25" dy="2.5" layer="1" roundness="50"/>
+<rectangle x1="-1.5" y1="1.75" x2="1.5" y2="3.5" layer="51"/>
+<rectangle x1="-0.375" y1="-3.5" x2="0.375" y2="-1.75" layer="51"/>
+<rectangle x1="-2.675" y1="-3.5" x2="-1.925" y2="-1.75" layer="51"/>
+<rectangle x1="1.925" y1="-3.5" x2="2.675" y2="-1.75" layer="51"/>
 <text x="0" y="0.254" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="-3.556" y1="4.826" x2="-3.556" y2="-4.826" width="0.1" layer="39"/>
-<wire x1="-3.556" y1="-4.826" x2="3.556" y2="-4.826" width="0.1" layer="39"/>
-<wire x1="3.556" y1="-4.826" x2="3.556" y2="4.826" width="0.1" layer="39"/>
-<wire x1="3.556" y1="4.826" x2="-3.556" y2="4.826" width="0.1" layer="39"/>
+<wire x1="-3.429" y1="4.572" x2="-3.429" y2="-4.572" width="0.1" layer="39"/>
+<wire x1="-3.429" y1="-4.572" x2="3.429" y2="-4.572" width="0.1" layer="39"/>
+<wire x1="3.429" y1="-4.572" x2="3.429" y2="4.572" width="0.1" layer="39"/>
+<wire x1="3.429" y1="4.572" x2="-3.429" y2="4.572" width="0.1" layer="39"/>
 </package>
 <package name="POWER_JACK_SLOT_ID2.1MM-OD5.5MM">
 <wire x1="-2.1" y1="6.18" x2="1.1" y2="6.18" width="0" layer="46"/>
@@ -6083,12 +6079,12 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="VREG_LM340_LDO_1.5A-5V">
+<deviceset name="VREG" prefix="VREG" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VREG-LINEAR-LDO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT223">
+<device name="LM340_LDO_1.5A-5V" package="SOT223-4">
 <connects>
 <connect gate="G$1" pin="GND" pad="2 4"/>
 <connect gate="G$1" pin="VI" pad="1"/>
@@ -6105,6 +6101,80 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MPN" value="LM340MP-5.0/NOPB" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="1.5A/5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TL1963A-33DCYR_LDO_1.5A-3.3V" package="SOT223-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTPN" value="296-24897-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TL1963A-33DCYR" constant="no"/>
+<attribute name="VALUE" value="1.5A/3.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TL1963A-15DCYR_LDO_1.5A-1.5V" package="SOT223-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-24894-1-ND" constant="no"/>
+<attribute name="DISTPN" value="296-24894-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TL1963A-15DCYR" constant="no"/>
+<attribute name="VALUE" value="1.5A/1.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TL1963A-18DCYR_LDO_1.5A-1.8V" package="SOT223-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-24895-1-ND" constant="no"/>
+<attribute name="DISTPN" value="296-24895-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TL1963A-18DCYR" constant="no"/>
+<attribute name="VALUE" value="1.5A/1.8V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TL1963A-25DCYR_LDO_1.5A-2.5V" package="SOT223-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTPN" value="296-24896-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TL1963A-25DCYR" constant="no"/>
+<attribute name="VALUE" value="1.5A/2.5V" constant="no"/>
 </technology>
 </technologies>
 </device>
