@@ -938,7 +938,7 @@
 <circle x="-1.7" y="1.9" radius="0.14141875" width="0.127" layer="21"/>
 <text x="0.4" y="2.5" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">PCA9633</text>
 </package>
-<package name="SMD805">
+<package name="RESISTOR_SMD-805">
 <description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.12" layer="51"/>
 <wire x1="-1.05" y1="0.68" x2="1.05" y2="0.68" width="0.12" layer="51"/>
@@ -5364,7 +5364,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SMD-0805_1/8W_100_5%" package="SMD805">
+<device name="SMD-0805_1/8W_100_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5382,7 +5382,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_10K_5%" package="SMD805">
+<device name="SMD-0805_1/8W_10K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5400,7 +5400,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_330_5%" package="SMD805">
+<device name="SMD-0805_1/8W_330_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5418,7 +5418,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_5.1K_5%" package="SMD805">
+<device name="SMD-0805_1/8W_5.1K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5436,7 +5436,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_10.7_1%" package="SMD805">
+<device name="SMD-0805_1/8W_10.7_1%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5454,7 +5454,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_4.99_1%" package="SMD805">
+<device name="SMD-0805_1/8W_4.99_1%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5472,7 +5472,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_220_5%" package="SMD805">
+<device name="SMD-0805_1/8W_220_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5490,7 +5490,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_51_5%" package="SMD805">
+<device name="SMD-0805_1/8W_51_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5521,7 +5521,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_1.2K_5%" package="SMD805">
+<device name="SMD-0805_1/8W_1.2K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5540,7 +5540,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_2.2K_5%" package="SMD805">
+<device name="SMD-0805_1/8W_2.2K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5559,7 +5559,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_1K_5%" package="SMD805">
+<device name="SMD-0805_1/8W_1K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5578,7 +5578,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_2K_5%" package="SMD805">
+<device name="SMD-0805_1/8W_2K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5596,7 +5596,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_4.7K_5%" package="SMD805">
+<device name="SMD-0805_1/8W_4.7K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6534,6 +6534,17 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 &lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="AGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR">
+<gates>
 </gates>
 <devices>
 <device name="">
