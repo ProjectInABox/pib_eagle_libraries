@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -306,8 +306,8 @@
 <wire x1="4.064" y1="2.794" x2="-4.064" y2="2.794" width="0.1" layer="39"/>
 </package>
 <package name="CAP_CER_SMD-805">
-<smd name="1" x="-1" y="0" dx="1" dy="1.4" layer="1" roundness="50"/>
-<smd name="2" x="1" y="0" dx="1" dy="1.4" layer="1" roundness="50"/>
+<smd name="1" x="-1" y="0" dx="1" dy="1.45" layer="1" roundness="50"/>
+<smd name="2" x="1" y="0" dx="1" dy="1.45" layer="1" roundness="50"/>
 <wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.12" layer="51"/>
 <wire x1="-1.05" y1="0.68" x2="1.05" y2="0.68" width="0.12" layer="51"/>
 <text x="0" y="1.3" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
@@ -946,8 +946,8 @@
 <text x="0" y="-1.316" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.12" layer="51"/>
 <wire x1="1.05" y1="0.68" x2="1.05" y2="-0.68" width="0.12" layer="51"/>
-<smd name="1" x="-1" y="0" dx="1" dy="1.4" layer="1" roundness="50" rot="R180"/>
-<smd name="2" x="1" y="0" dx="1" dy="1.4" layer="1" roundness="50"/>
+<smd name="1" x="-1" y="0" dx="1" dy="1.45" layer="1" roundness="50" rot="R180"/>
+<smd name="2" x="1" y="0" dx="1" dy="1.45" layer="1" roundness="50"/>
 <rectangle x1="-1.1" y1="-0.625" x2="-0.5" y2="0.625" layer="51"/>
 <rectangle x1="0.5" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
 <wire x1="-0.5" y1="0" x2="-0.4" y2="0" width="0.1" layer="21"/>
@@ -2858,8 +2858,8 @@
 <text x="0" y="-1.316" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.12" layer="51"/>
 <wire x1="1.05" y1="0.68" x2="1.05" y2="-0.68" width="0.12" layer="51"/>
-<smd name="1" x="-1" y="0" dx="1" dy="1.4" layer="1" roundness="50" rot="R180"/>
-<smd name="2" x="1" y="0" dx="1" dy="1.4" layer="1" roundness="50"/>
+<smd name="1" x="-1" y="0" dx="1" dy="1.45" layer="1" roundness="50" rot="R180"/>
+<smd name="2" x="1" y="0" dx="1" dy="1.45" layer="1" roundness="50"/>
 <rectangle x1="-1.1" y1="-0.625" x2="-0.5" y2="0.625" layer="51"/>
 <rectangle x1="0.5" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
 <wire x1="-0.5" y1="0" x2="-0.45" y2="0" width="0.1" layer="21"/>
@@ -6608,13 +6608,27 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTOR">
+<deviceset name="INDUCTOR" uservalue="yes">
 <gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="SMD-805_10UH-0.5A-0.65OHM-10%" package="INDUCTOR_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=CB2012T100KR&amp;fileName=CB2012T100KR_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2452-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-2452-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="CB2012T100KR" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
