@@ -938,7 +938,7 @@
 <circle x="-1.7" y="1.9" radius="0.14141875" width="0.127" layer="21"/>
 <text x="0.4" y="2.5" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">PCA9633</text>
 </package>
-<package name="RESC2012X60_HS">
+<package name="SMD805">
 <description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.12" layer="51"/>
 <wire x1="-1.05" y1="0.68" x2="1.05" y2="0.68" width="0.12" layer="51"/>
@@ -3890,6 +3890,41 @@
 <pin name="VM" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">VM</text>
 </symbol>
+<symbol name="AGND">
+<description>&lt;h3&gt;Ground Supply&lt;/h3&gt;</description>
+<pin name="NGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0" y="-1.27" size="1.27" layer="96" font="vector" ratio="10" align="top-center">AGND</text>
+<wire x1="-0.762" y1="0" x2="-0.508" y2="0.254" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-0.508" y1="0.254" x2="-0.254" y2="0" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-0.254" y1="0" x2="0" y2="-0.254" width="0.1524" layer="94" curve="90"/>
+<wire x1="0" y1="-0.254" x2="0.254" y2="0" width="0.1524" layer="94" curve="90"/>
+<wire x1="0.254" y1="0" x2="0.508" y2="0.254" width="0.1524" layer="94" curve="-90"/>
+<wire x1="0.508" y1="0.254" x2="0.762" y2="0" width="0.1524" layer="94" curve="-90"/>
+<wire x1="0.762" y1="0" x2="1.016" y2="-0.254" width="0.1524" layer="94" curve="90"/>
+<wire x1="1.016" y1="-0.254" x2="1.27" y2="0" width="0.1524" layer="94" curve="90"/>
+<wire x1="-1.016" y1="-0.254" x2="-0.762" y2="0" width="0.1524" layer="94" curve="90"/>
+<wire x1="-1.27" y1="0" x2="-1.016" y2="-0.254" width="0.1524" layer="94" curve="90"/>
+<wire x1="-1.524" y1="0.254" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-1.778" y1="0" x2="-1.524" y2="0.254" width="0.1524" layer="94" curve="-90"/>
+<wire x1="1.27" y1="0" x2="1.524" y2="0.254" width="0.1524" layer="94" curve="-90"/>
+<wire x1="1.524" y1="0.254" x2="1.778" y2="0" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-0.508" y1="-0.254" x2="-0.254" y2="-0.508" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-0.762" y1="-0.508" x2="-0.508" y2="-0.254" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-1.016" y1="-0.762" x2="-0.762" y2="-0.508" width="0.1524" layer="94" curve="90"/>
+<wire x1="-1.27" y1="-0.508" x2="-1.016" y2="-0.762" width="0.1524" layer="94" curve="90"/>
+<wire x1="-0.254" y1="-0.508" x2="0" y2="-0.762" width="0.1524" layer="94" curve="90"/>
+<wire x1="0" y1="-0.762" x2="0.254" y2="-0.508" width="0.1524" layer="94" curve="90"/>
+<wire x1="0.508" y1="-0.254" x2="0.762" y2="-0.508" width="0.1524" layer="94" curve="-90"/>
+<wire x1="0.254" y1="-0.508" x2="0.508" y2="-0.254" width="0.1524" layer="94" curve="-90"/>
+<wire x1="0.762" y1="-0.508" x2="1.016" y2="-0.762" width="0.1524" layer="94" curve="90"/>
+<wire x1="1.016" y1="-0.762" x2="1.27" y2="-0.508" width="0.1524" layer="94" curve="90"/>
+<wire x1="-0.508" y1="-0.762" x2="-0.254" y2="-1.016" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-0.762" y1="-1.016" x2="-0.508" y2="-0.762" width="0.1524" layer="94" curve="-90"/>
+<wire x1="-0.254" y1="-1.016" x2="0" y2="-1.27" width="0.1524" layer="94" curve="90"/>
+<wire x1="0" y1="-1.27" x2="0.254" y2="-1.016" width="0.1524" layer="94" curve="90"/>
+<wire x1="0.254" y1="-1.016" x2="0.508" y2="-0.762" width="0.1524" layer="94" curve="-90"/>
+<wire x1="0.508" y1="-0.762" x2="0.762" y2="-1.016" width="0.1524" layer="94" curve="-90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRSKY_GIMBAL" prefix="J" uservalue="yes">
@@ -5329,7 +5364,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SMD-0805_1/8W_100_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_100_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5347,7 +5382,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_10K_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_10K_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5365,7 +5400,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_330_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_330_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5383,7 +5418,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_5.1K_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_5.1K_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5401,7 +5436,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_10.7_1%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_10.7_1%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5419,7 +5454,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_4.99_1%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_4.99_1%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5437,7 +5472,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_220_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_220_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5455,7 +5490,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_51_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_51_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5486,7 +5521,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_1.2K_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_1.2K_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5505,7 +5540,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_2.2K_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_2.2K_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5524,7 +5559,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_1K_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_1K_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5543,7 +5578,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_2K_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_2K_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5561,7 +5596,7 @@ Variants follow as [PACKAGE-TYPE_POWER-RATING_VALUE_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_4.7K_5%" package="RESC2012X60_HS">
+<device name="SMD-0805_1/8W_4.7K_5%" package="SMD805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6490,6 +6525,20 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MPN" value="FS-L-0055-103-ST?" constant="no"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND" prefix="NGND">
+<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="AGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
