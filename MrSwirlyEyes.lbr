@@ -2984,10 +2984,10 @@
 <smd name="8" x="2.7" y="1.905" dx="1.55" dy="0.6" layer="1" roundness="50"/>
 <text x="0" y="3.048" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-3.048" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="-3.81" y1="-2.794" x2="-3.81" y2="2.794" width="0.127" layer="41"/>
-<wire x1="-3.81" y1="2.794" x2="3.81" y2="2.794" width="0.127" layer="41"/>
-<wire x1="3.81" y1="2.794" x2="3.81" y2="-2.794" width="0.127" layer="41"/>
-<wire x1="3.81" y1="-2.794" x2="-3.81" y2="-2.794" width="0.127" layer="41"/>
+<wire x1="-3.81" y1="-2.794" x2="-3.81" y2="2.794" width="0.127" layer="39"/>
+<wire x1="-3.81" y1="2.794" x2="3.81" y2="2.794" width="0.127" layer="39"/>
+<wire x1="3.81" y1="2.794" x2="3.81" y2="-2.794" width="0.127" layer="39"/>
+<wire x1="3.81" y1="-2.794" x2="-3.81" y2="-2.794" width="0.127" layer="39"/>
 </package>
 <package name="TO-263-5">
 <wire x1="-5.1815" y1="4.39025" x2="-5.1815" y2="-4.39025" width="0.127" layer="21"/>
