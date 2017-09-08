@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -296,10 +296,10 @@
 <wire x1="-1.905" y1="0.508" x2="-1.905" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-1.905" y1="0.508" x2="-2.159" y2="0.127" width="0.127" layer="21"/>
 <wire x1="-1.905" y1="-0.127" x2="-1.905" y2="-1.016" width="0.127" layer="21"/>
-<rectangle x1="-3.2" y1="1.6" x2="-2.2" y2="2.1" layer="21"/>
-<rectangle x1="-3.2" y1="-2.1" x2="-2.2" y2="-1.6" layer="21"/>
-<rectangle x1="2.2" y1="1.6" x2="3.2" y2="2.1" layer="21"/>
-<rectangle x1="2.2" y1="-2.1" x2="3.2" y2="-1.6" layer="21"/>
+<rectangle x1="-3.2" y1="1.6" x2="-2.2" y2="2.1" layer="51"/>
+<rectangle x1="-3.2" y1="-2.1" x2="-2.2" y2="-1.6" layer="51"/>
+<rectangle x1="2.2" y1="1.6" x2="3.2" y2="2.1" layer="51"/>
+<rectangle x1="2.2" y1="-2.1" x2="3.2" y2="-1.6" layer="51"/>
 <wire x1="-4.064" y1="2.794" x2="-4.064" y2="-2.794" width="0.1" layer="39"/>
 <wire x1="-4.064" y1="-2.794" x2="4.064" y2="-2.794" width="0.1" layer="39"/>
 <wire x1="4.064" y1="-2.794" x2="4.064" y2="2.794" width="0.1" layer="39"/>
