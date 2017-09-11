@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2700,7 +2700,7 @@
 <text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="3.778" y1="0" x2="4.286" y2="0" width="0.1524" layer="21"/>
 <text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="10" align="center">CHECK DIAMETER OF LEADS</text>
-<circle x="0" y="0" radius="7.25" width="0.1524" layer="39"/>
+<circle x="0" y="0" radius="6.75" width="0.1524" layer="39"/>
 </package>
 <package name="SW-SLIDE_SPDT_5A-28V_13L-7W">
 <pad name="P$1" x="-4.7" y="0" drill="1.875" diameter="3.075" rot="R90"/>
@@ -2959,6 +2959,8 @@
 <vertex x="2.794" y="5.969"/>
 <vertex x="5.11175" y="5.334"/>
 </polygon>
+<text x="0" y="-3.81" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-4.953" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
 <package name="SOIC-8_W3.9MM">
 <wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="21"/>
@@ -7033,6 +7035,27 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MFR" value="Linear Technology" constant="no"/>
 <attribute name="MPN" value="LT1764EQ-2.5#PBF" constant="no"/>
 <attribute name="VALUE" value="3A/2.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LT1764EQ-1.8_3A-1.8V" package="DDPAK-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="3 TAB"/>
+<connect gate="G$1" pin="SENSE" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://cds.linear.com/docs/en/datasheet/1764fb.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LT1764EQ-1.8%23PBF" constant="no"/>
+<attribute name="DISTPN" value="LT1764EQ-1.8#PBF-ND" constant="no"/>
+<attribute name="MFR" value="Linear Technology" constant="no"/>
+<attribute name="MPN" value="LT1764EQ-1.8#PBF" constant="no"/>
+<attribute name="VALUE" value="3A/1.8V" constant="no"/>
 </technology>
 </technologies>
 </device>
