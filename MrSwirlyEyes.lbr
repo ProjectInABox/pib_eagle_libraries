@@ -2700,7 +2700,7 @@
 <text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="3.778" y1="0" x2="4.286" y2="0" width="0.1524" layer="21"/>
 <text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="10" align="center">CHECK DIAMETER OF LEADS</text>
-<circle x="0" y="0" radius="6.75" width="0.1524" layer="39"/>
+<circle x="0" y="0" radius="7.25" width="0.1524" layer="39"/>
 </package>
 <package name="SW-SLIDE_SPDT_5A-28V_13L-7W">
 <pad name="P$1" x="-4.7" y="0" drill="1.875" diameter="3.075" rot="R90"/>
@@ -2959,8 +2959,6 @@
 <vertex x="2.794" y="5.969"/>
 <vertex x="5.11175" y="5.334"/>
 </polygon>
-<text x="0" y="-3.81" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-4.953" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
 <package name="SOIC-8_W3.9MM">
 <wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="21"/>
@@ -3038,32 +3036,6 @@
 <wire x1="5.842" y1="7.366" x2="-5.842" y2="7.366" width="0.127" layer="39"/>
 <text x="0" y="7.874" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <text x="0" y="8.89" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-</package>
-<package name="CAP_POL_SMD_L8.3-W8.3">
-<wire x1="4.15" y1="-4.15" x2="-3.05" y2="-4.15" width="0.127" layer="21"/>
-<wire x1="-3.05" y1="-4.15" x2="-4.15" y2="-3.05" width="0.127" layer="21"/>
-<wire x1="-4.15" y1="-3.05" x2="-4.15" y2="3.05" width="0.127" layer="21"/>
-<wire x1="-4.15" y1="3.05" x2="-3.05" y2="4.15" width="0.127" layer="21"/>
-<wire x1="-3.05" y1="4.15" x2="4.15" y2="4.15" width="0.127" layer="21"/>
-<wire x1="4.15" y1="-4.15" x2="4.15" y2="4.15" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
-<text x="-2" y="1.5" size="1.27" layer="21" font="vector" ratio="10" rot="R180" align="center">+</text>
-<smd name="A" x="-3.45" y="0" dx="3.8" dy="1.6" layer="1" roundness="50" rot="R180"/>
-<smd name="K" x="3.45" y="0" dx="3.8" dy="1.6" layer="1" roundness="50" rot="R180"/>
-<text x="2" y="1.5" size="1.27" layer="21" font="vector" ratio="10" align="center">-</text>
-<text x="0.127" y="-1.8542" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<text x="0" y="2.032" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<rectangle x1="-4.95" y1="-0.325" x2="-1.55" y2="0.325" layer="51"/>
-<rectangle x1="1.55" y1="-0.325" x2="4.95" y2="0.325" layer="51"/>
-<wire x1="4.873" y1="3.673" x2="-4.873" y2="3.673" width="0.1" layer="39"/>
-<wire x1="-4.873" y1="3.673" x2="-4.873" y2="-3.673" width="0.1" layer="39"/>
-<wire x1="-4.873" y1="-3.673" x2="4.873" y2="-3.673" width="0.1" layer="39"/>
-<wire x1="4.873" y1="-3.673" x2="4.873" y2="3.673" width="0.1" layer="39"/>
-<wire x1="-1.27" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="1.27" y1="0" x2="0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.762" x2="-0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.254" y2="0.762" width="0.127" layer="21"/>
-<wire x1="0.4445" y1="-0.762" x2="0.4445" y2="0.762" width="0.127" layer="21" curve="-68.760689"/>
 </package>
 </packages>
 <symbols>
@@ -4286,13 +4258,6 @@
 <text x="6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">FLG</text>
 <text x="0" y="5.842" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="4.318" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
-</symbol>
-<symbol name="VBATT">
-<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VBATT" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">VBATT</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6695,7 +6660,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet_summary.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-AUR/ATMEGA328P-AURCT-ND/3789455" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-MNR/ATMEGA328P-MNRCT-ND/2774231" constant="no"/>
 <attribute name="DISTPN" value="ATMEGA328P-AURTR-ND " constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATMEGA328P-AUR" constant="no"/>
@@ -7071,27 +7036,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </technology>
 </technologies>
 </device>
-<device name="LT1764EQ-1.8_3A-1.8V" package="DDPAK-5">
-<connects>
-<connect gate="G$1" pin="!SHDN" pad="1"/>
-<connect gate="G$1" pin="GND" pad="3 TAB"/>
-<connect gate="G$1" pin="SENSE" pad="5"/>
-<connect gate="G$1" pin="VIN" pad="2"/>
-<connect gate="G$1" pin="VOUT" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://cds.linear.com/docs/en/datasheet/1764fb.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LT1764EQ-1.8%23PBF" constant="no"/>
-<attribute name="DISTPN" value="LT1764EQ-1.8#PBF-ND" constant="no"/>
-<attribute name="MFR" value="Linear Technology" constant="no"/>
-<attribute name="MPN" value="LT1764EQ-1.8#PBF" constant="no"/>
-<attribute name="VALUE" value="3A/1.8V" constant="no"/>
-</technology>
-</technologies>
-</device>
 </devices>
 </deviceset>
 <deviceset name="VREG_TPS76833_ULDO_FAST-TRANSIENT_1A-3.3V" prefix="VREG" uservalue="yes">
@@ -7147,20 +7091,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MPN" value="MIC29501-5.0WU" constant="no"/>
 <attribute name="VALUE" value="5A/5V" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VBATT" prefix="SUPPLY" uservalue="yes">
-<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="VBATT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
