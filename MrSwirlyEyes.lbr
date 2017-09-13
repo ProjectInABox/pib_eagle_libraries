@@ -6533,9 +6533,11 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="DATASHEET" value="http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet_summary.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-MNR/ATMEGA328P-MNRCT-ND/2774231" constant="no"/>
-<attribute name="DISTPN" value="ATMEGA328P-AURTR-ND " constant="no"/>
+<attribute name="DISTPN" value="ATMEGA328P-MNRCT-ND
+" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATMEGA328P-AUR" constant="no"/>
+<attribute name="MPN" value="ATMEGA328P-MNR
+" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 </technology>
 </technologies>
