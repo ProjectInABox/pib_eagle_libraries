@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -6527,9 +6527,11 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="DATASHEET" value="http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet_summary.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-MNR/ATMEGA328P-MNRCT-ND/2774231" constant="no"/>
-<attribute name="DISTPN" value="ATMEGA328P-AURTR-ND " constant="no"/>
+<attribute name="DISTPN" value="ATMEGA328P-MNRCT-ND
+" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATMEGA328P-AUR" constant="no"/>
+<attribute name="MPN" value="ATMEGA328P-MNR
+" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 </technology>
 </technologies>
