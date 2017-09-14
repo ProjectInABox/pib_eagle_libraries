@@ -4674,8 +4674,8 @@
 <attribute name="DIST" value="Sparkfun" constant="no"/>
 <attribute name="DISTLINK" value="https://www.sparkfun.com/products/10302" constant="no"/>
 <attribute name="DISTPN" value="COM-10302" constant="no"/>
-<attribute name="MFR" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="MFR" value="N/A" constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
 <attribute name="VALUE" value="50mA/12V" constant="no"/>
 </technology>
 </technologies>
@@ -6813,8 +6813,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="DATASHEET" value="http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-AUR/ATMEGA328P-AURCT-ND/3789455" constant="no"/>
-<attribute name="DISTPN" value="ATMEGA328P-AURCT-ND
-" constant="no"/>
+<attribute name="DISTPN" value="ATMEGA328P-AURCT-ND " constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATMEGA328P-AUR" constant="no"/>
 <attribute name="TESTED" value="No" constant="no"/>
@@ -6941,19 +6940,19 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.bourns.com/docs/Product-Datasheets/PDB18.pdf" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_RotaryPanelPot_P160series.pdf" constant="no"/>
 <attribute name="DATASHEET_CONNECTOR" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=237407307&amp;uq=636398593910533334" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=987-1715-ND" constant="no"/>
 <attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PPTC031LFBN-RC" constant="no"/>
-<attribute name="DISTPN" value="PDB181-K420K-203B-ND" constant="no"/>
+<attribute name="DISTPN" value="987-1715-ND" constant="no"/>
 <attribute name="DISTPN_CONNECTOR" value="S7001-ND" constant="no"/>
 <attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="Bourns Inc." constant="no"/>
+<attribute name="MFR" value="TT Electronics/BI" constant="no"/>
 <attribute name="MFR_CONNECTOR" value="  Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="PDB181-K420K-203B" constant="no"/>
+<attribute name="MPN" value="P160KN2-0QA25B10K" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" constant="no"/>
-<attribute name="VALUE" value="20KΩ" constant="no"/>
+<attribute name="VALUE" value="10KΩ" constant="no"/>
 </technology>
 </technologies>
 </device>
