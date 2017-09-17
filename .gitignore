@@ -1,9 +1,6 @@
 *
 
-!PiB.lbr
-!PiB_connectors.lbr
-!PiB_rcl.lbr
-!PiB_power_symbols.lbr
+!PiB*.lbr
 
 !.gitignore
 
