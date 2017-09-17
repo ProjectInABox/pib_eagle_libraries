@@ -218,35 +218,6 @@
 <wire x1="1.651" y1="-0.889" x2="1.651" y2="0.889" width="0.1" layer="21"/>
 <wire x1="1.651" y1="0.889" x2="-1.651" y2="0.889" width="0.1" layer="21"/>
 </package>
-<package name="LED_SMD-805_">
-<smd name="K" x="1.2" y="0" dx="1.4" dy="1.5" layer="1" roundness="50" rot="R180"/>
-<smd name="A" x="-1.2" y="0" dx="1.4" dy="1.5" layer="1" roundness="50" rot="R180"/>
-<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.12" layer="51"/>
-<wire x1="-1.05" y1="0.68" x2="1.05" y2="0.68" width="0.12" layer="51"/>
-<text x="0" y="1.3" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="-1.316" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.12" layer="51"/>
-<wire x1="1.05" y1="0.68" x2="1.05" y2="-0.68" width="0.12" layer="51"/>
-<rectangle x1="-1" y1="-0.625" x2="-0.5" y2="0.625" layer="51"/>
-<rectangle x1="0.5" y1="-0.625" x2="1" y2="0.625" layer="51"/>
-<wire x1="-0.5" y1="0" x2="-0.3" y2="0" width="0.1" layer="21"/>
-<wire x1="0.3" y1="0" x2="0.5" y2="0" width="0.1" layer="21"/>
-<wire x1="0.25" y1="0.4" x2="0.25" y2="0" width="0.1" layer="21"/>
-<wire x1="0.25" y1="0" x2="0.25" y2="-0.4" width="0.1" layer="21"/>
-<wire x1="0.25" y1="0" x2="-0.25" y2="0.4" width="0.1" layer="21"/>
-<wire x1="-0.25" y1="0.4" x2="-0.25" y2="-0.4" width="0.1" layer="21"/>
-<wire x1="-0.25" y1="-0.4" x2="0.25" y2="0" width="0.1" layer="21"/>
-<rectangle x1="0.2" y1="0.5" x2="0.5" y2="0.7" layer="21"/>
-<rectangle x1="0.2" y1="-0.7" x2="0.5" y2="-0.5" layer="21"/>
-<wire x1="-2.159" y1="0.889" x2="-2.159" y2="-0.889" width="0.1" layer="21"/>
-<wire x1="-2.159" y1="-0.889" x2="2.159" y2="-0.889" width="0.1" layer="21"/>
-<wire x1="2.159" y1="-0.889" x2="2.159" y2="0.889" width="0.1" layer="21"/>
-<wire x1="2.159" y1="0.889" x2="-2.159" y2="0.889" width="0.1" layer="21"/>
-<wire x1="-2.286" y1="-1.016" x2="2.286" y2="-1.016" width="0.1" layer="39"/>
-<wire x1="2.286" y1="-1.016" x2="2.286" y2="1.016" width="0.1" layer="39"/>
-<wire x1="2.286" y1="1.016" x2="-2.286" y2="1.016" width="0.1" layer="39"/>
-<wire x1="-2.286" y1="1.016" x2="-2.286" y2="-1.016" width="0.1" layer="39"/>
-</package>
 <package name="SSOP-24">
 <wire x1="2.65" y1="4.1" x2="2.65" y2="-4.1" width="0.1524" layer="21"/>
 <wire x1="2.65" y1="-4.1" x2="-2.65" y2="-4.1" width="0.1524" layer="21"/>
@@ -713,23 +684,6 @@
 <smd name="V+" x="-1.635" y="0" dx="2" dy="2" layer="1" rot="R90"/>
 <smd name="V-" x="1.619" y="0" dx="2" dy="2" layer="1" rot="R90"/>
 </package>
-<package name="LED-5MM-PTH_RGB-CA">
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51" curve="-316.397181"/>
-<pad name="A" x="0.635" y="0" drill="0.762" diameter="0.7874" shape="long" rot="R90"/>
-<pad name="R" x="1.905" y="0" drill="0.762" diameter="0.7874" shape="long" rot="R90"/>
-<pad name="G" x="-0.635" y="0" drill="0.762" diameter="0.7874" shape="long" rot="R90"/>
-<pad name="B" x="-1.905" y="0" drill="0.762" diameter="0.7874" shape="long" rot="R90"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="22"/>
-<text x="0" y="2.8575" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.8575" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21" curve="-316.397181"/>
-<text x="1.905" y="1.016" size="0.508" layer="21" font="vector" ratio="10" align="bottom-center">R</text>
-<text x="0.635" y="1.016" size="0.508" layer="21" font="vector" ratio="10" align="bottom-center">+</text>
-<text x="-0.635" y="1.016" size="0.508" layer="21" font="vector" ratio="10" align="bottom-center">G</text>
-<text x="-1.905" y="1.016" size="0.508" layer="21" font="vector" ratio="10" align="bottom-center">B</text>
-</package>
 <package name="TRIPLE_SMD_PADS">
 <wire x1="-4.4" y1="-1.3" x2="-4.4" y2="1.6" width="0.127" layer="39"/>
 <wire x1="-4.4" y1="-1.3" x2="4.6" y2="-1.3" width="0.127" layer="21"/>
@@ -847,22 +801,6 @@
 <rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
 <text x="0" y="0" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
-<package name="LED_PTH-5MM">
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
 </package>
 <package name="CAP_POL_DIA5-LS2-H5">
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
@@ -1688,35 +1626,6 @@
 <wire x1="16.51" y1="-6.35" x2="-16.51" y2="-6.35" width="0.127" layer="39"/>
 <wire x1="-16.51" y1="-6.35" x2="-16.51" y2="6.35" width="0.127" layer="39"/>
 </package>
-<package name="LED-RGB_SMD_5050">
-<circle x="-0.7" y="2" radius="0.2236" width="0" layer="21"/>
-<circle x="0" y="0" radius="2" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2" width="0.127" layer="51"/>
-<wire x1="-1.8" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-1" y1="2.5" x2="1" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-1" y1="-2.5" x2="1" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0.7" x2="-2.5" y2="0.9" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-0.9" x2="-2.5" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-0.9" x2="2.5" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="0.7" x2="2.5" y2="0.9" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="2" x2="-1.8" y2="2.5" width="0.127" layer="51"/>
-<rectangle x1="1.7" y1="-0.45" x2="2.7" y2="0.45" layer="51"/>
-<rectangle x1="1.7" y1="1.15" x2="2.7" y2="2.05" layer="51"/>
-<rectangle x1="1.7" y1="-2.05" x2="2.7" y2="-1.15" layer="51"/>
-<rectangle x1="-2.7" y1="1.15" x2="-1.7" y2="2.05" layer="51" rot="R180"/>
-<rectangle x1="-2.7" y1="-0.45" x2="-1.7" y2="0.45" layer="51" rot="R180"/>
-<rectangle x1="-2.7" y1="-2.05" x2="-1.7" y2="-1.15" layer="51" rot="R180"/>
-<smd name="1" x="-2.4" y="1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
-<smd name="2" x="-2.4" y="0" dx="2" dy="1.1" layer="1" roundness="100"/>
-<smd name="3" x="-2.4" y="-1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
-<smd name="4" x="2.4" y="-1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
-<smd name="5" x="2.4" y="0" dx="2" dy="1.1" layer="1" roundness="100"/>
-<smd name="6" x="2.4" y="1.7" dx="2" dy="1.1" layer="1" roundness="100"/>
-<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
 <package name="DIP-16">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="2.921" y1="-10.16" x2="2.921" y2="10.16" width="0.1524" layer="21"/>
@@ -2032,31 +1941,6 @@
 <text x="0" y="-1.778" size="0.8128" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
-<symbol name="LED_GREEN_SMD-805">
-<pin name="K" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="-2.159"/>
-<vertex x="-3.048" y="-1.27"/>
-<vertex x="-2.54" y="-1.778"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-3.302"/>
-<vertex x="-2.921" y="-2.413"/>
-<vertex x="-2.413" y="-2.921"/>
-</polygon>
-<text x="0.254" y="0.254" size="0.8128" layer="95" font="vector" ratio="10">&gt;NAME</text>
-<text x="0.254" y="-3.556" size="0.8128" layer="96" font="vector" ratio="10">&gt;VALUE</text>
-</symbol>
 <symbol name="CD74HC4067-SM96_16:1_MUX-DEMUX">
 <wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
 <wire x1="10.16" y1="20.32" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
@@ -2342,51 +2226,6 @@
 <wire x1="2.54" y1="7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <pin name="V+" x="7.62" y="5.08" length="middle" rot="R180"/>
 <pin name="V-" x="7.62" y="0" length="middle" rot="R180"/>
-</symbol>
-<symbol name="LED">
-<pin name="K" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="-2.159"/>
-<vertex x="-3.048" y="-1.27"/>
-<vertex x="-2.54" y="-1.778"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-3.302"/>
-<vertex x="-2.921" y="-2.413"/>
-<vertex x="-2.413" y="-2.921"/>
-</polygon>
-<text x="0.254" y="0.254" size="0.8128" layer="95" font="vector" ratio="10">&gt;NAME</text>
-<text x="0.254" y="-2.794" size="0.8128" layer="96" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
-</symbol>
-<symbol name="LED-5MM-PTH_RGB-CA">
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.508" x2="-1.27" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-0.508" x2="0" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.778" x2="1.27" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.778" x2="0" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.778" x2="-1.27" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.778" x2="0" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.508" x2="0" y2="0.762" width="0.254" layer="94"/>
-<pin name="A" x="0" y="7.62" length="short" rot="R270"/>
-<pin name="R" x="-2.54" y="-10.16" length="short" rot="R90"/>
-<pin name="G" x="0" y="-10.16" length="short" rot="R90"/>
-<pin name="B" x="2.54" y="-10.16" length="short" rot="R90"/>
-<text x="-5.842" y="-1.27" size="1.27" layer="95" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="5.842" y="-1.27" size="1.27" layer="96" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
 </symbol>
 <symbol name="6PINCONNECTOR">
 <wire x1="-1.27" y1="-5.08" x2="0" y2="-5.08" width="0.6096" layer="94"/>
@@ -2848,44 +2687,6 @@ VCC    : 3.3V - 5.25V</text>
 <text x="0" y="2.032" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.8128" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </symbol>
-<symbol name="LED-RGB_INDV">
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-1.27" x2="-0.508" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-0.508" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="1.27" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="-0.508" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-1.27" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.032" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-1.778" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="1.778" x2="-0.508" y2="3.048" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="3.048" x2="-0.508" y2="4.318" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="4.318" x2="0.762" y2="3.048" width="0.254" layer="94"/>
-<wire x1="0.762" y1="3.048" x2="-0.508" y2="1.778" width="0.254" layer="94"/>
-<wire x1="0.762" y1="1.778" x2="0.762" y2="3.048" width="0.254" layer="94"/>
-<wire x1="0.762" y1="3.048" x2="0.762" y2="4.318" width="0.254" layer="94"/>
-<wire x1="0.762" y1="3.048" x2="2.032" y2="3.048" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="3.048" x2="-1.778" y2="3.048" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-4.318" x2="-0.508" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-3.048" x2="-0.508" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-1.778" x2="0.762" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-3.048" x2="-0.508" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-4.318" x2="0.762" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-3.048" x2="0.762" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-3.048" x2="2.032" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-3.048" x2="-1.778" y2="-3.048" width="0.254" layer="94"/>
-<text x="0" y="5.715" size="1.27" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.715" size="1.27" layer="95" font="vector" align="top-center">&gt;VALUE</text>
-<pin name="R-A" x="-12.7" y="2.54" visible="pin" length="short" direction="pas"/>
-<pin name="G-A" x="-12.7" y="0" visible="pin" length="short" direction="pas"/>
-<pin name="B-A" x="-12.7" y="-2.54" visible="pin" length="short" direction="pas"/>
-<pin name="B-C" x="12.7" y="-2.54" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="G-C" x="12.7" y="0" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="R-C" x="12.7" y="2.54" visible="pin" length="short" direction="pas" rot="R180"/>
-</symbol>
 <symbol name="MCP3008">
 <pin name="CH0" x="15.24" y="7.62" length="middle" direction="in" rot="R180"/>
 <pin name="CH1" x="15.24" y="5.08" length="middle" direction="in" rot="R180"/>
@@ -3194,120 +2995,6 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="MPN" value="GRM216R71H223JA01D" constant="no"/>
 <attribute name="TESTED" value="No" constant="no"/>
 <attribute name="VALUE" value="2.2nF/50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED" prefix="L" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LED_GREEN_SMD-805" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_SMD-805_DISCRETE_GREEN" package="LED_SMD-805_">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=160-1414-1-ND" constant="no"/>
-<attribute name="DISTPN" value="160-1414-1-ND" constant="no"/>
-<attribute name="MFR" value="Lite-On Inc." constant="no"/>
-<attribute name="MPN" value="LTST-C170KGKT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="GREEN" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805_DISCRETE_RED" package="LED_SMD-805_">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=160-1415-1-ND" constant="no"/>
-<attribute name="DISTPN" value="160-1415-1-ND" constant="no"/>
-<attribute name="MFR" value="Lite-On Inc." constant="no"/>
-<attribute name="MPN" value="LTST-C170KRKT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="RED" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805_DISCRETE_BLUE" package="LED_SMD-805_">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=160-1579-1-ND" constant="no"/>
-<attribute name="DISTPN" value="160-1579-1-ND" constant="no"/>
-<attribute name="MFR" value="Lite-On Inc." constant="no"/>
-<attribute name="MPN" value="LTST-C170TBKT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="BLUE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805_DISCRETE_ORANGE" package="LED_SMD-805_">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS-22-99-0185/LTST-C170KFKT.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=160-1413-1-ND" constant="no"/>
-<attribute name="DISTPN" value="160-1413-1-ND" constant="no"/>
-<attribute name="MFR" value="Lite-On Inc." constant="no"/>
-<attribute name="MPN" value="LTST-C170KFKT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ORANGE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805_DISCRETE_YELLOW" package="LED_SMD-805_">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS-22-99-0188/LTST-C170KSKT.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=160-1416-1-ND" constant="no"/>
-<attribute name="DISTPN" value="160-1416-1-ND" constant="no"/>
-<attribute name="MFR" value="Lite-On Inc." constant="no"/>
-<attribute name="MPN" value="LTST-C170KSKT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="YELLOW" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_PTH-5MM_NO-COLOR" package="LED_PTH-5MM">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4286,34 +3973,6 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED-5MM-PTH_RGB-CA" prefix="L" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LED-5MM-PTH_RGB-CA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LED-5MM-PTH_RGB-CA">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="R" pad="R"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://cdn.sparkfun.com/datasheets/Components/LED/YSL-R596AR3G4B5C-C10.pdf" constant="no"/>
-<attribute name="DIST" value="Sparkfun" constant="no"/>
-<attribute name="DISTLINK" value="https://www.sparkfun.com/products/10820" constant="no"/>
-<attribute name="DISTPN" value="COM-10820" constant="no"/>
-<attribute name="MFR" value="SunLED" constant="no"/>
-<attribute name="MPN" value="YSL-R596AR3G4B5C-C10" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="RGB" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOTOR_PADS">
 <gates>
 <gate name="G$1" symbol="MOTOR_PADS" x="0" y="-2.54"/>
@@ -5055,36 +4714,6 @@ The sampling rate on this IMU is slower than in the MPU6500, but it's noise sens
 <attribute name="MPN" value="AIAP-03-220K" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="22uH-6.07A" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED-RGB-SMD" prefix="LED" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LED-RGB_INDV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LED-RGB_SMD_5050">
-<connects>
-<connect gate="G$1" pin="B-A" pad="3"/>
-<connect gate="G$1" pin="B-C" pad="4"/>
-<connect gate="G$1" pin="G-A" pad="1"/>
-<connect gate="G$1" pin="G-C" pad="6"/>
-<connect gate="G$1" pin="R-A" pad="2"/>
-<connect gate="G$1" pin="R-C" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://cdn.sparkfun.com/datasheets/Components/LED/5060BRG4.pdf" constant="no"/>
-<attribute name="DIST" value="Sparkfun" constant="no"/>
-<attribute name="DISTLINK" value="https://www.sparkfun.com/products/10866" constant="no"/>
-<attribute name="DISTPN" value="COM-10866" constant="no"/>
-<attribute name="MFR" value="Yetda Industry Ltd." constant="no"/>
-<attribute name="MPN" value="5060BRG4" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="RGB" constant="no"/>
 </technology>
 </technologies>
 </device>
