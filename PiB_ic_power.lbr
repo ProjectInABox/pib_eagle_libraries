@@ -4,9 +4,10 @@
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -172,17 +173,25 @@
 <smd name="1" x="-2.3" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
 <smd name="2" x="0" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
 <smd name="3" x="2.3" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
-<smd name="4" x="0" y="3.099" dx="3.25" dy="2.5" layer="1" roundness="50"/>
+<smd name="TAB" x="0" y="3.099" dx="3.25" dy="2.5" layer="1" roundness="50"/>
 <rectangle x1="-1.5" y1="1.75" x2="1.5" y2="3.5" layer="51"/>
 <rectangle x1="-0.375" y1="-3.5" x2="0.375" y2="-1.75" layer="51"/>
 <rectangle x1="-2.675" y1="-3.5" x2="-1.925" y2="-1.75" layer="51"/>
 <rectangle x1="1.925" y1="-3.5" x2="2.675" y2="-1.75" layer="51"/>
-<text x="0" y="0.254" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0.889" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="-3.429" y1="4.572" x2="-3.429" y2="-4.572" width="0.1" layer="39"/>
-<wire x1="-3.429" y1="-4.572" x2="3.429" y2="-4.572" width="0.1" layer="39"/>
-<wire x1="3.429" y1="-4.572" x2="3.429" y2="4.572" width="0.1" layer="39"/>
-<wire x1="3.429" y1="4.572" x2="-3.429" y2="4.572" width="0.1" layer="39"/>
+<wire x1="-3.556" y1="2.032" x2="-1.778" y2="2.032" width="0.127" layer="39"/>
+<wire x1="-1.778" y1="2.032" x2="-1.778" y2="4.572" width="0.127" layer="39"/>
+<wire x1="-1.778" y1="4.572" x2="1.778" y2="4.572" width="0.127" layer="39"/>
+<wire x1="1.778" y1="4.572" x2="1.778" y2="2.032" width="0.127" layer="39"/>
+<wire x1="1.778" y1="2.032" x2="3.556" y2="2.032" width="0.127" layer="39"/>
+<wire x1="3.556" y1="2.032" x2="3.556" y2="-2.032" width="0.127" layer="39"/>
+<wire x1="3.556" y1="-2.032" x2="3.048" y2="-2.032" width="0.127" layer="39"/>
+<wire x1="3.048" y1="-2.032" x2="3.048" y2="-4.572" width="0.127" layer="39"/>
+<wire x1="3.048" y1="-4.572" x2="-3.048" y2="-4.572" width="0.127" layer="39"/>
+<wire x1="-3.048" y1="-4.572" x2="-3.048" y2="-2.032" width="0.127" layer="39"/>
+<wire x1="-3.048" y1="-2.032" x2="-3.556" y2="-2.032" width="0.127" layer="39"/>
+<wire x1="-3.556" y1="-2.032" x2="-3.556" y2="2.032" width="0.127" layer="39"/>
 </package>
 <package name="TO-220-7">
 <pad name="7" x="3.81" y="-5.08" drill="1.016" shape="long" rot="R90"/>
@@ -409,26 +418,6 @@
 <text x="0" y="7.874" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <text x="0" y="8.89" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
-<package name="SOT223">
-<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
-<smd name="1" x="-2.3114" y="-3.0988" dx="1.25" dy="2.5" layer="1" roundness="50"/>
-<smd name="2" x="0" y="-3.0988" dx="1.25" dy="2.5" layer="1" roundness="50"/>
-<smd name="3" x="2.3114" y="-3.0988" dx="1.25" dy="2.5" layer="1" roundness="50"/>
-<smd name="4" x="0" y="3.099" dx="4" dy="2.5" layer="1" roundness="50"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
 <package name="SOIC-8_W3.9MM">
 <wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="21"/>
 <wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="21"/>
@@ -468,7 +457,7 @@
 <pin name="VI" x="-10.16" y="0" visible="pad" length="short"/>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
 <pin name="VO" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
-<text x="0" y="6.096" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="5.842" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="4.318" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <text x="-6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
 <text x="6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
@@ -561,20 +550,6 @@
 <text x="0" y="5.842" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="4.318" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </symbol>
-<symbol name="VREG-LINEAR-LDO-1">
-<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<pin name="VI" x="-10.16" y="0" visible="pad" length="short"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
-<pin name="VO" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
-<text x="0" y="5.08" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;Name</text>
-<text x="0" y="3.556" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;Value</text>
-<text x="-5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VIN</text>
-<text x="5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VOUT</text>
-<text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="center">GND</text>
-</symbol>
 <symbol name="VREG_TPS76833_LINEAR_LDO_FAST_TRANSIENT">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -604,7 +579,7 @@
 <devices>
 <device name="LM340_LDO_1.5A-5V" package="SOT223-4">
 <connects>
-<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="GND" pad="2 TAB"/>
 <connect gate="G$1" pin="VI" pad="1"/>
 <connect gate="G$1" pin="VO" pad="3"/>
 </connects>
@@ -622,9 +597,9 @@
 </technology>
 </technologies>
 </device>
-<device name="TL1963A-33DCYR_LDO_1.5A-3.3V" package="SOT223-4">
+<device name="TL1963A-33_LDO_1.5A-3.3V" package="SOT223-4">
 <connects>
-<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="GND" pad="2 TAB"/>
 <connect gate="G$1" pin="VI" pad="1"/>
 <connect gate="G$1" pin="VO" pad="3"/>
 </connects>
@@ -641,9 +616,9 @@
 </technology>
 </technologies>
 </device>
-<device name="TL1963A-15DCYR_LDO_1.5A-1.5V" package="SOT223-4">
+<device name="TL1963A-15_LDO_1.5A-1.5V" package="SOT223-4">
 <connects>
-<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="GND" pad="2 TAB"/>
 <connect gate="G$1" pin="VI" pad="1"/>
 <connect gate="G$1" pin="VO" pad="3"/>
 </connects>
@@ -660,9 +635,9 @@
 </technology>
 </technologies>
 </device>
-<device name="TL1963A-18DCYR_LDO_1.5A-1.8V" package="SOT223-4">
+<device name="TL1963A-18_LDO_1.5A-1.8V" package="SOT223-4">
 <connects>
-<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="GND" pad="2 TAB"/>
 <connect gate="G$1" pin="VI" pad="1"/>
 <connect gate="G$1" pin="VO" pad="3"/>
 </connects>
@@ -679,9 +654,9 @@
 </technology>
 </technologies>
 </device>
-<device name="TL1963A-25DCYR_LDO_1.5A-2.5V" package="SOT223-4">
+<device name="TL1963A-25_LDO_1.5A-2.5V" package="SOT223-4">
 <connects>
-<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="GND" pad="2 TAB"/>
 <connect gate="G$1" pin="VI" pad="1"/>
 <connect gate="G$1" pin="VO" pad="3"/>
 </connects>
@@ -695,6 +670,25 @@
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="TL1963A-25DCYR" constant="no"/>
 <attribute name="VALUE" value="1.5A/2.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="NCP1117-33_1A-3.3V" package="SOT223-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VI" pad="3"/>
+<connect gate="G$1" pin="VO" pad="2 TAB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.onsemi.com/pub/Collateral/NCP1117LP-D.PDF" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=NCP1117LPST33T3GOSCT-ND" constant="no"/>
+<attribute name="DISTPN" value="NCP1117LPST33T3GOSCT-ND" constant="no"/>
+<attribute name="MFR" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="NCP1117LPST33T3G" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1021,33 +1015,6 @@
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="MIC29501-5.0WU" constant="no"/>
 <attribute name="VALUE" value="5A/5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VREG_NCP1117_LDO_1A-3.3V" prefix="VREG" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="VREG-LINEAR-LDO-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT223">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VI" pad="3"/>
-<connect gate="G$1" pin="VO" pad="2 4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.onsemi.com/pub/Collateral/NCP1117LP-D.PDF" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=NCP1117LPST33T3GOSCT-ND" constant="no"/>
-<attribute name="DISTPN" value="NCP1117LPST33T3GOSCT-ND" constant="no"/>
-<attribute name="MFR" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="NCP1117LPST33T3G" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="1A/3.3V" constant="no"/>
 </technology>
 </technologies>
 </device>
