@@ -1472,7 +1472,7 @@
 <wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
 <text x="0" y="17.78" size="1.27" layer="97" font="vector" align="bottom-center">PCA9633</text>
 </symbol>
-<symbol name="Q">
+<symbol name="CRYSTAL_OSCILLATOR">
 <wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
@@ -2308,7 +2308,7 @@ VCC    : 3.3V - 5.25V</text>
 <deviceset name="CRYSTAL" prefix="Y" uservalue="yes">
 <description>Various standard crystals. Proven footprints.</description>
 <gates>
-<gate name="G$1" symbol="Q" x="0" y="0"/>
+<gate name="G$1" symbol="CRYSTAL_OSCILLATOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_ABM3B_16MHZ_18PF" package="CRYSTAL-SMD-5X3">
