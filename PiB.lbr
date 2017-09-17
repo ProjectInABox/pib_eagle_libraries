@@ -1517,24 +1517,6 @@
 <text x="8.255" y="1.905" size="1.27" layer="51" font="vector" rot="R90">VCC</text>
 <text x="10.795" y="1.905" size="1.27" layer="51" font="vector" rot="R90">CTS</text>
 </package>
-<package name="NET_BRIDGE">
-<smd name="P$1" x="0" y="0" dx="1" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="0.05" y="0" dx="1" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
-<wire x1="-0.6" y1="0.15" x2="0.6" y2="0.15" width="0.127" layer="39"/>
-<wire x1="0.6" y1="0.15" x2="0.6" y2="-0.15" width="0.127" layer="39"/>
-<wire x1="0.6" y1="-0.15" x2="-0.6" y2="-0.15" width="0.127" layer="39"/>
-<wire x1="-0.6" y1="-0.15" x2="-0.6" y2="0.15" width="0.127" layer="39"/>
-<wire x1="-0.5" y1="0.1" x2="0.5" y2="0.1" width="0.127" layer="51"/>
-<wire x1="0.5" y1="0.1" x2="0.5" y2="-0.1" width="0.127" layer="51"/>
-<wire x1="0.5" y1="-0.1" x2="-0.5" y2="-0.1" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="-0.1" x2="-0.5" y2="0.1" width="0.127" layer="51"/>
-<wire x1="-0.4492" y1="0.1" x2="-0.5" y2="0.1" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="0.1" x2="-0.5" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-0.1" x2="-0.4492" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="0.4508" y1="-0.1" x2="0.5" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-0.1" x2="0.5" y2="0.1" width="0.127" layer="21"/>
-<wire x1="0.5" y1="0.1" x2="0.4508" y2="0.1" width="0.127" layer="21"/>
-</package>
 <package name="TRIPLE_SMD_PADS">
 <wire x1="-4.4" y1="-1.3" x2="-4.4" y2="1.6" width="0.127" layer="39"/>
 <wire x1="-4.4" y1="-1.3" x2="4.6" y2="-1.3" width="0.127" layer="21"/>
@@ -4494,35 +4476,6 @@
 <text x="3.048" y="1.27" size="1.27" layer="95" font="vector" ratio="10" align="center-left">&gt;Name</text>
 <text x="3.048" y="-1.27" size="1.27" layer="96" font="vector" ratio="10" align="center-left">SI2302CDS</text>
 </symbol>
-<symbol name="GND">
-<description>&lt;h3&gt;Ground Supply&lt;/h3&gt;</description>
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-1.27" size="1.27" layer="96" font="vector" ratio="10" align="top-center">GND</text>
-<wire x1="-1.397" y1="-0.508" x2="1.397" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-0.889" y1="-1.016" x2="0.889" y2="-1.016" width="0.254" layer="94"/>
-</symbol>
-<symbol name="3.3V">
-<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">3.3V</text>
-</symbol>
-<symbol name="5V">
-<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">5V</text>
-</symbol>
-<symbol name="VCC">
-<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">VCC</text>
-</symbol>
 <symbol name="VIBE_MOTOR">
 <circle x="0" y="0" radius="2.54" width="0.508" layer="94"/>
 <polygon width="1.016" layer="94">
@@ -5002,13 +4955,6 @@
 <wire x1="1.524" y1="0" x2="1.524" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.524" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="NET_BRIDGE">
-<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.6096" layer="94"/>
-<pin name="P$1" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
-<pin name="P$2" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<text x="-5.08" y="-2.54" size="1.016" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="2.54" size="1.27" layer="95">&gt;NAME</text>
-</symbol>
 <symbol name="ATMEGA128RFA1">
 <description>&lt;h3&gt;ATmega128RFA1&lt;/h3&gt;
 8-bit Microcontroller with Low Power 2.4GHz Transceiver for ZigBee and IEEE 802.15.4</description>
@@ -5087,29 +5033,6 @@
 <pin name="GND@2" x="7.62" y="-2.54" visible="off" length="short" rot="R180"/>
 <text x="0" y="6.096" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="4.064" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
-</symbol>
-<symbol name="NGND">
-<description>&lt;h3&gt;Ground Supply&lt;/h3&gt;</description>
-<pin name="NGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-1.27" size="1.27" layer="96" font="vector" ratio="10" align="top-center">NGND</text>
-<wire x1="-2.032" y1="0" x2="-1.524" y2="0.508" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0.508" x2="-0.762" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-0.254" x2="0" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="0.508" x2="0.762" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-0.254" x2="1.524" y2="0.508" width="0.254" layer="94"/>
-<wire x1="1.524" y1="0.508" x2="2.032" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-0.762" x2="-1.27" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-0.254" x2="-1.524" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-0.762" x2="1.27" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.254" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.762" x2="-0.508" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-1.27" x2="-0.762" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-1.016" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.762" x2="0.508" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.508" y1="-1.27" x2="0.762" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-1.016" x2="1.016" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
 <symbol name="ATMEGA328P-32PIN">
 <pin name="(PCINT19/OC2B/INT1)_PD3" x="35.56" y="0" length="middle"/>
@@ -5329,48 +5252,6 @@
 <wire x1="-2.54" y1="-1.27" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
-<symbol name="VM">
-<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VM" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">VM</text>
-</symbol>
-<symbol name="AGND">
-<description>&lt;h3&gt;Ground Supply&lt;/h3&gt;</description>
-<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-1.27" size="1.27" layer="96" font="vector" ratio="10" align="top-center">AGND</text>
-<wire x1="-0.762" y1="0" x2="-0.508" y2="0.254" width="0.1524" layer="94" curve="-90"/>
-<wire x1="-0.508" y1="0.254" x2="-0.254" y2="0" width="0.1524" layer="94" curve="-90"/>
-<wire x1="-0.254" y1="0" x2="0" y2="-0.254" width="0.1524" layer="94" curve="90"/>
-<wire x1="0" y1="-0.254" x2="0.254" y2="0" width="0.1524" layer="94" curve="90"/>
-<wire x1="0.254" y1="0" x2="0.508" y2="0.254" width="0.1524" layer="94" curve="-90"/>
-<wire x1="0.508" y1="0.254" x2="0.762" y2="0" width="0.1524" layer="94" curve="-90"/>
-<wire x1="0.762" y1="0" x2="1.016" y2="-0.254" width="0.1524" layer="94" curve="90"/>
-<wire x1="1.016" y1="-0.254" x2="1.27" y2="0" width="0.1524" layer="94" curve="90"/>
-<wire x1="-1.016" y1="-0.254" x2="-0.762" y2="0" width="0.1524" layer="94" curve="90"/>
-<wire x1="-1.27" y1="0" x2="-1.016" y2="-0.254" width="0.1524" layer="94" curve="90"/>
-<wire x1="-1.524" y1="0.254" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-90"/>
-<wire x1="-1.778" y1="0" x2="-1.524" y2="0.254" width="0.1524" layer="94" curve="-90"/>
-<wire x1="1.27" y1="0" x2="1.524" y2="0.254" width="0.1524" layer="94" curve="-90"/>
-<wire x1="1.524" y1="0.254" x2="1.778" y2="0" width="0.1524" layer="94" curve="-90"/>
-<wire x1="-0.508" y1="-0.254" x2="-0.254" y2="-0.508" width="0.1524" layer="94" curve="-90"/>
-<wire x1="-0.762" y1="-0.508" x2="-0.508" y2="-0.254" width="0.1524" layer="94" curve="-90"/>
-<wire x1="-1.016" y1="-0.762" x2="-0.762" y2="-0.508" width="0.1524" layer="94" curve="90"/>
-<wire x1="-1.27" y1="-0.508" x2="-1.016" y2="-0.762" width="0.1524" layer="94" curve="90"/>
-<wire x1="-0.254" y1="-0.508" x2="0" y2="-0.762" width="0.1524" layer="94" curve="90"/>
-<wire x1="0" y1="-0.762" x2="0.254" y2="-0.508" width="0.1524" layer="94" curve="90"/>
-<wire x1="0.508" y1="-0.254" x2="0.762" y2="-0.508" width="0.1524" layer="94" curve="-90"/>
-<wire x1="0.254" y1="-0.508" x2="0.508" y2="-0.254" width="0.1524" layer="94" curve="-90"/>
-<wire x1="0.762" y1="-0.508" x2="1.016" y2="-0.762" width="0.1524" layer="94" curve="90"/>
-<wire x1="1.016" y1="-0.762" x2="1.27" y2="-0.508" width="0.1524" layer="94" curve="90"/>
-<wire x1="-0.508" y1="-0.762" x2="-0.254" y2="-1.016" width="0.1524" layer="94" curve="-90"/>
-<wire x1="-0.762" y1="-1.016" x2="-0.508" y2="-0.762" width="0.1524" layer="94" curve="-90"/>
-<wire x1="-0.254" y1="-1.016" x2="0" y2="-1.27" width="0.1524" layer="94" curve="90"/>
-<wire x1="0" y1="-1.27" x2="0.254" y2="-1.016" width="0.1524" layer="94" curve="90"/>
-<wire x1="0.254" y1="-1.016" x2="0.508" y2="-0.762" width="0.1524" layer="94" curve="-90"/>
-<wire x1="0.508" y1="-0.762" x2="0.762" y2="-1.016" width="0.1524" layer="94" curve="-90"/>
-</symbol>
 <symbol name="INDUCTOR">
 <description>Resistor</description>
 <text x="0" y="-1.27" size="0.8128" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
@@ -5395,48 +5276,6 @@
 <wire x1="1.143" y1="0.889" x2="0.254" y2="-0.127" width="0.2032" layer="94" curve="90"/>
 <wire x1="-1.143" y1="0.889" x2="-2.159" y2="-0.127" width="0.2032" layer="94" curve="90"/>
 <wire x1="1.143" y1="0.889" x2="2.159" y2="-0.127" width="0.2032" layer="94" curve="-90"/>
-</symbol>
-<symbol name="AVCC">
-<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="AVCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">AVCC</text>
-</symbol>
-<symbol name="VCC_2">
-<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">VCC_2</text>
-</symbol>
-<symbol name="VCC_1">
-<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">VCC_1</text>
-</symbol>
-<symbol name="1.5V">
-<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">1.5V</text>
-</symbol>
-<symbol name="2.5V">
-<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">2.5V</text>
-</symbol>
-<symbol name="1.8V">
-<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">1.8V</text>
 </symbol>
 <symbol name="VREG_LINEAR_ULDO_FAST-TRANSIENT">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -6720,62 +6559,6 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" prefix="GND">
-<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
-<gates>
-<gate name="GND" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="3.3V" prefix="SUPPLY">
-<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
-<gates>
-<gate name="3.3V" symbol="3.3V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="5V" prefix="SUPPLY">
-<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
-<gates>
-<gate name="5V" symbol="5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC" prefix="SUPPLY">
-<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
-<gates>
-<gate name="VCC" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="VIBE_MOTOR_100MA/3V" prefix="M" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VIBE_MOTOR" x="0" y="0"/>
@@ -8011,30 +7794,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="NET_BRIDGE">
-<description>Used to bridge two connections without the use of a zero-ohm resistor.
- This model has no tStop objects, so the mask will be placed on top.</description>
-<gates>
-<gate name="G$1" symbol="NET_BRIDGE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="NET_BRIDGE">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="BRIAN"/>
-<attribute name="DIST" value="''"/>
-<attribute name="DISTPN" value="''"/>
-<attribute name="MFR" value="''"/>
-<attribute name="MPN" value="''"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SWITCH_OFFBOARD" uservalue="yes">
 <description>Generic Off Board Single Pole Rocker Switch</description>
 <gates>
@@ -8339,22 +8098,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="NGND" prefix="NGND">
-<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="NGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="NGND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ATMEGA328P-32PIN" prefix="U">
 <description>32 pin ATMEGA328P IC</description>
 <gates>
@@ -8637,20 +8380,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="VM" prefix="SUPPLY" uservalue="yes">
-<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="VM" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FLEX-SENSOR" prefix="FLEX" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="FSR" x="0" y="0"/>
@@ -8676,20 +8405,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="AGND" prefix="NGND">
-<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="AGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="INDUCTOR" prefix="L" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
@@ -8711,90 +8426,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MPN" value="CB2012T100KR" constant="no"/>
 <attribute name="VALUE" value="10uH" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AVCC" prefix="SUPPLY">
-<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="AVCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC_1" prefix="SUPPLY">
-<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="VCC_1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC_2" prefix="SUPPLY">
-<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="VCC_2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1.5V" prefix="SUPPLY">
-<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="1.5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1.8V" prefix="SUPPLY">
-<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="1.8V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="2.5V" prefix="SUPPLY">
-<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="2.5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
