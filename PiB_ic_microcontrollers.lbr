@@ -2015,12 +2015,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINYX313" prefix="IC" uservalue="yes">
+<deviceset name="ATTINY2313" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINYX313" x="0" y="0"/>
 </gates>
 <devices>
-<device name="ATTINY2313-PU" package="DIP-20">
+<device name="DIP-20" package="DIP-20">
 <connects>
 <connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
 <connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
@@ -2063,50 +2063,7 @@
 </technology>
 </technologies>
 </device>
-<device name="ATTINY4313-PU" package="DIP-20">
-<connects>
-<connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
-<connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
-<connect gate="G$1" pin="(ICPI/PCINT17/D8)PD6" pad="11"/>
-<connect gate="G$1" pin="(MISO/DO/PCINT6/D15)PB6" pad="18"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/PCINT5/D14)PB5" pad="17"/>
-<connect gate="G$1" pin="(OC0A/PCINT2/D11-PWM11)PB2" pad="14"/>
-<connect gate="G$1" pin="(OC1A/PCINT3/D12-PWM12)PB3" pad="15"/>
-<connect gate="G$1" pin="(OC1B/PCINT4/D13-PWM13)PB4" pad="16"/>
-<connect gate="G$1" pin="(PCINT11/RXD/D0)PD0" pad="2"/>
-<connect gate="G$1" pin="(PCINT12/TXD/D1)PD1" pad="3"/>
-<connect gate="G$1" pin="(PCINT13/CKOUT/XCK/INT0/D4)PD2" pad="6"/>
-<connect gate="G$1" pin="(PCINT14/INT1/D5)PD3" pad="7"/>
-<connect gate="G$1" pin="(PCINT15/T0/D6)PD4" pad="8"/>
-<connect gate="G$1" pin="(PCINT16/OC0B/T1/D7)PD5" pad="9"/>
-<connect gate="G$1" pin="(PCINT8/CLKI/XTAL1/D3)PA0" pad="5"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D2)PA1" pad="4"/>
-<connect gate="G$1" pin="(USCK/SCL/SCK/PCINT7/D16)PB7" pad="19"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="PCINT10/!RESET!/DW/D17)PA2" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="20"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.mouser.com/ds/2/268/doc8246-1066134.pdf" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY4313-PU-ND" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=A%2020-LC-TT" constant="no"/>
-<attribute name="DISTPN" value="ATTINY4313-PU-ND" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="AE9998-ND" constant="no"/>
-<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
-<attribute name="MPN" value="ATTINY4313-PU" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="A 20-LC-TT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ATTINY4313" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="ATTINY2313-SU" package="SO-20">
+<device name="SO-20" package="SO-20">
 <connects>
 <connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
 <connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
@@ -2143,46 +2100,9 @@
 </technology>
 </technologies>
 </device>
-<device name="ATTINY4313-SU" package="SO-20">
-<connects>
-<connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
-<connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
-<connect gate="G$1" pin="(ICPI/PCINT17/D8)PD6" pad="11"/>
-<connect gate="G$1" pin="(MISO/DO/PCINT6/D15)PB6" pad="18"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/PCINT5/D14)PB5" pad="17"/>
-<connect gate="G$1" pin="(OC0A/PCINT2/D11-PWM11)PB2" pad="14"/>
-<connect gate="G$1" pin="(OC1A/PCINT3/D12-PWM12)PB3" pad="15"/>
-<connect gate="G$1" pin="(OC1B/PCINT4/D13-PWM13)PB4" pad="16"/>
-<connect gate="G$1" pin="(PCINT11/RXD/D0)PD0" pad="2"/>
-<connect gate="G$1" pin="(PCINT12/TXD/D1)PD1" pad="3"/>
-<connect gate="G$1" pin="(PCINT13/CKOUT/XCK/INT0/D4)PD2" pad="6"/>
-<connect gate="G$1" pin="(PCINT14/INT1/D5)PD3" pad="7"/>
-<connect gate="G$1" pin="(PCINT15/T0/D6)PD4" pad="8"/>
-<connect gate="G$1" pin="(PCINT16/OC0B/T1/D7)PD5" pad="9"/>
-<connect gate="G$1" pin="(PCINT8/CLKI/XTAL1/D3)PA0" pad="5"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D2)PA1" pad="4"/>
-<connect gate="G$1" pin="(USCK/SCL/SCK/PCINT7/D16)PB7" pad="19"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="PCINT10/!RESET!/DW/D17)PA2" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="20"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.mouser.com/ds/2/268/doc8246-1066134.pdf" constant="no"/>
-<attribute name="DIST" value="Mouser" constant="no"/>
-<attribute name="DISTLINK" value="http://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATTINY4313-SU/?qs=sGAEpiMZZMvqv2n3s2xjse40PngS4U1xqwE9RLcpR7Q%3d" constant="no"/>
-<attribute name="DISTPN" value=" 556-ATTINY4313-SU" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATTINY4313-SU" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ATTINY4313/4KB" constant="no"/>
-</technology>
-</technologies>
-</device>
 </devices>
 </deviceset>
-<deviceset name="ATTINYX4" prefix="IC" uservalue="yes">
+<deviceset name="ATTINY84" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINYX4" x="0" y="0"/>
 </gates>
@@ -2257,12 +2177,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINYX5" prefix="IC" uservalue="yes">
+<deviceset name="ATTINY85" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINYX5" x="0" y="0"/>
 </gates>
 <devices>
-<device name="ATTINY85_SO-8" package="SO-8">
+<device name="SO-8" package="SO-8">
 <connects>
 <connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
 <connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
@@ -2287,7 +2207,7 @@
 </technology>
 </technologies>
 </device>
-<device name="ATTINY85_DIP-8" package="DIP-8">
+<device name="DIP-8" package="DIP-8">
 <connects>
 <connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
 <connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
@@ -2315,6 +2235,93 @@
 <attribute name="MPN_CONNECTOR" value="A 08-LC-TT" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="ATTINY85" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATTINY4313" prefix="IC" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="ATTINYX313" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DIP-20" package="DIP-20">
+<connects>
+<connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
+<connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
+<connect gate="G$1" pin="(ICPI/PCINT17/D8)PD6" pad="11"/>
+<connect gate="G$1" pin="(MISO/DO/PCINT6/D15)PB6" pad="18"/>
+<connect gate="G$1" pin="(MOSI/DI/SDA/PCINT5/D14)PB5" pad="17"/>
+<connect gate="G$1" pin="(OC0A/PCINT2/D11-PWM11)PB2" pad="14"/>
+<connect gate="G$1" pin="(OC1A/PCINT3/D12-PWM12)PB3" pad="15"/>
+<connect gate="G$1" pin="(OC1B/PCINT4/D13-PWM13)PB4" pad="16"/>
+<connect gate="G$1" pin="(PCINT11/RXD/D0)PD0" pad="2"/>
+<connect gate="G$1" pin="(PCINT12/TXD/D1)PD1" pad="3"/>
+<connect gate="G$1" pin="(PCINT13/CKOUT/XCK/INT0/D4)PD2" pad="6"/>
+<connect gate="G$1" pin="(PCINT14/INT1/D5)PD3" pad="7"/>
+<connect gate="G$1" pin="(PCINT15/T0/D6)PD4" pad="8"/>
+<connect gate="G$1" pin="(PCINT16/OC0B/T1/D7)PD5" pad="9"/>
+<connect gate="G$1" pin="(PCINT8/CLKI/XTAL1/D3)PA0" pad="5"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D2)PA1" pad="4"/>
+<connect gate="G$1" pin="(USCK/SCL/SCK/PCINT7/D16)PB7" pad="19"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="PCINT10/!RESET!/DW/D17)PA2" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.mouser.com/ds/2/268/doc8246-1066134.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY4313-PU-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=A%2020-LC-TT" constant="no"/>
+<attribute name="DISTPN" value="ATTINY4313-PU-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="AE9998-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
+<attribute name="MPN" value="ATTINY4313-PU" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="A 20-LC-TT" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="ATTINY4313" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SO-20" package="SO-20">
+<connects>
+<connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
+<connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
+<connect gate="G$1" pin="(ICPI/PCINT17/D8)PD6" pad="11"/>
+<connect gate="G$1" pin="(MISO/DO/PCINT6/D15)PB6" pad="18"/>
+<connect gate="G$1" pin="(MOSI/DI/SDA/PCINT5/D14)PB5" pad="17"/>
+<connect gate="G$1" pin="(OC0A/PCINT2/D11-PWM11)PB2" pad="14"/>
+<connect gate="G$1" pin="(OC1A/PCINT3/D12-PWM12)PB3" pad="15"/>
+<connect gate="G$1" pin="(OC1B/PCINT4/D13-PWM13)PB4" pad="16"/>
+<connect gate="G$1" pin="(PCINT11/RXD/D0)PD0" pad="2"/>
+<connect gate="G$1" pin="(PCINT12/TXD/D1)PD1" pad="3"/>
+<connect gate="G$1" pin="(PCINT13/CKOUT/XCK/INT0/D4)PD2" pad="6"/>
+<connect gate="G$1" pin="(PCINT14/INT1/D5)PD3" pad="7"/>
+<connect gate="G$1" pin="(PCINT15/T0/D6)PD4" pad="8"/>
+<connect gate="G$1" pin="(PCINT16/OC0B/T1/D7)PD5" pad="9"/>
+<connect gate="G$1" pin="(PCINT8/CLKI/XTAL1/D3)PA0" pad="5"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D2)PA1" pad="4"/>
+<connect gate="G$1" pin="(USCK/SCL/SCK/PCINT7/D16)PB7" pad="19"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="PCINT10/!RESET!/DW/D17)PA2" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.mouser.com/ds/2/268/doc8246-1066134.pdf" constant="no"/>
+<attribute name="DIST" value="Mouser" constant="no"/>
+<attribute name="DISTLINK" value="http://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATTINY4313-SU/?qs=sGAEpiMZZMvqv2n3s2xjse40PngS4U1xqwE9RLcpR7Q%3d" constant="no"/>
+<attribute name="DISTPN" value=" 556-ATTINY4313-SU" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATTINY4313-SU" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="ATTINY4313/4KB" constant="no"/>
 </technology>
 </technologies>
 </device>
