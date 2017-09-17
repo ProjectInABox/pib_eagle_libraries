@@ -57,8 +57,15 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -68,13 +75,1013 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="tFaceplateCover" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="bFaceplateCover" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Unresolved" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="Resolved" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Generic" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="tFaceplate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="bFaceplate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="160" name="tMountFaceplate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="161" name="bMountFaceplate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="162" name="tCopperArt" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="163" name="bCopperArt" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="164" name="tRubout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="165" name="bRubout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="167" name="Fiducials" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="169" name="internal" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
+<package name="SOT223-4">
+<wire x1="3.25" y1="1.75" x2="3.25" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="3.25" y1="-1.75" x2="-3.25" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-3.25" y1="-1.75" x2="-3.25" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="-3.25" y1="1.75" x2="3.25" y2="1.75" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
+<smd name="2" x="0" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
+<smd name="3" x="2.3" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
+<smd name="4" x="0" y="3.099" dx="3.25" dy="2.5" layer="1" roundness="50"/>
+<rectangle x1="-1.5" y1="1.75" x2="1.5" y2="3.5" layer="51"/>
+<rectangle x1="-0.375" y1="-3.5" x2="0.375" y2="-1.75" layer="51"/>
+<rectangle x1="-2.675" y1="-3.5" x2="-1.925" y2="-1.75" layer="51"/>
+<rectangle x1="1.925" y1="-3.5" x2="2.675" y2="-1.75" layer="51"/>
+<text x="0" y="0.254" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="-3.429" y1="4.572" x2="-3.429" y2="-4.572" width="0.1" layer="39"/>
+<wire x1="-3.429" y1="-4.572" x2="3.429" y2="-4.572" width="0.1" layer="39"/>
+<wire x1="3.429" y1="-4.572" x2="3.429" y2="4.572" width="0.1" layer="39"/>
+<wire x1="3.429" y1="4.572" x2="-3.429" y2="4.572" width="0.1" layer="39"/>
+</package>
+<package name="TO-220-7">
+<pad name="7" x="3.81" y="-5.08" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="-5.08" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="-5.08" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-1.27" y="-5.08" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<wire x1="-5.08" y1="2.86" x2="-5.08" y2="-1.40158125" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.40158125" x2="-4.77158125" y2="-1.71" width="0.127" layer="21" curve="90"/>
+<wire x1="-4.77158125" y1="-1.71" x2="4.77158125" y2="-1.71" width="0.127" layer="21"/>
+<wire x1="4.77158125" y1="-1.71" x2="5.08" y2="-1.40158125" width="0.127" layer="21" curve="90"/>
+<wire x1="5.08" y1="-1.40158125" x2="5.08" y2="2.86" width="0.127" layer="21"/>
+<wire x1="5.08" y1="2.86" x2="-5.08" y2="2.86" width="0.127" layer="21"/>
+<rectangle x1="-5.08" y1="1.59" x2="5.08" y2="2.86" layer="21"/>
+<circle x="-4.273" y="-1" radius="0.381" width="0.2032" layer="21"/>
+<text x="0" y="4.6488" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="3.582" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="-6.35" y1="-7.62" x2="6.35" y2="-7.62" width="0.127" layer="41"/>
+<wire x1="6.35" y1="-7.62" x2="6.35" y2="3.81" width="0.127" layer="41"/>
+<wire x1="6.35" y1="3.81" x2="-6.35" y2="3.81" width="0.127" layer="41"/>
+<wire x1="-6.35" y1="3.81" x2="-6.35" y2="-7.62" width="0.127" layer="41"/>
+</package>
+<package name="TO-220-7_HEATSINK">
+<pad name="7" x="3.81" y="-5.08" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="-5.08" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="-5.08" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-1.27" y="-5.08" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<wire x1="-5.08" y1="2.86" x2="-5.08" y2="-1.40158125" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.40158125" x2="-4.77158125" y2="-1.71" width="0.127" layer="21" curve="90"/>
+<wire x1="-4.77158125" y1="-1.71" x2="4.77158125" y2="-1.71" width="0.127" layer="21"/>
+<wire x1="4.77158125" y1="-1.71" x2="5.08" y2="-1.40158125" width="0.127" layer="21" curve="90"/>
+<wire x1="5.08" y1="-1.40158125" x2="5.08" y2="2.86" width="0.127" layer="21"/>
+<wire x1="5.08" y1="2.86" x2="-5.08" y2="2.86" width="0.127" layer="21"/>
+<rectangle x1="-5.08" y1="1.59" x2="5.08" y2="2.86" layer="21"/>
+<circle x="-4.273" y="-1" radius="0.381" width="0.2032" layer="21"/>
+<text x="0" y="6.9348" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="5.868" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="-12.7" y1="3.54" x2="-12.7" y2="-8.38" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-8.38" x2="-20.955" y2="-8.38" width="0.127" layer="21"/>
+<wire x1="-20.955" y1="-8.38" x2="-20.955" y2="17.02" width="0.127" layer="21"/>
+<wire x1="-20.955" y1="17.02" x2="-6" y2="17.02" width="0.127" layer="21"/>
+<wire x1="6" y1="17.02" x2="20.955" y2="17.02" width="0.127" layer="21"/>
+<wire x1="20.955" y1="17.02" x2="20.955" y2="-8.38" width="0.127" layer="21"/>
+<wire x1="20.955" y1="-8.38" x2="12.7" y2="-8.38" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-8.38" x2="12.7" y2="3.54" width="0.127" layer="21"/>
+<wire x1="12.7" y1="3.54" x2="-12.7" y2="3.54" width="0.127" layer="21"/>
+<wire x1="-6" y1="17.02" x2="-6" y2="5.1" width="0.127" layer="21"/>
+<wire x1="-6" y1="5.1" x2="6" y2="5.1" width="0.127" layer="21"/>
+<wire x1="6" y1="5.1" x2="6" y2="17.02" width="0.127" layer="21"/>
+<circle x="-12.7" y="4.32" radius="1.75" width="0" layer="41"/>
+<circle x="12.7" y="4.32" radius="1.75" width="0" layer="41"/>
+<circle x="-12.7" y="4.32" radius="1.75" width="0" layer="42"/>
+<circle x="12.7" y="4.32" radius="1.75" width="0" layer="42"/>
+<circle x="-12.7" y="4.32" radius="1.75" width="0" layer="40"/>
+<circle x="12.7" y="4.32" radius="1.75" width="0" layer="39"/>
+<circle x="-12.7" y="4.32" radius="1.75" width="0" layer="39"/>
+<circle x="12.7" y="4.32" radius="1.75" width="0" layer="40"/>
+<hole x="-12.7" y="4.32" drill="2.25"/>
+<hole x="12.7" y="4.32" drill="2.25"/>
+<wire x1="-22" y1="18" x2="-5" y2="18" width="0.127" layer="39"/>
+<wire x1="-5" y1="18" x2="-5" y2="6" width="0.127" layer="39"/>
+<wire x1="-5" y1="6" x2="5" y2="6" width="0.127" layer="39"/>
+<wire x1="5" y1="6" x2="5" y2="18" width="0.127" layer="39"/>
+<wire x1="5" y1="18" x2="22" y2="18" width="0.127" layer="39"/>
+<wire x1="22" y1="18" x2="22" y2="-9" width="0.127" layer="39"/>
+<wire x1="22" y1="-9" x2="12" y2="-9" width="0.127" layer="39"/>
+<wire x1="12" y1="-9" x2="12" y2="3" width="0.127" layer="39"/>
+<wire x1="12" y1="3" x2="6" y2="3" width="0.127" layer="39"/>
+<wire x1="6" y1="3" x2="6" y2="-8" width="0.127" layer="39"/>
+<wire x1="6" y1="-8" x2="-6" y2="-8" width="0.127" layer="39"/>
+<wire x1="-6" y1="-8" x2="-6" y2="3" width="0.127" layer="39"/>
+<wire x1="-6" y1="3" x2="-12" y2="3" width="0.127" layer="39"/>
+<wire x1="-12" y1="3" x2="-12" y2="-9" width="0.127" layer="39"/>
+<wire x1="-12" y1="-9" x2="-22" y2="-9" width="0.127" layer="39"/>
+<wire x1="-22" y1="-9" x2="-22" y2="18" width="0.127" layer="39"/>
+<text x="0" y="10.16" size="1.27" layer="21" font="vector" ratio="10" align="center">NEED TO ADD DEVICE INFO</text>
+</package>
+<package name="TO-220">
+<wire x1="5.08" y1="1.397" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="4.699" y1="-1.778" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="4.699" y1="-1.778" x2="-4.699" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-4.953" y1="-1.524" x2="-4.699" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-4.953" y1="-1.524" x2="-5.08" y2="1.397" width="0.127" layer="21"/>
+<circle x="-4.4958" y="-1.1684" radius="0.254" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="0" y="4.1148" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="3.048" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-5.334" y1="1.778" x2="5.334" y2="2.54" layer="21"/>
+<rectangle x1="-5.334" y1="1.27" x2="-3.429" y2="1.778" layer="21"/>
+<rectangle x1="-1.651" y1="1.27" x2="-0.889" y2="1.778" layer="21"/>
+<rectangle x1="-3.429" y1="1.27" x2="-1.651" y2="1.778" layer="51"/>
+<rectangle x1="0.889" y1="1.27" x2="1.651" y2="1.778" layer="21"/>
+<rectangle x1="3.429" y1="1.27" x2="5.334" y2="1.778" layer="21"/>
+<rectangle x1="-0.889" y1="1.27" x2="0.889" y2="1.778" layer="51"/>
+<rectangle x1="1.651" y1="1.27" x2="3.429" y2="1.778" layer="51"/>
+</package>
+<package name="TO-220-HEATSINK">
+<wire x1="5.08" y1="1.397" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="4.699" y1="-1.778" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="4.699" y1="-1.778" x2="-4.699" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-4.953" y1="-1.524" x2="-4.699" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-4.953" y1="-1.524" x2="-5.08" y2="1.397" width="0.127" layer="21"/>
+<circle x="-4.4958" y="-1.1684" radius="0.254" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="0" y="4.1148" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="3.048" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-5.334" y1="1.778" x2="5.334" y2="2.54" layer="21"/>
+<rectangle x1="-5.334" y1="1.27" x2="-3.429" y2="1.778" layer="21"/>
+<rectangle x1="-1.651" y1="1.27" x2="-0.889" y2="1.778" layer="21"/>
+<rectangle x1="-3.429" y1="1.27" x2="-1.651" y2="1.778" layer="51"/>
+<rectangle x1="0.889" y1="1.27" x2="1.651" y2="1.778" layer="21"/>
+<rectangle x1="3.429" y1="1.27" x2="5.334" y2="1.778" layer="21"/>
+<rectangle x1="-0.889" y1="1.27" x2="0.889" y2="1.778" layer="51"/>
+<rectangle x1="1.651" y1="1.27" x2="3.429" y2="1.778" layer="51"/>
+<circle x="0" y="5.715" radius="1.4" width="0" layer="41"/>
+<circle x="0" y="5.715" radius="1.4" width="0" layer="42"/>
+<hole x="0" y="5.715" drill="1.35"/>
+<wire x1="-7.62" y1="9.525" x2="-7.62" y2="3.175" width="0.4064" layer="21"/>
+<wire x1="-7.62" y1="3.175" x2="-7.62" y2="-1.905" width="0.4064" layer="21"/>
+<wire x1="-6.35" y1="9.525" x2="-6.35" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="-5.08" y1="9.525" x2="-5.08" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="-2.54" y1="9.525" x2="-2.54" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="-3.81" y1="9.525" x2="-3.81" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="-1.27" y1="9.525" x2="-1.27" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="0" y1="9.525" x2="0" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="1.27" y1="9.525" x2="1.27" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="7.62" y1="9.525" x2="7.62" y2="3.175" width="0.4064" layer="21"/>
+<wire x1="7.62" y1="3.175" x2="7.62" y2="-1.905" width="0.4064" layer="21"/>
+<wire x1="2.54" y1="9.525" x2="2.54" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="3.81" y1="9.525" x2="3.81" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="5.08" y1="9.525" x2="5.08" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="6.35" y1="9.525" x2="6.35" y2="3.5250125" width="0.4064" layer="21"/>
+<wire x1="-7.62" y1="3.175" x2="7.62" y2="3.175" width="0.4064" layer="21"/>
+</package>
+<package name="DDPAK-5">
+<smd name="TAB" x="0" y="1.905" dx="11.43" dy="10.16" layer="1" roundness="50"/>
+<smd name="1" x="-3.4036" y="-8.763" dx="3.048" dy="1.0668" layer="1" roundness="50" rot="R90"/>
+<smd name="2" x="-1.7018" y="-8.763" dx="3.048" dy="1.0668" layer="1" roundness="50" rot="R90"/>
+<smd name="3" x="0" y="-8.763" dx="3.048" dy="1.0668" layer="1" roundness="50" rot="R90"/>
+<smd name="4" x="1.7018" y="-8.763" dx="3.048" dy="1.0668" layer="1" roundness="50" rot="R90"/>
+<smd name="5" x="3.4036" y="-8.763" dx="3.048" dy="1.0668" layer="1" roundness="50" rot="R90"/>
+<wire x1="-5.842" y1="-10.668" x2="-5.842" y2="7.62" width="0.127" layer="41"/>
+<wire x1="-5.842" y1="7.62" x2="5.842" y2="7.62" width="0.127" layer="41"/>
+<wire x1="5.842" y1="7.62" x2="5.842" y2="-10.668" width="0.127" layer="41"/>
+<wire x1="5.842" y1="-10.668" x2="-5.842" y2="-10.668" width="0.127" layer="41"/>
+<wire x1="-5.11175" y1="4.445" x2="-5.11175" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-5.11175" y1="-4.445" x2="5.11175" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="5.11175" y1="-4.445" x2="5.11175" y2="4.445" width="0.127" layer="21"/>
+<wire x1="5.11175" y1="4.445" x2="-5.11175" y2="4.445" width="0.127" layer="21"/>
+<wire x1="2.794" y1="5.969" x2="-2.794" y2="5.969" width="0.127" layer="21"/>
+<wire x1="-5.11175" y1="4.445" x2="-5.11175" y2="5.334" width="0.127" layer="21"/>
+<wire x1="-5.11175" y1="5.334" x2="-2.794" y2="5.969" width="0.127" layer="21"/>
+<wire x1="5.11175" y1="4.445" x2="5.11175" y2="5.334" width="0.127" layer="21"/>
+<wire x1="5.11175" y1="5.334" x2="2.794" y2="5.969" width="0.127" layer="21"/>
+<rectangle x1="-0.4191" y1="-8.382" x2="0.4191" y2="-4.445" layer="51"/>
+<rectangle x1="-2.1209" y1="-8.382" x2="-1.2827" y2="-4.445" layer="51"/>
+<rectangle x1="-3.8227" y1="-8.382" x2="-2.9845" y2="-4.445" layer="51"/>
+<rectangle x1="1.2827" y1="-8.382" x2="2.1209" y2="-4.445" layer="51"/>
+<rectangle x1="2.9845" y1="-8.382" x2="3.8227" y2="-4.445" layer="51"/>
+<rectangle x1="-3.81" y1="-1.7272" x2="3.81" y2="2.921" layer="51"/>
+<rectangle x1="-3.2512" y1="2.921" x2="3.2512" y2="4.445" layer="51"/>
+<rectangle x1="-5.08" y1="4.445" x2="5.08" y2="5.334" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-5.08" y="5.334"/>
+<vertex x="-2.794" y="5.969"/>
+<vertex x="2.794" y="5.969"/>
+<vertex x="5.11175" y="5.334"/>
+</polygon>
+</package>
+<package name="TO-263-5">
+<wire x1="-5.1815" y1="4.39025" x2="-5.1815" y2="-4.39025" width="0.127" layer="21"/>
+<wire x1="-5.1815" y1="-4.39025" x2="5.1815" y2="-4.39025" width="0.127" layer="21"/>
+<wire x1="5.1815" y1="-4.39025" x2="5.1815" y2="4.39025" width="0.127" layer="21"/>
+<wire x1="5.1815" y1="4.39025" x2="-5.1815" y2="4.39025" width="0.127" layer="21"/>
+<wire x1="-5.1815" y1="4.39025" x2="-5.1815" y2="5.4" width="0.127" layer="21"/>
+<wire x1="-5.1815" y1="5.4" x2="-3.5305" y2="6" width="0.127" layer="21"/>
+<wire x1="-3.5305" y1="6" x2="3.5305" y2="6" width="0.127" layer="21"/>
+<wire x1="3.5305" y1="6" x2="5.1815" y2="5.4" width="0.127" layer="21"/>
+<wire x1="5.1815" y1="5.4" x2="5.1815" y2="4.39025" width="0.127" layer="21"/>
+<rectangle x1="-0.3935" y1="-9.44025" x2="0.3935" y2="-4.39025" layer="51"/>
+<rectangle x1="1.3085" y1="-9.44025" x2="2.0955" y2="-4.39025" layer="51"/>
+<rectangle x1="3.0105" y1="-9.44025" x2="3.7975" y2="-4.39025" layer="51"/>
+<rectangle x1="-2.0955" y1="-9.44025" x2="-1.3085" y2="-4.39025" layer="51"/>
+<rectangle x1="-3.7975" y1="-9.44025" x2="-3.0105" y2="-4.39025" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-5.1815" y="4.39025"/>
+<vertex x="-5.1815" y="5.4"/>
+<vertex x="-3.5305" y="6"/>
+<vertex x="3.5305" y="6"/>
+<vertex x="5.1815" y="5.4"/>
+<vertex x="5.1815" y="4.39025"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3.75" y="3.16875"/>
+<vertex x="-3.75" y="-1.747"/>
+<vertex x="3.75" y="-1.747"/>
+<vertex x="3.75" y="3.16875"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3.251" y="4.39025"/>
+<vertex x="-3.251" y="-1.747"/>
+<vertex x="3.251" y="-1.747"/>
+<vertex x="3.251" y="4.39025"/>
+</polygon>
+<smd name="3" x="0" y="-8.545" dx="5.5" dy="1.02" layer="1" roundness="50" rot="R90"/>
+<smd name="4" x="1.7" y="-8.545" dx="5.5" dy="1.02" layer="1" roundness="50" rot="R90"/>
+<smd name="5" x="3.4" y="-8.545" dx="5.5" dy="1.02" layer="1" roundness="50" rot="R90"/>
+<smd name="2" x="-1.7" y="-8.545" dx="5.5" dy="1.02" layer="1" roundness="50" rot="R90"/>
+<smd name="1" x="-3.4" y="-8.545" dx="5.5" dy="1.02" layer="1" roundness="50" rot="R90"/>
+<smd name="TAB" x="0" y="2" dx="11.18" dy="9.91" layer="1" roundness="50"/>
+<wire x1="-5.842" y1="7.366" x2="-5.842" y2="-11.684" width="0.127" layer="39"/>
+<wire x1="-5.842" y1="-11.684" x2="5.842" y2="-11.684" width="0.127" layer="39"/>
+<wire x1="5.842" y1="-11.684" x2="5.842" y2="7.366" width="0.127" layer="39"/>
+<wire x1="5.842" y1="7.366" x2="-5.842" y2="7.366" width="0.127" layer="39"/>
+<text x="0" y="7.874" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="8.89" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+</package>
+<package name="SOT223">
+<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3114" y="-3.0988" dx="1.25" dy="2.5" layer="1" roundness="50"/>
+<smd name="2" x="0" y="-3.0988" dx="1.25" dy="2.5" layer="1" roundness="50"/>
+<smd name="3" x="2.3114" y="-3.0988" dx="1.25" dy="2.5" layer="1" roundness="50"/>
+<smd name="4" x="0" y="3.099" dx="4" dy="2.5" layer="1" roundness="50"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC-8_W3.9MM">
+<wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="21"/>
+<wire x1="1.95" y1="-2.45" x2="1.95" y2="2.45" width="0.127" layer="21"/>
+<wire x1="1.95" y1="2.45" x2="-1.95" y2="2.45" width="0.127" layer="21"/>
+<rectangle x1="-2.75" y1="0.43" x2="-1.95" y2="0.84" layer="51"/>
+<rectangle x1="-2.75" y1="1.7" x2="-1.95" y2="2.11" layer="51"/>
+<rectangle x1="-2.75" y1="-0.84" x2="-1.95" y2="-0.43" layer="51"/>
+<rectangle x1="-2.75" y1="-2.11" x2="-1.95" y2="-1.7" layer="51"/>
+<circle x="-1.5" y="2" radius="0.25" width="0.127" layer="21"/>
+<rectangle x1="1.95" y1="-2.11" x2="2.75" y2="-1.7" layer="51"/>
+<rectangle x1="1.95" y1="-0.84" x2="2.75" y2="-0.43" layer="51"/>
+<rectangle x1="1.95" y1="0.43" x2="2.75" y2="0.84" layer="51"/>
+<rectangle x1="1.95" y1="1.7" x2="2.75" y2="2.11" layer="51"/>
+<smd name="1" x="-2.7" y="1.905" dx="1.55" dy="0.6" layer="1" roundness="50"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.55" dy="0.6" layer="1" roundness="50"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.55" dy="0.6" layer="1" roundness="50"/>
+<smd name="4" x="-2.7" y="-1.905" dx="1.55" dy="0.6" layer="1" roundness="50"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.55" dy="0.6" layer="1" roundness="50"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.55" dy="0.6" layer="1" roundness="50"/>
+<smd name="7" x="2.7" y="0.635" dx="1.55" dy="0.6" layer="1" roundness="50"/>
+<smd name="8" x="2.7" y="1.905" dx="1.55" dy="0.6" layer="1" roundness="50"/>
+<text x="0" y="3.048" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-3.048" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="-3.81" y1="-2.794" x2="-3.81" y2="2.794" width="0.127" layer="39"/>
+<wire x1="-3.81" y1="2.794" x2="3.81" y2="2.794" width="0.127" layer="39"/>
+<wire x1="3.81" y1="2.794" x2="3.81" y2="-2.794" width="0.127" layer="39"/>
+<wire x1="3.81" y1="-2.794" x2="-3.81" y2="-2.794" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
+<symbol name="VREG-LINEAR-LDO">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="VI" x="-10.16" y="0" visible="pad" length="short"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="VO" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
+<text x="0" y="6.096" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="4.318" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="-6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
+<text x="6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
+<text x="0" y="-4.445" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
+</symbol>
+<symbol name="VREG-SWITCHING_LM2678T">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="VIN" x="-12.7" y="5.08" visible="pad" length="short" direction="pwr"/>
+<pin name="EN" x="-12.7" y="0" visible="pad" length="short"/>
+<pin name="NC" x="-12.7" y="-5.08" visible="pad" length="short" direction="nc"/>
+<pin name="VOUT" x="12.7" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="0" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="CB" x="12.7" y="5.08" visible="pad" length="short" direction="sup" rot="R180"/>
+<pin name="FB" x="12.7" y="-5.08" visible="pad" length="short" direction="sup" rot="R180"/>
+<text x="-7.62" y="5.08" size="0.8128" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
+<text x="-7.62" y="0" size="0.8128" layer="97" font="vector" ratio="10" align="center-left">EN</text>
+<text x="-7.62" y="-5.08" size="0.8128" layer="97" font="vector" ratio="10" align="center-left">NC</text>
+<text x="7.62" y="5.08" size="0.8128" layer="97" font="vector" ratio="10" align="center-right">CB</text>
+<text x="7.62" y="0" size="0.8128" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
+<text x="7.62" y="-5.08" size="0.8128" layer="97" font="vector" ratio="10" align="center-right">FB</text>
+<text x="0" y="-5.08" size="0.8128" layer="97" font="vector" ratio="10" align="center">GND</text>
+<text x="0" y="2.54" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="0.8128" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="-12.7" y="-5.08" size="1.27" layer="97" font="vector" ratio="10" align="bottom-right">NC</text>
+</symbol>
+<symbol name="VREG-LINEAR">
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<pin name="VIN" x="-10.16" y="0" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="VOUT" x="10.16" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<text x="0" y="5.08" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;Name</text>
+<text x="0" y="3.556" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;Value</text>
+<text x="-5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VIN</text>
+<text x="5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VOUT</text>
+<text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="center">GND</text>
+</symbol>
+<symbol name="VREG-LINEAR-ADJ">
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<pin name="VIN" x="-10.16" y="0" visible="pad" length="short" direction="in"/>
+<pin name="ADJ" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="VOUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<text x="0" y="5.08" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;Name</text>
+<text x="0" y="3.556" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;Value</text>
+<text x="-5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VIN</text>
+<text x="5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VOUT</text>
+<text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="center">ADJ</text>
+</symbol>
+<symbol name="VREG_LINEAR_ULDO_FAST-TRANSIENT">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="VIN" x="-10.16" y="2.54" visible="pad" length="short"/>
+<pin name="!SHDN" x="-10.16" y="0" visible="pad" length="short"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="SENSE" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="VOUT" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
+<text x="0" y="4.318" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="6.096" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="-6.985" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
+<text x="-6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-left">!SHDN</text>
+<text x="0" y="-4.445" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
+<text x="6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">SENSE</text>
+<text x="6.985" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
+</symbol>
+<symbol name="VREG_MIC29501-5.0_LINEAR_ULDO">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="VIN" x="-10.16" y="2.54" visible="pad" length="short"/>
+<pin name="EN" x="-10.16" y="0" visible="pad" length="short"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="FLG" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="VOUT" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
+<text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="center">GND</text>
+<text x="-6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-left">EN</text>
+<text x="-6.985" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
+<text x="6.985" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
+<text x="6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">FLG</text>
+<text x="0" y="5.842" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="4.318" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="VREG-LINEAR-LDO-1">
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<pin name="VI" x="-10.16" y="0" visible="pad" length="short"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="VO" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
+<text x="0" y="5.08" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;Name</text>
+<text x="0" y="3.556" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;Value</text>
+<text x="-5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VIN</text>
+<text x="5.08" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center">VOUT</text>
+<text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="center">GND</text>
+</symbol>
+<symbol name="VREG_TPS76833_LINEAR_LDO_FAST_TRANSIENT">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="VIN" x="-10.16" y="2.54" visible="pad" length="short"/>
+<pin name="!EN" x="-10.16" y="-2.54" visible="pad" length="short"/>
+<pin name="VOUT" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="FB/NC" x="-10.16" y="0" visible="pad" length="short"/>
+<text x="-6.985" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
+<text x="-6.985" y="-2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-left">!EN</text>
+<text x="6.985" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
+<text x="-6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" rot="R180" align="center-right">FB/NC</text>
+<text x="0" y="-4.445" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
+<text x="0" y="6.096" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="4.318" size="0.6096" layer="95" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<pin name="PG" x="10.16" y="-2.54" visible="pad" length="short" rot="R180"/>
+<text x="6.985" y="-2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">PG</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="VREG" prefix="VREG" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR-LDO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LM340_LDO_1.5A-5V" package="SOT223-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lm340.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LM340MP-5.0%2FNOPBCT-ND" constant="no"/>
+<attribute name="DISTPN" value="LM340MP-5.0/NOPBCT-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM340MP-5.0/NOPB" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1.5A/5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TL1963A-33DCYR_LDO_1.5A-3.3V" package="SOT223-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-24897-1-ND" constant="no"/>
+<attribute name="DISTPN" value="296-24897-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TL1963A-33DCYR" constant="no"/>
+<attribute name="VALUE" value="1.5A/3.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TL1963A-15DCYR_LDO_1.5A-1.5V" package="SOT223-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-24894-1-ND" constant="no"/>
+<attribute name="DISTPN" value="296-24894-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TL1963A-15DCYR" constant="no"/>
+<attribute name="VALUE" value="1.5A/1.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TL1963A-18DCYR_LDO_1.5A-1.8V" package="SOT223-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-24895-1-ND" constant="no"/>
+<attribute name="DISTPN" value="296-24895-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TL1963A-18DCYR" constant="no"/>
+<attribute name="VALUE" value="1.5A/1.8V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TL1963A-25DCYR_LDO_1.5A-2.5V" package="SOT223-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-24896-1-ND" constant="no"/>
+<attribute name="DISTPN" value="296-24896-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TL1963A-25DCYR" constant="no"/>
+<attribute name="VALUE" value="1.5A/2.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG-SWITCHING_LM2678T_5A/VADJ" prefix="VREG" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG-SWITCHING_LM2678T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="5A/V-ADJ" package="TO-220-7">
+<connects>
+<connect gate="G$1" pin="CB" pad="3"/>
+<connect gate="G$1" pin="EN" pad="7"/>
+<connect gate="G$1" pin="FB" pad="6"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="NC" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lm2678.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LM2678T-ADJ%2FNOPB-ND" constant="no"/>
+<attribute name="DISTPN" value="LM2678T-ADJ/NOPB-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM2678T-ADJ/NOPB" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="LM2678T-5A/ADJ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="5A/5V" package="TO-220-7">
+<connects>
+<connect gate="G$1" pin="CB" pad="3"/>
+<connect gate="G$1" pin="EN" pad="7"/>
+<connect gate="G$1" pin="FB" pad="6"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="NC" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lm2678.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LM2678T-5.0%2FNOPB-ND" constant="no"/>
+<attribute name="DISTPN" value="LM2678T-5.0/NOPB-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM2678T-5.0/NOPB" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="LM2678T-5A/5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="5A/V-ADJ_HEATSINK" package="TO-220-7_HEATSINK">
+<connects>
+<connect gate="G$1" pin="CB" pad="3"/>
+<connect gate="G$1" pin="EN" pad="7"/>
+<connect gate="G$1" pin="FB" pad="6"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="NC" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="5A/V-ADJ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_L4940V5_LINEAR_LDO_TO220_1.5A-5V" prefix="U" uservalue="yes">
+<description>http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf</description>
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR-LDO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1404-5-ND" constant="no"/>
+<attribute name="DISTPN" value="497-1404-5-ND" constant="no"/>
+<attribute name="MFR" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="L4940V5" constant="no"/>
+<attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L4940V5" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_L4940V5_LINEAR_LDO_TO220_1.5A-5V_HEATSINK" prefix="U" uservalue="yes">
+<description>http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf</description>
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR-LDO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220-HEATSINK">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1404-5-ND" constant="no"/>
+<attribute name="DISTPN" value="497-1404-5-ND" constant="no"/>
+<attribute name="HEATSINK_DIMENSION" value="21x15x11mm" constant="no"/>
+<attribute name="HEATSINK_MFR" value="https://www.amazon.com/21x15x11mm-Black-Aluminum-Heat-Transistors/dp/B00REFDSOY" constant="no"/>
+<attribute name="MFR" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="L4940V5" constant="no"/>
+<attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L4940V5" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_L7805ABV_LINEAR_TO220_1.5A-5V" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-2947-5-ND" constant="no"/>
+<attribute name="DISTPN" value="497-2947-5-ND" constant="no"/>
+<attribute name="MFR" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="L7805ABV" constant="no"/>
+<attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L7805ABV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_L7805ABV_LINEAR_TO220_1.5A-5V_HEATSINK" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220-HEATSINK">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-2947-5-ND" constant="no"/>
+<attribute name="DISTPN" value="497-2947-5-ND" constant="no"/>
+<attribute name="HEATSINK_DIMENSIONS" value="21x15x11mm" constant="no"/>
+<attribute name="HEATSINK_MFR" value="https://www.amazon.com/21x15x11mm-Black-Aluminum-Heat-Transistors/dp/B00REFDSOY" constant="no"/>
+<attribute name="MFR" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="L7805ABV" constant="no"/>
+<attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L7805ABV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_L7806ABV_LINEAR_TO220_1.5A-6V" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1444-5-ND" constant="no"/>
+<attribute name="DISTPN" value="497-1444-5-ND" constant="no"/>
+<attribute name="MFR" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="L7806ABV" constant="no"/>
+<attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L7806ABV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_L7806ABV_LINEAR_TO220_1.5A-6V_HEATSINK" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220-HEATSINK">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1444-5-ND" constant="no"/>
+<attribute name="DISTPN" value="497-1444-5-ND" constant="no"/>
+<attribute name="HEATSINK_DIMENSIONS" value="21x15x11mm" constant="no"/>
+<attribute name="HEATSINK_MFR" value="https://www.amazon.com/21x15x11mm-Black-Aluminum-Heat-Transistors/dp/B00REFDSOY" constant="no"/>
+<attribute name="MFR" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="L7806ABV" constant="no"/>
+<attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="L7806ABV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_LM317T_LINEAR_ADJ_TO220_1.5A" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR-ADJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220-HEATSINK">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://www.fairchildsemi.com/datasheets/LM/LM317T.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LM317TFS-ND" constant="no"/>
+<attribute name="DISTPN" value="LM317TFS-ND" constant="no"/>
+<attribute name="MFR" value="Fairchild/ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="LM317T" constant="no"/>
+<attribute name="TESTED" value="YES" constant="no"/>
+<attribute name="VALUE" value="LM317T" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_LT1764EQ_ULDO_FAST-TRANSIENT" prefix="VREG" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG_LINEAR_ULDO_FAST-TRANSIENT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LT1764EQ-2.5_3A-2.5V" package="DDPAK-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="3 TAB"/>
+<connect gate="G$1" pin="SENSE" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://cds.linear.com/docs/en/datasheet/1764fb.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LT1764EQ-2.5%23PBF-ND" constant="no"/>
+<attribute name="DISTPN" value="LT1764EQ-2.5#PBF-ND" constant="no"/>
+<attribute name="MFR" value="Linear Technology" constant="no"/>
+<attribute name="MPN" value="LT1764EQ-2.5#PBF" constant="no"/>
+<attribute name="VALUE" value="3A/2.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_MIC29501-5.0_LINEAR_ULDO_5A-5V" prefix="VREG" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG_MIC29501-5.0_LINEAR_ULDO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MIC29501-5.0_5A-5V" package="TO-263-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="FLG" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3 TAB"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/20005685A.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=576-2240-ND" constant="no"/>
+<attribute name="DISTPN" value="576-2240-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="MIC29501-5.0WU" constant="no"/>
+<attribute name="VALUE" value="5A/5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_NCP1117_LDO_1A-3.3V" prefix="VREG" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR-LDO-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VI" pad="3"/>
+<connect gate="G$1" pin="VO" pad="2 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.onsemi.com/pub/Collateral/NCP1117LP-D.PDF" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=NCP1117LPST33T3GOSCT-ND" constant="no"/>
+<attribute name="DISTPN" value="NCP1117LPST33T3GOSCT-ND" constant="no"/>
+<attribute name="MFR" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="NCP1117LPST33T3G" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1A/3.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG_TPS76833_ULDO_FAST-TRANSIENT_1A-3.3V" prefix="VREG" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VREG_TPS76833_LINEAR_LDO_FAST_TRANSIENT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TPS76833QDR_1A-3.3V" package="SOIC-8_W3.9MM">
+<connects>
+<connect gate="G$1" pin="!EN" pad="2"/>
+<connect gate="G$1" pin="FB/NC" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="PG" pad="8"/>
+<connect gate="G$1" pin="VIN" pad="3 4"/>
+<connect gate="G$1" pin="VOUT" pad="5 6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tps768.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-46395-1-ND" constant="no"/>
+<attribute name="DISTPN" value="296-46395-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TPS76833QDR" constant="no"/>
+<attribute name="VALUE" value="1A/3.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
