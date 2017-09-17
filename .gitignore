@@ -1,9 +1,10 @@
 *
 
-!pib.lbr
-!pib_connectors.lbr
-!MrSwirlyEyes.lbr
+!PiB.lbr
+!PiB_connectors.lbr
+!PiB_rcl.lbr
+
 !.gitignore
+
 !lib_swirly.lbr
 !lib_kenmei.lbr
-!connectors.lbr
