@@ -1783,7 +1783,7 @@
 <gate name="G$1" symbol="ATMEGA128RFA1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="VFQFN-64">
+<device name="_VFQFN-64" package="VFQFN-64">
 <connects>
 <connect gate="G$1" pin="AREF" pad="62"/>
 <connect gate="G$1" pin="AVDD" pad="60"/>
@@ -1863,7 +1863,7 @@
 <gate name="A" symbol="ATMEGA328P-28PIN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-28PIN-M1" package="ATMEGA328P-MMHR">
+<device name="_28PIN-MMHR" package="ATMEGA328P-MMHR">
 <connects>
 <connect gate="A" pin="AREF" pad="17"/>
 <connect gate="A" pin="AVCC" pad="16"/>
@@ -1917,7 +1917,7 @@
 <gate name="A" symbol="ATMEGA328P-32PIN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="VQFN" package="ATMEGA328P-MURCT32">
+<device name="_VQFN-MURCT32" package="ATMEGA328P-MURCT32">
 <connects>
 <connect gate="A" pin="(PCINT0/CLKO/ICP1)_PB0" pad="12"/>
 <connect gate="A" pin="(PCINT1/OC1A)_PB1" pad="13"/>
@@ -1965,7 +1965,7 @@
 </technology>
 </technologies>
 </device>
-<device name="TQFP" package="ATMEGA328P-AUR32">
+<device name="_TQFP-AUR32" package="ATMEGA328P-AUR32">
 <connects>
 <connect gate="A" pin="(PCINT0/CLKO/ICP1)_PB0" pad="12"/>
 <connect gate="A" pin="(PCINT1/OC1A)_PB1" pad="13"/>
@@ -2020,7 +2020,7 @@
 <gate name="G$1" symbol="ATTINYX313" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DIP-20" package="DIP-20">
+<device name="_DIP-20" package="DIP-20">
 <connects>
 <connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
 <connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
@@ -2063,7 +2063,7 @@
 </technology>
 </technologies>
 </device>
-<device name="SO-20" package="SO-20">
+<device name="_SO-20" package="SO-20">
 <connects>
 <connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
 <connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
@@ -2107,7 +2107,7 @@
 <gate name="G$1" symbol="ATTINYX4" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SO-14" package="SO-14">
+<device name="_SO-14" package="SO-14">
 <connects>
 <connect gate="G$1" pin="(ADC0/AREF/PCINT0/D0-A0)PA0" pad="13"/>
 <connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D1-A1)PA1" pad="12"/>
@@ -2138,7 +2138,7 @@
 </technology>
 </technologies>
 </device>
-<device name="DIP-14" package="DIP-14">
+<device name="_DIP-14" package="DIP-14">
 <connects>
 <connect gate="G$1" pin="(ADC0/AREF/PCINT0/D0-A0)PA0" pad="13"/>
 <connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D1-A1)PA1" pad="12"/>
@@ -2182,7 +2182,7 @@
 <gate name="G$1" symbol="ATTINYX5" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SO-8" package="SO-8">
+<device name="_SO-8" package="SO-8">
 <connects>
 <connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
 <connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
@@ -2207,7 +2207,7 @@
 </technology>
 </technologies>
 </device>
-<device name="DIP-8" package="DIP-8">
+<device name="_DIP-8" package="DIP-8">
 <connects>
 <connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
 <connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
@@ -2245,7 +2245,7 @@
 <gate name="G$1" symbol="ATTINYX313" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DIP-20" package="DIP-20">
+<device name="_DIP-20" package="DIP-20">
 <connects>
 <connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
 <connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
@@ -2288,7 +2288,7 @@
 </technology>
 </technologies>
 </device>
-<device name="SO-20" package="SO-20">
+<device name="_SO-20" package="SO-20">
 <connects>
 <connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
 <connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
