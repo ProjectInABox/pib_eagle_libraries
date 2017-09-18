@@ -764,7 +764,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_ALUM-ELECTROLYTIC_SMD_100UF-16V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
+<device name="_SMD_100UF-16V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -783,7 +783,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_SMD_220UF-16V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
+<device name="_SMD_220UF-16V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -802,7 +802,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM_ELECTROLYTIC_SMD_4.7UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
+<device name="_SMD_4.7UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -820,7 +820,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_SMD_22UF-63V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
+<device name="_SMD_22UF-63V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -839,7 +839,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_10UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA5-LS2-H5">
+<device name="_PTH_10UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA5-LS2-H5">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -858,7 +858,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_10000UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA25-LS12.50-H50">
+<device name="_PTH_10000UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA25-LS12.50-H50">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -877,7 +877,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_1000UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA12.5-LS5-H27">
+<device name="_PTH_1000UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA12.5-LS5-H27">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -896,7 +896,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_2200UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA16-LS7.5-H37.5">
+<device name="_PTH_2200UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA16-LS7.5-H37.5">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -915,7 +915,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_4700UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA20-LS10-H42">
+<device name="_PTH_4700UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA20-LS10-H42">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -934,7 +934,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_6800UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA22-LS10-H52">
+<device name="_PTH_6800UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA22-LS10-H52">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -1004,7 +1004,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SMD-0805_1/8W_100_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_100_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1023,7 +1023,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_10K_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_10K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1042,7 +1042,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_330_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_330_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1061,7 +1061,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_5.1K_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_5.1K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1080,7 +1080,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_10.7_1%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_10.7_1%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1099,7 +1099,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_4.99_1%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_4.99_1%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1118,7 +1118,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_220_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_220_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1137,7 +1137,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_51_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_51_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1156,7 +1156,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="PTH-0207/7_1/8W_NO-VAL" package="RESISTOR-PTH-0207/7">
+<device name="_PTH-0207/7_1/8W_NO-VAL" package="RESISTOR-PTH-0207/7">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1169,7 +1169,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_1.2K_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_1.2K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1188,7 +1188,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_2.2K_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_2.2K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1207,7 +1207,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_1K_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_1K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1226,7 +1226,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_2K_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_2K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1244,7 +1244,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="SMD-0805_1/8W_4.7K_5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/8W_4.7K_5%" package="RESISTOR_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1317,7 +1317,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_TANTALUM-POLYMER_SMD-1206_10UF-20V-20%" package="CAP_TANTALUM_SMD-1206_AVX">
+<device name="_SMD-1206_10UF-20V-20%" package="CAP_TANTALUM_SMD-1206_AVX">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
