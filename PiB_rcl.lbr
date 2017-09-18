@@ -190,7 +190,7 @@
 <wire x1="1.651" y1="-0.889" x2="1.651" y2="0.889" width="0.1" layer="21"/>
 <wire x1="1.651" y1="0.889" x2="-1.651" y2="0.889" width="0.1" layer="21"/>
 </package>
-<package name="CAP_ALUM-ELEC_SMD_L6.6-W6.6">
+<package name="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
 <wire x1="3.3" y1="-3.3" x2="-2.2" y2="-3.3" width="0.127" layer="21"/>
 <wire x1="-2.2" y1="-3.3" x2="-3.3" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="-3.3" y1="-2.2" x2="-3.3" y2="2.2" width="0.127" layer="21"/>
@@ -222,7 +222,7 @@
 <wire x1="4.572" y1="-1.27" x2="3.556" y2="-2.286" width="0.127" layer="39"/>
 <wire x1="3.556" y1="-2.286" x2="3.556" y2="-3.556" width="0.127" layer="39"/>
 </package>
-<package name="CAP_ALUM-ELEC_DIA5-LS2-H5">
+<package name="CAP_ALUM-ELECTROLYTIC_DIA5-LS2-H5">
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
@@ -240,7 +240,7 @@
 <text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="21"/>
 </package>
-<package name="CAP_ALUM-ELEC_DIA25-LS12.50-H50">
+<package name="CAP_ALUM-ELECTROLYTIC_DIA25-LS12.50-H50">
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
@@ -260,7 +260,7 @@
 <text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="10" align="center">CHECK DIAMETER OF LEADS</text>
 <circle x="0" y="0" radius="14" width="0.1524" layer="39"/>
 </package>
-<package name="CAP_ALUM-ELEC_DIA12.5-LS5-H27">
+<package name="CAP_ALUM-ELECTROLYTIC_DIA12.5-LS5-H27">
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
@@ -280,7 +280,7 @@
 <text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="10" align="center">CHECK DIAMETER OF LEADS</text>
 <circle x="0" y="0" radius="7.25" width="0.1524" layer="39"/>
 </package>
-<package name="CAP_ALUM-ELEC_DIA16-LS7.5-H37.5">
+<package name="CAP_ALUM-ELECTROLYTIC_DIA16-LS7.5-H37.5">
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
@@ -300,7 +300,7 @@
 <text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="10" align="center">CHECK DIAMETER OF LEADS</text>
 <circle x="0" y="0" radius="9" width="0.1524" layer="39"/>
 </package>
-<package name="CAP_ALUM-ELEC_DIA20-LS10-H42">
+<package name="CAP_ALUM-ELECTROLYTIC_DIA20-LS10-H42">
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
@@ -320,7 +320,7 @@
 <text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="10" align="center">CHECK DIAMETER OF LEADS</text>
 <circle x="0" y="0" radius="11" width="0.1524" layer="39"/>
 </package>
-<package name="CAP_ALUM-ELEC_DIA22-LS10-H52">
+<package name="CAP_ALUM-ELECTROLYTIC_DIA22-LS10-H52">
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
@@ -764,7 +764,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_ALUM-ELECTROLYTIC_SMD_100UF-16V-20%" package="CAP_ALUM-ELEC_SMD_L6.6-W6.6">
+<device name="_ALUM-ELECTROLYTIC_SMD_100UF-16V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -783,7 +783,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_SMD_220UF-16V-20%" package="CAP_ALUM-ELEC_SMD_L6.6-W6.6">
+<device name="_ALUM-ELECTROLYTIC_SMD_220UF-16V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -802,7 +802,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM_ELECTROLYTIC_SMD_4.7UF-50V-20%" package="CAP_ALUM-ELEC_SMD_L6.6-W6.6">
+<device name="_ALUM_ELECTROLYTIC_SMD_4.7UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -820,7 +820,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_SMD_22UF-63V-20%" package="CAP_ALUM-ELEC_SMD_L6.6-W6.6">
+<device name="_ALUM-ELECTROLYTIC_SMD_22UF-63V-20%" package="CAP_ALUM-ELECTROLYTIC_SMD_L6.6-W6.6">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -839,7 +839,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_10UF-50V-20%" package="CAP_ALUM-ELEC_DIA5-LS2-H5">
+<device name="_ALUM-ELECTROLYTIC_PTH_10UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA5-LS2-H5">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -858,7 +858,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_10000UF-50V-20%" package="CAP_ALUM-ELEC_DIA25-LS12.50-H50">
+<device name="_ALUM-ELECTROLYTIC_PTH_10000UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA25-LS12.50-H50">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -877,7 +877,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_1000UF-50V-20%" package="CAP_ALUM-ELEC_DIA12.5-LS5-H27">
+<device name="_ALUM-ELECTROLYTIC_PTH_1000UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA12.5-LS5-H27">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -896,7 +896,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_2200UF-50V-20%" package="CAP_ALUM-ELEC_DIA16-LS7.5-H37.5">
+<device name="_ALUM-ELECTROLYTIC_PTH_2200UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA16-LS7.5-H37.5">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -915,7 +915,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_4700UF-50V-20%" package="CAP_ALUM-ELEC_DIA20-LS10-H42">
+<device name="_ALUM-ELECTROLYTIC_PTH_4700UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA20-LS10-H42">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -934,7 +934,7 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_ALUM-ELECTROLYTIC_PTH_6800UF-50V-20%" package="CAP_ALUM-ELEC_DIA22-LS10-H52">
+<device name="_ALUM-ELECTROLYTIC_PTH_6800UF-50V-20%" package="CAP_ALUM-ELECTROLYTIC_DIA22-LS10-H52">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
