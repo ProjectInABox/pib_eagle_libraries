@@ -1631,7 +1631,7 @@
 <text x="0" y="-56.642" size="0.8128" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="25.4" y1="53.34" x2="-25.4" y2="53.34" width="0.254" layer="94"/>
 </symbol>
-<symbol name="ATMEGA328P-28PIN">
+<symbol name="ATMEGA328P-28">
 <pin name="PB0" x="-22.86" y="-5.08" length="middle"/>
 <pin name="PB1(OC1A)" x="-22.86" y="-7.62" length="middle"/>
 <pin name="PB2(OC1B/!SS!)" x="-22.86" y="-10.16" length="middle"/>
@@ -1668,7 +1668,7 @@
 <text x="0" y="22.86" size="1.27" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
 <text x="0" y="20.32" size="1.27" layer="95" font="vector" align="bottom-center">ATMEGA328P-28PIN</text>
 </symbol>
-<symbol name="ATMEGA328P-32PIN">
+<symbol name="ATMEGA328P-32">
 <pin name="(PCINT19/OC2B/INT1)_PD3" x="35.56" y="0" length="middle"/>
 <pin name="(PCINT20/XCK/T0)_PD4" x="35.56" y="-2.54" length="middle"/>
 <pin name="GND@2" x="35.56" y="-5.08" length="middle" direction="pwr"/>
@@ -1776,14 +1776,14 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATMEGA128RFA1" prefix="U">
+<deviceset name="ATMEGA128RFA1" prefix="MCU">
 <description>&lt;h3&gt;ATmega128RFA1&lt;/h3&gt;
 8-bit AVR Microcontroller with Low Power 2.4GHz Transceiver for ZigBee and IEEE 802.15.4</description>
 <gates>
 <gate name="G$1" symbol="ATMEGA128RFA1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_VFQFN-64" package="VFQFN-64">
+<device name="_VFQFN-64_EXPOSED-PAD" package="VFQFN-64">
 <connects>
 <connect gate="G$1" pin="AREF" pad="62"/>
 <connect gate="G$1" pin="AVDD" pad="60"/>
@@ -1857,10 +1857,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328P-28PIN" prefix="U" uservalue="yes">
+<deviceset name="ATMEGA328P-28" prefix="MCU" uservalue="yes">
 <description>ATMEGA328P 28PIN IC</description>
 <gates>
-<gate name="A" symbol="ATMEGA328P-28PIN" x="0" y="0"/>
+<gate name="A" symbol="ATMEGA328P-28" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_VFQFN-28_EXPOSED-PAD" package="VFQFN-28">
@@ -1911,10 +1911,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328P-32PIN" prefix="U">
+<deviceset name="ATMEGA328P-32" prefix="MCU">
 <description>32 pin ATMEGA328P IC</description>
 <gates>
-<gate name="A" symbol="ATMEGA328P-32PIN" x="0" y="0"/>
+<gate name="A" symbol="ATMEGA328P-32" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_VFQFN-32_EXPOSED-PAD" package="VFQFN-32">
@@ -2015,7 +2015,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY2313" prefix="IC" uservalue="yes">
+<deviceset name="ATTINY2313" prefix="MCU" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINYX313" x="0" y="0"/>
 </gates>
@@ -2102,7 +2102,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY84" prefix="IC" uservalue="yes">
+<deviceset name="ATTINY84" prefix="MCU" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINYX4" x="0" y="0"/>
 </gates>
@@ -2177,7 +2177,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY85" prefix="IC" uservalue="yes">
+<deviceset name="ATTINY85" prefix="MCU" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINYX5" x="0" y="0"/>
 </gates>
@@ -2240,7 +2240,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINY4313" prefix="IC" uservalue="yes">
+<deviceset name="ATTINY4313" prefix="MCU" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ATTINYX313" x="0" y="0"/>
 </gates>
