@@ -337,7 +337,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1.5V" prefix="SUPPLY" uservalue="yes">
+<deviceset name="1.5V" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="1.5V" x="0" y="0"/>
 </gates>
@@ -349,7 +349,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1.8V" prefix="SUPPLY" uservalue="yes">
+<deviceset name="1.8V" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="1.8V" x="0" y="0"/>
 </gates>
@@ -361,7 +361,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="2.5V" prefix="SUPPLY" uservalue="yes">
+<deviceset name="2.5V" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="2.5V" x="0" y="0"/>
 </gates>
@@ -373,7 +373,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.3V" prefix="SUPPLY" uservalue="yes">
+<deviceset name="3.3V" prefix="SUPPLY">
 <gates>
 <gate name="3.3V" symbol="3.3V" x="0" y="0"/>
 </gates>
@@ -385,7 +385,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5V" prefix="SUPPLY" uservalue="yes">
+<deviceset name="5V" prefix="SUPPLY">
 <gates>
 <gate name="5V" symbol="5V" x="0" y="0"/>
 </gates>
@@ -397,7 +397,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="AGND" prefix="SUPPLY" uservalue="yes">
+<deviceset name="AGND" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="AGND" x="0" y="0"/>
 </gates>
@@ -409,7 +409,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVCC" prefix="SUPPLY" uservalue="yes">
+<deviceset name="AVCC" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="AVCC" x="0" y="0"/>
 </gates>
@@ -421,7 +421,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" prefix="SUPPLY" uservalue="yes">
+<deviceset name="GND" prefix="SUPPLY">
 <gates>
 <gate name="GND" symbol="GND" x="0" y="0"/>
 </gates>
@@ -433,7 +433,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="NGND" prefix="SUPPLY" uservalue="yes">
+<deviceset name="NGND" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="NGND" x="0" y="0"/>
 </gates>
@@ -445,7 +445,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC" prefix="SUPPLY" uservalue="yes">
+<deviceset name="VCC" prefix="SUPPLY">
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
@@ -457,7 +457,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC_1" prefix="SUPPLY" uservalue="yes">
+<deviceset name="VCC_1" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="VCC_1" x="0" y="0"/>
 </gates>
@@ -469,7 +469,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC_2" prefix="SUPPLY" uservalue="yes">
+<deviceset name="VCC_2" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="VCC_2" x="0" y="0"/>
 </gates>
@@ -481,7 +481,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="VM" prefix="SUPPLY" uservalue="yes">
+<deviceset name="VM" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="VM" x="0" y="0"/>
 </gates>
@@ -493,7 +493,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="NET_BRIDGE" prefix="SUPPLY" uservalue="yes">
+<deviceset name="NET_BRIDGE" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="NET_BRIDGE" x="0" y="0"/>
 </gates>
@@ -511,7 +511,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="2PT_GND_TIE" prefix="SUPPLY" uservalue="yes">
+<deviceset name="2PT_GND_TIE" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="2PT_GND_TIE" x="0" y="0"/>
 </gates>
