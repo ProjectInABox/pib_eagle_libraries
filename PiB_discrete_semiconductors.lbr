@@ -362,7 +362,7 @@
 <gate name="G$1" symbol="DIODE_BRIDGE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="GBU410_4A-1000V" package="4-SIP,GBU">
+<device name="_GBU410_4A-1000V" package="4-SIP,GBU">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -383,7 +383,7 @@
 </technology>
 </technologies>
 </device>
-<device name="MP8_10A-1000V" package="MP8">
+<device name="_MP8_10A-1000V" package="MP8">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -404,7 +404,7 @@
 </technology>
 </technologies>
 </device>
-<device name="MP8_10A-1000V_HEATSINK" package="MP8">
+<device name="_MP8_10A-1000V_HEATSINK" package="MP8">
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
@@ -485,7 +485,7 @@
 <gate name="G$1" symbol="MOSFET_N-CHANNEL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SI2302CDS_2.6A-20V-0.057OHM" package="SOT23-3">
+<device name="_SI2302CDS_2.6A-20V-0.057OHM" package="SOT23-3">
 <connects>
 <connect gate="G$1" pin="D" pad="D"/>
 <connect gate="G$1" pin="G" pad="G"/>
