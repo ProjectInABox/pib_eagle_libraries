@@ -222,7 +222,7 @@
 <wire x1="4.572" y1="-1.27" x2="3.556" y2="-2.286" width="0.127" layer="39"/>
 <wire x1="3.556" y1="-2.286" x2="3.556" y2="-3.556" width="0.127" layer="39"/>
 </package>
-<package name="_AE_PTH_DIA5-LS2-H5">
+<package name="_AE_PTH-DIA5-LS2-H5">
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
@@ -340,7 +340,7 @@
 <text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="10" align="center">CHECK DIAMETER OF LEADS</text>
 <circle x="0" y="0" radius="12" width="0.1524" layer="39"/>
 </package>
-<package name="_TANTALUM_SMD-1206_AVX">
+<package name="_TANT_SMD-1206">
 <smd name="+" x="-1.45" y="0" dx="1.8" dy="1.2" layer="1" roundness="50"/>
 <smd name="-" x="1.45" y="0" dx="1.8" dy="1.2" layer="1" roundness="50"/>
 <wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="51"/>
@@ -388,147 +388,14 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CERAMIC" prefix="C" uservalue="yes">
+<deviceset name="2.2NF" prefix="C" uservalue="yes">
 <description>Ceramic Capacitors
 Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-805_0.1UF-50V-10%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1666-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-1666-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM21BR71H104KA01L" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="0.1uF/50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805_0.22UF-50V-10%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://psearch.en.murata.com/capacitor/product/GRM21BR71H224KA01%23.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1670-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-1670-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM21BR71H224KA01L" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="0.22uF/50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805_10UF-25V-10%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-5523-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-5523-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM21BR61E106KA73L" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="10uF/25V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805_12PF-250V-5%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E120JW01-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-5531-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-5531-1-ND " constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM21A5C2E120JW01D " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="12pF/250V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805-1UF-25V-10%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM216R61E105KA12D/490-1700-1-ND/587586" constant="no"/>
-<attribute name="DISTPN" value="490-1700-1-ND " constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
-<attribute name="MPN" value="GRM216R61E105KA12D " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="1uF/25V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805_22PF-250V-5%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E220JW01-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21A5C2E220JW01D/490-5534-1-ND/2334930" constant="no"/>
-<attribute name="DISTPN" value="490-5534-1-ND " constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
-<attribute name="MPN" value="GRM21A5C2E220JW01D " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="22PF/250V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805-0.75PF-100V-33%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2AR75CB01-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GQM2195C2AR75CB01D/490-3585-1-ND/789585" constant="no"/>
-<attribute name="DISTPN" value="490-3585-1-ND " constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
-<attribute name="MPN" value="GQM2195C2AR75CB01D " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="0.75PF/100V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-805_2.2NF-50V-5%" package="_CER_SMD-805">
+<device name="_SMD-805_50V-5%" package="_CER_SMD-805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -549,108 +416,14 @@ Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ALUMINUM_ELECTROLYTIC" prefix="C" uservalue="yes">
+<deviceset name="10000UF-POLARIZED" prefix="C" uservalue="yes">
 <description>Polarized Capacitors
 Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD_100UF-16V-20%" package="_AE_SMD_L6.6-W6.6">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0120+EEEFK1C101P+7+WW" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PCE3783CT-ND" constant="no"/>
-<attribute name="DISTPN" value="PCE3783CT-ND" constant="no"/>
-<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
-<attribute name="MPN" value="EEE-FK1C101P" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="100UF/16V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD_220UF-16V-20%" package="_AE_SMD_L6.6-W6.6">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1240.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=P15089CT-ND" constant="no"/>
-<attribute name="DISTPN" value="P15089CT-ND" constant="no"/>
-<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
-<attribute name="MPN" value="EEE-FT1C221AP" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="220uF/16V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD_4.7UF-50V-20%" package="_AE_SMD_L6.6-W6.6">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0120+EEEFK1H4R7R+7+WW" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTPN" value="PCE3817CT-ND" constant="no"/>
-<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
-<attribute name="MPR" value="EEE-FK1H4R7R " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="4.7uF/50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD_22UF-63V-20%" package="_AE_SMD_L6.6-W6.6">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Capacitors%20PDFs/EEV-FK%20Series.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEV-FK1J220XP/PCE3524CT-ND/465469" constant="no"/>
-<attribute name="DISTPN" value="PCE3524CT-ND " constant="no"/>
-<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
-<attribute name="MPN" value="EEV-FK1J220XP " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="22uF/63V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_PTH_10UF-50V-20%" package="_AE_PTH_DIA5-LS2-H5">
-<connects>
-<connect gate="G$1" pin="A" pad="+"/>
-<connect gate="G$1" pin="K" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1050.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en/capacitors/aluminum-electrolytic-capacitors/58?k=P828-ND" constant="no"/>
-<attribute name="DISTPN" value="ECE-A1HKA100" constant="no"/>
-<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
-<attribute name="MPN" value="ECE-A1HKA100" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="10uF/50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_PTH_10000UF-50V-20%" package="_AE_PTH_DIA25-LS12.50-H50">
+<device name="_PTH_50V-20%" package="_AE_PTH_DIA25-LS12.50-H50">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -669,7 +442,258 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_PTH_1000UF-50V-20%" package="_AE_PTH_DIA12.5-LS5-H27">
+</devices>
+</deviceset>
+<deviceset name="10UF" prefix="C" uservalue="yes">
+<description>Ceramic Capacitors
+Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_CER_SMD-805_25V-10%" package="_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-5523-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-5523-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM21BR61E106KA73L" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="10uF/25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.1UF" prefix="C" uservalue="yes">
+<description>Ceramic Capacitors
+Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD-805_50V-10%" package="_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://psearch.en.murata.com/capacitor/product/GRM21BR71H104KA01%23.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1666-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-1666-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="0.1uF/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.22UF" prefix="C" uservalue="yes">
+<description>Ceramic Capacitors
+Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD-805_50V-10%" package="_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://psearch.en.murata.com/capacitor/product/GRM21BR71H224KA01%23.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1670-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-1670-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM21BR71H224KA01L" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="0.22uF/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="12PF" prefix="C" uservalue="yes">
+<description>Ceramic Capacitors
+Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD-805_250V-5%" package="_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E120JW01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-5531-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-5531-1-ND " constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM21A5C2E120JW01D " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="12pF/250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1UF" prefix="C" uservalue="yes">
+<description>Ceramic Capacitors
+Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD-805_25V-10%" package="_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM216R61E105KA12D/490-1700-1-ND/587586" constant="no"/>
+<attribute name="DISTPN" value="490-1700-1-ND " constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
+<attribute name="MPN" value="GRM216R61E105KA12D " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1uF/25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22PF" prefix="C" uservalue="yes">
+<description>Ceramic Capacitors
+Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD-805_250V-5%" package="_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E220JW01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21A5C2E220JW01D/490-5534-1-ND/2334930" constant="no"/>
+<attribute name="DISTPN" value="490-5534-1-ND " constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
+<attribute name="MPN" value="GRM21A5C2E220JW01D " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="22PF/250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.75PF" prefix="C" uservalue="yes">
+<description>Ceramic Capacitors
+Sorted as [PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD-805_100V-33%" package="_CER_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2AR75CB01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GQM2195C2AR75CB01D/490-3585-1-ND/789585" constant="no"/>
+<attribute name="DISTPN" value="490-3585-1-ND " constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
+<attribute name="MPN" value="GQM2195C2AR75CB01D " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="0.75PF/100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10UF-POLARIZED" prefix="C" uservalue="yes">
+<description>Polarized Capacitors
+Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PTH_50V-20%" package="_AE_PTH-DIA5-LS2-H5">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="K" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1050.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en/capacitors/aluminum-electrolytic-capacitors/58?k=P828-ND" constant="no"/>
+<attribute name="DISTPN" value="ECE-A1HKA100" constant="no"/>
+<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MPN" value="ECE-A1HKA100" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="10uF/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-1206_20V-20%" package="_TANT_SMD-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="K" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://datasheets.avx.com/TCJ.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=478-9999-1-ND" constant="no"/>
+<attribute name="DISTPN" value="478-9999-1-ND" constant="no"/>
+<attribute name="MFR" value="AVX Corporation" constant="no"/>
+<attribute name="MPN" value="TCJA106M020R0150" constant="no"/>
+<attribute name="VALUE" value="10uF/20V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1000UF-POLARIZED" prefix="C" uservalue="yes">
+<description>Polarized Capacitors
+Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PTH_50V-20%" package="_AE_PTH_DIA12.5-LS5-H27">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -688,7 +712,127 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_PTH_2200UF-50V-20%" package="_AE_PTH_DIA16-LS7.5-H37.5">
+</devices>
+</deviceset>
+<deviceset name="220UF-POLARIZED" prefix="C" uservalue="yes">
+<description>Polarized Capacitors
+Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD_16V-20%" package="_AE_SMD_L6.6-W6.6">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1240.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=P15089CT-ND" constant="no"/>
+<attribute name="DISTPN" value="P15089CT-ND" constant="no"/>
+<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MPN" value="EEE-FT1C221AP" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="220uF/16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22UF-POLARIZED" prefix="C" uservalue="yes">
+<description>Polarized Capacitors
+Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD_63V-20%" package="_AE_SMD_L6.6-W6.6">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Capacitors%20PDFs/EEV-FK%20Series.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEV-FK1J220XP/PCE3524CT-ND/465469" constant="no"/>
+<attribute name="DISTPN" value="PCE3524CT-ND " constant="no"/>
+<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MPN" value="EEV-FK1J220XP " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="22uF/63V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4.7UF-POLARIZED" prefix="C" uservalue="yes">
+<description>Polarized Capacitors
+Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD_50V-20%" package="_AE_SMD_L6.6-W6.6">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0120+EEEFK1H4R7R+7+WW" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTPN" value="PCE3817CT-ND" constant="no"/>
+<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MPR" value="EEE-FK1H4R7R " constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="4.7uF/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="100UF-POLARIZED" prefix="C" uservalue="yes">
+<description>Polarized Capacitors
+Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD_16V-20%" package="_AE_SMD_L6.6-W6.6">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0120+EEEFK1C101P+7+WW" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PCE3783CT-ND" constant="no"/>
+<attribute name="DISTPN" value="PCE3783CT-ND" constant="no"/>
+<attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MPN" value="EEE-FK1C101P" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="100UF/16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2200UF-POLARIZED" prefix="C" uservalue="yes">
+<description>Polarized Capacitors
+Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PTH_50V-20%" package="_AE_PTH_DIA16-LS7.5-H37.5">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -707,7 +851,16 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_PTH_4700UF-50V-20%" package="_AE_PTH_DIA20-LS10-H42">
+</devices>
+</deviceset>
+<deviceset name="4700UF-POLARIZED" prefix="C" uservalue="yes">
+<description>Polarized Capacitors
+Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PTH_50V-20%" package="_AE_PTH_DIA20-LS10-H42">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -726,7 +879,16 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 </technology>
 </technologies>
 </device>
-<device name="_PTH_6800UF-50V-20%" package="_AE_PTH_DIA22-LS10-H52">
+</devices>
+</deviceset>
+<deviceset name="6800UF-POLARIZED" prefix="C" uservalue="yes">
+<description>Polarized Capacitors
+Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PTH_50V-20%" package="_AE_PTH_DIA22-LS10-H52">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -742,34 +904,6 @@ Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
 <attribute name="MPN" value="UVR1H682MRD" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="6800uF/50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TANTALUM" prefix="C" uservalue="yes">
-<description>Polarized Capacitors
-Variants sorted as [TYPE_PACKAGE_VALUE_V-RATING_TOLERANCE]</description>
-<gates>
-<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_SMD-1206_10UF-20V-20%" package="_TANTALUM_SMD-1206_AVX">
-<connects>
-<connect gate="G$1" pin="A" pad="+"/>
-<connect gate="G$1" pin="K" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://datasheets.avx.com/TCJ.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/avx-corporation/TCJA106M020R0150/478-9999-1-ND/6156151" constant="no"/>
-<attribute name="DISTPN" value="478-9999-1-ND " constant="no"/>
-<attribute name="MFR" value="AVX Corporation" constant="no"/>
-<attribute name="MPN" value="TCJA106M020R0150" constant="no"/>
-<attribute name="TESTED" value="No" constant="no"/>
-<attribute name="VALUE" value="10µF/20V" constant="no"/>
 </technology>
 </technologies>
 </device>
