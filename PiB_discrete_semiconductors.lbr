@@ -267,6 +267,29 @@
 <wire x1="1.7" y1="2.3" x2="-1.7" y2="2.3" width="0.127" layer="39"/>
 <text x="0" y="3.048" size="1.27" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
 </package>
+<package name="4-SMD-DFS">
+<smd name="AC1" x="-2.55" y="-4.52" dx="1.2" dy="1.82" layer="1"/>
+<smd name="AC2" x="2.55" y="-4.52" dx="1.2" dy="1.82" layer="1"/>
+<smd name="-" x="-2.55" y="4.52" dx="1.2" dy="1.82" layer="1"/>
+<smd name="+" x="2.55" y="4.52" dx="1.2" dy="1.82" layer="1"/>
+<wire x1="-4.1" y1="-3.175" x2="4.1" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="4.1" y1="-3.175" x2="4.1" y2="-1" width="0.127" layer="21"/>
+<wire x1="4.1" y1="1" x2="4.1" y2="3.175" width="0.127" layer="21"/>
+<wire x1="4.1" y1="3.175" x2="-4.1" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-4.1" y1="3.175" x2="-4.1" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="4.1" y1="-1" x2="3" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="3" y1="0" x2="4.1" y2="1" width="0.127" layer="21" curve="-90"/>
+<rectangle x1="-3.0875" y1="-5.075" x2="-2.0125" y2="-3.175" layer="51"/>
+<rectangle x1="2.0125" y1="-5.075" x2="3.0875" y2="-3.175" layer="51"/>
+<rectangle x1="-3.0875" y1="3.175" x2="-2.0125" y2="5.075" layer="51"/>
+<rectangle x1="2.0125" y1="3.175" x2="3.0875" y2="5.075" layer="51"/>
+<text x="0" y="0.508" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-0.508" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="2.54" y="2.286" size="1.27" layer="21" font="vector" ratio="10" rot="SR180" align="center">+</text>
+<text x="-2.54" y="2.286" size="1.27" layer="22" font="vector" ratio="10" rot="SMR180" align="center">-</text>
+<text x="-2.54" y="-2.286" size="1.27" layer="21" font="vector" ratio="10" align="center">~</text>
+<text x="2.54" y="-2.286" size="1.27" layer="21" font="vector" ratio="10" align="center">~</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE_BRIDGE">
@@ -423,6 +446,26 @@
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="10A/1000V" constant="no"/>
 <attribute name="VALUE_HEATSINK" value="6222BG" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="4-SMD-DFS">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="~" pad="AC1"/>
+<connect gate="G$1" pin="~@2" pad="AC2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.comchiptech.com/cms/UserFiles/DF2005S-G%20Thru340652.%20DF210S-G%20RevF.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=641-1350-5-ND" constant="no"/>
+<attribute name="DISTPN" value="641-1350-5-ND" constant="no"/>
+<attribute name="MFR" value="Comchip Technology" constant="no"/>
+<attribute name="MPN" value="DF210S-G" constant="no"/>
+<attribute name="VALUE" value="2A/1KV" constant="no"/>
 </technology>
 </technologies>
 </device>
