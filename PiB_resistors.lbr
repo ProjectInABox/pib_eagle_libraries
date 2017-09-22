@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -221,20 +221,60 @@
 <text x="0" y="0" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
-<package name="POTENTIOMETER">
-<pad name="S" x="0" y="0" drill="0.8" diameter="1.6"/>
-<pad name="CCW" x="-5.08" y="0" drill="0.8" diameter="1.6"/>
-<pad name="CW" x="5.08" y="0" drill="0.8" diameter="1.6"/>
-<wire x1="-7" y1="3" x2="-7" y2="-3" width="0.127" layer="21"/>
-<wire x1="-7" y1="-3" x2="-2" y2="-3" width="0.127" layer="21"/>
-<wire x1="-2" y1="-3" x2="2" y2="-3" width="0.127" layer="21"/>
-<wire x1="2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
-<wire x1="7" y1="-3" x2="7" y2="3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="-7" y2="3" width="0.127" layer="21"/>
-<wire x1="-2" y1="-3" x2="-2" y2="-9" width="0.127" layer="21"/>
-<wire x1="-2" y1="-9" x2="2" y2="-9" width="0.127" layer="21"/>
-<wire x1="2" y1="-9" x2="2" y2="-3" width="0.127" layer="21"/>
+<package name="PTH_L25-T12_KNURLED-SLOTTED">
+<pad name="S" x="0" y="0" drill="1.2" diameter="2.2"/>
+<pad name="CCW" x="-5" y="0" drill="1.2" diameter="2.2"/>
+<pad name="CW" x="5" y="0" drill="1.2" diameter="2.2"/>
+<wire x1="-8.5" y1="6" x2="-8.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-8.5" y1="-3.5" x2="-7.3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-7.3" y1="-3.5" x2="-3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3.5" x2="3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3" y1="-3.5" x2="8.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-3.5" x2="8.5" y2="6" width="0.127" layer="21"/>
+<wire x1="8.5" y1="6" x2="-8.5" y2="6" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3.5" x2="-3" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-16.5" x2="-3" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-28.5" x2="-2.5" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-28.5" x2="-2" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-28.5" x2="-1.5" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-28.5" x2="-1" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-28.5" x2="-0.5" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-28.5" x2="0" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-28.5" x2="0.5" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-28.5" x2="1" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="1" y1="-28.5" x2="1.5" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-28.5" x2="2" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-28.5" x2="2.5" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-28.5" x2="3" y2="-28.5" width="0.127" layer="21"/>
+<wire x1="3" y1="-28.5" x2="3" y2="-16.5" width="0.127" layer="21"/>
 <text x="-6.858" y="-2.032" size="0.508" layer="21" font="vector" ratio="10" align="top-left">MADE THIS SHIT UP. FIX IT LATER</text>
+<wire x1="3" y1="-16.5" x2="3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-8.5" y1="-3.5" x2="-8.5" y2="-6.3" width="0.127" layer="21"/>
+<wire x1="-8.5" y1="-6.3" x2="-7.3" y2="-6.3" width="0.127" layer="21"/>
+<wire x1="-7.3" y1="-6.3" x2="-7.3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-28.5" x2="-2" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-16.5" x2="-1.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-16.5" x2="-1" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-16.5" x2="-0.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-16.5" x2="0" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-16.5" x2="0.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-16.5" x2="1" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="1" y1="-16.5" x2="1.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-16.5" x2="2" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-16.5" x2="2.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-16.5" x2="3" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-16.5" x2="-2.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-16.5" x2="-2" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-28.5" x2="-1" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-28.5" x2="0" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="1" y1="-28.5" x2="1" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-28.5" x2="2" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-28.5" x2="-2.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-28.5" x2="-1.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-28.5" x2="-0.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-28.5" x2="0.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-28.5" x2="1.5" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-28.5" x2="2.5" y2="-16.5" width="0.127" layer="21"/>
 </package>
 <package name="CONNECTOR_POTENTIOMETER_NO-MARKINGS_FEMALE-HEADER">
 <wire x1="-4.06" y1="1.27" x2="4.06" y2="1.27" width="0.2032" layer="21"/>
@@ -249,6 +289,18 @@
 <text x="0" y="1.778" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="4.06" y1="1.27" x2="4.06" y2="-1.27" width="0.2032" layer="21"/>
 <text x="0" y="2.667" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+</package>
+<package name="PTH-CONNECTOR-2PIN">
+<pad name="2" x="2.032" y="0" drill="1.2" diameter="2.2"/>
+<pad name="1" x="-2.032" y="0" drill="1.2" diameter="2.2"/>
+<wire x1="-3.556" y1="-2.54" x2="-3.556" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="1.27" x2="3.556" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="3.556" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.556" y1="-2.54" x2="-3.556" y2="-2.54" width="0.127" layer="21"/>
+<text x="-2.032" y="-1.778" size="0.8128" layer="21" font="vector" ratio="10" align="center">1</text>
+<text x="2.032" y="-1.778" size="0.8128" layer="21" font="vector" ratio="10" align="center">2</text>
+<text x="0" y="2.032" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-3.048" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -286,6 +338,28 @@
 <wire x1="1.016" y1="1.016" x2="-1.016" y2="1.651" width="0.2032" layer="94"/>
 <wire x1="-1.016" y1="1.651" x2="1.016" y2="2.286" width="0.2032" layer="94"/>
 <wire x1="1.016" y1="2.286" x2="0" y2="2.54" width="0.2032" layer="94"/>
+</symbol>
+<symbol name="VARIABLE">
+<description>Resistor</description>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<text x="0" y="-1.27" size="0.8128" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.2446" size="0.8128" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="2.54" y1="-2.032" x2="-2.54" y2="2.032" width="0.2032" layer="94"/>
+<polygon width="0.2032" layer="94">
+<vertex x="-2.54" y="2.032"/>
+<vertex x="-2.286" y="1.27"/>
+<vertex x="-1.778" y="2.032"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -332,7 +406,7 @@
 <gate name="G$1" symbol="POTENTIOMETER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="GENERIC" package="POTENTIOMETER">
+<device name="_PTH_10K-1/5W-20%_ACTLEN-25" package="PTH_L25-T12_KNURLED-SLOTTED">
 <connects>
 <connect gate="G$1" pin="CCW" pad="CCW"/>
 <connect gate="G$1" pin="CW" pad="CW"/>
@@ -341,12 +415,18 @@
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_RotaryPanelPot_P160series.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=987-1715-ND" constant="no"/>
+<attribute name="DISTPN" value="987-1715-ND" constant="no"/>
+<attribute name="MFR" value="TT Electronics/BI" constant="no"/>
+<attribute name="MPN" value="P160KN2-0QA25B10K" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="10K - made up" constant="no"/>
+<attribute name="VALUE" value="10KΩ" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="NO-MARKINGS_VERT-FEMALE" package="CONNECTOR_POTENTIOMETER_NO-MARKINGS_FEMALE-HEADER">
+<device name="_NO-MARKINGS_VERT-FEMALE" package="CONNECTOR_POTENTIOMETER_NO-MARKINGS_FEMALE-HEADER">
 <connects>
 <connect gate="G$1" pin="CCW" pad="CCW"/>
 <connect gate="G$1" pin="CW" pad="CW"/>
@@ -757,6 +837,70 @@
 <attribute name="MPN" value="RC0805JR-071KL " constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="1KΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.5KΩ" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PTH-0207/7_1/8W-5%" package="RESISTOR-PTH-0207/7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1.5KΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0805_1/8W-5%" package="RESISTOR_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-1.5KARCT-ND" constant="no"/>
+<attribute name="DISTPN" value="311-1.5KARCT-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0805JR-071K5L" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1.5KΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VARIABLE" prefix="VARR" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="VARIABLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PTH_10K-1/5W-20%_ACTLEN-25_OFFBOARD" package="PTH-CONNECTOR-2PIN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_RotaryPanelPot_P160series.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=987-1715-ND" constant="no"/>
+<attribute name="DISTPN" value="987-1715-ND" constant="no"/>
+<attribute name="MFR" value="TT Electronics/BI" constant="no"/>
+<attribute name="MPN" value="P160KN2-0QA25B10K" constant="no"/>
+<attribute name="VALUE" value="10KΩ" constant="no"/>
 </technology>
 </technologies>
 </device>

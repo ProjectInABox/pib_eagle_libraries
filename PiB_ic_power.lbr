@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -342,10 +342,10 @@
 <smd name="3" x="0" y="-8.763" dx="3.048" dy="1.0668" layer="1" roundness="50" rot="R90"/>
 <smd name="4" x="1.7018" y="-8.763" dx="3.048" dy="1.0668" layer="1" roundness="50" rot="R90"/>
 <smd name="5" x="3.4036" y="-8.763" dx="3.048" dy="1.0668" layer="1" roundness="50" rot="R90"/>
-<wire x1="-5.842" y1="-10.668" x2="-5.842" y2="7.62" width="0.127" layer="41"/>
-<wire x1="-5.842" y1="7.62" x2="5.842" y2="7.62" width="0.127" layer="41"/>
-<wire x1="5.842" y1="7.62" x2="5.842" y2="-10.668" width="0.127" layer="41"/>
-<wire x1="5.842" y1="-10.668" x2="-5.842" y2="-10.668" width="0.127" layer="41"/>
+<wire x1="-5.842" y1="-5.08" x2="-5.842" y2="7.62" width="0.127" layer="39"/>
+<wire x1="-5.842" y1="7.62" x2="5.842" y2="7.62" width="0.127" layer="39"/>
+<wire x1="5.842" y1="7.62" x2="5.842" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="4.318" y1="-10.668" x2="-4.318" y2="-10.668" width="0.127" layer="39"/>
 <wire x1="-5.11175" y1="4.445" x2="-5.11175" y2="-4.445" width="0.127" layer="21"/>
 <wire x1="-5.11175" y1="-4.445" x2="5.11175" y2="-4.445" width="0.127" layer="21"/>
 <wire x1="5.11175" y1="-4.445" x2="5.11175" y2="4.445" width="0.127" layer="21"/>
@@ -369,6 +369,10 @@
 <vertex x="2.794" y="5.969"/>
 <vertex x="5.11175" y="5.334"/>
 </polygon>
+<wire x1="-5.842" y1="-5.08" x2="-4.318" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="-4.318" y1="-5.08" x2="-4.318" y2="-10.668" width="0.127" layer="39"/>
+<wire x1="5.842" y1="-5.08" x2="4.318" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="4.318" y1="-5.08" x2="4.318" y2="-10.668" width="0.127" layer="39"/>
 </package>
 <package name="TO-263-5">
 <wire x1="-5.1815" y1="4.39025" x2="-5.1815" y2="-4.39025" width="0.127" layer="21"/>
@@ -909,7 +913,7 @@
 <gate name="G$1" symbol="VREG_LINEAR_ULDO_FAST-TRANSIENT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="LT1764EQ-2.5_3A-2.5V" package="DDPAK-5">
+<device name="_LT1764EQ-2.5_3A-2.5V" package="DDPAK-5">
 <connects>
 <connect gate="G$1" pin="!SHDN" pad="1"/>
 <connect gate="G$1" pin="GND" pad="3 TAB"/>
@@ -927,6 +931,27 @@
 <attribute name="MFR" value="Linear Technology" constant="no"/>
 <attribute name="MPN" value="LT1764EQ-2.5#PBF" constant="no"/>
 <attribute name="VALUE" value="3A/2.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_LT1764EQ_3A-VADJ" package="DDPAK-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="3 TAB"/>
+<connect gate="G$1" pin="SENSE" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://cds.linear.com/docs/en/datasheet/1764fb.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LT1764EQ%23PBF-ND" constant="no"/>
+<attribute name="DISTPN" value="LT1764EQ#PBF-ND" constant="no"/>
+<attribute name="MFR" value="Linear Technology" constant="no"/>
+<attribute name="MPN" value="LT1764EQ#PBF" constant="no"/>
+<attribute name="VALUE" value="3A/VADJ" constant="no"/>
 </technology>
 </technologies>
 </device>
