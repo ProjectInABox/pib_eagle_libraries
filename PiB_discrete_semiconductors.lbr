@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -339,6 +339,39 @@
 <wire x1="-1.4" y1="-0.7" x2="-2.1" y2="-0.7" width="0.1524" layer="39"/>
 <wire x1="-2.1" y1="-0.7" x2="-2.1" y2="0.65" width="0.1524" layer="39"/>
 </package>
+<package name="SOD323">
+<smd name="1" x="-1.2008" y="0" dx="1.416" dy="0.9516" layer="1" roundness="80"/>
+<smd name="2" x="1.2008" y="0" dx="1.416" dy="0.9516" layer="1" roundness="80"/>
+<wire x1="-0.889" y1="-0.1778" x2="-0.889" y2="0.1778" width="0.1524" layer="51"/>
+<wire x1="-0.889" y1="0.1778" x2="-1.3462" y2="0.1778" width="0.1524" layer="51"/>
+<wire x1="-1.3462" y1="0.1778" x2="-1.3462" y2="-0.1778" width="0.1524" layer="51"/>
+<wire x1="-1.3462" y1="-0.1778" x2="-0.889" y2="-0.1778" width="0.1524" layer="51"/>
+<wire x1="0.889" y1="0.1778" x2="0.889" y2="-0.1778" width="0.1524" layer="51"/>
+<wire x1="0.889" y1="-0.1778" x2="1.3462" y2="-0.1778" width="0.1524" layer="51"/>
+<wire x1="1.3462" y1="-0.1778" x2="1.3462" y2="0.1778" width="0.1524" layer="51"/>
+<wire x1="1.3462" y1="0.1778" x2="0.889" y2="0.1778" width="0.1524" layer="51"/>
+<wire x1="-0.889" y1="0.3556" x2="-0.5588" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.889" y1="-0.3556" x2="-0.5588" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.889" y1="-0.7112" x2="0.889" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="0.889" y1="-0.7112" x2="0.889" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="0.889" y1="0.7112" x2="-0.889" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.889" y1="0.7112" x2="-0.889" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="-0.8382" x2="1.016" y2="-0.8382" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.8382" x2="1.016" y2="-0.5588" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.8382" x2="-1.016" y2="0.8382" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0.8382" x2="-1.016" y2="0.5588" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-0.5588" x2="-1.016" y2="-0.8382" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.5588" x2="1.016" y2="0.8382" width="0.1524" layer="21"/>
+<text x="-1.6766" y="0.935" size="0.8128" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="0.2" y1="0.4" x2="-0.2" y2="0" width="0.0762" layer="21"/>
+<wire x1="-0.2" y1="0" x2="0.2" y2="-0.4" width="0.0762" layer="21"/>
+<wire x1="0.2" y1="-0.4" x2="0.2" y2="0" width="0.0762" layer="21"/>
+<wire x1="0.2" y1="0" x2="0.2" y2="0.4" width="0.0762" layer="21"/>
+<wire x1="-0.2" y1="0" x2="-0.2" y2="0.4" width="0.0762" layer="21"/>
+<wire x1="-0.2" y1="0" x2="-0.2" y2="-0.4" width="0.0762" layer="21"/>
+<wire x1="-0.4" y1="0" x2="-0.2" y2="0" width="0.0762" layer="21"/>
+<wire x1="0.2" y1="0" x2="0.4" y2="0" width="0.0762" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE_BRIDGE">
@@ -620,6 +653,32 @@
 <attribute name="MFR" value="ON Semiconductor" constant="no"/>
 <attribute name="MPN" value="MBR120ESFT3G" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N4148WS" prefix="D">
+<description>General Purpose Diodes</description>
+<gates>
+<gate name="A" symbol="DIODE_GENERAL-PURPOSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOD323_1.25V_150MA" package="SOD323">
+<connects>
+<connect gate="A" pin="A" pad="2"/>
+<connect gate="A" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="https://www.diodes.com/assets/Datasheets/ds30097.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/1N4148WS-7-F/1N4148WS-FDICT-ND/815281" constant="no"/>
+<attribute name="DISTPN" value="1N4148WS-FDICT-ND" constant="no"/>
+<attribute name="MFR" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="1N4148WS-7-F" constant="no"/>
+<attribute name="VALUE" value="1.25V/150mA" constant="no"/>
 </technology>
 </technologies>
 </device>
