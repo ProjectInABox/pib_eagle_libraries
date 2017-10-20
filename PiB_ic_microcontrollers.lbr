@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1713,8 +1713,8 @@
 <wire x1="-30.48" y1="-30.48" x2="30.48" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="30.48" y1="-30.48" x2="30.48" y2="22.86" width="0.254" layer="94"/>
 <wire x1="30.48" y1="22.86" x2="-30.48" y2="22.86" width="0.254" layer="94"/>
-<pin name="VCC" x="-33.02" y="20.32" length="short" direction="pwr"/>
-<pin name="GND" x="-33.02" y="-27.94" length="short" direction="pwr"/>
+<pin name="VCC" x="-33.02" y="20.32" length="short" direction="pas"/>
+<pin name="GND" x="-33.02" y="-27.94" length="short" direction="pas"/>
 <pin name="(PCINT8/CLKI/XTAL1/D3)PA0" x="33.02" y="20.32" length="short" rot="R180"/>
 <pin name="(PCINT9/XTAL2/D2)PA1" x="33.02" y="17.78" length="short" rot="R180"/>
 <pin name="PCINT10/!RESET!/DW/D17)PA2" x="33.02" y="15.24" length="short" rot="R180"/>
@@ -1741,8 +1741,8 @@
 <wire x1="-33.02" y1="-17.78" x2="33.02" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="33.02" y1="-17.78" x2="33.02" y2="17.78" width="0.254" layer="94"/>
 <wire x1="33.02" y1="17.78" x2="-33.02" y2="17.78" width="0.254" layer="94"/>
-<pin name="VCC" x="-35.56" y="15.24" length="short"/>
-<pin name="GND" x="-35.56" y="-15.24" length="short"/>
+<pin name="VCC" x="-35.56" y="15.24" length="short" direction="pas"/>
+<pin name="GND" x="-35.56" y="-15.24" length="short" direction="pas"/>
 <pin name="(ADC0/AREF/PCINT0/D0-A0)PA0" x="35.56" y="15.24" length="short" rot="R180"/>
 <pin name="(ADC1/AIN0/PCINT1/D1-A1)PA1" x="35.56" y="12.7" length="short" rot="R180"/>
 <pin name="(ADC2/AIN1/PCINT2/D2-A2)PA2" x="35.56" y="10.16" length="short" rot="R180"/>
@@ -1763,8 +1763,8 @@
 <wire x1="38.1" y1="-15.24" x2="38.1" y2="15.24" width="0.254" layer="94"/>
 <wire x1="38.1" y1="15.24" x2="-38.1" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="15.24" x2="-38.1" y2="-15.24" width="0.254" layer="94"/>
-<pin name="VCC" x="-40.64" y="12.7" length="short"/>
-<pin name="GND" x="-40.64" y="-12.7" length="short"/>
+<pin name="VCC" x="-40.64" y="12.7" length="short" direction="sup"/>
+<pin name="GND" x="-40.64" y="-12.7" length="short" direction="sup"/>
 <pin name="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" x="40.64" y="7.62" length="short" rot="R180"/>
 <pin name="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" x="40.64" y="5.08" length="short" rot="R180"/>
 <pin name="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" x="40.64" y="2.54" length="short" rot="R180"/>
