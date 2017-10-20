@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -377,7 +377,6 @@
 <rectangle x1="-0.975" y1="0.6" x2="-0.725" y2="0.9" layer="51" rot="R270"/>
 <rectangle x1="-0.975" y1="-0.4" x2="-0.725" y2="-0.1" layer="51" rot="R270"/>
 <rectangle x1="-0.975" y1="-0.9" x2="-0.725" y2="-0.6" layer="51" rot="R270"/>
-<rectangle x1="0.725" y1="-0.4" x2="0.975" y2="-0.1" layer="51" rot="R90"/>
 <rectangle x1="0.725" y1="-0.9" x2="0.975" y2="-0.6" layer="51" rot="R90"/>
 <rectangle x1="0.725" y1="0.1" x2="0.975" y2="0.4" layer="51" rot="R90"/>
 <rectangle x1="0.725" y1="0.6" x2="0.975" y2="0.9" layer="51" rot="R90"/>
@@ -389,8 +388,6 @@
 <smd name="7" x="1.035" y="0.25" dx="0.7" dy="0.28" layer="1" roundness="50"/>
 <smd name="6" x="1.035" y="-0.25" dx="0.7" dy="0.28" layer="1" roundness="50"/>
 <smd name="5" x="1.035" y="-0.75" dx="0.7" dy="0.28" layer="1" roundness="50"/>
-<hole x="0" y="0.4" drill="0.3"/>
-<hole x="0" y="-0.4" drill="0.3"/>
 <smd name="1" x="-1.035" y="0.75" dx="0.7" dy="0.28" layer="1" roundness="50"/>
 <smd name="2" x="-1.035" y="0.25" dx="0.7" dy="0.28" layer="1" roundness="50"/>
 <smd name="3" x="-1.035" y="-0.25" dx="0.7" dy="0.28" layer="1" roundness="50"/>
@@ -403,6 +400,8 @@
 <vertex x="-0.1" y="0.8"/>
 </polygon>
 <text x="0" y="1.651" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
+<pad name="P$1" x="0" y="-0.38" drill="0.3302" diameter="0.75" shape="square" stop="no" thermals="no"/>
+<pad name="P$2" x="0" y="0.37" drill="0.3302" diameter="0.75" shape="square" stop="no" thermals="no"/>
 </package>
 <package name="CONNECTOR_TMP36">
 <pad name="1" x="-2.54" y="-1.27" drill="0.8128" diameter="1.8796"/>
@@ -2103,14 +2102,16 @@ VCC    : 3.3V - 5.25V</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DRV8837C_H-BRIDGE_1A_WSON-8-PAD" prefix="IC" uservalue="yes">
+<deviceset name="DRV883X_H-BRIDGE_" prefix="IC" uservalue="yes">
+<description>DRV883x Series H-Bridge - DRV8837 -&gt; PWM (IN1 &amp; IN2); DRV8838 -&gt; PH IN1/ENA
+ IN2</description>
 <gates>
 <gate name="G$1" symbol="DRV8837C_H-BRIDGE_1A_WSON-8-PAD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="DRV8837C_1A" package="WSON-8-PPAD">
 <connects>
-<connect gate="G$1" pin="GND" pad="4 GND"/>
+<connect gate="G$1" pin="GND" pad="4 GND P$1 P$2"/>
 <connect gate="G$1" pin="IN1" pad="6"/>
 <connect gate="G$1" pin="IN2" pad="5"/>
 <connect gate="G$1" pin="NSLEEP" pad="7"/>
@@ -2130,6 +2131,31 @@ VCC    : 3.3V - 5.25V</text>
 <attribute name="MPN" value="DRV8837CDSGT" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="DRV8837C" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DRV8838D_1.8A" package="WSON-8-PPAD">
+<connects>
+<connect gate="G$1" pin="GND" pad="4 GND P$1 P$2"/>
+<connect gate="G$1" pin="IN1" pad="6"/>
+<connect gate="G$1" pin="IN2" pad="5"/>
+<connect gate="G$1" pin="NSLEEP" pad="7"/>
+<connect gate="G$1" pin="OUT1" pad="2"/>
+<connect gate="G$1" pin="OUT2" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VM" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/drv8838.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/DRV8838DSGR/296-40081-1-ND/5177958" constant="no"/>
+<attribute name="DISTPN" value="296-40081-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="DRV8838DSGR" constant="no"/>
+<attribute name="TESTED" value="No" constant="no"/>
+<attribute name="VALUE" value="DRV8838D" constant="no"/>
 </technology>
 </technologies>
 </device>
