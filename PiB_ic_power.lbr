@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -415,12 +415,16 @@
 <smd name="2" x="-1.7" y="-8.545" dx="5.5" dy="1.02" layer="1" roundness="50" rot="R90"/>
 <smd name="1" x="-3.4" y="-8.545" dx="5.5" dy="1.02" layer="1" roundness="50" rot="R90"/>
 <smd name="TAB" x="0" y="2" dx="11.18" dy="9.91" layer="1" roundness="50"/>
-<wire x1="-5.842" y1="7.366" x2="-5.842" y2="-11.684" width="0.127" layer="39"/>
-<wire x1="-5.842" y1="-11.684" x2="5.842" y2="-11.684" width="0.127" layer="39"/>
-<wire x1="5.842" y1="-11.684" x2="5.842" y2="7.366" width="0.127" layer="39"/>
-<wire x1="5.842" y1="7.366" x2="-5.842" y2="7.366" width="0.127" layer="39"/>
 <text x="0" y="7.874" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <text x="0" y="8.89" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<wire x1="-4.191" y1="-4.953" x2="-4.191" y2="-11.43" width="0.127" layer="39"/>
+<wire x1="-4.191" y1="-11.43" x2="4.191" y2="-11.43" width="0.127" layer="39"/>
+<wire x1="4.191" y1="-11.43" x2="4.191" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="-5.715" y1="-4.953" x2="-5.715" y2="7.112" width="0.127" layer="39"/>
+<wire x1="-5.715" y1="7.112" x2="5.715" y2="7.112" width="0.127" layer="39"/>
+<wire x1="5.715" y1="7.112" x2="5.715" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="5.715" y1="-5.08" x2="4.191" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="-4.191" y1="-4.953" x2="-5.715" y2="-4.953" width="0.127" layer="39"/>
 </package>
 <package name="SOIC-8_W3.9MM">
 <wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="21"/>
