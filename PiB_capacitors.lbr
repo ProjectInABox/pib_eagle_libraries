@@ -489,6 +489,24 @@
 </technology>
 </technologies>
 </device>
+<device name="_CER_SMD-603_16V-10%" package="_CER_SMD-603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61C106KE13-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digkey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-12317-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-12317-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRT188R61C106KE13D" constant="no"/>
+<attribute name="VALUE" value="10uF/16V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="0.1UF" prefix="C" uservalue="yes">
@@ -515,7 +533,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-603_16V-10%" package="_CER_SMD-603">
+<device name="_SMD-603_50V-10%" package="_CER_SMD-603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -523,13 +541,13 @@
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61C106KE13-01.pdf" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H104KA93-01.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-12317-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-12317-1-ND" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=%09490-1519-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-1519-1-ND" constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRT188R61C106KE13D" constant="no"/>
-<attribute name="VALUE" value="10uF/16V" constant="no"/>
+<attribute name="MPN" value="GRM188R71H104KA93D" constant="no"/>
+<attribute name="VALUE" value="0.1uF/50V" constant="no"/>
 </technology>
 </technologies>
 </device>
