@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -456,11 +456,11 @@
 <wire x1="3.81" y1="-2.794" x2="-3.81" y2="-2.794" width="0.127" layer="39"/>
 </package>
 <package name="SOT-23">
-<smd name="5" x="-0.95" y="1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="4" x="0.95" y="1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="1" x="-0.95" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="2" x="0" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
-<smd name="3" x="0.95" y="-1.35" dx="1" dy="0.55" layer="1" rot="R90"/>
+<smd name="5" x="-0.95" y="1.35" dx="1" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="4" x="0.95" y="1.35" dx="1" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="1" x="-0.95" y="-1.35" dx="1" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="2" x="0" y="-1.35" dx="1" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="3" x="0.95" y="-1.35" dx="1" dy="0.55" layer="1" roundness="50" rot="R90"/>
 <wire x1="-1.52" y1="-0.85" x2="1.52" y2="-0.85" width="0.127" layer="21"/>
 <wire x1="1.52" y1="-0.85" x2="1.52" y2="0.85" width="0.127" layer="21"/>
 <wire x1="1.52" y1="0.85" x2="-1.52" y2="0.85" width="0.127" layer="21"/>
@@ -611,8 +611,9 @@
 <wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="1.27" y="7.62" size="2.54" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="7.62" size="1.9304" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
 <text x="1.016" y="-10.16" size="1.9304" layer="94" font="vector" ratio="15" align="bottom-center">TPS73633</text>
+<text x="1.016" y="-12.7" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1068,7 +1069,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="VREG_TPS73633_LDO_400MA-3.3V" prefix="VREG">
+<deviceset name="VREG_TPS73633_LDO_400MA-3.3V" prefix="VREG" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VREG_TPS73633" x="0" y="0"/>
 </gates>
@@ -1091,6 +1092,7 @@
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="TPS73633DBVR" constant="no"/>
 <attribute name="TESTED" value="No" constant="no"/>
+<attribute name="VALUE" value="400mA/3.3V" constant="no"/>
 </technology>
 </technologies>
 </device>
