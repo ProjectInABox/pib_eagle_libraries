@@ -559,7 +559,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-603_1/10W-5%" package="RESISTOR_SMD-603">
+<device name="_SMD-0603_1/10W-5%" package="RESISTOR_SMD-603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -884,6 +884,20 @@
 <attribute name="MFR" value="Yageo" constant="no"/>
 <attribute name="MPN" value="RC0805JR-071KL " constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="1KΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0603_1/10W-5%" package="RESISTOR_SMD-603">
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" constant="no"/>
+<attribute name="DIST" value="Digkey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-1.0KGRCT-ND" constant="no"/>
+<attribute name="DISTPN" value="311-1.0KGRCT-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603JR-071KL" constant="no"/>
 <attribute name="VALUE" value="1KΩ" constant="no"/>
 </technology>
 </technologies>
