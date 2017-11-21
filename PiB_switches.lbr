@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -308,6 +308,32 @@
 <wire x1="2.413" y1="5.207" x2="2.413" y2="-5.207" width="0.127" layer="39"/>
 <wire x1="2.413" y1="-5.207" x2="-2.413" y2="-5.207" width="0.127" layer="39"/>
 </package>
+<package name="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8">
+<wire x1="-2.1" y1="-1.4" x2="-2.1" y2="1.4" width="0.127" layer="21"/>
+<wire x1="2.1" y1="1.4" x2="2.1" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-1.4" x2="-2.1" y2="-1.4" width="0.127" layer="21"/>
+<smd name="1" x="-2" y="0.8" dx="1" dy="0.65" layer="1" roundness="50"/>
+<smd name="3" x="-2" y="-0.8" dx="1" dy="0.65" layer="1" roundness="50"/>
+<smd name="4" x="2" y="-0.8" dx="1" dy="0.65" layer="1" roundness="50"/>
+<smd name="2" x="2" y="0.8" dx="1" dy="0.65" layer="1" roundness="50"/>
+<circle x="0" y="0" radius="0.805" width="0.127" layer="48"/>
+<wire x1="-1.4" y1="0.8" x2="0" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="0" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.8" x2="-1.4" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.8" x2="0" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0" y1="0.5" x2="0" y2="0.8" width="0.127" layer="21"/>
+<circle x="0" y="0.5" radius="0.1" width="0.1" layer="21"/>
+<circle x="0" y="-0.5" radius="0.1" width="0.1" layer="21"/>
+<wire x1="0" y1="0.5" x2="0.6" y2="-0.5" width="0.1" layer="21"/>
+<wire x1="-2.667" y1="-1.651" x2="-2.667" y2="1.651" width="0.127" layer="39"/>
+<wire x1="-2.667" y1="1.651" x2="2.667" y2="1.651" width="0.127" layer="39"/>
+<wire x1="2.667" y1="1.651" x2="2.667" y2="-1.651" width="0.127" layer="39"/>
+<wire x1="2.667" y1="-1.651" x2="-2.667" y2="-1.651" width="0.127" layer="39"/>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SW+AC_INLET+FUSE">
@@ -450,6 +476,24 @@
 <attribute name="MFR" value="N/A" constant="no"/>
 <attribute name="MPN" value="N/A" constant="no"/>
 <attribute name="VALUE" value="50mA/12V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SPDT-SMD-50MA-32V_L4.6-W2.8" package="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8">
+<connects>
+<connect gate="G$1" pin="1" pad="4"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://www.ckswitches.com/media/1479/kmr2.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=401-1426-1-ND" constant="no"/>
+<attribute name="DISTPN" value="401-1426-1-ND" constant="no"/>
+<attribute name="MFR" value="C&amp;K" constant="no"/>
+<attribute name="MPN" value="KMR211GLFS" constant="no"/>
+<attribute name="VALUE" value="50mA/32V" constant="no"/>
 </technology>
 </technologies>
 </device>
