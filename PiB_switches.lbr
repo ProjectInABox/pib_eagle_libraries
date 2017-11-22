@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -313,10 +313,10 @@
 <wire x1="2.1" y1="1.4" x2="2.1" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="21"/>
 <wire x1="2.1" y1="-1.4" x2="-2.1" y2="-1.4" width="0.127" layer="21"/>
-<smd name="1" x="-2" y="0.8" dx="1" dy="0.65" layer="1" roundness="50"/>
-<smd name="3" x="-2" y="-0.8" dx="1" dy="0.65" layer="1" roundness="50"/>
-<smd name="4" x="2" y="-0.8" dx="1" dy="0.65" layer="1" roundness="50"/>
-<smd name="2" x="2" y="0.8" dx="1" dy="0.65" layer="1" roundness="50"/>
+<smd name="1" x="-2" y="0.8975" dx="1" dy="1" layer="1" roundness="50"/>
+<smd name="3" x="-2" y="-0.975" dx="1" dy="1" layer="1" roundness="50"/>
+<smd name="4" x="2" y="-0.975" dx="1" dy="1" layer="1" roundness="50"/>
+<smd name="2" x="2" y="0.975" dx="1" dy="1" layer="1" roundness="50"/>
 <circle x="0" y="0" radius="0.805" width="0.127" layer="48"/>
 <wire x1="-1.4" y1="0.8" x2="0" y2="0.8" width="0.127" layer="21"/>
 <wire x1="0" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21"/>
@@ -331,8 +331,9 @@
 <wire x1="-2.667" y1="1.651" x2="2.667" y2="1.651" width="0.127" layer="39"/>
 <wire x1="2.667" y1="1.651" x2="2.667" y2="-1.651" width="0.127" layer="39"/>
 <wire x1="2.667" y1="-1.651" x2="-2.667" y2="-1.651" width="0.127" layer="39"/>
-<text x="0" y="1.905" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="2.286" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<smd name="P$1" x="0" y="1.25" dx="1.7" dy="0.55" layer="1" roundness="50"/>
 </package>
 </packages>
 <symbols>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -301,6 +301,31 @@
 <attribute name="MPN" value="AIAP-03-220K" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="22UH-6A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4.7UH" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD-805_1A-0.175OHM-20%" package="_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="https://www.murata.com/~/media/webrenewal/support/library/catalog/products/inductor/chip/o05e.ashx" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-12073-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-12073-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="LQM2MPN4R7MG0L" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
 </technology>
 </technologies>
 </device>
