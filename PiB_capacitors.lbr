@@ -1109,6 +1109,10 @@
 </gates>
 <devices>
 <device name="_SMD-0603_50V-10%" package="_CER_SMD-603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
