@@ -226,6 +226,45 @@
 <wire x1="-12.7" y1="1.27" x2="-16.51" y2="1.27" width="0.127" layer="39"/>
 <wire x1="-16.51" y1="1.27" x2="-16.51" y2="-1.27" width="0.127" layer="39"/>
 </package>
+<package name="_SMD-0603">
+<wire x1="-0.5" y1="0" x2="-0.45" y2="0" width="0.1" layer="21"/>
+<wire x1="0.45" y1="0" x2="0.5" y2="0" width="0.1" layer="21"/>
+<wire x1="-0.45" y1="0" x2="-0.325" y2="0.15" width="0.1" layer="21" curve="-90"/>
+<wire x1="-0.325" y1="0.15" x2="-0.175" y2="0" width="0.1" layer="21" curve="-90"/>
+<wire x1="-0.175" y1="0" x2="-0.175" y2="-0.05" width="0.1" layer="21"/>
+<wire x1="-0.175" y1="-0.05" x2="-0.275" y2="-0.1" width="0.1" layer="21" curve="-90"/>
+<wire x1="-0.325" y1="0" x2="-0.275" y2="-0.1" width="0.1" layer="21" curve="90"/>
+<wire x1="0.325" y1="-0.05" x2="0.225" y2="-0.1" width="0.1" layer="21" curve="-90"/>
+<wire x1="0.325" y1="0" x2="0.325" y2="-0.05" width="0.1" layer="21"/>
+<wire x1="0.175" y1="0" x2="0.325" y2="0.15" width="0.1" layer="21" curve="-90"/>
+<wire x1="0.325" y1="0.15" x2="0.45" y2="0" width="0.1" layer="21" curve="-90"/>
+<wire x1="0.175" y1="0" x2="0.225" y2="-0.1" width="0.1" layer="21" curve="90"/>
+<wire x1="-0.125" y1="0.175" x2="0.075" y2="0" width="0.1" layer="21" curve="-90"/>
+<wire x1="0.075" y1="-0.05" x2="-0.025" y2="-0.1" width="0.1" layer="21" curve="-90"/>
+<wire x1="0.075" y1="0" x2="0.075" y2="-0.05" width="0.1" layer="21"/>
+<wire x1="-0.075" y1="0" x2="-0.025" y2="-0.1" width="0.1" layer="21" curve="90"/>
+<wire x1="-0.075" y1="0" x2="0.125" y2="0.175" width="0.1" layer="21" curve="-90"/>
+<wire x1="0.125" y1="0.175" x2="0.325" y2="0" width="0.1" layer="21" curve="-90"/>
+<wire x1="-0.325" y1="0" x2="-0.125" y2="0.175" width="0.1" layer="21" curve="-90"/>
+<smd name="1" x="-1" y="0" dx="0.95" dy="1" layer="1" roundness="50"/>
+<smd name="2" x="1" y="0" dx="0.95" dy="1" layer="1" roundness="50"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<text x="0" y="1.046" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-1.062" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.6" y2="0.4" layer="51"/>
+<rectangle x1="0.6" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<wire x1="-1.578" y1="0.616" x2="-1.578" y2="-0.616" width="0.1" layer="39"/>
+<wire x1="-1.578" y1="-0.616" x2="1.578" y2="-0.616" width="0.1" layer="39"/>
+<wire x1="1.578" y1="-0.616" x2="1.578" y2="0.616" width="0.1" layer="39"/>
+<wire x1="1.578" y1="0.616" x2="-1.578" y2="0.616" width="0.1" layer="39"/>
+<wire x1="-1.551" y1="0.589" x2="-1.551" y2="-0.589" width="0.1" layer="21"/>
+<wire x1="-1.551" y1="-0.589" x2="1.551" y2="-0.589" width="0.1" layer="21"/>
+<wire x1="1.551" y1="-0.589" x2="1.551" y2="0.589" width="0.1" layer="21"/>
+<wire x1="1.551" y1="0.589" x2="-1.551" y2="0.589" width="0.1" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -325,6 +364,24 @@
 <attribute name="DISTPN" value="490-12073-1-ND" constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="LQM2MPN4R7MG0L" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0603_0.470A-0.312OHM-20%" package="_SMD-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=CBMF1608T4R7M&amp;fileName=CBMF1608T4R7M_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-1719-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-1719-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="CBMF1608T4R7M" constant="no"/>
 <attribute name="VALUE" value="4.7uH" constant="no"/>
 </technology>
 </technologies>
