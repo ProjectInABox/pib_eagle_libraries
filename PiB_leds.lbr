@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -352,8 +352,8 @@
 <wire x1="0" y1="6" x2="0" y2="10.262" width="0.127" layer="21" style="shortdash"/>
 </package>
 <package name="IR-RECEIVER_TEFT4300_HORIZONTAL">
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="E" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="C" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
 <text x="0" y="-1.651" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-2.54" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="0" y1="5" x2="-1.5" y2="3.5" width="0.127" layer="21" curve="90"/>
@@ -379,8 +379,7 @@
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
 <wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
 <polygon width="0.1524" layer="94">
@@ -504,27 +503,44 @@
 <text x="19.05" y="1.27" size="2.032" layer="95" font="vector" rot="R90" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="IR-RECEIVER">
-<pin name="K" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.27" x2="-2.413" y2="-0.127" width="0.1524" layer="94"/>
-<wire x1="-3.937" y1="0.127" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
+<pin name="K" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<wire x1="-1.778" y1="3.048" x2="-0.381" y2="1.651" width="0.1524" layer="94"/>
 <polygon width="0.1524" layer="94">
-<vertex x="-2.413" y="-0.127"/>
-<vertex x="-2.794" y="0.762"/>
-<vertex x="-3.302" y="0.254"/>
+<vertex x="-0.381" y="1.651"/>
+<vertex x="-0.762" y="2.54"/>
+<vertex x="-1.27" y="2.032"/>
 </polygon>
+<text x="2.794" y="0.254" size="0.8128" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="2.794" y="-3.556" size="0.8128" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
 <polygon width="0.1524" layer="94">
-<vertex x="-2.54" y="-1.27"/>
-<vertex x="-2.921" y="-0.381"/>
-<vertex x="-3.429" y="-0.889"/>
+<vertex x="2.54" y="-2.54"/>
+<vertex x="1.905" y="-1.651"/>
+<vertex x="1.397" y="-2.413"/>
 </polygon>
-<text x="0.254" y="0.254" size="0.8128" layer="95" font="vector" ratio="10">&gt;NAME</text>
-<text x="0.254" y="-3.556" size="0.8128" layer="96" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-1.778" y1="1.778" x2="-0.381" y2="0.381" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.381" y="0.381"/>
+<vertex x="-0.762" y="1.27"/>
+<vertex x="-1.27" y="0.762"/>
+</polygon>
+<wire x1="-1.778" y1="0.508" x2="-0.381" y2="-0.889" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.381" y="-0.889"/>
+<vertex x="-0.762" y="0"/>
+<vertex x="-1.27" y="-0.508"/>
+</polygon>
+<wire x1="-1.778" y1="-0.762" x2="-0.381" y2="-2.159" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.381" y="-2.159"/>
+<vertex x="-0.762" y="-1.27"/>
+<vertex x="-1.27" y="-1.778"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -817,13 +833,13 @@
 </deviceset>
 <deviceset name="IR-RECEIVER" prefix="IR_RECEIVER" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="G$1" symbol="IR-RECEIVER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="IR-RECEIVER_TEFT4300_HORIZONTAL">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="K" pad="E"/>
 </connects>
 <technologies>
 <technology name="">
