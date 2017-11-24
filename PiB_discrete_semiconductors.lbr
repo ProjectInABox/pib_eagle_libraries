@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -427,6 +427,28 @@
 <text x="-1.1" y="0" size="0.381" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="1.5" y="0" size="0.381" layer="25" rot="R90" align="bottom-center">&gt;VALUE</text>
 </package>
+<package name="SOD-923F/0402">
+<smd name="A" x="-0.425" y="0" dx="0.6" dy="0.55" layer="1" roundness="50"/>
+<smd name="K" x="0.425" y="0" dx="0.6" dy="0.55" layer="1" roundness="50"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.05" layer="51"/>
+<text x="0" y="0.792" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-0.808" size="0.4064" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.05" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.05" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<wire x1="-0.878" y1="0.416" x2="-0.878" y2="-0.416" width="0.1" layer="39"/>
+<wire x1="-0.878" y1="-0.416" x2="0.878" y2="-0.416" width="0.1" layer="39"/>
+<wire x1="0.878" y1="-0.416" x2="0.878" y2="0.416" width="0.1" layer="39"/>
+<wire x1="0.878" y1="0.416" x2="-0.878" y2="0.416" width="0.1" layer="39"/>
+<wire x1="-0.851" y1="0.389" x2="-0.851" y2="-0.389" width="0.1" layer="21"/>
+<wire x1="-0.851" y1="-0.389" x2="0.851" y2="-0.389" width="0.1" layer="21"/>
+<wire x1="0.851" y1="-0.389" x2="0.851" y2="0.389" width="0.1" layer="21"/>
+<wire x1="0.851" y1="0.389" x2="-0.851" y2="0.389" width="0.1" layer="21"/>
+<rectangle x1="0.546" y1="-0.389" x2="0.846" y2="0.389" layer="21"/>
+<text x="1.27" y="-0.254" size="0.6096" layer="21">-</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE_BRIDGE">
@@ -629,6 +651,24 @@
 <attribute name="MPN" value="CGRKM4001-HF" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="1A/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0402_GP_120MA-75V" package="SOD-923F/0402">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.comchiptech.com/cms/UserFiles/CDSQR4148-HF-RevC213424.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=641-1677-1-ND" constant="no"/>
+<attribute name="DISTPN" value="641-1677-1-ND" constant="no"/>
+<attribute name="MFR" value="Comchip Technology" constant="no"/>
+<attribute name="MPN" value="CDSQR4148-HF" constant="no"/>
+<attribute name="VALUE" value="150mA/75V" constant="no"/>
 </technology>
 </technologies>
 </device>
