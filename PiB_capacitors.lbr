@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -437,6 +437,30 @@
 <wire x1="-0.851" y1="-0.389" x2="0.851" y2="-0.389" width="0.1" layer="21"/>
 <wire x1="0.851" y1="-0.389" x2="0.851" y2="0.389" width="0.1" layer="21"/>
 <wire x1="0.851" y1="0.389" x2="-0.851" y2="0.389" width="0.1" layer="21"/>
+</package>
+<package name="_CER_SMD-402">
+<smd name="P$1" x="-0.325" y="0" dx="0.35" dy="0.55" layer="1" roundness="10"/>
+<smd name="P$2" x="0.325" y="0" dx="0.35" dy="0.55" layer="1" roundness="10"/>
+<wire x1="-0.51" y1="0.285" x2="0.51" y2="0.285" width="0.0762" layer="51"/>
+<wire x1="0.51" y1="0.285" x2="0.515" y2="-0.29" width="0.0762" layer="51"/>
+<wire x1="0.515" y1="-0.29" x2="-0.505" y2="-0.29" width="0.0762" layer="51"/>
+<wire x1="-0.505" y1="-0.29" x2="-0.51" y2="0.285" width="0.0762" layer="51"/>
+<wire x1="-0.51" y1="0.285" x2="0.51" y2="0.285" width="0.0762" layer="21"/>
+<wire x1="0.51" y1="0.285" x2="0.51" y2="-0.29" width="0.0762" layer="21"/>
+<wire x1="0.51" y1="-0.29" x2="-0.51" y2="-0.29" width="0.0762" layer="21"/>
+<wire x1="-0.51" y1="-0.29" x2="-0.51" y2="0.285" width="0.0762" layer="21"/>
+<wire x1="-0.51" y1="0.3" x2="0.51" y2="0.3" width="0.0762" layer="41"/>
+<wire x1="0.51" y1="0.3" x2="0.51" y2="-0.3" width="0.0762" layer="41"/>
+<wire x1="0.51" y1="-0.3" x2="-0.51" y2="-0.3" width="0.0762" layer="41"/>
+<wire x1="-0.51" y1="-0.3" x2="-0.51" y2="0.3" width="0.0762" layer="41"/>
+<text x="-0.05" y="0.46" size="0.254" layer="21" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-0.465" size="0.254" layer="21" font="vector" align="center">&gt;VALUE</text>
+<wire x1="-0.13" y1="0" x2="-0.06" y2="0" width="0.016" layer="21"/>
+<wire x1="-0.06" y1="0" x2="-0.06" y2="0.1" width="0.016" layer="21"/>
+<wire x1="-0.06" y1="0" x2="-0.06" y2="-0.1" width="0.016" layer="21"/>
+<wire x1="0.13" y1="0" x2="0.05" y2="0" width="0.016" layer="21"/>
+<wire x1="0.05" y1="0" x2="0.05" y2="0.1" width="0.016" layer="21"/>
+<wire x1="0.05" y1="0" x2="0.05" y2="-0.1" width="0.016" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1115,6 +1139,24 @@
 </technology>
 </technologies>
 </device>
+<device name="_CER_SMD-402_2.2UF-6.3V" package="_CER_SMD_0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155D80J225KE95-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155D80J225KE95D/490-10449-1-ND/5026359" constant="no"/>
+<attribute name="DISTPN" value="490-10449-1-ND " constant="no"/>
+<attribute name="MFR" value="   Murata Electronics North America " constant="no"/>
+<attribute name="MPN" value="GRM155D80J225KE95D" constant="no"/>
+<attribute name="VALUE" value="2.2uF/6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="3300PF" prefix="C" uservalue="yes">
@@ -1204,6 +1246,24 @@
 <attribute name="MFR" value="Taiyo Yuden" constant="no"/>
 <attribute name="MPN" value="LMK212BBJ476MG-T" constant="no"/>
 <attribute name="VALUE" value="47uF/10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CER_SMD-1210-25V-20%" package="_CER_SMD-1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=TMK325ABJ476MM-P&amp;fileName=TMK325ABJ476MM-P_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/TMK325ABJ476MM-P/587-5479-1-ND/7067155" constant="no"/>
+<attribute name="DISTPN" value="587-5479-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="TMK325ABJ476MM-P" constant="no"/>
+<attribute name="VALUE" value="47uF/25V" constant="no"/>
 </technology>
 </technologies>
 </device>
