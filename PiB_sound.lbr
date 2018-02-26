@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -237,6 +237,16 @@
 <text x="1.27" y="7.62" size="0.8128" layer="25" font="vector" ratio="10" align="center-right">&gt;NAME</text>
 <text x="1.27" y="-7.62" size="0.8128" layer="27" font="vector" ratio="10" align="center-right">&gt;VALUE</text>
 </package>
+<package name="PIEZO-BUZZER_PS1240P02BT_12MM">
+<circle x="0" y="0" radius="6.1" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="6.5" width="0.127" layer="41"/>
+<pad name="P$1" x="0" y="2.5" drill="0.65" diameter="1.45"/>
+<pad name="P$2" x="0" y="-2.5" drill="0.65" diameter="1.45"/>
+<text x="0" y="4" size="1.27" layer="21" font="vector" ratio="10" align="center">+</text>
+<text x="0" y="-4" size="1.27" layer="21" font="vector" ratio="10" align="center">-</text>
+<text x="0" y="1" size="1.27" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BUZZER">
@@ -283,12 +293,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMT-0440-T-R" prefix="BUZZER" uservalue="yes">
+<deviceset name="PIEZO_BUZZER" prefix="BUZZER" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="BUZZER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SMT-0440-T-R">
+<device name="SMT-0440-T-R" package="SMT-0440-T-R">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -303,6 +313,23 @@
 <attribute name="MFR" value="PUI Audio, Inc." constant="no"/>
 <attribute name="MPN" value="SMT-0440-T-R" constant="no"/>
 <attribute name="VALUE" value="SMT-0440-T-R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PS1240P02BT" package="PIEZO-BUZZER_PS1240P02BT_12MM">
+<connects>
+<connect gate="G$1" pin="+" pad="P$1"/>
+<connect gate="G$1" pin="-" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-2525-1-ND" constant="no"/>
+<attribute name="DISTPN" value="445-2525-1-ND" constant="no"/>
+<attribute name="MFR" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="PS1240P02BT" constant="no"/>
+<attribute name="VALUE" value="PS1240P02BT" constant="no"/>
 </technology>
 </technologies>
 </device>

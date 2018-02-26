@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -716,10 +716,10 @@
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.vishay.com/docs/68645/si2302cds.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/vishay-siliconix/SI2302CDS-T1-GE3/SI2302CDS-T1-GE3CT-ND/1978877" constant="no"/>
-<attribute name="DISTPN" value="SI2302CDS-T1-GE3CT-ND" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=SI2302CDS-T1-E3CT-ND" constant="no"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" constant="no"/>
 <attribute name="MFR" value="Vishay Siliconix" constant="no"/>
-<attribute name="MPN" value="SI2302CDS-T1-GE3" constant="no"/>
+<attribute name="MPN" value="SI2302CDS-T1-E3" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="SI2302CDS 2.6A/20V/57mΩ" constant="no"/>
 </technology>
