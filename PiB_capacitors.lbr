@@ -686,12 +686,12 @@
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H104KA93-01.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_hightemp_en.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=%09490-1519-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-1519-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM188R71H104KA93D" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-14268-1-ND" constant="no"/>
+<attribute name="DISTPN" value="445-14268-1-ND" constant="no"/>
+<attribute name="MFR" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="C1608X8R1H104M080AB" constant="no"/>
 <attribute name="VALUE" value="0.1uF/50V" constant="no"/>
 </technology>
 </technologies>
@@ -921,7 +921,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-1206_20V-20%" package="_TANT_SMD-1206">
+<device name="_SMD-1206_16V-20%" package="_TANT_SMD-1206">
 <connects>
 <connect gate="G$1" pin="A" pad="+"/>
 <connect gate="G$1" pin="K" pad="-"/>
@@ -931,11 +931,11 @@
 <attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://datasheets.avx.com/TCJ.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=478-9999-1-ND" constant="no"/>
-<attribute name="DISTPN" value="478-9999-1-ND" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=478-3451-1-ND" constant="no"/>
+<attribute name="DISTPN" value="478-3451-1-ND" constant="no"/>
 <attribute name="MFR" value="AVX Corporation" constant="no"/>
-<attribute name="MPN" value="TCJA106M020R0150" constant="no"/>
-<attribute name="VALUE" value="10uF/20V" constant="no"/>
+<attribute name="MPN" value="TCJA106M016R0200" constant="no"/>
+<attribute name="VALUE" value="10uF/16V" constant="no"/>
 </technology>
 </technologies>
 </device>
