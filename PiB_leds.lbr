@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -478,6 +478,10 @@
 <text x="-1" y="0.05" size="1" layer="21" font="vector" ratio="10" align="center">E</text>
 <text x="1.1" y="0.05" size="1" layer="21" font="vector" ratio="10" align="center">C</text>
 <wire x1="0" y1="-2.15" x2="0" y2="7.85" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-4.191" y1="4.191" x2="-4.191" y2="-5.842" width="0.127" layer="39"/>
+<wire x1="-4.191" y1="-5.842" x2="4.191" y2="-5.842" width="0.127" layer="39"/>
+<wire x1="4.191" y1="-5.842" x2="4.191" y2="4.191" width="0.127" layer="39"/>
+<wire x1="4.191" y1="4.191" x2="-4.191" y2="4.191" width="0.127" layer="39"/>
 </package>
 <package name="LED-5MM-PTH_RGB-CA_CONNECTOR">
 <wire x1="-5.33" y1="1.27" x2="5.33" y2="1.27" width="0.2032" layer="21"/>
@@ -560,6 +564,10 @@
 <text x="-0.984" y="0.027" size="1" layer="21" font="vector" ratio="10" align="center">E</text>
 <text x="1.116" y="0.027" size="1" layer="21" font="vector" ratio="10" align="center">C</text>
 <wire x1="0.016" y1="-2.173" x2="0.016" y2="7.827" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-9.652" y1="4.191" x2="-9.652" y2="-5.842" width="0.127" layer="39"/>
+<wire x1="-9.652" y1="-5.842" x2="9.652" y2="-5.842" width="0.127" layer="39"/>
+<wire x1="9.652" y1="-5.842" x2="9.652" y2="4.191" width="0.127" layer="39"/>
+<wire x1="9.652" y1="4.191" x2="-9.652" y2="4.191" width="0.127" layer="39"/>
 </package>
 <package name="IR-EMITTER-SFH4545_AND_DOUBLE-RECEIVER-TEFT4300_MICROMOUSE-MOUNT">
 <circle x="7" y="1.5" radius="1.25" width="0.001" layer="21"/>
@@ -626,6 +634,10 @@
 <text x="5" y="0.06" size="1" layer="21" font="vector" ratio="10" align="center">E</text>
 <text x="7.1" y="0.06" size="1" layer="21" font="vector" ratio="10" align="center">C</text>
 <wire x1="6" y1="-2.14" x2="6" y2="7.86" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-9.652" y1="4.191" x2="9.652" y2="4.191" width="0.127" layer="39"/>
+<wire x1="9.652" y1="4.191" x2="9.652" y2="-5.842" width="0.127" layer="39"/>
+<wire x1="9.652" y1="-5.842" x2="-9.652" y2="-5.842" width="0.127" layer="39"/>
+<wire x1="-9.652" y1="-5.842" x2="-9.652" y2="4.191" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
