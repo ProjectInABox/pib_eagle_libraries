@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2206,60 +2206,6 @@ VCC    : 3.3V - 5.25V</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEMPERATURE-SENSOR_TMP36" prefix="TEMP" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="TMP36" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONNECTOR_TMP36">
-<connects>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="VOUT" pad="2"/>
-<connect gate="G$1" pin="VS" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=TMP36GT9Z-ND" constant="no"/>
-<attribute name="DISTPN" value="TMP36GT9Z-ND" constant="no"/>
-<attribute name="MFR" value="Analog Devices Inc." constant="no"/>
-<attribute name="MPN" value="TMP36GT9Z" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="TMP36" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FSR_FORCE-SENSATIVE-RESISTOR_PRESS-SENSOR" prefix="FSR" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="FSR" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONNECTOR_FSR">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.interlinkelectronics.com/datasheets/Datasheet_FSR.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1027-1014-ND" constant="no"/>
-<attribute name="DISTPN" value="1027-1014-ND" constant="no"/>
-<attribute name="MFR" value="Interlink Electronics" constant="no"/>
-<attribute name="MPN" value="34-00004" constant="no"/>
-<attribute name="QUERY" value="https://www.digikey.com/products/en/sensors-transducers/force-sensors/531?k=force+sensitive+resistor&amp;k=&amp;pkeyword=force+sensitive+resistor&amp;pv1260=27&amp;pv1260=26&amp;pv1260=42&amp;pv1260=20&amp;pv1260=29&amp;FV=ffe00213%2C884001a&amp;mnonly=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=250" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="FSR" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SERVO" prefix="SERVO" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SERVO-GENERIC" x="0" y="0"/>
@@ -2416,36 +2362,6 @@ VCC    : 3.3V - 5.25V</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOTOR_PADS" prefix="MOTOR" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="MOTOR_PADS" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="SMD" package="DUAL_SMD_PADS">
-<connects>
-<connect gate="G$1" pin="V+" pad="V+"/>
-<connect gate="G$1" pin="V-" pad="V-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIST" value="NA"/>
-<attribute name="DISTPN" value="NA"/>
-<attribute name="MFR" value="NA"/>
-<attribute name="MPN" value="NA" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="PTH" package="CONNECTOR_MOTOR">
-<connects>
-<connect gate="G$1" pin="V+" pad="+"/>
-<connect gate="G$1" pin="V-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TC4422">
 <gates>
 <gate name="G$1" symbol="TC4422" x="0" y="0"/>
@@ -2473,41 +2389,6 @@ VCC    : 3.3V - 5.25V</text>
 <attribute name="MPN" value="TC4422AVOA" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BATTERY" prefix="BATT">
-<description>Generic Dual SMD Pad for Bettery Soldering</description>
-<gates>
-<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD_PADS" package="DUAL_SMD_PADS">
-<connects>
-<connect gate="G$1" pin="N" pad="V-"/>
-<connect gate="G$1" pin="P" pad="V+"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_L" package="DUAL_SMD_PADS_L">
-<connects>
-<connect gate="G$1" pin="N" pad="V-"/>
-<connect gate="G$1" pin="P" pad="V+"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH_HOLES" package="DUAL_PTH_PADS">
-<connects>
-<connect gate="G$1" pin="N" pad="-"/>
-<connect gate="G$1" pin="P" pad="+"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2779,70 +2660,6 @@ The sampling rate on this IMU is slower than in the MPU6500, but it's noise sens
 </device>
 </devices>
 </deviceset>
-<deviceset name="BATTERY2" prefix="BATT" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="BATTERY-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="9V_BATTERY_PTH_2PIN-SOLDER" package="BATTERY_PTH_2PIN">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://na.industrial.panasonic.com/sites/default/pidsa/files/panasonic_alkaline_batteries_9v_series_6lf22xwa.pdf" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://keyelco.com/userAssets/file/M65p30.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=6LF22XWA%2FB" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=36-232-ND" constant="no"/>
-<attribute name="DISTPN" value="P687-ND" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="36-232-ND" constant="no"/>
-<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="Panasonic - BSG" constant="no"/>
-<attribute name="MFR_CONNECTOR" value="Keystone Electronics" constant="no"/>
-<attribute name="MPN" value="6LF22XWA/B" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="232" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="9V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BATTERY_CELL" prefix="BATT" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="BATTERY_CELL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_COINCELL-CR2032-20MM_PTH" package="BATTERY_COINCELL-20MM-PTH">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Inustrial/CR_Series.pdf" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/panasonic-bsg/CR2032/P189-ND/31939" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" constant="no"/>
-<attribute name="DISTPN" value="P189-ND" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="BS-7-ND" constant="no"/>
-<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="Panasonic - BSG" constant="no"/>
-<attribute name="MFR_CONNECTOR" value="MPD (Memory Protection Devices)" constant="no"/>
-<attribute name="MPN" value="CR2032" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="BS-7" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="3V/CR2032" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MCP3008" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="MCP3008" x="0" y="0"/>
@@ -2958,34 +2775,6 @@ The sampling rate on this IMU is slower than in the MPU6500, but it's noise sens
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEMPERATURE-SENSOR_DHT22" prefix="J" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="TEMPERATURE-SENSOR_DHT22" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONNECTOR_TEMPERATURE-SENSOR_DHT22">
-<connects>
-<connect gate="G$1" pin="DATA" pad="DATA"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://cdn-shop.adafruit.com/datasheets/DHT22.pdf" constant="no"/>
-<attribute name="DIST" value="Sparkfun" constant="no"/>
-<attribute name="DISTLINK" value="https://www.sparkfun.com/products/10167" constant="no"/>
-<attribute name="DISTPN" value="SEN-10167" constant="no"/>
-<attribute name="MFR" value="MaxDetect Technology Co., Ltd." constant="no"/>
-<attribute name="MPN" value="RHT03" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="DHT22" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="THUMBSTICK-2AXIS_BREAKOUT" prefix="J" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="THUMBSTICK-2AXIS_BREAKOUT" x="0" y="0"/>
@@ -3013,58 +2802,6 @@ The sampling rate on this IMU is slower than in the MPU6500, but it's noise sens
 <attribute name="MPN_CONNECTOR" value="PPTC051LGBN-RC" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="THUMBSTICK" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VOLTAGE-DISPLAY_2-WIRE" prefix="VDISP" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="VOLTAGE-DISPLAY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0-99.9VDC" package="MOUNT_VOLTAGE-DISPLAY_2-WIRE">
-<connects>
-<connect gate="G$1" pin="BLK" pad="BLK"/>
-<connect gate="G$1" pin="RED" pad="RED"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Seeed%20Technology/114990164_Web.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/seeed-technology-co-ltd/114990164/1597-1237-ND/5487639" constant="no"/>
-<attribute name="DISTPN" value="1597-1237-ND" constant="no"/>
-<attribute name="MFR" value="Seeed Technology Co., Ltd" constant="no"/>
-<attribute name="MPN" value="114990164" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="2.6-30VDC" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VOLTAGE-DISPLAY_3-WIRE" prefix="VDISP" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="VOLTAGE-DISPLAY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0-99.9VDC" package="MOUNT_VOLTAGE-DISPLAY_2-WIRE">
-<connects>
-<connect gate="G$1" pin="BLK" pad="BLK"/>
-<connect gate="G$1" pin="RED" pad="RED"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Seeed%20Technology/114990164_Web.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/seeed-technology-co-ltd/114990164/1597-1237-ND/5487639" constant="no"/>
-<attribute name="DISTPN" value="1597-1237-ND" constant="no"/>
-<attribute name="MFR" value="Seeed Technology Co., Ltd" constant="no"/>
-<attribute name="MPN" value="114990164" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="2.6-30VDC" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -322,6 +322,35 @@ MOTOR</text>
 <text x="3.81" y="-1.651" size="0.8128" layer="21" font="vector" rot="R90" align="center-right">PHASE_A</text>
 <text x="6.35" y="-1.651" size="0.8128" layer="21" font="vector" rot="R90" align="center-right">PHASE_B</text>
 </package>
+<package name="DUAL_SMD_PADS">
+<text x="-2.008" y="1" size="1.27" layer="21" font="vector">+</text>
+<wire x1="-3.135" y1="-1.877" x2="-3.135" y2="2.377" width="0.127" layer="39"/>
+<wire x1="-3.008" y1="-1.75" x2="2.992" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-3.008" y1="2.25" x2="-3.008" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-3.135" y1="2.377" x2="3.119" y2="2.377" width="0.127" layer="39"/>
+<text x="-0.008" y="3" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0.992" y="1" size="1.27" layer="21" font="vector">-</text>
+<wire x1="3.119" y1="-1.877" x2="-3.135" y2="-1.877" width="0.127" layer="39"/>
+<wire x1="2.992" y1="-1.75" x2="2.992" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.992" y1="2.25" x2="-3.008" y2="2.25" width="0.127" layer="21"/>
+<wire x1="3.119" y1="2.377" x2="3.119" y2="-1.877" width="0.127" layer="39"/>
+<smd name="V+" x="-1.635" y="0" dx="2" dy="2" layer="1" rot="R90"/>
+<smd name="V-" x="1.619" y="0" dx="2" dy="2" layer="1" rot="R90"/>
+</package>
+<package name="CONNECTOR_MOTOR">
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.2032" layer="21"/>
+<pad name="-" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="+" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51" rot="R180"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51" rot="R180"/>
+<text x="0" y="2.794" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="2.54" width="0.2032" layer="21"/>
+<text x="-1.143" y="1.635" size="1.27" layer="21" font="vector" ratio="10" rot="SR0" align="center">+</text>
+<text x="1.397" y="1.635" size="1.27" layer="21" font="vector" ratio="10" rot="SR0" align="center">-</text>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="2.54" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FAULHABER">
@@ -357,6 +386,18 @@ MOTOR</text>
 <pin name="VCC" x="7.62" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="PHASE_A" x="7.62" y="-2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="PHASE_B" x="7.62" y="-5.08" visible="pin" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MOTOR_PADS">
+<pin name="V+" x="5.08" y="0" length="short" rot="R180"/>
+<pin name="V-" x="5.08" y="-2.54" length="short" rot="R180"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<text x="-0.508" y="2.794" size="0.8128" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="-0.508" y="-5.334" size="0.6096" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -403,6 +444,36 @@ MOTOR</text>
 <connect gate="G$1" pin="PHASE_A" pad="PHASE_A"/>
 <connect gate="G$1" pin="PHASE_B" pad="PHASE_B"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOTOR_PADS" prefix="MOTOR" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="MOTOR_PADS" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="SMD" package="DUAL_SMD_PADS">
+<connects>
+<connect gate="G$1" pin="V+" pad="V+"/>
+<connect gate="G$1" pin="V-" pad="V-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST" value="NA"/>
+<attribute name="DISTPN" value="NA"/>
+<attribute name="MFR" value="NA"/>
+<attribute name="MPN" value="NA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PTH" package="CONNECTOR_MOTOR">
+<connects>
+<connect gate="G$1" pin="V+" pad="+"/>
+<connect gate="G$1" pin="V-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
