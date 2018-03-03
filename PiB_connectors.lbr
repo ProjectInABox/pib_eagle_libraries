@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.2">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1811,6 +1811,54 @@
 <text x="0" y="3" size="1.27" layer="25" font="vector" ratio="10" align="center">NAME</text>
 <text x="0" y="-3" size="1.27" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
+<package name="SD-READER-1140084168">
+<text x="5.527309375" y="-5.88898125" size="2.1844" layer="25" font="vector" align="center">&gt;NAME</text>
+<wire x1="0" y1="0" x2="11.9631" y2="0" width="0.2" layer="51"/>
+<wire x1="11.9573" y1="0" x2="11.9573" y2="-11.457" width="0.2" layer="51"/>
+<wire x1="11.9511" y1="-11.451" x2="0" y2="-11.451" width="0.2" layer="51"/>
+<wire x1="0" y1="-11.4661" x2="0" y2="0" width="0.2" layer="51"/>
+<wire x1="0" y1="0" x2="10.6308" y2="0" width="0.2" layer="21"/>
+<wire x1="0" y1="-5.73481875" x2="0" y2="-9.770740625" width="0.2" layer="21"/>
+<wire x1="0" y1="-5.729409375" x2="0" y2="-4.38838125" width="0.2" layer="25"/>
+<wire x1="11.9595" y1="-5.72953125" x2="11.9595" y2="-9.840790625" width="0.2" layer="21"/>
+<wire x1="11.9625" y1="-5.73098125" x2="11.9625" y2="-3.582740625" width="0.2" layer="21"/>
+<circle x="9.95891875" y="-9.6547" radius="0.4" width="0" layer="25"/>
+<smd name="1" x="9.175" y="-11.038" dx="1.750440625" dy="0.700175" layer="1" rot="R90"/>
+<smd name="2" x="8.075" y="-11.038" dx="1.75298125" dy="0.701190625" layer="1" rot="R90"/>
+<smd name="3" x="6.975" y="-11.038" dx="1.751609375" dy="0.70064375" layer="1" rot="R90"/>
+<smd name="4" x="5.875" y="-11.038" dx="1.75218125" dy="0.700871875" layer="1" rot="R90"/>
+<smd name="5" x="4.775" y="-11.038" dx="1.752459375" dy="0.70098125" layer="1" rot="R90"/>
+<smd name="6" x="3.675" y="-11.038" dx="1.75043125" dy="0.700175" layer="1" rot="R90"/>
+<smd name="7" x="2.575" y="-11.038" dx="1.75176875" dy="0.700709375" layer="1" rot="R90"/>
+<smd name="8" x="1.475" y="-11.038" dx="1.752640625" dy="0.70105625" layer="1" rot="R90"/>
+<smd name="NC@1" x="0.175" y="-10.913" dx="1.50091875" dy="1.50091875" layer="1"/>
+<smd name="NC@2" x="11.625" y="-10.913" dx="1.5018" dy="1.5018" layer="1"/>
+<smd name="NC@4" x="0" y="-3.313" dx="1.5011" dy="0.800584375" layer="1" rot="R90"/>
+<smd name="NC@3" x="11.95" y="-2.663" dx="1.400640625" dy="0.8003625" layer="1" rot="R90"/>
+<smd name="CD1" x="0.355" y="-1.813" dx="1.500009375" dy="1.000009375" layer="1"/>
+<smd name="CD2" x="11.55" y="-0.213" dx="1.50193125" dy="1.001290625" layer="1" rot="R90"/>
+<wire x1="0" y1="0" x2="0" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="11.96" y1="-1.1" x2="11.96" y2="-1.82" width="0.2" layer="21"/>
+<wire x1="10.74" y1="-11.45" x2="9.66" y2="-11.45" width="0.2" layer="21"/>
+<text x="1.3" y="-2.1" size="0.6096" layer="21" font="vector">CD</text>
+<text x="9.9" y="-0.9" size="0.6096" layer="21" font="vector">CD</text>
+<polygon width="0.127" layer="41">
+<vertex x="1.1" y="-4.05"/>
+<vertex x="9.6" y="-4.05"/>
+<vertex x="9.6" y="-7.45"/>
+<vertex x="1.1" y="-7.45"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="4" y="0"/>
+<vertex x="7.4" y="0"/>
+<vertex x="7.4" y="-2.4"/>
+<vertex x="4" y="-2.4"/>
+</polygon>
+<wire x1="0" y1="0" x2="11.954" y2="0" width="0.127" layer="39"/>
+<wire x1="11.954" y1="0" x2="11.954" y2="-11.452" width="0.127" layer="39"/>
+<wire x1="11.954" y1="-11.452" x2="0" y2="-11.452" width="0.127" layer="39"/>
+<wire x1="0" y1="-11.452" x2="0" y2="0" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1X14">
@@ -2361,6 +2409,32 @@
 <wire x1="-2.54" y1="-5.08" x2="-1.905" y2="-5.08" width="0.6096" layer="94"/>
 <wire x1="-3.175" y1="-5.08" x2="-2.54" y2="-5.08" width="0.6096" layer="94"/>
 <pin name="4" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+</symbol>
+<symbol name="MICRO-CARD-READER">
+<pin name="DATA_OUT" x="-15.24" y="7.62" length="short"/>
+<pin name="DATA_IN" x="-15.24" y="5.08" length="short"/>
+<pin name="SCLK" x="-15.24" y="2.54" length="short"/>
+<pin name="CS" x="-15.24" y="0" length="short"/>
+<pin name="DAT1" x="-15.24" y="-2.54" length="short"/>
+<pin name="DAT2" x="-15.24" y="-5.08" length="short"/>
+<pin name="VDD" x="-15.24" y="-10.16" length="short"/>
+<pin name="VSS" x="-15.24" y="-12.7" length="short"/>
+<pin name="CD2" x="-15.24" y="12.7" length="short"/>
+<pin name="CD1" x="-15.24" y="15.24" length="short"/>
+<pin name="MOUNT" x="15.24" y="-12.7" length="short" rot="R180"/>
+<wire x1="-12.7" y1="17.78" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<text x="5.08" y="-5.08" size="1.9304" layer="94" font="vector" align="center">SD/MMC
+CARD</text>
+<text x="0" y="20.32" size="2.1844" layer="95" font="vector" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3268,6 +3342,43 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="DISTPN" value="609-3235-ND" constant="no"/>
 <attribute name="MFR" value="Amphenol FCI" constant="no"/>
 <attribute name="MPN" value="67997-208HLF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICROSD-CARD-RECEPT" prefix="SD">
+<description>&lt;b&gt;SD Card Readers&lt;/b&gt;
+
+&lt;p&gt;General collection of SD Card Readers. All pretty much adapt from the basic model of an SD or MMC card.</description>
+<gates>
+<gate name="G$1" symbol="MICRO-CARD-READER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_READER_PUSH-PULL_AMPHENOL" package="SD-READER-1140084168">
+<connects>
+<connect gate="G$1" pin="CD1" pad="CD1"/>
+<connect gate="G$1" pin="CD2" pad="CD2"/>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="DATA_IN" pad="3"/>
+<connect gate="G$1" pin="DATA_OUT" pad="7"/>
+<connect gate="G$1" pin="MOUNT" pad="NC@1 NC@2 NC@3 NC@4"/>
+<connect gate="G$1" pin="SCLK" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="https://www.amphenolcanada.com/ProductSearch/drawings/AC/1140084168.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/amphenol-commercial-products/114-00841-68/114-00841-68-1-ND/2187101" constant="no"/>
+<attribute name="DISTPN" value="114-00841-68-1-ND" constant="no"/>
+<attribute name="MFR" value="Amphenol Commercial Products" constant="no"/>
+<attribute name="MPN" value="114-00841-68" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
 </technology>
 </technologies>
 </device>
