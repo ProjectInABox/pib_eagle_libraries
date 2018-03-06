@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.2">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -895,6 +895,24 @@
 <hole x="2.5" y="47.5" drill="2"/>
 <hole x="47.5" y="47.5" drill="2"/>
 <hole x="47.5" y="12.5" drill="2"/>
+<circle x="2.5" y="12.5" radius="1.802775" width="0" layer="41"/>
+<circle x="2.5" y="47.5" radius="1.802775" width="0" layer="41"/>
+<circle x="47.5" y="47.5" radius="1.802775" width="0" layer="41"/>
+<circle x="47.5" y="12.5" radius="1.802775" width="0" layer="41"/>
+<circle x="2.5" y="12.5" radius="1.802775" width="0" layer="42"/>
+<circle x="2.5" y="47.5" radius="1.802775" width="0" layer="42"/>
+<circle x="47.5" y="12.5" radius="1.802775" width="0" layer="42"/>
+<circle x="47.5" y="47.5" radius="1.802775" width="0" layer="42"/>
+<rectangle x1="4" y1="24.5" x2="23" y2="35.5" layer="42"/>
+<rectangle x1="0" y1="8.5" x2="5.5" y2="51.5" layer="39"/>
+<rectangle x1="44.5" y1="8.5" x2="50" y2="51.5" layer="39"/>
+<rectangle x1="27" y1="24.5" x2="46" y2="35.5" layer="42"/>
+<rectangle x1="4" y1="24.5" x2="23" y2="35.5" layer="41"/>
+<rectangle x1="27" y1="24.5" x2="46" y2="35.5" layer="41"/>
+<rectangle x1="4" y1="24.5" x2="23" y2="35.5" layer="40"/>
+<rectangle x1="27" y1="24.5" x2="46" y2="35.5" layer="39"/>
+<rectangle x1="4" y1="24.5" x2="23" y2="35.5" layer="39"/>
+<rectangle x1="27" y1="24.5" x2="46" y2="35.5" layer="40"/>
 </package>
 </packages>
 <symbols>
