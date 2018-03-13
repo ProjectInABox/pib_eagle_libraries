@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2904,7 +2904,7 @@ The sampling rate on this IMU is slower than in the MPU6500, but it's noise sens
 <connects>
 <connect gate="G$1" pin="ENA" pad="1"/>
 <connect gate="G$1" pin="ENB" pad="5"/>
-<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="GND" pad="3 P$9 P$10 P$11"/>
 <connect gate="G$1" pin="INA" pad="2"/>
 <connect gate="G$1" pin="INB" pad="4"/>
 <connect gate="G$1" pin="OUTA" pad="6"/>
