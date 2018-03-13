@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.2">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -716,6 +716,7 @@
 </devices>
 </deviceset>
 <deviceset name="0.22UF" prefix="C" uservalue="yes">
+<description>0.22µF ±10% 50V Ceramic Capacitor X5R 0402 (1005 Metric)</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
@@ -735,6 +736,23 @@
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GRM21BR71H224KA01L" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="VALUE" value="0.22uF/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0402_50V-10%" package="_CER_SMD_0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=UMK105BJ224KV-F&amp;fileName=UMK105BJ224KV-F_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3500-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-3500-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="UMK105BJ224KV-F" constant="no"/>
 <attribute name="VALUE" value="0.22uF/50V" constant="no"/>
 </technology>
 </technologies>
@@ -1363,6 +1381,23 @@
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GRM188R71H103KA01D" constant="no"/>
 <attribute name="VALUE" value="0.01uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0402_50V-10%" package="_CER_SMD_0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=399-3066-1-ND" constant="no"/>
+<attribute name="DISTPN" value="399-3066-1-ND" constant="no"/>
+<attribute name="MFR" value="KEMET" constant="no"/>
+<attribute name="MPN" value="C0402C103K5RACTU" constant="no"/>
+<attribute name="VALUE" value="0.01uf/50V" constant="no"/>
 </technology>
 </technologies>
 </device>
