@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2589,16 +2589,22 @@ CARD</text>
 <technology name="">
 <attribute name="DATASHEET" value="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" constant="no"/>
 <attribute name="DATASHEET_CONNECTOR" value="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" constant="no"/>
+<attribute name="DATASHEET_CRIMP" value="http://www.jst-mfg.com/product/pdf/eng/ePAD.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=455-1704-ND" constant="no"/>
 <attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=%09455-1165-ND" constant="no"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=455-2147-1-ND" constant="no"/>
 <attribute name="DISTPN" value="455-1704-ND" constant="no"/>
 <attribute name="DISTPN_CONNECTOR" value="455-1165-ND" constant="no"/>
+<attribute name="DISTPN_CRIMP" value="455-2147-1-ND" constant="no"/>
 <attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="DIST_CRIMP" value="Digikey" constant="no"/>
 <attribute name="MFR" value="JST Sales America Inc." constant="no"/>
 <attribute name="MFR_CONNECTOR" value="JST Sales America Inc." constant="no"/>
+<attribute name="MFR_CRIMP" value="JST Sales America Inc." constant="no"/>
 <attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="PHR-2" constant="no"/>
+<attribute name="MPN_CRIMP" value="SPH-001T-P0.5L" constant="no"/>
 <attribute name="VALUE" value="1x02" constant="no"/>
 </technology>
 </technologies>

@@ -1221,12 +1221,12 @@
 <technologies>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E225KA12-01.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C71E225KE11-01.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-10731-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-10731-1-ND" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-12732-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-12732-1-ND" constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM188R61E225KA12D" constant="no"/>
+<attribute name="MPN" value="GRM188C71E225KE11D" constant="no"/>
 <attribute name="VALUE" value="2.2uF/25V" constant="no"/>
 </technology>
 </technologies>
@@ -1295,7 +1295,7 @@
 <attribute name="DISTPN" value="587-3152-1-ND" constant="no"/>
 <attribute name="MFR" value="Taiyo Yuden" constant="no"/>
 <attribute name="MPN" value="EMK325ABJ107MM-T" constant="no"/>
-<attribute name="VALUE" value="100uF" constant="no"/>
+<attribute name="VALUE" value="100uF/16V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1331,12 +1331,12 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK212BBJ476MG-T&amp;fileName=LMK212BBJ476MG-T_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-5465-1-ND" constant="no"/>
-<attribute name="DISTPN" value="587-5465-1-ND" constant="no"/>
-<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
-<attribute name="MPN" value="LMK212BBJ476MG-T" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-9961-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-9961-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM21BR61A476ME15L" constant="no"/>
 <attribute name="VALUE" value="47uF/10V" constant="no"/>
 </technology>
 </technologies>
@@ -1391,13 +1391,13 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B105KQ5NQNC_Spec.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=399-3066-1-ND" constant="no"/>
-<attribute name="DISTPN" value="399-3066-1-ND" constant="no"/>
-<attribute name="MFR" value="KEMET" constant="no"/>
-<attribute name="MPN" value="C0402C103K5RACTU" constant="no"/>
-<attribute name="VALUE" value="0.01uf/50V" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1276-1499-1-ND" constant="no"/>
+<attribute name="DISTPN" value="1276-1499-1-ND" constant="no"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" constant="no"/>
+<attribute name="MPN" value="CL05B103KB5NFNC" constant="no"/>
+<attribute name="VALUE" value="0.01uF/50V" constant="no"/>
 </technology>
 </technologies>
 </device>
