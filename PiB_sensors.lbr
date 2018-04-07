@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.2">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -252,6 +252,33 @@
 <text x="-1.143" y="0.508" size="1.27" layer="21" font="vector" ratio="10" align="center">+</text>
 <text x="1.397" y="0.508" size="1.27" layer="21" font="vector" ratio="10" align="center">-</text>
 </package>
+<package name="PHOTORESISTOR">
+<pad name="P$1" x="0" y="1" drill="0.5" diameter="1.1"/>
+<pad name="P$2" x="0" y="-1" drill="0.5" diameter="1.1"/>
+<wire x1="2.345" y1="1" x2="2.345" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2.345" y1="-1" x2="-2.345" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.345" y1="-1" x2="2.345" y2="-1" width="0.127" layer="21" curve="136.809379"/>
+<wire x1="-2.345" y1="1" x2="2.345" y2="1" width="0.127" layer="21" curve="-133.002869"/>
+<wire x1="-2.3" y1="-1" x2="-2" y2="-1" width="0.127" layer="51"/>
+<wire x1="-2" y1="-1" x2="-2" y2="1" width="0.127" layer="51"/>
+<wire x1="-2" y1="1" x2="-1.5" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1" x2="-1" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="51"/>
+<wire x1="-1" y1="1" x2="-0.5" y2="1" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="1" x2="-0.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-1" x2="0" y2="-1" width="0.127" layer="51"/>
+<wire x1="0" y1="-1" x2="0" y2="1" width="0.127" layer="51"/>
+<wire x1="0" y1="1" x2="0.5" y2="1" width="0.127" layer="51"/>
+<wire x1="0.5" y1="1" x2="0.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-1" x2="1" y2="-1" width="0.127" layer="51"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="51"/>
+<wire x1="1" y1="1" x2="1.5" y2="1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1" x2="1.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1" x2="2" y2="-1" width="0.127" layer="51"/>
+<wire x1="2" y1="-1" x2="2" y2="1" width="0.127" layer="51"/>
+<wire x1="2" y1="1" x2="2.3" y2="1" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IR-SENSOR_SHARP-GP2Y0A21YK0F">
@@ -310,6 +337,34 @@
 <text x="-1.778" y="-5.334" size="0.6096" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <pin name="+" x="2.54" y="0" visible="pin" length="short" direction="pas" rot="R180"/>
 <pin name="-" x="2.54" y="-2.54" visible="pin" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="PHOTORESISTOR">
+<wire x1="1.016" y1="-0.254" x2="-1.016" y2="0.381" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="-0.889" x2="1.016" y2="-0.254" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.524" x2="-1.016" y2="-0.889" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="-2.159" x2="1.016" y2="-1.524" width="0.2032" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.016" y2="-2.159" width="0.2032" layer="94"/>
+<text x="1.27" y="0" size="0.8128" layer="96" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="-1.2446" y="0" size="0.8128" layer="95" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.016" y1="0.381" x2="1.016" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="1.016" x2="-1.016" y2="1.651" width="0.2032" layer="94"/>
+<wire x1="-1.016" y1="1.651" x2="1.016" y2="2.286" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="2.286" x2="0" y2="2.54" width="0.2032" layer="94"/>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<wire x1="-6.35" y1="4.064" x2="-4.953" y2="2.667" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-4.953" y="2.667"/>
+<vertex x="-5.334" y="3.556"/>
+<vertex x="-5.842" y="3.048"/>
+</polygon>
+<wire x1="-6.35" y1="2.794" x2="-4.953" y2="1.397" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-4.953" y="1.397"/>
+<vertex x="-5.334" y="2.286"/>
+<vertex x="-5.842" y="1.778"/>
+</polygon>
+<circle x="0" y="0" radius="3.556" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -407,6 +462,30 @@
 <attribute name="QUERY" value="https://www.digikey.com/products/en/sensors-transducers/force-sensors/531?k=force+sensitive+resistor&amp;k=&amp;pkeyword=force+sensitive+resistor&amp;pv1260=27&amp;pv1260=26&amp;pv1260=42&amp;pv1260=20&amp;pv1260=29&amp;FV=ffe00213%2C884001a&amp;mnonly=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=250" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="FSR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PHOTORESISTOR" prefix="LDR" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PHOTORESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PHOTORESISTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://cdn-learn.adafruit.com/downloads/pdf/photocells.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1528-2141-ND" constant="no"/>
+<attribute name="DISTPN" value="1528-2141-ND" constant="no"/>
+<attribute name="MFR" value="Adafruit" constant="no"/>
+<attribute name="MPN" value="161" constant="no"/>
+<attribute name="VALUE" value="LDR" constant="no"/>
 </technology>
 </technologies>
 </device>
