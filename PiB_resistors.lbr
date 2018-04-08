@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1224,6 +1224,31 @@
 <attribute name="MFR" value="Yageo" constant="no"/>
 <attribute name="MPN" value="RC0603FR-0747KL" constant="no"/>
 <attribute name="VALUE" value="47k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.75Ω">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD-0805_1/4W-5%" package="RESISTOR_SMD-805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773269&amp;DocType=DS&amp;DocLang=English" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RLP73K2AR75JTD/A109814CT-ND/4032580" constant="no"/>
+<attribute name="DISTPN" value="A109814CT-ND" constant="no"/>
+<attribute name="MFR" value="TE Connectivity Passive Product" constant="no"/>
+<attribute name="MPN" value="RLP73K2AR75JTD" constant="no"/>
+<attribute name="VALUE" value="0.75Ω" constant="no"/>
 </technology>
 </technologies>
 </device>
