@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -503,7 +503,7 @@
 </device>
 <device name="SPDT-SMD-50MA-32V_L4.6-W2.8" package="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8">
 <connects>
-<connect gate="G$1" pin="1" pad="4"/>
+<connect gate="G$1" pin="1" pad="2"/>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
 <technologies>
@@ -599,8 +599,7 @@
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=563-1318-1-ND" constant="no"/>
 <attribute name="DISTPN" value="563-1318-1-ND" constant="no"/>
-<attribute name="MFR" value="	
-Nidec Copal Electronics" constant="no"/>
+<attribute name="MFR" value="  Nidec Copal Electronics" constant="no"/>
 <attribute name="MPN" value="CL-SB-12B-01T" constant="no"/>
 <attribute name="VALUE" value="200mA/12V" constant="no"/>
 </technology>

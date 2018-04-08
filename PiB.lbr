@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2994,11 +2994,11 @@ The sampling rate on this IMU is slower than in the MPU6500, but it's noise sens
 <connect gate="G$1" pin="N1D/P1D" pad="2"/>
 <connect gate="G$1" pin="N1G" pad="1"/>
 <connect gate="G$1" pin="N1S/N2S" pad="3"/>
-<connect gate="G$1" pin="N2D/P2D" pad="7"/>
+<connect gate="G$1" pin="N2D/P2D" pad="6"/>
 <connect gate="G$1" pin="N2G" pad="4"/>
-<connect gate="G$1" pin="P1G" pad="5"/>
-<connect gate="G$1" pin="P1S/P2S" pad="6"/>
-<connect gate="G$1" pin="P2G" pad="8"/>
+<connect gate="G$1" pin="P1G" pad="8"/>
+<connect gate="G$1" pin="P1S/P2S" pad="7"/>
+<connect gate="G$1" pin="P2G" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3023,13 +3023,13 @@ The sampling rate on this IMU is slower than in the MPU6500, but it's noise sens
 <device name="" package="WDFN_EXPOSED_PAD">
 <connects>
 <connect gate="G$1" pin="ENA" pad="1"/>
-<connect gate="G$1" pin="ENB" pad="5"/>
+<connect gate="G$1" pin="ENB" pad="8"/>
 <connect gate="G$1" pin="GND" pad="3 P$9 P$10 P$11"/>
 <connect gate="G$1" pin="INA" pad="2"/>
 <connect gate="G$1" pin="INB" pad="4"/>
-<connect gate="G$1" pin="OUTA" pad="6"/>
-<connect gate="G$1" pin="OUTB" pad="8"/>
-<connect gate="G$1" pin="VDD" pad="7"/>
+<connect gate="G$1" pin="OUTA" pad="7"/>
+<connect gate="G$1" pin="OUTB" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
 </connects>
 <technologies>
 <technology name="">
