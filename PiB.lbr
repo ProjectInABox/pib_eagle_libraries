@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2429,18 +2429,17 @@ VCC    : 3.3V - 5.25V</text>
 <technology name="">
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="N/A" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
-<attribute name="DIST" value="Amazon" constant="no"/>
-<attribute name="DISTLINK" value="https://www.amazon.com/RioRand-MG90S-Metal-Geared-Helicopter/dp/B00M8SR0ZK/ref=sr_1_1?s=toys-and-games&amp;ie=UTF8&amp;qid=1472114876&amp;sr=1-1&amp;keywords=MG90s+Micro+Metal+Geared+Servo" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PEC03SAAN" constant="no"/>
-<attribute name="DISTPN" value="N/A" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="S1012E-03-ND" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
+<attribute name="DIST" value="ValueHobby" constant="no"/>
+<attribute name="DISTLINK" value="http://www.valuehobby.com/mg90s-mini-servo.html" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PPTC031LFBN-RC" constant="no"/>
+<attribute name="DISTPN" value="TWP-SV-0358" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S7001-ND" constant="no"/>
 <attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
 <attribute name="MFR" value="TowerPro" constant="no"/>
 <attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="MG90S" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="PEC03SAAN" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" constant="no"/>
 <attribute name="VALUE" value="MG90S" constant="no"/>
 </technology>
 </technologies>
@@ -3204,6 +3203,12 @@ Li-Polymer Charge Management Controllers.</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="CONNECTOR_DATASHEET" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
+<attribute name="CONNECTOR_DIST" value="Digikey" constant="no"/>
+<attribute name="CONNECTOR_DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC03SAAN" constant="no"/>
+<attribute name="CONNECTOR_DISTPN" value="S1012E-03-ND" constant="no"/>
+<attribute name="CONNECTOR_MFR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="CONNECTOR_MPN" value="PEC03SAAN" constant="no"/>
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Olimex%20LTD%20PDFs/USB-SERIAL-CABLE-F_Web.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1188-1018-ND" constant="no"/>

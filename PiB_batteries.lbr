@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.2">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -404,7 +404,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="BATTERY" prefix="BATT">
+<deviceset name="BATTERY" prefix="BATT" uservalue="yes">
 <description>Generic Dual SMD Pad for Bettery Soldering</description>
 <gates>
 <gate name="G$1" symbol="BATTERY" x="0" y="0"/>
@@ -435,6 +435,21 @@
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="_LIPO_BATTERY" package="DUAL_PTH_PADS">
+<connects>
+<connect gate="G$1" pin="N" pad="-"/>
+<connect gate="G$1" pin="P" pad="+"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST" value="Amazon" constant="no"/>
+<attribute name="DISTLINK" value="https://www.amazon.com/eBoot-Connector-Female-Cable-Battery/dp/B01M5AHF0Z/ref=sr_1_1_sspa?s=toys-and-games&amp;ie=UTF8&amp;qid=1523148739&amp;sr=1-1-spons&amp;keywords=lipo+battery+female+JST+Plug+Connector&amp;psc=1" constant="no"/>
+<attribute name="DISTPN" value="B01M5AHF0Z" constant="no"/>
+<attribute name="QTY_PER_PACK" value="10" constant="no"/>
+<attribute name="VALUE" value="7.4V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

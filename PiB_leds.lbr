@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -439,8 +439,8 @@
 <wire x1="-4" y1="4" x2="-4" y2="-4" width="0.127" layer="21"/>
 <circle x="1.75" y="1.5" radius="1.25" width="0.127" layer="21"/>
 <circle x="-1.75" y="1.5" radius="1.25" width="0.127" layer="21"/>
-<hole x="-1.75" y="1.5" drill="2.4"/>
-<hole x="1.75" y="1.5" drill="2.4"/>
+<hole x="-1.75" y="1.5" drill="2.6"/>
+<hole x="1.75" y="1.5" drill="2.6"/>
 <pad name="RX_E" x="-1.27" y="-2.15" drill="0.8128" diameter="1.8796"/>
 <pad name="RX_C" x="1.27" y="-2.15" drill="0.8128" diameter="1.8796"/>
 <wire x1="-1.85" y1="0.25" x2="-1.5" y2="0.25" width="0.127" layer="21"/>
@@ -513,8 +513,8 @@
 <wire x1="9.5" y1="-4" x2="9.5" y2="4" width="0.127" layer="21"/>
 <wire x1="9.5" y1="4" x2="-9.5" y2="4" width="0.127" layer="21"/>
 <wire x1="-9.5" y1="-4" x2="-9.5" y2="4" width="0.127" layer="21"/>
-<hole x="7" y="1.5" drill="2.5"/>
-<hole x="-7" y="1.5" drill="2.5"/>
+<hole x="7" y="1.5" drill="2.6"/>
+<hole x="-7" y="1.5" drill="2.6"/>
 <pad name="A_LEFT" x="-7.27" y="-4.5" drill="0.8128" diameter="1.8796"/>
 <pad name="K_LEFT" x="-4.73" y="-4.5" drill="0.8128" diameter="1.8796"/>
 <text x="-7.27" y="-2.341" size="0.8128" layer="21" font="vector" ratio="10" align="center">+</text>
@@ -584,8 +584,8 @@
 <wire x1="9.5" y1="-4" x2="9.5" y2="4" width="0.127" layer="21"/>
 <wire x1="9.5" y1="4" x2="-9.5" y2="4" width="0.127" layer="21"/>
 <wire x1="-9.5" y1="-4" x2="-9.5" y2="4" width="0.127" layer="21"/>
-<hole x="-7" y="1.5" drill="2.5"/>
-<hole x="7" y="1.5" drill="2.5"/>
+<hole x="-7" y="1.5" drill="2.6"/>
+<hole x="7" y="1.5" drill="2.6"/>
 <pad name="A" x="-1.27" y="-4.51" drill="0.8128" diameter="1.8796"/>
 <pad name="K" x="1.27" y="-4.51" drill="0.8128" diameter="1.8796"/>
 <text x="0" y="-6.161" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
@@ -1502,18 +1502,26 @@
 <devices>
 <device name="" package="LED-5MM-PTH_RGB-CA_CONNECTOR">
 <connects>
-<connect gate="G$1" pin="BLUE" pad="GREEN"/>
-<connect gate="G$1" pin="GREEN" pad="BLUE"/>
+<connect gate="G$1" pin="BLUE" pad="BLUE"/>
+<connect gate="G$1" pin="GREEN" pad="GREEN"/>
 <connect gate="G$1" pin="RED" pad="RED"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="CONNECTOR_DATASHEET" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
+<attribute name="CONNECTOR_DIST" value="Digikey" constant="no"/>
+<attribute name="CONNECTOR_DISTLINK" value="https://www.digikey.com/products/en?mpart=PPPC041LFBN-RC&amp;v=35" constant="no"/>
+<attribute name="CONNECTOR_DISTPN" value="S7037-ND" constant="no"/>
+<attribute name="CONNECTOR_MFR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="CONNECTOR_MPN" value="PPPC041LFBN-RC" constant="no"/>
 <attribute name="DATASHEET" value="https://cdn.sparkfun.com/datasheets/Components/LED/YSL-R596AR3G4B5C-C10.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.sparkfun.com/products/10820" constant="no"/>
-<attribute name="MFR" value="CHINA YOUNG SUN LED TECHNOLOGY CO. LTD" constant="no"/>
-<attribute name="MPN" value="YSL-R596AR3G4B5C-C10." constant="no"/>
+<attribute name="DIST" value="Amazon" constant="no"/>
+<attribute name="DISTLINK" value="https://www.amazon.com/Tricolor-Multicolor-Lighting-Electronics-Components/dp/B01C19ENFK/ref=sr_1_1?ie=UTF8&amp;qid=1504314575&amp;sr=8-1&amp;keywords=RGB+Clear+Common+Anode" constant="no"/>
+<attribute name="DISTPN" value="100F5T-YT-RGB-CA" constant="no"/>
+<attribute name="MFR" value="Chanzon" constant="no"/>
+<attribute name="MPN" value="100F5T-YT-RGB-CA" constant="no"/>
+<attribute name="QTY_PER_PACK" value="100" constant="no"/>
 <attribute name="VALUE" value="RGB-CA" constant="no"/>
 </technology>
 </technologies>
