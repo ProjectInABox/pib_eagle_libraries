@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -37,7 +37,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
@@ -736,83 +736,6 @@
 <wire x1="-2" y1="-2" x2="-3.6" y2="-2" width="0.127" layer="39"/>
 <wire x1="-3.6" y1="-2" x2="-3.6" y2="2" width="0.127" layer="39"/>
 </package>
-<package name="LSM9DS1_LGA24L">
-<description>SMD IMU, Chip; 3.50 mm L X 3.00 mm W X 1.00 mm H body; LGA24L Package</description>
-<wire x1="-1.75" y1="1.5" x2="-1.75" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-1.75" y1="1.5" x2="1.75" y2="1.5" width="0.127" layer="51"/>
-<wire x1="1.75" y1="1.5" x2="1.75" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.75" y1="-1.5" x2="-1.75" y2="-1.5" width="0.127" layer="51"/>
-<circle x="-2.25" y="1.37" radius="0.125" width="0.25" layer="21"/>
-<smd name="22" x="-0.215" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R270" stop="no"/>
-<smd name="21" x="0.215" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R270" stop="no"/>
-<smd name="20" x="0.645" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R270" stop="no"/>
-<smd name="19" x="1.075" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R270" stop="no"/>
-<smd name="23" x="-0.645" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R270" stop="no"/>
-<smd name="24" x="-1.075" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R270" stop="no"/>
-<smd name="18" x="1.505" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R270" stop="no"/>
-<smd name="14" x="1.975" y="-0.645" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R180" stop="no"/>
-<smd name="17" x="1.975" y="0.645" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R180" stop="no"/>
-<smd name="16" x="1.975" y="0.215" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R180" stop="no"/>
-<smd name="15" x="1.975" y="-0.215" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R180" stop="no"/>
-<smd name="5" x="-1.975" y="-0.645" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R180" stop="no"/>
-<smd name="2" x="-1.975" y="0.645" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R180" stop="no"/>
-<smd name="3" x="-1.975" y="0.215" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R180" stop="no"/>
-<smd name="4" x="-1.975" y="-0.215" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R180" stop="no"/>
-<smd name="10" x="0.215" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R90" stop="no"/>
-<smd name="9" x="-0.215" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R90" stop="no"/>
-<smd name="8" x="-0.645" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R90" stop="no"/>
-<smd name="7" x="-1.075" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R90" stop="no"/>
-<smd name="11" x="0.645" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R90" stop="no"/>
-<smd name="12" x="1.075" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R90" stop="no"/>
-<smd name="13" x="1.505" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R90" stop="no"/>
-<smd name="6" x="-1.505" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R90" stop="no"/>
-<smd name="1" x="-1.505" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="25" rot="R90" stop="no"/>
-<text x="-1.85" y="2.51" size="0.8128" layer="25">&gt;NAME</text>
-<rectangle x1="1.226125" y1="0.4557625" x2="2.713625" y2="0.8307625" layer="29" rot="R180"/>
-<rectangle x1="1.226125" y1="0.0257625" x2="2.713625" y2="0.4007625" layer="29" rot="R180"/>
-<rectangle x1="1.226125" y1="-0.4042375" x2="2.713625" y2="-0.0292375" layer="29" rot="R180"/>
-<rectangle x1="1.226125" y1="-0.8342375" x2="2.713625" y2="-0.4592375" layer="29" rot="R180"/>
-<wire x1="-1.825" y1="0.925" x2="-1.825" y2="1.525" width="0.127" layer="21"/>
-<wire x1="-1.825" y1="1.525" x2="-1.7375" y2="1.525" width="0.127" layer="21"/>
-<wire x1="1.6875" y1="1.5375" x2="1.8125" y2="1.5375" width="0.127" layer="21"/>
-<wire x1="1.8125" y1="1.5375" x2="1.8125" y2="0.875" width="0.127" layer="21"/>
-<wire x1="1.825" y1="-0.8375" x2="1.825" y2="-1.575" width="0.127" layer="21"/>
-<wire x1="1.825" y1="-1.575" x2="1.725" y2="-1.575" width="0.127" layer="21"/>
-<wire x1="-1.6875" y1="-1.575" x2="-1.825" y2="-1.575" width="0.127" layer="21"/>
-<wire x1="-1.825" y1="-1.575" x2="-1.825" y2="-0.9" width="0.127" layer="21"/>
-<rectangle x1="-2.713625" y1="0.4557625" x2="-1.226125" y2="0.8307625" layer="29"/>
-<rectangle x1="-2.713625" y1="0.0257625" x2="-1.226125" y2="0.4007625" layer="29"/>
-<rectangle x1="-2.713625" y1="-0.4042375" x2="-1.226125" y2="-0.0292375" layer="29"/>
-<rectangle x1="-2.713625" y1="-0.8342375" x2="-1.226125" y2="-0.4592375" layer="29"/>
-<rectangle x1="0.764265625" y1="1.53735" x2="2.251765625" y2="1.91235" layer="29" rot="R270"/>
-<rectangle x1="0.334265625" y1="1.53735" x2="1.821765625" y2="1.91235" layer="29" rot="R270"/>
-<rectangle x1="-0.095734375" y1="1.53735" x2="1.391765625" y2="1.91235" layer="29" rot="R270"/>
-<rectangle x1="-0.525734375" y1="1.53735" x2="0.961765625" y2="1.91235" layer="29" rot="R270"/>
-<rectangle x1="-0.955734375" y1="1.53735" x2="0.531765625" y2="1.91235" layer="29" rot="R270"/>
-<rectangle x1="-1.385734375" y1="1.53735" x2="0.101765625" y2="1.91235" layer="29" rot="R270"/>
-<rectangle x1="-1.815734375" y1="1.53735" x2="-0.328234375" y2="1.91235" layer="29" rot="R270"/>
-<rectangle x1="0.758234375" y1="-1.91235" x2="2.245734375" y2="-1.53735" layer="29" rot="R90"/>
-<rectangle x1="-2.241765625" y1="-1.91235" x2="-0.754265625" y2="-1.53735" layer="29" rot="R90"/>
-<rectangle x1="-1.811765625" y1="-1.91235" x2="-0.324265625" y2="-1.53735" layer="29" rot="R90"/>
-<rectangle x1="-1.381765625" y1="-1.91235" x2="0.105734375" y2="-1.53735" layer="29" rot="R90"/>
-<rectangle x1="-0.951765625" y1="-1.91235" x2="0.535734375" y2="-1.53735" layer="29" rot="R90"/>
-<rectangle x1="-0.521765625" y1="-1.91235" x2="0.965734375" y2="-1.53735" layer="29" rot="R90"/>
-<rectangle x1="-0.091765625" y1="-1.91235" x2="1.395734375" y2="-1.53735" layer="29" rot="R90"/>
-<rectangle x1="0.338234375" y1="-1.91235" x2="1.825734375" y2="-1.53735" layer="29" rot="R90"/>
-<rectangle x1="-2.245734375" y1="1.53735" x2="-0.758234375" y2="1.91235" layer="29" rot="R270"/>
-<wire x1="-2.79" y1="0.9" x2="-1.78" y2="0.9" width="0.127" layer="39"/>
-<wire x1="-1.78" y1="0.9" x2="-1.76" y2="2.58" width="0.127" layer="39"/>
-<wire x1="-1.76" y1="2.58" x2="1.81" y2="2.58" width="0.127" layer="39"/>
-<wire x1="1.81" y1="2.58" x2="1.81" y2="0.91" width="0.127" layer="39"/>
-<wire x1="1.81" y1="0.91" x2="2.82" y2="0.91" width="0.127" layer="39"/>
-<wire x1="2.82" y1="0.91" x2="2.82" y2="-0.93" width="0.127" layer="39"/>
-<wire x1="2.82" y1="-0.93" x2="1.84" y2="-0.94" width="0.127" layer="39"/>
-<wire x1="1.84" y1="-0.94" x2="1.85" y2="-2.58" width="0.127" layer="39"/>
-<wire x1="1.85" y1="-2.58" x2="-1.77" y2="-2.57" width="0.127" layer="39"/>
-<wire x1="-1.77" y1="-2.57" x2="-1.77" y2="-0.91" width="0.127" layer="39"/>
-<wire x1="-1.77" y1="-0.91" x2="-2.79" y2="-0.91" width="0.127" layer="39"/>
-<wire x1="-2.79" y1="-0.91" x2="-2.79" y2="0.9" width="0.127" layer="39"/>
-</package>
 <package name="MPU6000-QFN24">
 <wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="51"/>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="51"/>
@@ -1434,6 +1357,75 @@ package type OT</description>
 <text x="-1.27" y="0" size="0.8128" layer="21" font="vector" ratio="10" align="center-right">RX(GREEN)</text>
 <text x="-1.27" y="2.54" size="0.8128" layer="21" font="vector" ratio="10" align="center-right">TX(RED)</text>
 </package>
+<package name="LSM9DS1-24LGA">
+<wire x1="-1.75" y1="1.5" x2="-1.75" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="1.5" x2="1.75" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.75" y1="1.5" x2="1.75" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.5" x2="-1.75" y2="-1.5" width="0.1" layer="51"/>
+<circle x="-2.123" y="1.878" radius="0.125" width="0.25" layer="21"/>
+<smd name="VDD@0" x="-0.215" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R270" stop="no"/>
+<smd name="CAP" x="0.215" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R270" stop="no"/>
+<smd name="GND@1" x="0.645" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R270" stop="no"/>
+<smd name="GND@0" x="1.075" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R270" stop="no"/>
+<smd name="VDD@1" x="-0.645" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R270" stop="no"/>
+<smd name="C1" x="-1.075" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R270" stop="no"/>
+<smd name="RES@4" x="1.505" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R270" stop="no"/>
+<smd name="RES@0" x="1.975" y="-0.645" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R180" stop="no"/>
+<smd name="RES@3" x="1.975" y="0.645" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R180" stop="no"/>
+<smd name="RES@2" x="1.975" y="0.215" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R180" stop="no"/>
+<smd name="RES@1" x="1.975" y="-0.215" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R180" stop="no"/>
+<smd name="SDO_A/G" x="-1.975" y="-0.645" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R180" stop="no"/>
+<smd name="SCL/SPC" x="-1.975" y="0.645" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R180" stop="no"/>
+<smd name="VDDIO@1" x="-1.975" y="0.215" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R180" stop="no"/>
+<smd name="SDA/SDI/SDO" x="-1.975" y="-0.215" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R180" stop="no"/>
+<smd name="INT_M" x="0.215" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="DRDY_M" x="-0.215" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="CS_M" x="-0.645" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="CS_A/G" x="-1.075" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="INT1_A/G" x="0.645" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="INT2_A/G" x="1.075" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="DEN_A/G" x="1.505" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="SDO_M" x="-1.505" y="-1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R90" stop="no"/>
+<smd name="VDDIO@0" x="-1.505" y="1.725" dx="1.35" dy="0.23" layer="1" roundness="50" rot="R90" stop="no"/>
+<text x="0" y="3.381" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
+<rectangle x1="1.226125" y1="0.4557625" x2="2.713625" y2="0.8307625" layer="29" rot="R180"/>
+<rectangle x1="1.226125" y1="0.0257625" x2="2.713625" y2="0.4007625" layer="29" rot="R180"/>
+<rectangle x1="1.226125" y1="-0.4042375" x2="2.713625" y2="-0.0292375" layer="29" rot="R180"/>
+<rectangle x1="1.226125" y1="-0.8342375" x2="2.713625" y2="-0.4592375" layer="29" rot="R180"/>
+<wire x1="-1.825" y1="0.925" x2="-1.825" y2="1.525" width="0.1" layer="21"/>
+<wire x1="-1.825" y1="1.525" x2="-1.7375" y2="1.525" width="0.1" layer="21"/>
+<wire x1="1.6875" y1="1.5375" x2="1.8125" y2="1.5375" width="0.1" layer="21"/>
+<wire x1="1.8125" y1="1.5375" x2="1.8125" y2="0.875" width="0.1" layer="21"/>
+<wire x1="1.825" y1="-0.8375" x2="1.825" y2="-1.575" width="0.1" layer="21"/>
+<wire x1="1.825" y1="-1.575" x2="1.725" y2="-1.575" width="0.1" layer="21"/>
+<wire x1="-1.6875" y1="-1.575" x2="-1.825" y2="-1.575" width="0.1" layer="21"/>
+<wire x1="-1.825" y1="-1.575" x2="-1.825" y2="-0.9" width="0.1" layer="21"/>
+<rectangle x1="-2.713625" y1="0.4557625" x2="-1.226125" y2="0.8307625" layer="29"/>
+<rectangle x1="-2.713625" y1="0.0257625" x2="-1.226125" y2="0.4007625" layer="29"/>
+<rectangle x1="-2.713625" y1="-0.4042375" x2="-1.226125" y2="-0.0292375" layer="29"/>
+<rectangle x1="-2.713625" y1="-0.8342375" x2="-1.226125" y2="-0.4592375" layer="29"/>
+<rectangle x1="0.764265625" y1="1.53735" x2="2.251765625" y2="1.91235" layer="29" rot="R270"/>
+<rectangle x1="0.334265625" y1="1.53735" x2="1.821765625" y2="1.91235" layer="29" rot="R270"/>
+<rectangle x1="-0.095734375" y1="1.53735" x2="1.391765625" y2="1.91235" layer="29" rot="R270"/>
+<rectangle x1="-0.525734375" y1="1.53735" x2="0.961765625" y2="1.91235" layer="29" rot="R270"/>
+<rectangle x1="-0.955734375" y1="1.53735" x2="0.531765625" y2="1.91235" layer="29" rot="R270"/>
+<rectangle x1="-1.385734375" y1="1.53735" x2="0.101765625" y2="1.91235" layer="29" rot="R270"/>
+<rectangle x1="-1.815734375" y1="1.53735" x2="-0.328234375" y2="1.91235" layer="29" rot="R270"/>
+<rectangle x1="0.758234375" y1="-1.91235" x2="2.245734375" y2="-1.53735" layer="29" rot="R90"/>
+<rectangle x1="-2.241765625" y1="-1.91235" x2="-0.754265625" y2="-1.53735" layer="29" rot="R90"/>
+<rectangle x1="-1.811765625" y1="-1.91235" x2="-0.324265625" y2="-1.53735" layer="29" rot="R90"/>
+<rectangle x1="-1.381765625" y1="-1.91235" x2="0.105734375" y2="-1.53735" layer="29" rot="R90"/>
+<rectangle x1="-0.951765625" y1="-1.91235" x2="0.535734375" y2="-1.53735" layer="29" rot="R90"/>
+<rectangle x1="-0.521765625" y1="-1.91235" x2="0.965734375" y2="-1.53735" layer="29" rot="R90"/>
+<rectangle x1="-0.091765625" y1="-1.91235" x2="1.395734375" y2="-1.53735" layer="29" rot="R90"/>
+<rectangle x1="0.338234375" y1="-1.91235" x2="1.825734375" y2="-1.53735" layer="29" rot="R90"/>
+<rectangle x1="-2.245734375" y1="1.53735" x2="-0.758234375" y2="1.91235" layer="29" rot="R270"/>
+<wire x1="-3" y1="2.7" x2="3" y2="2.7" width="0.1" layer="39"/>
+<wire x1="3" y1="2.7" x2="3" y2="-2.7" width="0.1" layer="39"/>
+<wire x1="3" y1="-2.7" x2="-3" y2="-2.7" width="0.1" layer="39"/>
+<wire x1="-3" y1="-2.7" x2="-3" y2="2.7" width="0.1" layer="39"/>
+<text x="0" y="-3.477" size="1.27" layer="27" font="vector" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRSKY_GIMBAL">
@@ -1837,39 +1829,6 @@ package type OT</description>
 <text x="0" y="22.86" size="1.016" layer="94" ratio="10" align="center">VCCIO: 1.8V - 5.25V
 VCC    : 3.3V - 5.25V</text>
 </symbol>
-<symbol name="LSM9DS1">
-<description>IMU Chip</description>
-<pin name="RES@4" x="-17.78" y="-22.86" length="short" direction="nc"/>
-<pin name="RES@3" x="-17.78" y="-20.32" length="short" direction="nc"/>
-<pin name="RES@2" x="-17.78" y="-17.78" length="short" direction="nc"/>
-<pin name="RES@1" x="-17.78" y="-15.24" length="short" direction="nc"/>
-<pin name="SCL/SPC" x="20.32" y="10.16" length="short" rot="R180"/>
-<pin name="VDDIO@2" x="-17.78" y="12.7" length="short" direction="pwr"/>
-<pin name="SDA/SDI/SDO" x="20.32" y="7.62" length="short" rot="R180"/>
-<pin name="SDO_A/G" x="20.32" y="2.54" length="short" rot="R180"/>
-<pin name="DEN_A/G" x="20.32" y="-7.62" length="short" rot="R180"/>
-<pin name="INT2_A/G" x="20.32" y="-22.86" length="short" rot="R180"/>
-<pin name="INT_M" x="20.32" y="-25.4" length="short" rot="R180"/>
-<pin name="INT1_A/G" x="20.32" y="-20.32" length="short" rot="R180"/>
-<pin name="DRDY_M" x="20.32" y="-10.16" length="short" rot="R180"/>
-<pin name="CS_M" x="20.32" y="20.32" length="short" rot="R180"/>
-<pin name="CS_A/G" x="20.32" y="22.86" length="short" rot="R180"/>
-<pin name="SDO_M" x="20.32" y="5.08" length="short" rot="R180"/>
-<pin name="RES@5" x="-17.78" y="-25.4" length="short" direction="nc"/>
-<pin name="GND@1" x="-17.78" y="-7.62" length="short" direction="pwr"/>
-<pin name="GND@2" x="-17.78" y="-10.16" length="short" direction="pwr"/>
-<pin name="CAP" x="-17.78" y="5.08" length="short" direction="pas"/>
-<pin name="VDD@1" x="-17.78" y="22.86" length="short" direction="pwr"/>
-<pin name="VDD@2" x="-17.78" y="20.32" length="short" direction="pwr"/>
-<pin name="C1" x="-17.78" y="7.62" length="short" direction="pas"/>
-<pin name="VDDIO@1" x="-17.78" y="15.24" length="short" direction="pwr"/>
-<text x="0" y="0" size="0.8128" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<wire x1="-15.24" y1="25.4" x2="17.78" y2="25.4" width="0.254" layer="94"/>
-<wire x1="17.78" y1="25.4" x2="17.78" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-27.94" x2="-15.24" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-27.94" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
-<text x="0" y="-2.54" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
-</symbol>
 <symbol name="MPU6000">
 <pin name="CLKIN" x="-22.86" y="5.08" length="middle" direction="nc"/>
 <pin name="NC@2" x="-22.86" y="2.54" length="middle" direction="nc"/>
@@ -2134,6 +2093,32 @@ VCC    : 3.3V - 5.25V</text>
 <pin name="GND" x="7.62" y="-2.54" visible="pin" length="middle" direction="pas" rot="R180"/>
 <wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
 <pin name="TX(RED)" x="7.62" y="2.54" visible="pin" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="LSM9DS1_IMU">
+<pin name="SCL/SPC" x="17.78" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="SDA/SDI/SDO" x="17.78" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="SDO_A/G" x="17.78" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="DEN_A/G" x="17.78" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="INT2_A/G" x="17.78" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="INT_M" x="17.78" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="INT1_A/G" x="17.78" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="DRDY_M" x="17.78" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="CS_M" x="17.78" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="CS_A/G" x="17.78" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="SDO_M" x="17.78" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="-17.78" y="-17.78" visible="pin" length="short" direction="pwr"/>
+<pin name="CAP" x="-17.78" y="-7.62" visible="pin" length="short" direction="pas"/>
+<pin name="VDD@0" x="-17.78" y="15.24" visible="pin" length="short" direction="pwr"/>
+<pin name="C1" x="-17.78" y="2.54" visible="pin" length="short" direction="pas"/>
+<pin name="VDDIO@0" x="-17.78" y="10.16" visible="pin" length="short" direction="pwr"/>
+<text x="0" y="18.288" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<wire x1="-15.24" y1="17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="17.78" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
+<text x="0" y="-20.574" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<pin name="VDDIO@1" x="-17.78" y="7.62" visible="pin" length="short" direction="pwr"/>
+<pin name="VDD@1" x="-17.78" y="12.7" visible="pin" length="short" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2690,54 +2675,6 @@ VCC    : 3.3V - 5.25V</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LSM9DS1_IMU" prefix="IMU" uservalue="yes">
-<description>iNEMO IMU</description>
-<gates>
-<gate name="G$1" symbol="LSM9DS1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LSM9DS1_LGA24L">
-<connects>
-<connect gate="G$1" pin="C1" pad="24"/>
-<connect gate="G$1" pin="CAP" pad="21"/>
-<connect gate="G$1" pin="CS_A/G" pad="7"/>
-<connect gate="G$1" pin="CS_M" pad="8"/>
-<connect gate="G$1" pin="DEN_A/G" pad="13"/>
-<connect gate="G$1" pin="DRDY_M" pad="9"/>
-<connect gate="G$1" pin="GND@1" pad="20"/>
-<connect gate="G$1" pin="GND@2" pad="19"/>
-<connect gate="G$1" pin="INT1_A/G" pad="11"/>
-<connect gate="G$1" pin="INT2_A/G" pad="12"/>
-<connect gate="G$1" pin="INT_M" pad="10"/>
-<connect gate="G$1" pin="RES@1" pad="14"/>
-<connect gate="G$1" pin="RES@2" pad="15"/>
-<connect gate="G$1" pin="RES@3" pad="16"/>
-<connect gate="G$1" pin="RES@4" pad="17"/>
-<connect gate="G$1" pin="RES@5" pad="18"/>
-<connect gate="G$1" pin="SCL/SPC" pad="2"/>
-<connect gate="G$1" pin="SDA/SDI/SDO" pad="4"/>
-<connect gate="G$1" pin="SDO_A/G" pad="5"/>
-<connect gate="G$1" pin="SDO_M" pad="6"/>
-<connect gate="G$1" pin="VDD@1" pad="23"/>
-<connect gate="G$1" pin="VDD@2" pad="22"/>
-<connect gate="G$1" pin="VDDIO@1" pad="1"/>
-<connect gate="G$1" pin="VDDIO@2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei"/>
-<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/stmicroelectronics/LSM9DS1TR/497-14946-1-ND/4988079" constant="no"/>
-<attribute name="DISTPN" value="497-14946-1-ND"/>
-<attribute name="MFR" value="STMicroelectronics"/>
-<attribute name="MPN" value="LSM9DS1TR"/>
-<attribute name="VALUE" value="LM9DS1" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MPU6000" prefix="IMU">
 <description>MPU 6000 IMU (6DOF)
 The sampling rate on this IMU is slower than in the MPU6500, but it's noise sensitivity is much lower.</description>
@@ -3215,6 +3152,47 @@ Li-Polymer Charge Management Controllers.</description>
 <attribute name="DISTPN" value="1188-1018-ND" constant="no"/>
 <attribute name="MFR" value="Olimex LTD" constant="no"/>
 <attribute name="MPN" value="USB-SERIAL-CABLE-F" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LSM9DS1_IMU" prefix="IMU" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LSM9DS1_IMU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LSM9DS1-24LGA">
+<connects>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="CAP" pad="CAP"/>
+<connect gate="G$1" pin="CS_A/G" pad="CS_A/G"/>
+<connect gate="G$1" pin="CS_M" pad="CS_M"/>
+<connect gate="G$1" pin="DEN_A/G" pad="DEN_A/G"/>
+<connect gate="G$1" pin="DRDY_M" pad="DRDY_M"/>
+<connect gate="G$1" pin="GND" pad="GND@0 GND@1 RES@0 RES@1 RES@2 RES@3 RES@4"/>
+<connect gate="G$1" pin="INT1_A/G" pad="INT1_A/G"/>
+<connect gate="G$1" pin="INT2_A/G" pad="INT2_A/G"/>
+<connect gate="G$1" pin="INT_M" pad="INT_M"/>
+<connect gate="G$1" pin="SCL/SPC" pad="SCL/SPC"/>
+<connect gate="G$1" pin="SDA/SDI/SDO" pad="SDA/SDI/SDO"/>
+<connect gate="G$1" pin="SDO_A/G" pad="SDO_A/G"/>
+<connect gate="G$1" pin="SDO_M" pad="SDO_M"/>
+<connect gate="G$1" pin="VDD@0" pad="VDD@0"/>
+<connect gate="G$1" pin="VDD@1" pad="VDD@1"/>
+<connect gate="G$1" pin="VDDIO@0" pad="VDDIO@0"/>
+<connect gate="G$1" pin="VDDIO@1" pad="VDDIO@1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-14946-1-ND" constant="no"/>
+<attribute name="DISTPN" value="497-14946-1-ND" constant="no"/>
+<attribute name="MFR" value="STMicroelectronics" constant="no"/>
+<attribute name="MPN" value="LSM9DS1TR" constant="no"/>
+<attribute name="VALUE" value="LSM9DS1" constant="no"/>
 </technology>
 </technologies>
 </device>
