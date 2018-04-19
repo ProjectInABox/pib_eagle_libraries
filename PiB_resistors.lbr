@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -352,6 +352,29 @@
 <wire x1="0.851" y1="-0.389" x2="0.851" y2="0.389" width="0.1" layer="21"/>
 <wire x1="0.851" y1="0.389" x2="-0.851" y2="0.389" width="0.1" layer="21"/>
 </package>
+<package name="PTH_L25-T12_KNURLED-SLOTTED_TOP-ADJ">
+<pad name="S" x="0" y="-10" drill="1" diameter="2"/>
+<pad name="CCW" x="-3.75" y="-10" drill="1" diameter="2"/>
+<pad name="CW" x="3.75" y="-10" drill="1" diameter="2"/>
+<hole x="-6.1" y="0" drill="2.8"/>
+<hole x="6.1" y="0" drill="2.8"/>
+<wire x1="-6.5" y1="-10" x2="6.5" y2="-10" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-10" x2="6.5" y2="1" width="0.127" layer="21"/>
+<wire x1="6.5" y1="1" x2="-6.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="1" x2="-6.5" y2="-10" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="6.2" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
+<wire x1="-8" y1="-12" x2="8" y2="-12" width="0.127" layer="39"/>
+<wire x1="8" y1="-12" x2="8" y2="7" width="0.127" layer="39"/>
+<wire x1="8" y1="7" x2="-8" y2="7" width="0.127" layer="39"/>
+<wire x1="-8" y1="7" x2="-8" y2="-12" width="0.127" layer="39"/>
+<circle x="-6.1" y="0" radius="1.5" width="0" layer="41"/>
+<circle x="6.1" y="0" radius="1.5" width="0" layer="41"/>
+<circle x="-6.1" y="0" radius="1.5" width="0" layer="42"/>
+<circle x="6.1" y="0" radius="1.5" width="0" layer="42"/>
+<text x="0" y="8" size="1.27" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -460,7 +483,7 @@
 <gate name="G$1" symbol="POTENTIOMETER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_PTH_10K-1/5W-20%_ACTLEN-25" package="PTH_L25-T12_KNURLED-SLOTTED">
+<device name="_PTH_10K-1/5W-20%_ACTLEN-25_SIDE-ADJ" package="PTH_L25-T12_KNURLED-SLOTTED">
 <connects>
 <connect gate="G$1" pin="CCW" pad="CCW"/>
 <connect gate="G$1" pin="CW" pad="CW"/>
@@ -502,6 +525,24 @@
 <attribute name="MPN" value="P160KN2-0QA25B10K" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" constant="no"/>
 <attribute name="VALUE" value="10KΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH_10K-1/5W-20%_ACTLEN-25_TOP-ADJ" package="PTH_L25-T12_KNURLED-SLOTTED_TOP-ADJ">
+<connects>
+<connect gate="G$1" pin="CCW" pad="CCW"/>
+<connect gate="G$1" pin="CW" pad="CW"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_RotaryPanelPot_P120series.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=987-1710-ND" constant="no"/>
+<attribute name="DISTPN" value="987-1710-ND" constant="no"/>
+<attribute name="MFR" value="TT Electronics/BI" constant="no"/>
+<attribute name="MPN" value="P120PK-Y25BR10K" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
 </technology>
 </technologies>
 </device>

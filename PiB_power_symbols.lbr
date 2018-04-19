@@ -353,6 +353,12 @@
 <pin name="VBAT" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">VBAT</text>
 </symbol>
+<symbol name="3V">
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">3V</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="1.5V" prefix="SUPPLY">
@@ -572,6 +578,18 @@
 <deviceset name="VBAT" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="VBAT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3V" prefix="SUPPLY">
+<gates>
+<gate name="G$1" symbol="3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
