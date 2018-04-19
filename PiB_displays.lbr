@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -214,6 +214,51 @@
 <wire x1="4.445" y1="-1.27" x2="5.08" y2="-0.635" width="0.2032" layer="21"/>
 <wire x1="5.08" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
 </package>
+<package name="HCMS-296X">
+<pad name="12" x="-6.35" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="11" x="-3.81" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="10" x="-1.27" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="9" x="1.27" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="8" x="3.81" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="7" x="6.35" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="1" x="-6.35" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="-3.81" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="-1.27" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="1.27" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="5" x="3.81" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="6" x="6.35" y="-3.81" drill="1.016" diameter="1.8796"/>
+<wire x1="-10.7315" y1="5.715" x2="-10.7315" y2="-5.715" width="0.1524" layer="51"/>
+<wire x1="-3.937" y1="2.286" x2="-1.397" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-3.937" y1="-2.286" x2="-1.397" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-3.937" y1="2.286" x2="-3.937" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-2.286" x2="-1.397" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="2.286" x2="3.9624" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="-2.286" x2="3.9624" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="2.286" x2="1.4224" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="3.9624" y1="-2.286" x2="3.9624" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-9.2964" y1="2.286" x2="-6.7564" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-9.2964" y1="-2.286" x2="-6.7564" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-9.2964" y1="2.286" x2="-9.2964" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-6.7564" y1="-2.286" x2="-6.7564" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="6.7818" y1="2.286" x2="9.3218" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="6.7818" y1="-2.286" x2="9.3218" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="6.7818" y1="2.286" x2="6.7818" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="9.3218" y1="-2.286" x2="9.3218" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-10.7315" y1="-3.6576" x2="-8.6868" y2="-5.715" width="0.1524" layer="21"/>
+<wire x1="-10.7315" y1="-5.715" x2="10.7315" y2="-5.715" width="0.1524" layer="51"/>
+<wire x1="10.7315" y1="-5.715" x2="10.7315" y2="5.715" width="0.1524" layer="51"/>
+<wire x1="10.7315" y1="5.715" x2="-10.7315" y2="5.715" width="0.1524" layer="51"/>
+<wire x1="-8.6868" y1="-5.715" x2="10.7315" y2="-5.715" width="0.1524" layer="21"/>
+<wire x1="10.7315" y1="-5.715" x2="10.7315" y2="5.715" width="0.1524" layer="21"/>
+<wire x1="10.7315" y1="5.715" x2="-10.7315" y2="5.715" width="0.1524" layer="21"/>
+<wire x1="-10.7315" y1="5.715" x2="-10.7315" y2="-3.6576" width="0.1524" layer="21"/>
+<wire x1="-10.922" y1="5.842" x2="10.922" y2="5.842" width="0.1524" layer="39"/>
+<wire x1="10.922" y1="5.842" x2="10.922" y2="-5.842" width="0.1524" layer="39"/>
+<wire x1="10.922" y1="-5.842" x2="-10.922" y2="-5.842" width="0.1524" layer="39"/>
+<wire x1="-10.922" y1="-5.842" x2="-10.922" y2="5.842" width="0.1524" layer="39"/>
+<text x="0" y="6.858" size="1.778" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-7.112" size="1.778" layer="27" font="vector" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="VOLTAGE-DISPLAY">
@@ -246,6 +291,55 @@
 <pin name="GND" x="7.62" y="-5.08" visible="pin" length="middle" direction="pas" rot="R180"/>
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
 <wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+</symbol>
+<symbol name="DISP4_8SEG">
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-12.7" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="17.78" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="15.24" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="17.78" y2="-5.08" width="0.1524" layer="94"/>
+<pin name="12" x="-10.16" y="12.7" visible="pad" length="middle" rot="R270"/>
+<pin name="11" x="-5.08" y="12.7" visible="pad" length="middle" rot="R270"/>
+<pin name="10" x="0" y="12.7" visible="pad" length="middle" rot="R270"/>
+<pin name="9" x="5.08" y="12.7" visible="pad" length="middle" rot="R270"/>
+<pin name="8" x="10.16" y="12.7" visible="pad" length="middle" rot="R270"/>
+<pin name="7" x="15.24" y="12.7" visible="pad" length="middle" rot="R270"/>
+<pin name="1" x="-10.16" y="-10.16" visible="pad" length="middle" rot="R90"/>
+<pin name="2" x="-5.08" y="-10.16" visible="pad" length="middle" rot="R90"/>
+<pin name="3" x="0" y="-10.16" visible="pad" length="middle" rot="R90"/>
+<pin name="4" x="5.08" y="-10.16" visible="pad" length="middle" rot="R90"/>
+<pin name="5" x="10.16" y="-10.16" visible="pad" length="middle" rot="R90"/>
+<pin name="6" x="15.24" y="-10.16" visible="pad" length="middle" rot="R90"/>
+<text x="-10.16" y="-4.318" size="0.762" layer="97" font="vector" align="center">DATA OUT</text>
+<text x="-5.08" y="-4.318" size="0.762" layer="97" font="vector" align="center">OSC</text>
+<text x="0" y="-4.318" size="0.762" layer="97" font="vector" rot="R180" align="center">VLED</text>
+<text x="5.08" y="-4.318" size="0.762" layer="97" font="vector" rot="R180" align="center">DATA IN</text>
+<text x="10.16" y="-4.318" size="0.762" layer="97" font="vector" rot="R180" align="center">RS</text>
+<text x="15.24" y="-4.318" size="0.762" layer="97" font="vector" rot="R180" align="center">CLK</text>
+<text x="15.24" y="6.858" size="0.762" layer="97" font="vector" rot="R180" align="center">!CE!</text>
+<text x="10.16" y="6.858" size="0.762" layer="97" font="vector" rot="R180" align="center">BLANK</text>
+<text x="5.08" y="6.858" size="0.762" layer="97" font="vector" rot="R180" align="center">GND</text>
+<text x="0" y="6.858" size="0.762" layer="97" font="vector" rot="R180" align="center">SEL</text>
+<text x="-5.08" y="6.858" size="0.762" layer="97" font="vector" rot="R180" align="center">VLOGIC</text>
+<text x="-10.16" y="6.858" size="0.762" layer="97" font="vector" rot="R180" align="center">!RESET</text>
+<text x="-16.51" y="1.016" size="2.032" layer="95" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="19.05" y="1.27" size="2.032" layer="95" font="vector" rot="R90" align="center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -327,6 +421,42 @@
 <attribute name="DISTPN" value="B076WXR8N9" constant="no"/>
 <attribute name="MFR" value="MakerFocus" constant="no"/>
 <attribute name="MPN" value="B076WXR8N9" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HCMS-296X" prefix="DISP">
+<description>HCMS-296x 4 LED Array Display</description>
+<gates>
+<gate name="G$1" symbol="DISP4_8SEG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_8_HERED" package="HCMS-296X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="https://docs.broadcom.com/docs/AV02-0699EN" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=HCMS-2962&amp;v=516" constant="no"/>
+<attribute name="DISTPN" value="516-1180-5-ND" constant="no"/>
+<attribute name="MFR" value="Broadcom Limited" constant="no"/>
+<attribute name="MPN" value="HCMS-2962" constant="no"/>
+<attribute name="TESTED" value="NO" constant="no"/>
 </technology>
 </technologies>
 </device>
