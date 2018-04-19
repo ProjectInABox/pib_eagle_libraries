@@ -195,7 +195,7 @@
 <rectangle x1="-1.1" y1="-0.625" x2="-0.5" y2="0.625" layer="51"/>
 <rectangle x1="0.5" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
 </package>
-<package name="RESISTOR-PTH-0207/7">
+<package name="RESISTOR-PTH-0207/7" urn="urn:adsk.eagle:footprint:2749844/1">
 <wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
 <wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.1524" layer="21" curve="90"/>
@@ -359,20 +359,25 @@
 <packageinstance name="PTH_L25-T12_KNURLED-SLOTTED"/>
 </packageinstances>
 </package3d>
-<package3d name="RESISTOR_SMD-0402" urn="urn:adsk.eagle:package:2749849/2" type="model">
+<package3d name="RESISTOR-PTH-0207/7" urn="urn:adsk.eagle:package:2749854/2" type="model">
+<packageinstances>
+<packageinstance name="RESISTOR-PTH-0207/7"/>
+</packageinstances>
+</package3d>
+<package3d name="RESISTOR_SMD-0402" urn="urn:adsk.eagle:package:2749849/3" type="model">
 <packageinstances>
 <packageinstance name="RESISTOR_SMD-0402"/>
 </packageinstances>
 </package3d>
-<package3d name="RESISTOR_SMD-805" urn="urn:adsk.eagle:package:2749855/2" type="model">
+<package3d name="RESISTOR_SMD-603" urn="urn:adsk.eagle:package:2749850/3" type="model">
+<packageinstances>
+<packageinstance name="RESISTOR_SMD-603"/>
+</packageinstances>
+</package3d>
+<package3d name="RESISTOR_SMD-805" urn="urn:adsk.eagle:package:2749855/3" type="model">
 <description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <packageinstances>
 <packageinstance name="RESISTOR_SMD-805"/>
-</packageinstances>
-</package3d>
-<package3d name="RESISTOR_SMD-603" urn="urn:adsk.eagle:package:2749850/2" type="model">
-<packageinstances>
-<packageinstance name="RESISTOR_SMD-603"/>
 </packageinstances>
 </package3d>
 </packages3d>
