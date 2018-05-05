@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -284,6 +284,24 @@
 <text x="0.8" y="0" size="0.5" layer="25" rot="R90" align="center">&gt;VALUE</text>
 <text x="0" y="-3.5" size="0.5" layer="21" align="center">WE7443340220</text>
 </package>
+<package name="INDC1608X60" urn="urn:adsk.eagle:footprint:2899747/1" locally_modified="yes">
+<description>CHIP, 1.6 X 0.8 X 0.6 mm body
+&lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.6 mm&lt;/p&gt;</description>
+<wire x1="0.9" y1="0.8217" x2="-0.9" y2="0.8217" width="0.12" layer="21"/>
+<wire x1="0.9" y1="-0.8217" x2="-0.9" y2="-0.8217" width="0.12" layer="21"/>
+<wire x1="0.9" y1="-0.5" x2="-0.9" y2="-0.5" width="0.12" layer="51"/>
+<wire x1="-0.9" y1="-0.5" x2="-0.9" y2="0.5" width="0.12" layer="51"/>
+<wire x1="-0.9" y1="0.5" x2="0.9" y2="0.5" width="0.12" layer="51"/>
+<wire x1="0.9" y1="0.5" x2="0.9" y2="-0.5" width="0.12" layer="51"/>
+<smd name="1" x="-0.8283" y="0" dx="0.8588" dy="1.0153" layer="1" thermals="no"/>
+<smd name="2" x="0.8283" y="0" dx="0.8588" dy="1.0153" layer="1" thermals="no"/>
+<text x="0" y="1.4567" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4567" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.127" layer="39"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.127" layer="39"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.127" layer="39"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="_AXIAL_L22.9-D11.4" urn="urn:adsk.eagle:package:2752786/2" type="model">
@@ -305,6 +323,13 @@
 <description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <packageinstances>
 <packageinstance name="_SMD-805"/>
+</packageinstances>
+</package3d>
+<package3d name="INDC1608X60" urn="urn:adsk.eagle:package:2899745/1" locally_modified="yes" type="model">
+<description>CHIP, 1.6 X 0.8 X 0.6 mm body
+&lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.6 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDC1608X60"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -359,6 +384,26 @@
 <attribute name="MFR" value="Taiyo Yuden" constant="no"/>
 <attribute name="MPN" value="CB2012T100KR" constant="no"/>
 <attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0603_0.38A-0.468OHM-10%" package="INDC1608X60">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2899745/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=CBMF1608T100K&amp;fileName=CBMF1608T100K_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-1720-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-1720-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="Taiyo Yuden" constant="no"/>
+<attribute name="VALUE" value="10uH/380mA" constant="no"/>
 </technology>
 </technologies>
 </device>
