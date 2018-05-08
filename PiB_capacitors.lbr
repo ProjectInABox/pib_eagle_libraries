@@ -522,8 +522,8 @@
 <package name="CAPC1005X55" urn="urn:adsk.eagle:footprint:2886557/1" locally_modified="yes">
 <description>CHIP, 1 X 0.5 X 0.55 mm body
 &lt;p&gt;CHIP package with body size 1 X 0.5 X 0.55 mm&lt;/p&gt;</description>
-<wire x1="0.5" y1="0.6199" x2="-0.5" y2="0.6199" width="0.12" layer="21"/>
-<wire x1="0.5" y1="-0.6199" x2="-0.5" y2="-0.6199" width="0.12" layer="21"/>
+<wire x1="0.5" y1="0.4699" x2="-0.5" y2="0.4699" width="0.12" layer="21"/>
+<wire x1="0.5" y1="-0.4699" x2="-0.5" y2="-0.4699" width="0.12" layer="21"/>
 <wire x1="0.525" y1="-0.25" x2="-0.525" y2="-0.25" width="0.12" layer="51"/>
 <wire x1="-0.525" y1="-0.25" x2="-0.525" y2="0.25" width="0.12" layer="51"/>
 <wire x1="-0.525" y1="0.25" x2="0.525" y2="0.25" width="0.12" layer="51"/>
@@ -532,10 +532,24 @@
 <smd name="2" x="0.4575" y="0" dx="0.5851" dy="0.6118" layer="1" thermals="no"/>
 <text x="0" y="1.2549" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.2549" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-1.1" y1="0.7" x2="-1.1" y2="-0.7" width="0.127" layer="39"/>
-<wire x1="-1.1" y1="-0.7" x2="1.1" y2="-0.7" width="0.127" layer="39"/>
-<wire x1="1.1" y1="-0.7" x2="1.1" y2="0.7" width="0.127" layer="39"/>
-<wire x1="1.1" y1="0.7" x2="-1.1" y2="0.7" width="0.127" layer="39"/>
+<wire x1="-0.95" y1="0.47" x2="-0.95" y2="-0.47" width="0.127" layer="39"/>
+<wire x1="-0.95" y1="-0.47" x2="0.95" y2="-0.47" width="0.127" layer="39"/>
+<wire x1="0.95" y1="-0.47" x2="0.95" y2="0.47" width="0.127" layer="39"/>
+<wire x1="0.95" y1="0.47" x2="-0.95" y2="0.47" width="0.127" layer="39"/>
+</package>
+<package name="CAPC3225X270" urn="urn:adsk.eagle:footprint:2933643/1">
+<description>CHIP, 3.2 X 2.5 X 2.7 mm body
+&lt;p&gt;CHIP package with body size 3.2 X 2.5 X 2.7 mm&lt;/p&gt;</description>
+<wire x1="1.75" y1="1.6717" x2="-1.75" y2="1.6717" width="0.12" layer="21"/>
+<wire x1="1.75" y1="-1.6717" x2="-1.75" y2="-1.6717" width="0.12" layer="21"/>
+<wire x1="1.75" y1="-1.35" x2="-1.75" y2="-1.35" width="0.12" layer="51"/>
+<wire x1="-1.75" y1="-1.35" x2="-1.75" y2="1.35" width="0.12" layer="51"/>
+<wire x1="-1.75" y1="1.35" x2="1.75" y2="1.35" width="0.12" layer="51"/>
+<wire x1="1.75" y1="1.35" x2="1.75" y2="-1.35" width="0.12" layer="51"/>
+<smd name="1" x="-1.475" y="0" dx="1.2603" dy="2.7153" layer="1" thermals="no"/>
+<smd name="2" x="1.475" y="0" dx="1.2603" dy="2.7153" layer="1" thermals="no"/>
+<text x="0" y="2.3067" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.3067" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -544,6 +558,13 @@
 &lt;p&gt;CHIP package with body size 1 X 0.5 X 0.55 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC1005X55"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC3225X270" urn="urn:adsk.eagle:package:2933640/1" type="model">
+<description>CHIP, 3.2 X 2.5 X 2.7 mm body
+&lt;p&gt;CHIP package with body size 3.2 X 2.5 X 2.7 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC3225X270"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -661,21 +682,23 @@
 </technology>
 </technologies>
 </device>
-<device name="_CER_SMD-0402_10V-20%" package="_CER_SMD_0402">
+<device name="_CER_SMD-0402_6.3V-20%" package="CAPC1005X55">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2886515/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL05A106MP5NUNC.pdf" constant="no"/>
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=JMK105CBJ106MV-F&amp;fileName=JMK105CBJ106MV-F_SS&amp;mode=specSheetDownload" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1276-1450-1-ND" constant="no"/>
-<attribute name="DISTPN" value="1276-1450-1-ND" constant="no"/>
-<attribute name="MFR" value="Samsung Electro-Mechanics" constant="no"/>
-<attribute name="MPN" value="CL05A106MP5NUNC" constant="no"/>
-<attribute name="VALUE" value="10uF/10V" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-5868-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-5868-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="JMK105CBJ106MV-F" constant="no"/>
+<attribute name="VALUE" value="10uF/6.3V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -705,21 +728,20 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-603_50V-10%" package="_CER_SMD-603">
+<device name="_SMD-603_50V-20%" package="_CER_SMD-603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_hightemp_en.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-14268-1-ND" constant="no"/>
-<attribute name="DISTPN" value="445-14268-1-ND" constant="no"/>
-<attribute name="MFR" value="TDK Corporation" constant="no"/>
-<attribute name="MPN" value="C1608X8R1H104M080AB" constant="no"/>
-<attribute name="VALUE" value="0.1uF/50V" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1276-1320-1-ND" constant="no"/>
+<attribute name="DISTPN" value="1276-1320-1-ND" constant="no"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" constant="no"/>
+<attribute name="MPN" value="CL03A104MA3NNNC" constant="no"/>
+<attribute name="VALUE" value="0.1uF/25V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -935,23 +957,6 @@
 </technology>
 </technologies>
 </device>
-<device name="_CER_SMD-0402-100V-5%" package="_CER_SMD_0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C2A220JA01-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-7303-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-7303-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM1555C2A220JA01D" constant="no"/>
-<attribute name="VALUE" value="22pF/250V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_SMD-0603_250V-5%" package="_CER_SMD-603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -965,6 +970,26 @@
 <attribute name="DISTPN" value="311-3095-1-ND" constant="no"/>
 <attribute name="MFR" value="Yageo" constant="no"/>
 <attribute name="MPN" value="AC0603JRNPOYBN220" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CER_SMD-0402-100V-5%" package="CAPC1005X55">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2886515/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=HMK105CG220JV-F&amp;fileName=HMK105CG220JV-F_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-5004-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-5004-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="HMK105CG220JV-F" constant="no"/>
+<attribute name="VALUE" value="22pF/100V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1398,15 +1423,17 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_CER_SMD-1210_16V-20%" package="_CER_SMD-1210">
+<device name="_CER_SMD-1210_16V-20%" package="CAPC3225X270">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2933640/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc01_e.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3152-1-ND" constant="no"/>
 <attribute name="DISTPN" value="587-3152-1-ND" constant="no"/>
