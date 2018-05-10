@@ -469,6 +469,46 @@
 <wire x1="0.85" y1="-0.5" x2="-0.85" y2="-0.5" width="0.127" layer="39"/>
 <circle x="-1.2899" y="0" radius="0.075" width="0" layer="21"/>
 </package>
+<package name="SODFL3516X170" urn="urn:adsk.eagle:footprint:2939217/1" locally_modified="yes">
+<description>SODFL, 3.5 mm span, 2.6 X 1.6 X 1.7 mm body
+&lt;p&gt;SODFL package with 3.5 mm span with body size 2.6 X 1.6 X 1.7 mm&lt;/p&gt;</description>
+<wire x1="1.4" y1="1.2217" x2="-2.3717" y2="1.2217" width="0.12" layer="21"/>
+<wire x1="-2.3717" y1="1.2217" x2="-2.3717" y2="-1.2217" width="0.12" layer="21"/>
+<wire x1="-2.3717" y1="-1.2217" x2="1.4" y2="-1.2217" width="0.12" layer="21"/>
+<wire x1="1.4" y1="-0.9" x2="-1.4" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.4" y1="-0.9" x2="-1.4" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.4" y1="0.9" x2="1.4" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.4" y1="0.9" x2="1.4" y2="-0.9" width="0.12" layer="51"/>
+<smd name="A" x="-1.4894" y="0" dx="1.1364" dy="1.8153" layer="1" thermals="no"/>
+<smd name="K" x="1.4894" y="0" dx="1.1364" dy="1.8153" layer="1" thermals="no"/>
+<text x="-0.157" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.157" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<circle x="-2.8499" y="0" radius="0.075" width="0" layer="21"/>
+<wire x1="-2.4" y1="-1.25" x2="2.4" y2="-1.25" width="0.127" layer="39"/>
+<wire x1="2.4" y1="-1.25" x2="2.4" y2="1.25" width="0.127" layer="39"/>
+<wire x1="2.4" y1="1.25" x2="-2.4" y2="1.25" width="0.127" layer="39"/>
+<wire x1="-2.4" y1="1.25" x2="-2.4" y2="-1.25" width="0.127" layer="39"/>
+</package>
+<package name="SOTFL65P209X90-3" urn="urn:adsk.eagle:footprint:2940071/1" locally_modified="yes">
+<description>3-SOTFL, 0.65 mm pitch, 2.1 mm span, 2 X 1.6 X 0.9 mm body
+&lt;p&gt;3-pin SOTFL package with 0.65 mm pitch, 2.1 mm span with body size 2 X 1.6 X 0.9 mm&lt;/p&gt;</description>
+<circle x="-1.065" y="1.1975" radius="0.075" width="0" layer="21"/>
+<wire x1="-0.83" y1="1.1825" x2="0.83" y2="1.1825" width="0.12" layer="21"/>
+<wire x1="-0.83" y1="-1.1825" x2="0.83" y2="-1.1825" width="0.12" layer="21"/>
+<wire x1="0.83" y1="-1.03" x2="-0.83" y2="-1.03" width="0.12" layer="51"/>
+<wire x1="-0.83" y1="-1.03" x2="-0.83" y2="1.03" width="0.12" layer="51"/>
+<wire x1="-0.83" y1="1.03" x2="0.83" y2="1.03" width="0.12" layer="51"/>
+<wire x1="0.83" y1="1.03" x2="0.83" y2="-1.03" width="0.12" layer="51"/>
+<smd name="1" x="-0.9575" y="0.65" dx="0.6851" dy="0.4371" layer="1" thermals="no"/>
+<smd name="2" x="-0.9575" y="-0.65" dx="0.6851" dy="0.4371" layer="1" thermals="no"/>
+<smd name="3" x="0.9575" y="0" dx="0.6851" dy="0.4371" layer="1" thermals="no"/>
+<text x="0" y="1.9075" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.8175" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-1.6" y1="-1.2" x2="1.6" y2="-1.2" width="0.127" layer="39"/>
+<wire x1="1.6" y1="-1.2" x2="1.6" y2="1.2" width="0.127" layer="39"/>
+<wire x1="1.6" y1="1.2" x2="-1.6" y2="1.2" width="0.127" layer="39"/>
+<wire x1="-1.6" y1="1.2" x2="-1.6" y2="-1.2" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="DFN100X60X55-2" urn="urn:adsk.eagle:package:2933421/1" locally_modified="yes" type="model">
@@ -476,6 +516,20 @@
 &lt;p&gt;DFN2 package with body size 1 X 0.6 X 0.55 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="DFN100X60X55-2"/>
+</packageinstances>
+</package3d>
+<package3d name="SODFL3516X170" urn="urn:adsk.eagle:package:2939213/1" locally_modified="yes" type="model">
+<description>SODFL, 3.5 mm span, 2.6 X 1.6 X 1.7 mm body
+&lt;p&gt;SODFL package with 3.5 mm span with body size 2.6 X 1.6 X 1.7 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SODFL3516X170"/>
+</packageinstances>
+</package3d>
+<package3d name="SOTFL65P209X90-3" urn="urn:adsk.eagle:package:2940066/1" locally_modified="yes" type="model">
+<description>3-SOTFL, 0.65 mm pitch, 2.1 mm span, 2 X 1.6 X 0.9 mm body
+&lt;p&gt;3-pin SOTFL package with 0.65 mm pitch, 2.1 mm span with body size 2 X 1.6 X 0.9 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOTFL65P209X90-3"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -664,25 +718,6 @@
 <gate name="G$1" symbol="DIODE_GENERAL-PURPOSE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD_GP_1A-50V" package="SOD123F">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.comchiptech.com/cms/UserFiles/CGRKM4001-HF%20Thru.%20CGRKM4007-HF%20RevG.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=641-1511-1-ND" constant="no"/>
-<attribute name="DISTPN" value="641-1511-1-ND" constant="no"/>
-<attribute name="MFR" value="Comchip Technology" constant="no"/>
-<attribute name="MPN" value="CGRKM4001-HF" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="1A/50V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_SMD-0402_GP_150MA-75V" package="DFN100X60X55-2">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
@@ -700,6 +735,25 @@
 <attribute name="MFR" value="Comchip Technology" constant="no"/>
 <attribute name="MPN" value="CDSQR4148-HF" constant="no"/>
 <attribute name="VALUE" value="150mA/75V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD_GP_1A-50V" package="SODFL3516X170">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2939213/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.comchiptech.com/cms/UserFiles/CGRKM4001-HF%20Thru.%20CGRKM4007-HF%20RevG.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=641-1511-1-ND" constant="no"/>
+<attribute name="DISTPN" value="641-1511-1-ND" constant="no"/>
+<attribute name="MFR" value="Comchip Technology" constant="no"/>
+<attribute name="MPN" value="CGRKM4001-HF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -849,6 +903,27 @@
 <attribute name="MPN" value="MCH3474-TL-W" constant="no"/>
 <attribute name="TESTED" value="No" constant="no"/>
 <attribute name="VALUE" value="MCH3474 4A/30V/50mΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MCH3474_NMOS_4A-30V" package="SOTFL65P209X90-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2940066/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/MCH3474.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=MCH3474-TL-WOSCT" constant="no"/>
+<attribute name="DISTPN" value="MCH3474-TL-WOSCT-ND" constant="no"/>
+<attribute name="MFR" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="MCH3474-TL-W" constant="no"/>
+<attribute name="VALUE" value="MCH3474 4A/30V" constant="no"/>
 </technology>
 </technologies>
 </device>

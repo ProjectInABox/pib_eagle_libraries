@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -643,7 +643,7 @@
 <text x="0" y="2.2836" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.1936" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOT95P237X112-3" urn="urn:adsk.eagle:footprint:2889830/1">
+<package name="SOT95P237X112-3_SOT-23-3" urn="urn:adsk.eagle:footprint:2889830/1" locally_modified="yes">
 <description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.86 X 1.28 X 1.12 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.86 X 1.28 X 1.12 mm&lt;/p&gt;</description>
 <circle x="-1.1879" y="1.5914" radius="0.075" width="0" layer="21"/>
@@ -658,8 +658,12 @@
 <smd name="1" x="-1.064" y="0.95" dx="1.2235" dy="0.6248" layer="1" thermals="no"/>
 <smd name="2" x="-1.064" y="-0.95" dx="1.2235" dy="0.6248" layer="1" thermals="no"/>
 <smd name="3" x="1.064" y="0" dx="1.2235" dy="0.6248" layer="1" thermals="no"/>
-<text x="0" y="2.3014" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.2114" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="2.3014" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2114" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-2" y1="-1.6" x2="2" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="2" y1="-1.6" x2="2" y2="1.6" width="0.127" layer="39"/>
+<wire x1="2" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="39"/>
+<wire x1="-2" y1="1.6" x2="-2" y2="-1.6" width="0.127" layer="39"/>
 </package>
 <package name="TO170P1363X457-6" urn="urn:adsk.eagle:footprint:2899158/1" locally_modified="yes">
 <description>6-TO, DPAK, 1.702 mm pitch, 13.6395 mm span, 9.410029999999999 X 8.89 X 4.572 mm body
@@ -712,7 +716,7 @@
 <wire x1="3.65" y1="2.65" x2="3.65" y2="-2.65" width="0.127" layer="39"/>
 <wire x1="3.65" y1="-2.65" x2="-3.65" y2="-2.65" width="0.127" layer="39"/>
 </package>
-<package name="SOT229P700X180-4" urn="urn:adsk.eagle:footprint:2900308/1">
+<package name="SOT229P700X180-4" urn="urn:adsk.eagle:footprint:2900308/1" locally_modified="yes">
 <description>4-SOT223, 2.3 mm pitch, 7 mm span, 6.5 X 3.5 X 1.8 mm body
 &lt;p&gt;4-pin SOT223 package with 2.3 mm pitch, 7 mm span with body size 6.5 X 3.5 X 1.8 mm&lt;/p&gt;</description>
 <circle x="-2.9276" y="3.0949" radius="0.075" width="0" layer="21"/>
@@ -732,6 +736,10 @@
 <smd name="4" x="3.125" y="0" dx="1.7603" dy="3.1891" layer="1" thermals="no"/>
 <text x="0" y="3.985" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.985" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-4.4" y1="3.4" x2="-4.4" y2="-3.4" width="0.127" layer="39"/>
+<wire x1="-4.4" y1="-3.4" x2="4.4" y2="-3.4" width="0.127" layer="39"/>
+<wire x1="4.4" y1="-3.4" x2="4.4" y2="3.4" width="0.127" layer="39"/>
+<wire x1="4.4" y1="3.4" x2="-4.4" y2="3.4" width="0.127" layer="39"/>
 </package>
 </packages>
 <packages3d>
@@ -742,11 +750,11 @@
 <packageinstance name="SOT95P280X145-5"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P237X112-3" urn="urn:adsk.eagle:package:2889826/1" type="model">
+<package3d name="SOT95P237X112-3" urn="urn:adsk.eagle:package:2889826/1" locally_modified="yes" type="model">
 <description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.86 X 1.28 X 1.12 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.86 X 1.28 X 1.12 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="SOT95P237X112-3"/>
+<packageinstance name="SOT95P237X112-3_SOT-23-3"/>
 </packageinstances>
 </package3d>
 <package3d name="TO170P1363X457-6" urn="urn:adsk.eagle:package:2899157/1" locally_modified="yes" type="model">
@@ -763,7 +771,7 @@
 <packageinstance name="SOIC127P600X265-8"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT229P700X180-4" urn="urn:adsk.eagle:package:2900305/1" type="model">
+<package3d name="SOT229P700X180-4" urn="urn:adsk.eagle:package:2900305/1" locally_modified="yes" type="model">
 <description>4-SOT223, 2.3 mm pitch, 7 mm span, 6.5 X 3.5 X 1.8 mm body
 &lt;p&gt;4-pin SOT223 package with 2.3 mm pitch, 7 mm span with body size 6.5 X 3.5 X 1.8 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -1645,26 +1653,7 @@
 <gate name="G$1" symbol="VREG-LINEAR-FIXED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SOT-23" package="MCP1700_SOT-23">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VI" pad="2"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" constant="no"/>
-<attribute name="DISTPN" value="MCP1700T3302ETTCT-ND" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="MCP1700T-3302E/TT" constant="no"/>
-<attribute name="VALUE" value="3.3V/250mA" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SOT-23_" package="SOT95P237X112-3">
+<device name="_SOT-23_" package="SOT95P237X112-3_SOT-23-3">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="VI" pad="3"/>
@@ -1674,7 +1663,15 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:2889826/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=MCP1700T3302ETTCT-ND" constant="no"/>
+<attribute name="DISTPN" value="MCP1700T3302ETTCT-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="MCP1700T-3302E/TT" constant="no"/>
+<attribute name="VALUE" value="250mA/3.3V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

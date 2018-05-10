@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1565,6 +1565,30 @@ package type OT</description>
 <wire x1="3.95" y1="5" x2="-3.95" y2="5" width="0.127" layer="39"/>
 <wire x1="-3.95" y1="5" x2="-3.95" y2="-5" width="0.127" layer="39"/>
 </package>
+<package name="OSCCC500X320X110" urn="urn:adsk.eagle:footprint:2939177/1" locally_modified="yes">
+<description>OSCILLATOR CORNERCONCAVE, 5 X 3.2 X 1.1 mm body
+&lt;p&gt;OSCILLATOR CORNERCONCAVE package with body size 5 X 3.2 X 1.1 mm&lt;/p&gt;</description>
+<circle x="-3.0849" y="-1.25" radius="0.075" width="0" layer="21"/>
+<wire x1="-2.8159" y1="0.3901" x2="-2.8159" y2="-0.3901" width="0.12" layer="21"/>
+<wire x1="2.8159" y1="0.3901" x2="2.8159" y2="-0.3901" width="0.12" layer="21"/>
+<wire x1="-0.9901" y1="1.9159" x2="0.9901" y2="1.9159" width="0.12" layer="21"/>
+<wire x1="-0.9901" y1="-1.9159" x2="0.9901" y2="-1.9159" width="0.12" layer="21"/>
+<wire x1="2.55" y1="-1.65" x2="-2.55" y2="-1.65" width="0.12" layer="51"/>
+<wire x1="-2.55" y1="-1.65" x2="-2.55" y2="1.65" width="0.12" layer="51"/>
+<wire x1="-2.55" y1="1.65" x2="2.55" y2="1.65" width="0.12" layer="51"/>
+<wire x1="2.55" y1="1.65" x2="2.55" y2="-1.65" width="0.12" layer="51"/>
+<smd name="1" x="-2" y="-1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
+<smd name="2" x="2" y="-1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
+<smd name="3" x="2" y="1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
+<smd name="4" x="-2" y="1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
+<text x="-0.172" y="2.5509" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="-0.172" y="-2.5509" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-3.05" y1="-2.15" x2="3.05" y2="-2.15" width="0.127" layer="39"/>
+<wire x1="3.05" y1="-2.15" x2="3.05" y2="2.15" width="0.127" layer="39"/>
+<wire x1="3.05" y1="2.15" x2="-3.05" y2="2.15" width="0.127" layer="39"/>
+<wire x1="-3.05" y1="2.15" x2="-3.05" y2="-2.15" width="0.127" layer="39"/>
+<text x="0" y="0" size="0.5" layer="27" font="vector" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P1030X265-24" urn="urn:adsk.eagle:package:2900199/1" type="model">
@@ -1586,6 +1610,13 @@ package type OT</description>
 &lt;p&gt;28-pin SOP package with 0.65 mm pitch, 6.5 mm span with body size 9.7 X 4.4 X 1.1 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOP65P650X110-28"/>
+</packageinstances>
+</package3d>
+<package3d name="OSCCC500X320X110" urn="urn:adsk.eagle:package:2939176/1" locally_modified="yes" type="model">
+<description>OSCILLATOR CORNERCONCAVE, 5 X 3.2 X 1.1 mm body
+&lt;p&gt;OSCILLATOR CORNERCONCAVE package with body size 5 X 3.2 X 1.1 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="OSCCC500X320X110"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1810,8 +1841,8 @@ package type OT</description>
 <text x="0" y="2.794" size="1.27" layer="95" ratio="10" align="center">&gt;NAME</text>
 <pin name="XTAL1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="XTAL2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-1.27" y="0.254" size="0.508" layer="97" font="vector" ratio="15" rot="R90">X2</text>
-<text x="1.778" y="0.254" size="0.508" layer="97" ratio="15" rot="R90">X1</text>
+<text x="-1.27" y="0.254" size="0.508" layer="97" font="vector" ratio="15" rot="R90">X1</text>
+<text x="1.778" y="0.254" size="0.508" layer="97" ratio="15" rot="R90">X2</text>
 </symbol>
 <symbol name="TC4422">
 <pin name="OUTPUT@1" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
@@ -2780,20 +2811,23 @@ VCC    : 3.3V - 5.25V</text>
 <gate name="G$1" symbol="CRYSTAL_OSCILLATOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_ABM3B_16MHZ_18PF" package="CRYSTAL-SMD-5X3">
+<device name="_ABM3B_16MHZ_18PF" package="OSCCC500X320X110">
 <connects>
 <connect gate="G$1" pin="XTAL1" pad="1"/>
 <connect gate="G$1" pin="XTAL2" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2939176/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/abm3b.pdf"/>
-<attribute name="DIST" value="Digikey"/>
+<attribute name="DATASHEET" value="https://abracon.com/Resonators/abm3b.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=535-9122-1-ND" constant="no"/>
-<attribute name="DISTPN" value="535-9122-1-ND"/>
-<attribute name="MFR" value="Abracon LLC"/>
-<attribute name="MPN" value="ABM3B-16.000MHZ-B2-T"/>
-<attribute name="VALUE" value="16MHz" constant="no"/>
+<attribute name="DISTPN" value="535-9122-1-ND" constant="no"/>
+<attribute name="MFR" value="Abracon LLC" constant="no"/>
+<attribute name="MPN" value="ABM3B-16.000MHZ-B2-T" constant="no"/>
+<attribute name="VALUE" value="16 MHz" constant="no"/>
 </technology>
 </technologies>
 </device>

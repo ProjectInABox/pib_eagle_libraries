@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -519,7 +519,7 @@
 <wire x1="2.889" y1="0" x2="3.397" y2="0" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="4.25" width="0.1524" layer="39"/>
 </package>
-<package name="CAPC1005X55" urn="urn:adsk.eagle:footprint:2886557/1" locally_modified="yes">
+<package name="CAPC1005X55_SMD-0402" urn="urn:adsk.eagle:footprint:2886557/1" locally_modified="yes">
 <description>CHIP, 1 X 0.5 X 0.55 mm body
 &lt;p&gt;CHIP package with body size 1 X 0.5 X 0.55 mm&lt;/p&gt;</description>
 <wire x1="0.5" y1="0.4699" x2="-0.5" y2="0.4699" width="0.12" layer="21"/>
@@ -537,11 +537,11 @@
 <wire x1="0.95" y1="-0.47" x2="0.95" y2="0.47" width="0.127" layer="39"/>
 <wire x1="0.95" y1="0.47" x2="-0.95" y2="0.47" width="0.127" layer="39"/>
 </package>
-<package name="CAPC3225X270" urn="urn:adsk.eagle:footprint:2933643/1">
+<package name="CAPC3225X270_SMD-1210" urn="urn:adsk.eagle:footprint:2933643/1" locally_modified="yes">
 <description>CHIP, 3.2 X 2.5 X 2.7 mm body
 &lt;p&gt;CHIP package with body size 3.2 X 2.5 X 2.7 mm&lt;/p&gt;</description>
-<wire x1="1.75" y1="1.6717" x2="-1.75" y2="1.6717" width="0.12" layer="21"/>
-<wire x1="1.75" y1="-1.6717" x2="-1.75" y2="-1.6717" width="0.12" layer="21"/>
+<wire x1="1.75" y1="1.5717" x2="-1.75" y2="1.5717" width="0.12" layer="21"/>
+<wire x1="1.75" y1="-1.5717" x2="-1.75" y2="-1.5717" width="0.12" layer="21"/>
 <wire x1="1.75" y1="-1.35" x2="-1.75" y2="-1.35" width="0.12" layer="51"/>
 <wire x1="-1.75" y1="-1.35" x2="-1.75" y2="1.35" width="0.12" layer="51"/>
 <wire x1="-1.75" y1="1.35" x2="1.75" y2="1.35" width="0.12" layer="51"/>
@@ -550,6 +550,28 @@
 <smd name="2" x="1.475" y="0" dx="1.2603" dy="2.7153" layer="1" thermals="no"/>
 <text x="0" y="2.3067" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.3067" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-2.4" y1="1.6" x2="-2.4" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="-2.4" y1="-1.6" x2="2.4" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="2.4" y1="-1.6" x2="2.4" y2="1.6" width="0.127" layer="39"/>
+<wire x1="2.4" y1="1.6" x2="-2.4" y2="1.6" width="0.127" layer="39"/>
+</package>
+<package name="CAPC2012X95_SMD-0805" urn="urn:adsk.eagle:footprint:2940051/1" locally_modified="yes">
+<description>CHIP, 2 X 1.25 X 0.95 mm body
+&lt;p&gt;CHIP package with body size 2 X 1.25 X 0.95 mm&lt;/p&gt;</description>
+<wire x1="1.1" y1="0.9036" x2="-1.1" y2="0.9036" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-0.9036" x2="-1.1" y2="-0.9036" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-0.675" x2="-1.1" y2="-0.675" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="-0.675" x2="-1.1" y2="0.675" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="0.675" x2="1.1" y2="0.675" width="0.12" layer="51"/>
+<wire x1="1.1" y1="0.675" x2="1.1" y2="-0.675" width="0.12" layer="51"/>
+<smd name="1" x="-0.925" y="0" dx="1.0653" dy="1.3791" layer="1" thermals="no"/>
+<smd name="2" x="0.925" y="0" dx="1.0653" dy="1.3791" layer="1" thermals="no"/>
+<text x="0" y="1.6386" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.6386" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-1.8" y1="-0.95" x2="1.8" y2="-0.95" width="0.127" layer="39"/>
+<wire x1="1.8" y1="-0.95" x2="1.8" y2="0.95" width="0.127" layer="39"/>
+<wire x1="1.8" y1="0.95" x2="-1.8" y2="0.95" width="0.127" layer="39"/>
+<wire x1="-1.8" y1="0.95" x2="-1.8" y2="-0.95" width="0.127" layer="39"/>
 </package>
 </packages>
 <packages3d>
@@ -557,14 +579,21 @@
 <description>CHIP, 1 X 0.5 X 0.55 mm body
 &lt;p&gt;CHIP package with body size 1 X 0.5 X 0.55 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="CAPC1005X55"/>
+<packageinstance name="CAPC1005X55_SMD-0402"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPC3225X270" urn="urn:adsk.eagle:package:2933640/1" type="model">
+<package3d name="CAPC3225X270" urn="urn:adsk.eagle:package:2933640/1" locally_modified="yes" type="model">
 <description>CHIP, 3.2 X 2.5 X 2.7 mm body
 &lt;p&gt;CHIP package with body size 3.2 X 2.5 X 2.7 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="CAPC3225X270"/>
+<packageinstance name="CAPC3225X270_SMD-1210"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC2012X95" urn="urn:adsk.eagle:package:2940050/1" locally_modified="yes" type="model">
+<description>CHIP, 2 X 1.25 X 0.95 mm body
+&lt;p&gt;CHIP package with body size 2 X 1.25 X 0.95 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC2012X95_SMD-0805"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -682,7 +711,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_CER_SMD-0402_6.3V-20%" package="CAPC1005X55">
+<device name="_CER_SMD-0402_6.3V-20%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -745,7 +774,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0402_50V-10%" package="CAPC1005X55">
+<device name="_SMD-0402_50V-10%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -851,11 +880,14 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0402_100V-5%" package="_CER_SMD-402">
+<device name="_SMD-0402_100V-5%" package="CAPC1005X55_SMD-0402">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2886515/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C2A120JA01-01.pdf" constant="no"/>
@@ -864,6 +896,7 @@
 <attribute name="DISTPN" value="490-7300-1-ND" constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GRM1555C2A120JA01D" constant="no"/>
+<attribute name="VALUE" value="12pF/100V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -911,7 +944,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_CER_SMD-0402_25V-10%" package="CAPC1005X55">
+<device name="_CER_SMD-0402_25V-10%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -973,7 +1006,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_CER_SMD-0402-100V-5%" package="CAPC1005X55">
+<device name="_CER_SMD-0402-100V-5%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1035,7 +1068,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_CER_SMD-0402_50V-33%" package="CAPC1005X55">
+<device name="_CER_SMD-0402_50V-33%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1423,7 +1456,7 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_CER_SMD-1210_16V-20%" package="CAPC3225X270">
+<device name="_CER_SMD-1210_16V-20%" package="CAPC3225X270_SMD-1210">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1468,23 +1501,6 @@
 </technology>
 </technologies>
 </device>
-<device name="_CER_SMD-0805_10V-20%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A476ME15-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-9961-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-9961-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM21BR61A476ME15L" constant="no"/>
-<attribute name="VALUE" value="47uF/10V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_CER_SMD-1210-25V-20%" package="_CER_SMD-1210">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1500,6 +1516,26 @@
 <attribute name="MFR" value="Taiyo Yuden" constant="no"/>
 <attribute name="MPN" value="TMK325ABJ476MM-P" constant="no"/>
 <attribute name="VALUE" value="47uF/25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0805_6.3V-20%" package="CAPC2012X95_SMD-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2940050/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL21A476MQCLRNC.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1276-2420-1-ND" constant="no"/>
+<attribute name="DISTPN" value="1276-2420-1-ND" constant="no"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" constant="no"/>
+<attribute name="MPN" value="CL21A476MQCLRNC" constant="no"/>
+<attribute name="VALUE" value="47uF/6.3V" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -236,7 +236,7 @@
 <wire x1="-6.35" y1="-6.35" x2="-6.35" y2="-3.81" width="0.127" layer="39"/>
 <wire x1="-6.35" y1="-3.81" x2="-7.62" y2="-3.81" width="0.127" layer="39"/>
 </package>
-<package name="SW_SLIDE_SPDT_RA_SMD_4V_300MA_6.7L-2.6W">
+<package name="SW_SLIDE_SPDT_RA_SMD_4V_300MA_6.7L-2.6W" urn="urn:adsk.eagle:footprint:2959386/1">
 <wire x1="-1.3" y1="-3.35" x2="1.3" y2="-3.35" width="0.127" layer="51"/>
 <wire x1="1.3" y1="-3.35" x2="1.3" y2="3.35" width="0.127" layer="51"/>
 <wire x1="1.3" y1="3.35" x2="-1.3" y2="3.35" width="0.127" layer="51"/>
@@ -249,6 +249,15 @@
 <wire x1="-0.427" y1="3.477" x2="0.427" y2="3.477" width="0.2032" layer="21"/>
 <wire x1="-1.427" y1="2.7" x2="-1.427" y2="-2.7" width="0.2032" layer="21"/>
 <wire x1="1.427" y1="1.627" x2="1.427" y2="-0.127" width="0.2032" layer="21"/>
+<wire x1="-2.8" y1="-1.4" x2="-2.8" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="-1.778" y1="4.318" x2="-1.778" y2="2.54" width="0.127" layer="39"/>
+<wire x1="-1.778" y1="2.54" x2="-3.175" y2="2.54" width="0.127" layer="39"/>
+<wire x1="-3.175" y1="2.54" x2="-3.175" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.778" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-4.318" width="0.127" layer="39"/>
+<wire x1="-1.778" y1="-4.318" x2="2.667" y2="-4.318" width="0.127" layer="39"/>
+<wire x1="2.667" y1="-4.318" x2="2.667" y2="4.318" width="0.127" layer="39"/>
+<wire x1="2.667" y1="4.318" x2="-1.778" y2="4.318" width="0.127" layer="39"/>
 <smd name="3" x="1.75" y="-2.25" dx="0.7" dy="1.5" layer="1" roundness="50" rot="R270"/>
 <smd name="2" x="1.75" y="-0.75" dx="0.7" dy="1.5" layer="1" roundness="50" rot="R270"/>
 <smd name="1" x="1.75" y="2.25" dx="0.7" dy="1.5" layer="1" roundness="50" rot="R270"/>
@@ -258,16 +267,7 @@
 <smd name="NC4" x="1.1" y="3.65" dx="1" dy="0.8" layer="1" roundness="50" rot="R90"/>
 <hole x="0" y="-1.5" drill="0.9"/>
 <hole x="0" y="1.5" drill="0.9"/>
-<wire x1="-2.8" y1="-1.4" x2="-2.8" y2="-0.1" width="0.127" layer="51"/>
 <text x="0" y="0" size="0.6096" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
-<wire x1="-1.778" y1="4.318" x2="-1.778" y2="2.54" width="0.127" layer="39"/>
-<wire x1="-1.778" y1="2.54" x2="-3.175" y2="2.54" width="0.127" layer="39"/>
-<wire x1="-3.175" y1="2.54" x2="-3.175" y2="-2.54" width="0.127" layer="39"/>
-<wire x1="-3.175" y1="-2.54" x2="-1.778" y2="-2.54" width="0.127" layer="39"/>
-<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-4.318" width="0.127" layer="39"/>
-<wire x1="-1.778" y1="-4.318" x2="2.667" y2="-4.318" width="0.127" layer="39"/>
-<wire x1="2.667" y1="-4.318" x2="2.667" y2="4.318" width="0.127" layer="39"/>
-<wire x1="2.667" y1="4.318" x2="-1.778" y2="4.318" width="0.127" layer="39"/>
 </package>
 <package name="SW_TOGGLE_SPDT_5A-28V_13L-7W">
 <pad name="3" x="0" y="-4.7" drill="1.875" diameter="3.075" rot="R180"/>
@@ -375,6 +375,13 @@
 <text x="-3" y="-2" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="SW_SLIDE_SPDT_RA_SMD_4V_300MA_6.7L-2.6W" urn="urn:adsk.eagle:package:2959400/2" type="model">
+<packageinstances>
+<packageinstance name="SW_SLIDE_SPDT_RA_SMD_4V_300MA_6.7L-2.6W"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="SW+AC_INLET+FUSE">
 <circle x="6.35" y="5.08" radius="0.803215625" width="0.254" layer="94"/>
@@ -646,4 +653,16 @@
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
