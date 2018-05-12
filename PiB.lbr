@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -367,14 +367,20 @@
 <text x="0" y="3.048" size="1.27" layer="21" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="1.524" size="1.27" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WSON-8-PPAD">
+<package name="WSON-8-PPAD" urn="urn:adsk.eagle:footprint:2992775/1" locally_modified="yes">
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.1" layer="51"/>
 <wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="51"/>
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="51"/>
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.1" layer="51"/>
 <wire x1="1" y1="1" x2="-1" y2="1" width="0.1" layer="21"/>
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="1.1" x2="-1.6" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="-1.6" y1="-1.1" x2="1.6" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="1.6" y1="-1.1" x2="1.6" y2="1.1" width="0.127" layer="39"/>
+<wire x1="1.6" y1="1.1" x2="-1.6" y2="1.1" width="0.127" layer="39"/>
 <circle x="-1" y="1" radius="0.05" width="0.127" layer="21"/>
+<circle x="-1.33" y="1.33" radius="0.2" width="0.2032" layer="21"/>
+<circle x="-1.33" y="1.33" radius="0.2" width="0.127" layer="51"/>
 <rectangle x1="-0.975" y1="0.1" x2="-0.725" y2="0.4" layer="51" rot="R270"/>
 <rectangle x1="-0.975" y1="0.6" x2="-0.725" y2="0.9" layer="51" rot="R270"/>
 <rectangle x1="-0.975" y1="-0.4" x2="-0.725" y2="-0.1" layer="51" rot="R270"/>
@@ -383,17 +389,16 @@
 <rectangle x1="0.725" y1="0.1" x2="0.975" y2="0.4" layer="51" rot="R90"/>
 <rectangle x1="0.725" y1="0.6" x2="0.975" y2="0.9" layer="51" rot="R90"/>
 <rectangle x1="-0.65" y1="-0.35" x2="0.65" y2="0.35" layer="31" rot="R270"/>
-<circle x="-1.33" y="1.33" radius="0.2" width="0.2032" layer="21"/>
-<circle x="-1.33" y="1.33" radius="0.2" width="0.127" layer="51"/>
-<smd name="GND" x="0" y="0" dx="1.6" dy="0.9" layer="1" roundness="50" rot="R270"/>
-<smd name="8" x="1.035" y="0.75" dx="0.7" dy="0.28" layer="1" roundness="50"/>
-<smd name="7" x="1.035" y="0.25" dx="0.7" dy="0.28" layer="1" roundness="50"/>
-<smd name="6" x="1.035" y="-0.25" dx="0.7" dy="0.28" layer="1" roundness="50"/>
-<smd name="5" x="1.035" y="-0.75" dx="0.7" dy="0.28" layer="1" roundness="50"/>
-<smd name="1" x="-1.035" y="0.75" dx="0.7" dy="0.28" layer="1" roundness="50"/>
-<smd name="2" x="-1.035" y="0.25" dx="0.7" dy="0.28" layer="1" roundness="50"/>
-<smd name="3" x="-1.035" y="-0.25" dx="0.7" dy="0.28" layer="1" roundness="50"/>
-<smd name="4" x="-1.035" y="-0.75" dx="0.7" dy="0.28" layer="1" roundness="50"/>
+<rectangle x1="0.725" y1="-0.4" x2="0.975" y2="-0.1" layer="51" rot="R90"/>
+<smd name="GND" x="0" y="0" dx="1.6" dy="0.9" layer="1" rot="R270"/>
+<smd name="8" x="1.035" y="0.75" dx="0.7" dy="0.28" layer="1"/>
+<smd name="7" x="1.035" y="0.25" dx="0.7" dy="0.28" layer="1"/>
+<smd name="6" x="1.035" y="-0.25" dx="0.7" dy="0.28" layer="1"/>
+<smd name="5" x="1.035" y="-0.75" dx="0.7" dy="0.28" layer="1"/>
+<smd name="1" x="-1.035" y="0.75" dx="0.7" dy="0.28" layer="1"/>
+<smd name="2" x="-1.035" y="0.25" dx="0.7" dy="0.28" layer="1"/>
+<smd name="3" x="-1.035" y="-0.25" dx="0.7" dy="0.28" layer="1"/>
+<smd name="4" x="-1.035" y="-0.75" dx="0.7" dy="0.28" layer="1"/>
 <polygon width="0" layer="51">
 <vertex x="0.45" y="0.8"/>
 <vertex x="0.45" y="-0.8"/>
@@ -404,11 +409,6 @@
 <text x="0" y="1.651" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
 <pad name="P$1" x="0" y="-0.38" drill="0.3302" diameter="0.75" shape="square" stop="no" thermals="no"/>
 <pad name="P$2" x="0" y="0.37" drill="0.3302" diameter="0.75" shape="square" stop="no" thermals="no"/>
-<rectangle x1="0.725" y1="-0.4" x2="0.975" y2="-0.1" layer="51" rot="R90"/>
-<wire x1="-1.6" y1="1.1" x2="-1.6" y2="-1.1" width="0.127" layer="39"/>
-<wire x1="-1.6" y1="-1.1" x2="1.6" y2="-1.1" width="0.127" layer="39"/>
-<wire x1="1.6" y1="-1.1" x2="1.6" y2="1.1" width="0.127" layer="39"/>
-<wire x1="1.6" y1="1.1" x2="-1.6" y2="1.1" width="0.127" layer="39"/>
 </package>
 <package name="CONNECTOR_TMP36">
 <pad name="1" x="-2.54" y="-1.27" drill="0.8128" diameter="1.8796"/>
@@ -1471,7 +1471,7 @@ package type OT</description>
 <text x="0" y="8.435" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-8.435" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOP65P780X200-24" urn="urn:adsk.eagle:footprint:2900213/1" locally_modified="yes">
+<package name="SOP65P780X200-24" urn="urn:adsk.eagle:footprint:2900213/2">
 <description>24-SOP, 0.65 mm pitch, 7.8 mm span, 8.2 X 5.3 X 2 mm body
 &lt;p&gt;24-pin SOP package with 0.65 mm pitch, 7.8 mm span with body size 8.2 X 5.3 X 2 mm&lt;/p&gt;</description>
 <circle x="-3.6269" y="4.1416" radius="0.075" width="0" layer="21"/>
@@ -1485,6 +1485,10 @@ package type OT</description>
 <wire x1="-2.8" y1="-4.25" x2="-2.8" y2="4.25" width="0.12" layer="51"/>
 <wire x1="-2.8" y1="4.25" x2="2.8" y2="4.25" width="0.12" layer="51"/>
 <wire x1="2.8" y1="4.25" x2="2.8" y2="-4.25" width="0.12" layer="51"/>
+<wire x1="-4.65" y1="-4.4" x2="4.65" y2="-4.4" width="0.127" layer="39"/>
+<wire x1="4.65" y1="-4.4" x2="4.65" y2="4.4" width="0.127" layer="39"/>
+<wire x1="4.65" y1="4.4" x2="-4.65" y2="4.4" width="0.127" layer="39"/>
+<wire x1="-4.65" y1="4.4" x2="-4.65" y2="-4.4" width="0.127" layer="39"/>
 <smd name="1" x="-3.6029" y="3.575" dx="1.702" dy="0.4752" layer="1" thermals="no"/>
 <smd name="2" x="-3.6029" y="2.925" dx="1.702" dy="0.4752" layer="1" thermals="no"/>
 <smd name="3" x="-3.6029" y="2.275" dx="1.702" dy="0.4752" layer="1" thermals="no"/>
@@ -1511,12 +1515,8 @@ package type OT</description>
 <smd name="24" x="3.6029" y="3.575" dx="1.702" dy="0.4752" layer="1" thermals="no"/>
 <text x="0" y="4.885" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.885" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-4.65" y1="-4.4" x2="4.65" y2="-4.4" width="0.127" layer="39"/>
-<wire x1="4.65" y1="-4.4" x2="4.65" y2="4.4" width="0.127" layer="39"/>
-<wire x1="4.65" y1="4.4" x2="-4.65" y2="4.4" width="0.127" layer="39"/>
-<wire x1="-4.65" y1="4.4" x2="-4.65" y2="-4.4" width="0.127" layer="39"/>
 </package>
-<package name="SOP65P650X110-28" urn="urn:adsk.eagle:footprint:2900281/1" locally_modified="yes">
+<package name="SOP65P650X110-28" urn="urn:adsk.eagle:footprint:2900281/2">
 <description>28-SOP, 0.65 mm pitch, 6.5 mm span, 9.7 X 4.4 X 1.1 mm body
 &lt;p&gt;28-pin SOP package with 0.65 mm pitch, 6.5 mm span with body size 9.7 X 4.4 X 1.1 mm&lt;/p&gt;</description>
 <circle x="-3.0026" y="4.7574" radius="0.075" width="0" layer="21"/>
@@ -1530,6 +1530,10 @@ package type OT</description>
 <wire x1="-2.25" y1="-4.9" x2="-2.25" y2="4.9" width="0.12" layer="51"/>
 <wire x1="-2.25" y1="4.9" x2="2.25" y2="4.9" width="0.12" layer="51"/>
 <wire x1="2.25" y1="4.9" x2="2.25" y2="-4.9" width="0.12" layer="51"/>
+<wire x1="-3.95" y1="-5" x2="3.95" y2="-5" width="0.127" layer="39"/>
+<wire x1="3.95" y1="-5" x2="3.95" y2="5" width="0.127" layer="39"/>
+<wire x1="3.95" y1="5" x2="-3.95" y2="5" width="0.127" layer="39"/>
+<wire x1="-3.95" y1="5" x2="-3.95" y2="-5" width="0.127" layer="39"/>
 <smd name="1" x="-2.9258" y="4.225" dx="1.6587" dy="0.4068" layer="1" thermals="no"/>
 <smd name="2" x="-2.9258" y="3.575" dx="1.6587" dy="0.4068" layer="1" thermals="no"/>
 <smd name="3" x="-2.9258" y="2.925" dx="1.6587" dy="0.4068" layer="1" thermals="no"/>
@@ -1560,12 +1564,8 @@ package type OT</description>
 <smd name="28" x="2.9258" y="4.225" dx="1.6587" dy="0.4068" layer="1" thermals="no"/>
 <text x="0" y="5.535" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.535" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-3.95" y1="-5" x2="3.95" y2="-5" width="0.127" layer="39"/>
-<wire x1="3.95" y1="-5" x2="3.95" y2="5" width="0.127" layer="39"/>
-<wire x1="3.95" y1="5" x2="-3.95" y2="5" width="0.127" layer="39"/>
-<wire x1="-3.95" y1="5" x2="-3.95" y2="-5" width="0.127" layer="39"/>
 </package>
-<package name="OSCCC500X320X110" urn="urn:adsk.eagle:footprint:2939177/1" locally_modified="yes">
+<package name="OSCCC500X320X110" urn="urn:adsk.eagle:footprint:2939177/2">
 <description>OSCILLATOR CORNERCONCAVE, 5 X 3.2 X 1.1 mm body
 &lt;p&gt;OSCILLATOR CORNERCONCAVE package with body size 5 X 3.2 X 1.1 mm&lt;/p&gt;</description>
 <circle x="-3.0849" y="-1.25" radius="0.075" width="0" layer="21"/>
@@ -1577,16 +1577,16 @@ package type OT</description>
 <wire x1="-2.55" y1="-1.65" x2="-2.55" y2="1.65" width="0.12" layer="51"/>
 <wire x1="-2.55" y1="1.65" x2="2.55" y2="1.65" width="0.12" layer="51"/>
 <wire x1="2.55" y1="1.65" x2="2.55" y2="-1.65" width="0.12" layer="51"/>
+<wire x1="-3.05" y1="-2.15" x2="3.05" y2="-2.15" width="0.127" layer="39"/>
+<wire x1="3.05" y1="-2.15" x2="3.05" y2="2.15" width="0.127" layer="39"/>
+<wire x1="3.05" y1="2.15" x2="-3.05" y2="2.15" width="0.127" layer="39"/>
+<wire x1="-3.05" y1="2.15" x2="-3.05" y2="-2.15" width="0.127" layer="39"/>
 <smd name="1" x="-2" y="-1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
 <smd name="2" x="2" y="-1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
 <smd name="3" x="2" y="1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
 <smd name="4" x="-2" y="1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
 <text x="-0.172" y="2.5509" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="-0.172" y="-2.5509" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-3.05" y1="-2.15" x2="3.05" y2="-2.15" width="0.127" layer="39"/>
-<wire x1="3.05" y1="-2.15" x2="3.05" y2="2.15" width="0.127" layer="39"/>
-<wire x1="3.05" y1="2.15" x2="-3.05" y2="2.15" width="0.127" layer="39"/>
-<wire x1="-3.05" y1="2.15" x2="-3.05" y2="-2.15" width="0.127" layer="39"/>
 <text x="0" y="0" size="0.5" layer="27" font="vector" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
 </package>
 </packages>
@@ -1598,25 +1598,30 @@ package type OT</description>
 <packageinstance name="SOIC127P1030X265-24"/>
 </packageinstances>
 </package3d>
-<package3d name="SOP65P780X200-24" urn="urn:adsk.eagle:package:2900211/1" locally_modified="yes" type="model">
+<package3d name="SOP65P780X200-24" urn="urn:adsk.eagle:package:2900211/2" type="model">
 <description>24-SOP, 0.65 mm pitch, 7.8 mm span, 8.2 X 5.3 X 2 mm body
 &lt;p&gt;24-pin SOP package with 0.65 mm pitch, 7.8 mm span with body size 8.2 X 5.3 X 2 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOP65P780X200-24"/>
 </packageinstances>
 </package3d>
-<package3d name="SOP65P650X110-28" urn="urn:adsk.eagle:package:2900279/1" locally_modified="yes" type="model">
+<package3d name="SOP65P650X110-28" urn="urn:adsk.eagle:package:2900279/2" type="model">
 <description>28-SOP, 0.65 mm pitch, 6.5 mm span, 9.7 X 4.4 X 1.1 mm body
 &lt;p&gt;28-pin SOP package with 0.65 mm pitch, 6.5 mm span with body size 9.7 X 4.4 X 1.1 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOP65P650X110-28"/>
 </packageinstances>
 </package3d>
-<package3d name="OSCCC500X320X110" urn="urn:adsk.eagle:package:2939176/1" locally_modified="yes" type="model">
+<package3d name="OSCCC500X320X110" urn="urn:adsk.eagle:package:2939176/2" type="model">
 <description>OSCILLATOR CORNERCONCAVE, 5 X 3.2 X 1.1 mm body
 &lt;p&gt;OSCILLATOR CORNERCONCAVE package with body size 5 X 3.2 X 1.1 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="OSCCC500X320X110"/>
+</packageinstances>
+</package3d>
+<package3d name="WSON-8-PPAD" urn="urn:adsk.eagle:package:2992818/2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="WSON-8-PPAD"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2459,7 +2464,7 @@ VCC    : 3.3V - 5.25V</text>
 <connect gate="G$1" pin="VCC" pad="24"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2900211/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2900211/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2548,7 +2553,7 @@ VCC    : 3.3V - 5.25V</text>
 <connect gate="G$1" pin="VCC" pad="28"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2900279/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2900279/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2616,14 +2621,14 @@ VCC    : 3.3V - 5.25V</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DRV883X_H-BRIDGE_" prefix="IC" uservalue="yes">
+<deviceset name="DRV883X_H-BRIDGE" prefix="IC" uservalue="yes">
 <description>DRV883x Series H-Bridge - DRV8837 -&gt; PWM (IN1 &amp; IN2); DRV8838 -&gt; PH IN1/ENA
  IN2</description>
 <gates>
 <gate name="G$1" symbol="DRV8837C_H-BRIDGE_1A_WSON-8-PAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DRV8837C_1A" package="WSON-8-PPAD">
+<device name="_DRV8837C_1A" package="WSON-8-PPAD">
 <connects>
 <connect gate="G$1" pin="GND" pad="4 GND P$1 P$2"/>
 <connect gate="G$1" pin="IN1/PH" pad="6"/>
@@ -2634,21 +2639,22 @@ VCC    : 3.3V - 5.25V</text>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VM" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2992818/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/drv8837c.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-44747-1-ND" constant="no"/>
 <attribute name="DISTPN" value="296-44747-1-ND" constant="no"/>
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="DRV8837CDSGT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="DRV8837C" constant="no"/>
+<attribute name="VALUE" value="DRV8837C 1A" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="DRV8838D_1.8A" package="WSON-8-PPAD">
+<device name="_DRV8838D_1.8A" package="WSON-8-PPAD">
 <connects>
 <connect gate="G$1" pin="GND" pad="4 GND P$1 P$2"/>
 <connect gate="G$1" pin="IN1/PH" pad="6"/>
@@ -2659,17 +2665,18 @@ VCC    : 3.3V - 5.25V</text>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VM" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2992818/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/drv8838.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/DRV8838DSGR/296-40081-1-ND/5177958" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-40081-1-ND" constant="no"/>
 <attribute name="DISTPN" value="296-40081-1-ND" constant="no"/>
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="DRV8838DSGR" constant="no"/>
-<attribute name="TESTED" value="No" constant="no"/>
-<attribute name="VALUE" value="DRV8838D" constant="no"/>
+<attribute name="VALUE" value="DRV8838D 1.8A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2817,7 +2824,7 @@ VCC    : 3.3V - 5.25V</text>
 <connect gate="G$1" pin="XTAL2" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2939176/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2939176/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
