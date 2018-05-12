@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -944,9 +944,9 @@
 <pad name="TXO" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="VCC" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <wire x1="-1.7" y1="1.7" x2="14.4" y2="1.7" width="0.127" layer="39"/>
-<wire x1="14.4" y1="1.7" x2="14.4" y2="-1.7" width="0.127" layer="39"/>
-<wire x1="14.4" y1="-1.7" x2="-1.7" y2="-1.7" width="0.127" layer="39"/>
-<wire x1="-1.7" y1="-1.7" x2="-1.7" y2="1.7" width="0.127" layer="39"/>
+<wire x1="14.4" y1="1.7" x2="14.4" y2="-9.32" width="0.127" layer="39"/>
+<wire x1="14.4" y1="-9.32" x2="-1.7" y2="-9.32" width="0.127" layer="39"/>
+<wire x1="-1.7" y1="-9.32" x2="-1.7" y2="1.7" width="0.127" layer="39"/>
 <wire x1="-1.27" y1="-0.635" x2="-1.27" y2="-3.54" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-3.54" x2="-1.27" y2="-8.89" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-8.89" x2="13.97" y2="-8.89" width="0.2032" layer="21"/>
@@ -1925,6 +1925,23 @@
 <rectangle x1="-9.25" y1="-0.25" x2="-8.75" y2="0.25" layer="51"/>
 <rectangle x1="-7.25" y1="-0.25" x2="-6.75" y2="0.25" layer="51"/>
 <rectangle x1="-5.25" y1="-0.25" x2="-4.75" y2="0.25" layer="51"/>
+</package>
+<package name="1X02_MOLEX_89401_VERT-HOUSING">
+<wire x1="-3" y1="7.6" x2="-3" y2="0.12" width="0.127" layer="21"/>
+<wire x1="-3" y1="0.12" x2="3" y2="0.12" width="0.127" layer="21"/>
+<wire x1="3" y1="0.12" x2="3" y2="7.6" width="0.127" layer="21"/>
+<wire x1="3" y1="7.6" x2="2.425" y2="7.6" width="0.127" layer="21"/>
+<pad name="+" x="-1" y="0" drill="0.8"/>
+<pad name="-" x="1" y="0" drill="0.8"/>
+<wire x1="-2.425" y1="7.6" x2="-3" y2="7.6" width="0.127" layer="21"/>
+<wire x1="-2.425" y1="7.6" x2="-2.425" y2="2" width="0.127" layer="51"/>
+<wire x1="-2.425" y1="2" x2="2.425" y2="2" width="0.127" layer="51"/>
+<wire x1="2.425" y1="2" x2="2.425" y2="7.6" width="0.127" layer="51"/>
+<wire x1="2.425" y1="7.6" x2="0.375" y2="7.6" width="0.127" layer="21"/>
+<wire x1="-0.375" y1="7.6" x2="-2.425" y2="7.6" width="0.127" layer="21"/>
+<wire x1="-0.375" y1="7.6" x2="-0.375" y2="6.5" width="0.127" layer="21"/>
+<wire x1="-0.375" y1="6.5" x2="0.375" y2="6.5" width="0.127" layer="21"/>
+<wire x1="0.375" y1="6.5" x2="0.375" y2="7.6" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
