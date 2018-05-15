@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -573,6 +573,44 @@
 <wire x1="1.8" y1="0.95" x2="-1.8" y2="0.95" width="0.127" layer="39"/>
 <wire x1="-1.8" y1="0.95" x2="-1.8" y2="-0.95" width="0.127" layer="39"/>
 </package>
+<package name="_AE_PTH_DIA8-LS3.5-H21.50" urn="urn:adsk.eagle:footprint:3036219/1">
+<wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-3.397" y1="0" x2="-2.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3.143" y1="-0.254" x2="-3.143" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="2.889" y1="0" x2="3.397" y2="0" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="4" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="4.25" width="0.1524" layer="39"/>
+<pad name="-" x="1.75" y="0" drill="0.7"/>
+<pad name="+" x="-1.75" y="0" drill="0.7" shape="square"/>
+<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+</package>
+<package name="CAPMP3216X180_SMD_CAP-TANT-1206" urn="urn:adsk.eagle:footprint:3037639/1" locally_modified="yes">
+<description>MOLDED BODY, 3.2 X 1.65 X 1.8 mm body
+&lt;p&gt;MOLDED BODY package with body size 3.2 X 1.65 X 1.8 mm&lt;/p&gt;</description>
+<wire x1="1.7" y1="0.9786" x2="-2.5217" y2="0.9786" width="0.12" layer="21"/>
+<wire x1="-2.5217" y1="0.9786" x2="-2.5217" y2="-0.9786" width="0.12" layer="21"/>
+<wire x1="-2.5217" y1="-0.9786" x2="1.7" y2="-0.9786" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.12" layer="51"/>
+<smd name="A" x="-1.4144" y="0" dx="1.5864" dy="1.3291" layer="1" thermals="no"/>
+<smd name="K" x="1.4144" y="0" dx="1.5864" dy="1.3291" layer="1" thermals="no"/>
+<text x="-0.157" y="1.6136" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.157" y="-1.6136" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-2.6" y1="-1" x2="2.6" y2="-1" width="0.127" layer="39"/>
+<wire x1="2.6" y1="-1" x2="2.6" y2="1" width="0.127" layer="39"/>
+<wire x1="2.6" y1="1" x2="-2.6" y2="1" width="0.127" layer="39"/>
+<wire x1="-2.6" y1="1" x2="-2.6" y2="-1" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CAPC1005X55" urn="urn:adsk.eagle:package:2886515/1" locally_modified="yes" type="model">
@@ -594,6 +632,18 @@
 &lt;p&gt;CHIP package with body size 2 X 1.25 X 0.95 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPC2012X95_SMD-0805"/>
+</packageinstances>
+</package3d>
+<package3d name="_AE_PTH_DIA8-LS3.5-H21.50" urn="urn:adsk.eagle:package:3036236/2" type="model">
+<packageinstances>
+<packageinstance name="_AE_PTH_DIA8-LS3.5-H21.50"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPMP3216X180" urn="urn:adsk.eagle:package:3037631/1" locally_modified="yes" type="model">
+<description>MOLDED BODY, 3.2 X 1.65 X 1.8 mm body
+&lt;p&gt;MOLDED BODY package with body size 3.2 X 1.65 X 1.8 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPMP3216X180_SMD_CAP-TANT-1206"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1117,19 +1167,21 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-1206_16V-20%" package="_TANT_SMD-1206">
+<device name="_SMD-1206_16V-20%_" package="CAPMP3216X180_SMD_CAP-TANT-1206">
 <connects>
-<connect gate="G$1" pin="A" pad="+"/>
-<connect gate="G$1" pin="K" pad="-"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3037631/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://datasheets.avx.com/TCJ.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=478-3451-1-ND" constant="no"/>
 <attribute name="DISTPN" value="478-3451-1-ND" constant="no"/>
-<attribute name="MFR" value="AVX Corporation" constant="no"/>
+<attribute name="MFR" value="TCJA106M016R0200" constant="no"/>
 <attribute name="MPN" value="TCJA106M016R0200" constant="no"/>
 <attribute name="VALUE" value="10uF/16V" constant="no"/>
 </technology>
@@ -1158,6 +1210,26 @@
 <attribute name="MPN" value="UVR1H102MHD" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="1000uF/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH_16V-20%" package="_AE_PTH_DIA8-LS3.5-H21.50">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="K" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3036236/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&amp;j=p&amp;pdfname=kzm" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=565-3567-ND" constant="no"/>
+<attribute name="DISTPN" value="565-3567-ND" constant="no"/>
+<attribute name="MFR" value="United Chemi-Con" constant="no"/>
+<attribute name="MPN" value="EKZM160ELL102MH20D" constant="no"/>
+<attribute name="VALUE" value="1000uF/16V" constant="no"/>
 </technology>
 </technologies>
 </device>
