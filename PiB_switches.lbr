@@ -269,10 +269,10 @@
 <hole x="0" y="1.5" drill="0.9"/>
 <text x="0" y="0" size="0.6096" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
-<package name="SW_TOGGLE_SPDT_5A-28V_13L-7W">
-<pad name="3" x="0" y="-4.7" drill="1.875" diameter="3.075" rot="R180"/>
-<pad name="2" x="0" y="0" drill="1.875" diameter="3.075" rot="R180"/>
-<pad name="1" x="0" y="4.7" drill="1.875" diameter="3.075" rot="R180"/>
+<package name="SW_TOGGLE_SPDT_5A-28V_13L-7W" urn="urn:adsk.eagle:footprint:3033348/3">
+<pad name="S1" x="0" y="-4.7" drill="1.875" diameter="3.075" rot="R180"/>
+<pad name="P" x="0" y="0" drill="1.875" diameter="3.075" rot="R180"/>
+<pad name="S2" x="0" y="4.7" drill="1.875" diameter="3.075" rot="R180"/>
 <wire x1="3.5" y1="-6.5" x2="3.5" y2="6.5" width="0.1" layer="21"/>
 <wire x1="3.5" y1="6.5" x2="-3.5" y2="6.5" width="0.1" layer="21"/>
 <wire x1="-3.5" y1="6.5" x2="-3.5" y2="-6.5" width="0.1" layer="21"/>
@@ -308,32 +308,32 @@
 <wire x1="2.413" y1="5.207" x2="2.413" y2="-5.207" width="0.127" layer="39"/>
 <wire x1="2.413" y1="-5.207" x2="-2.413" y2="-5.207" width="0.127" layer="39"/>
 </package>
-<package name="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8">
+<package name="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8" urn="urn:adsk.eagle:footprint:3034774/1">
 <wire x1="-2.1" y1="-1.4" x2="-2.1" y2="1.4" width="0.127" layer="21"/>
 <wire x1="2.1" y1="1.4" x2="2.1" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="21"/>
 <wire x1="2.1" y1="-1.4" x2="-2.1" y2="-1.4" width="0.127" layer="21"/>
-<smd name="1" x="-2" y="0.8975" dx="1" dy="1" layer="1" roundness="50"/>
-<smd name="3" x="-2" y="-0.975" dx="1" dy="1" layer="1" roundness="50"/>
-<smd name="4" x="2" y="-0.975" dx="1" dy="1" layer="1" roundness="50"/>
-<smd name="2" x="2" y="0.975" dx="1" dy="1" layer="1" roundness="50"/>
-<circle x="0" y="0" radius="0.805" width="0.127" layer="48"/>
 <wire x1="-1.4" y1="0.8" x2="0" y2="0.8" width="0.127" layer="21"/>
 <wire x1="0" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21"/>
 <wire x1="1.4" y1="-0.8" x2="0" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="0" y1="-0.8" x2="-1.4" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="0" y1="-0.8" x2="0" y2="-0.5" width="0.127" layer="21"/>
 <wire x1="0" y1="0.5" x2="0" y2="0.8" width="0.127" layer="21"/>
-<circle x="0" y="0.5" radius="0.1" width="0.1" layer="21"/>
-<circle x="0" y="-0.5" radius="0.1" width="0.1" layer="21"/>
 <wire x1="0" y1="0.5" x2="0.6" y2="-0.5" width="0.1" layer="21"/>
 <wire x1="-2.667" y1="-1.651" x2="-2.667" y2="1.651" width="0.127" layer="39"/>
 <wire x1="-2.667" y1="1.651" x2="2.667" y2="1.651" width="0.127" layer="39"/>
 <wire x1="2.667" y1="1.651" x2="2.667" y2="-1.651" width="0.127" layer="39"/>
 <wire x1="2.667" y1="-1.651" x2="-2.667" y2="-1.651" width="0.127" layer="39"/>
+<smd name="1" x="-2" y="0.8" dx="1" dy="1" layer="1"/>
+<smd name="3" x="-2" y="-0.8" dx="1" dy="1" layer="1"/>
+<smd name="4" x="2" y="-0.8" dx="1" dy="1" layer="1"/>
+<smd name="2" x="2" y="0.8" dx="1" dy="1" layer="1"/>
+<smd name="P$1" x="0" y="1.5" dx="1.7" dy="0.55" layer="1"/>
+<circle x="0" y="0" radius="0.805" width="0.127" layer="48"/>
+<circle x="0" y="0.5" radius="0.1" width="0.1" layer="21"/>
+<circle x="0" y="-0.5" radius="0.1" width="0.1" layer="21"/>
 <text x="0" y="2.286" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<smd name="P$1" x="0" y="1.25" dx="1.7" dy="0.55" layer="1" roundness="50"/>
 </package>
 <package name="SW_SLIDE_SPST_VERT_8.5L-3.5W">
 <wire x1="-4.25" y1="1.75" x2="4.25" y2="1.75" width="0.127" layer="21"/>
@@ -384,6 +384,16 @@
 <package3d name="SW_SLIDE_SPDT_RA_PTH_12.7L-9.5W" urn="urn:adsk.eagle:package:2973750/2" type="model">
 <packageinstances>
 <packageinstance name="SW_SLIDE_SPDT_RA_PTH_12.7L-9.5W"/>
+</packageinstances>
+</package3d>
+<package3d name="SW_TOGGLE_SPDT_5A-28V_13L-7W" urn="urn:adsk.eagle:package:3033359/4" type="model">
+<packageinstances>
+<packageinstance name="SW_TOGGLE_SPDT_5A-28V_13L-7W"/>
+</packageinstances>
+</package3d>
+<package3d name="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8" urn="urn:adsk.eagle:package:3034784/2" type="model">
+<packageinstances>
+<packageinstance name="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -549,6 +559,26 @@
 </technology>
 </technologies>
 </device>
+<device name="_SPST-NO_SMD_50MA-32V_L4.6-W2.8" package="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3034784/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.ckswitches.com/media/1479/kmr2.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=401-1426-1-ND" constant="no"/>
+<attribute name="DISTPN" value="401-1426-1-ND" constant="no"/>
+<attribute name="MFR" value="C&amp;K" constant="no"/>
+<attribute name="MPN" value="KMR211GLFS" constant="no"/>
+<attribute name="VALUE" value="50mA/32V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="SWITCH_SPDT" prefix="SW" uservalue="yes">
@@ -601,9 +631,9 @@
 </device>
 <device name="_VERT_PTH_5A-28V_13L-7W" package="SW_TOGGLE_SPDT_5A-28V_13L-7W">
 <connects>
-<connect gate="G$1" pin="P" pad="2"/>
-<connect gate="G$1" pin="S1" pad="1"/>
-<connect gate="G$1" pin="S2" pad="3"/>
+<connect gate="G$1" pin="P" pad="P"/>
+<connect gate="G$1" pin="S1" pad="S2"/>
+<connect gate="G$1" pin="S2" pad="S1"/>
 </connects>
 <technologies>
 <technology name="">
@@ -656,6 +686,27 @@
 <attribute name="MFR" value="E-Switch" constant="no"/>
 <attribute name="MPN" value="500SSP1S1M6QEA" constant="no"/>
 <attribute name="VALUE" value="4A/28V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_VERT_PTH_5A-28V_13L-7W_" package="SW_TOGGLE_SPDT_5A-28V_13L-7W">
+<connects>
+<connect gate="G$1" pin="P" pad="P"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3033359/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://spec_sheets.e-switch.com/specs/T111597.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=EG2355-ND" constant="no"/>
+<attribute name="DISTPN" value="EG2355-ND" constant="no"/>
+<attribute name="MFR" value="E-Switch" constant="no"/>
+<attribute name="MPN" value="100SP1T1B4M2QE" constant="no"/>
+<attribute name="VALUE" value="5A/28V" constant="no"/>
 </technology>
 </technologies>
 </device>

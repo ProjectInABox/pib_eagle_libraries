@@ -1430,47 +1430,6 @@ package type OT</description>
 <wire x1="-3" y1="-2.7" x2="-3" y2="2.7" width="0.1" layer="39"/>
 <text x="0" y="-3.477" size="1.27" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
-<package name="SOIC127P1030X265-24" urn="urn:adsk.eagle:footprint:2900203/1">
-<description>24-SOIC, 1.27 mm pitch, 10.3 mm span, 15.4 X 7.5 X 2.65 mm body
-&lt;p&gt;24-pin SOIC package with 1.27 mm pitch, 10.3 mm span with body size 15.4 X 7.5 X 2.65 mm&lt;/p&gt;</description>
-<circle x="-4.7349" y="7.6136" radius="0.075" width="0" layer="21"/>
-<wire x1="-3.8" y1="7.5386" x2="-3.8" y2="7.8" width="0.12" layer="21"/>
-<wire x1="-3.8" y1="7.8" x2="3.8" y2="7.8" width="0.12" layer="21"/>
-<wire x1="3.8" y1="7.8" x2="3.8" y2="7.5386" width="0.12" layer="21"/>
-<wire x1="-3.8" y1="-7.5386" x2="-3.8" y2="-7.8" width="0.12" layer="21"/>
-<wire x1="-3.8" y1="-7.8" x2="3.8" y2="-7.8" width="0.12" layer="21"/>
-<wire x1="3.8" y1="-7.8" x2="3.8" y2="-7.5386" width="0.12" layer="21"/>
-<wire x1="3.8" y1="-7.8" x2="-3.8" y2="-7.8" width="0.12" layer="51"/>
-<wire x1="-3.8" y1="-7.8" x2="-3.8" y2="7.8" width="0.12" layer="51"/>
-<wire x1="-3.8" y1="7.8" x2="3.8" y2="7.8" width="0.12" layer="51"/>
-<wire x1="3.8" y1="7.8" x2="3.8" y2="-7.8" width="0.12" layer="51"/>
-<smd name="1" x="-4.6417" y="6.985" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="2" x="-4.6417" y="5.715" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="3" x="-4.6417" y="4.445" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="4" x="-4.6417" y="3.175" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="5" x="-4.6417" y="1.905" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="6" x="-4.6417" y="0.635" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="7" x="-4.6417" y="-0.635" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="8" x="-4.6417" y="-1.905" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="9" x="-4.6417" y="-3.175" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="10" x="-4.6417" y="-4.445" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="11" x="-4.6417" y="-5.715" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="12" x="-4.6417" y="-6.985" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="13" x="4.6417" y="-6.985" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="14" x="4.6417" y="-5.715" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="15" x="4.6417" y="-4.445" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="16" x="4.6417" y="-3.175" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="17" x="4.6417" y="-1.905" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="18" x="4.6417" y="-0.635" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="19" x="4.6417" y="0.635" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="20" x="4.6417" y="1.905" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="21" x="4.6417" y="3.175" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="22" x="4.6417" y="4.445" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="23" x="4.6417" y="5.715" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<smd name="24" x="4.6417" y="6.985" dx="2.056" dy="0.5991" layer="1" thermals="no"/>
-<text x="0" y="8.435" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-8.435" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 <package name="SOP65P780X200-24" urn="urn:adsk.eagle:footprint:2900213/2">
 <description>24-SOP, 0.65 mm pitch, 7.8 mm span, 8.2 X 5.3 X 2 mm body
 &lt;p&gt;24-pin SOP package with 0.65 mm pitch, 7.8 mm span with body size 8.2 X 5.3 X 2 mm&lt;/p&gt;</description>
@@ -1591,13 +1550,6 @@ package type OT</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOIC127P1030X265-24" urn="urn:adsk.eagle:package:2900199/1" type="model">
-<description>24-SOIC, 1.27 mm pitch, 10.3 mm span, 15.4 X 7.5 X 2.65 mm body
-&lt;p&gt;24-pin SOIC package with 1.27 mm pitch, 10.3 mm span with body size 15.4 X 7.5 X 2.65 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOIC127P1030X265-24"/>
-</packageinstances>
-</package3d>
 <package3d name="SOP65P780X200-24" urn="urn:adsk.eagle:package:2900211/2" type="model">
 <description>24-SOP, 0.65 mm pitch, 7.8 mm span, 8.2 X 5.3 X 2 mm body
 &lt;p&gt;24-pin SOP package with 0.65 mm pitch, 7.8 mm span with body size 8.2 X 5.3 X 2 mm&lt;/p&gt;</description>
@@ -2400,40 +2352,6 @@ VCC    : 3.3V - 5.25V</text>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="CH16_MUX-DEMUX" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="_16:1-MUX-DEMUX" package="SOIC127P1030X265-24">
-<connects>
-<connect gate="G$1" pin="!EN" pad="15"/>
-<connect gate="G$1" pin="C0" pad="9"/>
-<connect gate="G$1" pin="C1" pad="8"/>
-<connect gate="G$1" pin="C10" pad="21"/>
-<connect gate="G$1" pin="C11" pad="20"/>
-<connect gate="G$1" pin="C12" pad="19"/>
-<connect gate="G$1" pin="C13" pad="18"/>
-<connect gate="G$1" pin="C14" pad="17"/>
-<connect gate="G$1" pin="C15" pad="16"/>
-<connect gate="G$1" pin="C2" pad="7"/>
-<connect gate="G$1" pin="C3" pad="6"/>
-<connect gate="G$1" pin="C4" pad="5"/>
-<connect gate="G$1" pin="C5" pad="4"/>
-<connect gate="G$1" pin="C6" pad="3"/>
-<connect gate="G$1" pin="C7" pad="2"/>
-<connect gate="G$1" pin="C8" pad="23"/>
-<connect gate="G$1" pin="C9" pad="22"/>
-<connect gate="G$1" pin="GND" pad="12"/>
-<connect gate="G$1" pin="S0" pad="10"/>
-<connect gate="G$1" pin="S1" pad="11"/>
-<connect gate="G$1" pin="S2" pad="14"/>
-<connect gate="G$1" pin="S3" pad="13"/>
-<connect gate="G$1" pin="SIG" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="24"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2900199/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 <device name="_SOP-24_16:1-MUX-DEMUX" package="SOP65P780X200-24">
