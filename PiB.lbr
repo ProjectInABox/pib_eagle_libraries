@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1175,21 +1175,21 @@
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1" layer="21"/>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.1" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.1" layer="21"/>
-<smd name="1" x="-1.5" y="0.975" dx="0.8" dy="0.35" layer="1" roundness="50"/>
-<smd name="2" x="-1.5" y="0.325" dx="0.8" dy="0.35" layer="1" roundness="50"/>
-<smd name="3" x="-1.5" y="-0.325" dx="0.8" dy="0.35" layer="1" roundness="50"/>
-<smd name="4" x="-1.5" y="-0.975" dx="0.8" dy="0.35" layer="1" roundness="50"/>
-<smd name="5" x="1.5" y="-0.975" dx="0.8" dy="0.35" layer="1" roundness="50"/>
-<smd name="6" x="1.5" y="-0.325" dx="0.8" dy="0.35" layer="1" roundness="50"/>
-<smd name="7" x="1.5" y="0.325" dx="0.8" dy="0.35" layer="1" roundness="50"/>
-<smd name="8" x="1.5" y="0.975" dx="0.8" dy="0.35" layer="1" roundness="50"/>
+<smd name="1" x="-1.5" y="0.975" dx="0.8" dy="0.35" layer="1"/>
+<smd name="2" x="-1.5" y="0.325" dx="0.8" dy="0.35" layer="1"/>
+<smd name="3" x="-1.5" y="-0.325" dx="0.8" dy="0.35" layer="1"/>
+<smd name="4" x="-1.5" y="-0.975" dx="0.8" dy="0.35" layer="1"/>
+<smd name="5" x="1.5" y="-0.975" dx="0.8" dy="0.35" layer="1"/>
+<smd name="6" x="1.5" y="-0.325" dx="0.8" dy="0.35" layer="1"/>
+<smd name="7" x="1.5" y="0.325" dx="0.8" dy="0.35" layer="1"/>
+<smd name="8" x="1.5" y="0.975" dx="0.8" dy="0.35" layer="1"/>
 <wire x1="-2.1" y1="1.7" x2="-2.1" y2="-1.7" width="0.1" layer="39"/>
 <wire x1="-2.1" y1="-1.7" x2="2.1" y2="-1.7" width="0.1" layer="39"/>
 <wire x1="2.1" y1="-1.7" x2="2.1" y2="1.7" width="0.1" layer="39"/>
 <wire x1="2.1" y1="1.7" x2="-2.1" y2="1.7" width="0.1" layer="39"/>
 <circle x="-0.7" y="1" radius="0.22360625" width="0" layer="21"/>
 <circle x="-1.8" y="1.8" radius="0.22360625" width="0.1" layer="21"/>
-<smd name="P$9" x="0" y="0" dx="2.15" dy="1.2" layer="1" roundness="50" rot="R90"/>
+<smd name="P$9" x="0" y="0" dx="2.15" dy="1.2" layer="1" rot="R90"/>
 <pad name="P$10" x="0" y="0.5" drill="0.254" diameter="0.3556"/>
 <pad name="P$11" x="0" y="-0.5" drill="0.254" diameter="0.3556"/>
 <text x="0" y="2.032" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
@@ -1548,6 +1548,27 @@ package type OT</description>
 <text x="-0.172" y="-2.5509" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <text x="0" y="0" size="0.5" layer="27" font="vector" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
 </package>
+<package name="SOIC127P600X150-8" urn="urn:adsk.eagle:footprint:3041605/1">
+<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.85 X 1.5 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.85 X 1.5 mm&lt;/p&gt;</description>
+<circle x="-2.6823" y="2.7036" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.95" y1="2.5136" x2="1.95" y2="2.5136" width="0.12" layer="21"/>
+<wire x1="-1.95" y1="-2.5136" x2="1.95" y2="-2.5136" width="0.12" layer="21"/>
+<wire x1="1.95" y1="-2.475" x2="-1.95" y2="-2.475" width="0.12" layer="51"/>
+<wire x1="-1.95" y1="-2.475" x2="-1.95" y2="2.475" width="0.12" layer="51"/>
+<wire x1="-1.95" y1="2.475" x2="1.95" y2="2.475" width="0.12" layer="51"/>
+<wire x1="1.95" y1="2.475" x2="1.95" y2="-2.475" width="0.12" layer="51"/>
+<smd name="1" x="-2.6246" y="1.905" dx="1.58" dy="0.5891" layer="1"/>
+<smd name="2" x="-2.6246" y="0.635" dx="1.58" dy="0.5891" layer="1"/>
+<smd name="3" x="-2.6246" y="-0.635" dx="1.58" dy="0.5891" layer="1"/>
+<smd name="4" x="-2.6246" y="-1.905" dx="1.58" dy="0.5891" layer="1"/>
+<smd name="5" x="2.6246" y="-1.905" dx="1.58" dy="0.5891" layer="1"/>
+<smd name="6" x="2.6246" y="-0.635" dx="1.58" dy="0.5891" layer="1"/>
+<smd name="7" x="2.6246" y="0.635" dx="1.58" dy="0.5891" layer="1"/>
+<smd name="8" x="2.6246" y="1.905" dx="1.58" dy="0.5891" layer="1"/>
+<text x="0" y="3.5886" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.1486" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOP65P780X200-24" urn="urn:adsk.eagle:package:2900211/2" type="model">
@@ -1574,6 +1595,13 @@ package type OT</description>
 <package3d name="WSON-8-PPAD" urn="urn:adsk.eagle:package:2992818/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="WSON-8-PPAD"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X150-8" urn="urn:adsk.eagle:package:3041604/1" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.85 X 1.5 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.85 X 1.5 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X150-8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3160,7 +3188,7 @@ The sampling rate on this IMU is slower than in the MPU6500, but it's noise sens
 <gate name="G$1" symbol="ZXMHC3F381N8_H-BRIDGE_3A_SOIC-8" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC-8_W3.9MM">
+<device name="_H-BRIDGE_COMP-FET_N-4.6A_P-3.2A" package="SOIC127P600X150-8">
 <connects>
 <connect gate="G$1" pin="N1D/P1D" pad="2"/>
 <connect gate="G$1" pin="N1G" pad="1"/>
@@ -3171,16 +3199,18 @@ The sampling rate on this IMU is slower than in the MPU6500, but it's noise sens
 <connect gate="G$1" pin="P1S/P2S" pad="7"/>
 <connect gate="G$1" pin="P2G" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3041604/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="https://www.diodes.com/assets/Datasheets/DMHC3025LSD.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=DMHC3025LSD-13DICT-ND" constant="no"/>
 <attribute name="DISTPN" value="DMHC3025LSD-13DICT-ND" constant="no"/>
 <attribute name="MFR" value="Diodes Incorporated" constant="no"/>
 <attribute name="MPN" value="DMHC3025LSD-13" constant="no"/>
-<attribute name="VALUE" value="DMHC3025LSD/4.2A" constant="no"/>
+<attribute name="VALUE" value="DMHC3025LSD" constant="no"/>
 </technology>
 </technologies>
 </device>

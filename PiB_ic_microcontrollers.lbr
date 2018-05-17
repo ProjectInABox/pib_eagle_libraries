@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2181,6 +2181,89 @@
 <wire x1="3.9" y1="-4.55" x2="3.9" y2="4.55" width="0.127" layer="39"/>
 <wire x1="3.9" y1="4.55" x2="-3.9" y2="4.55" width="0.127" layer="39"/>
 </package>
+<package name="QFP50P1200X1200X160-64" urn="urn:adsk.eagle:footprint:3048321/1">
+<description>64-QFP, 0.5 mm pitch, 12 mm span, 10 X 10 X 1.6 mm body
+&lt;p&gt;64-pin QFP package with 0.5 mm pitch, 12 mm lead span1 X 12 mm lead span2 with body size 10 X 10 X 1.6 mm&lt;/p&gt;</description>
+<circle x="-5.703" y="4.394" radius="0.25" width="0" layer="21"/>
+<wire x1="-5" y1="4.144" x2="-5" y2="5" width="0.12" layer="21"/>
+<wire x1="-5" y1="5" x2="-4.144" y2="5" width="0.12" layer="21"/>
+<wire x1="5" y1="4.144" x2="5" y2="5" width="0.12" layer="21"/>
+<wire x1="5" y1="5" x2="4.144" y2="5" width="0.12" layer="21"/>
+<wire x1="5" y1="-4.144" x2="5" y2="-5" width="0.12" layer="21"/>
+<wire x1="5" y1="-5" x2="4.144" y2="-5" width="0.12" layer="21"/>
+<wire x1="-5" y1="-4.144" x2="-5" y2="-5" width="0.12" layer="21"/>
+<wire x1="-5" y1="-5" x2="-4.144" y2="-5" width="0.12" layer="21"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.12" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="5" width="0.12" layer="51"/>
+<wire x1="-5" y1="5" x2="5" y2="5" width="0.12" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.12" layer="51"/>
+<smd name="1" x="-5.6713" y="3.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="2" x="-5.6713" y="3.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="3" x="-5.6713" y="2.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="4" x="-5.6713" y="2.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="5" x="-5.6713" y="1.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="6" x="-5.6713" y="1.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="7" x="-5.6713" y="0.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="8" x="-5.6713" y="0.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="9" x="-5.6713" y="-0.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="10" x="-5.6713" y="-0.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="11" x="-5.6713" y="-1.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="12" x="-5.6713" y="-1.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="13" x="-5.6713" y="-2.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="14" x="-5.6713" y="-2.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="15" x="-5.6713" y="-3.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="16" x="-5.6713" y="-3.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="17" x="-3.75" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="18" x="-3.25" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="19" x="-2.75" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="20" x="-2.25" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="21" x="-1.75" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="22" x="-1.25" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="23" x="-0.75" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="24" x="-0.25" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="25" x="0.25" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="26" x="0.75" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="27" x="1.25" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="28" x="1.75" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="29" x="2.25" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="30" x="2.75" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="31" x="3.25" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="32" x="3.75" y="-5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="33" x="5.6713" y="-3.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="34" x="5.6713" y="-3.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="35" x="5.6713" y="-2.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="36" x="5.6713" y="-2.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="37" x="5.6713" y="-1.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="38" x="5.6713" y="-1.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="39" x="5.6713" y="-0.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="40" x="5.6713" y="-0.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="41" x="5.6713" y="0.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="42" x="5.6713" y="0.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="43" x="5.6713" y="1.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="44" x="5.6713" y="1.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="45" x="5.6713" y="2.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="46" x="5.6713" y="2.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="47" x="5.6713" y="3.25" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="48" x="5.6713" y="3.75" dx="1.4692" dy="0.28" layer="1"/>
+<smd name="49" x="3.75" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="50" x="3.25" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="51" x="2.75" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="52" x="2.25" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="53" x="1.75" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="54" x="1.25" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="55" x="0.75" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="56" x="0.25" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="57" x="-0.25" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="58" x="-0.75" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="59" x="-1.25" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="60" x="-1.75" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="61" x="-2.25" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="62" x="-2.75" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="63" x="-3.25" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<smd name="64" x="-3.75" y="5.6713" dx="1.4692" dy="0.28" layer="1" rot="R90"/>
+<text x="0" y="7.0409" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.0409" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIP-20" urn="urn:adsk.eagle:package:2750531/2" type="model">
@@ -2257,6 +2340,13 @@
 &lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 5.995 mm span with body size 8.645 X 3.895 X 1.75 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC127P599X175-14_SOIC-14_NO-SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="QFP50P1200X1200X160-64" urn="urn:adsk.eagle:package:3048319/1" type="model">
+<description>64-QFP, 0.5 mm pitch, 12 mm span, 10 X 10 X 1.6 mm body
+&lt;p&gt;64-pin QFP package with 0.5 mm pitch, 12 mm lead span1 X 12 mm lead span2 with body size 10 X 10 X 1.6 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="QFP50P1200X1200X160-64"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3271,7 +3361,7 @@
 <gate name="A" symbol="STM32F103RET6" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_LQFP-64" package="LQFP-64">
+<device name="_STM32F405RGT6_LQFP-64" package="QFP50P1200X1200X160-64">
 <connects>
 <connect gate="A" pin="BOOT0" pad="60"/>
 <connect gate="A" pin="NRST" pad="7"/>
@@ -3339,18 +3429,17 @@
 <connect gate="A" pin="VSSA" pad="12"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2750540/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3048319/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/ef/92/76/6d/bb/c2/4f/f7/DM00037051.pdf/files/DM00037051.pdf/jcr:content/translations/en.DM00037051.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F405RGT6/497-11767-ND/2754208" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-11767-ND" constant="no"/>
 <attribute name="DISTPN" value="497-11767-ND" constant="no"/>
-<attribute name="MFR" value="ST Microelectronics" constant="no"/>
+<attribute name="MFR" value="STM32F405RGT6" constant="no"/>
 <attribute name="MPN" value="STM32F405RGT6" constant="no"/>
-<attribute name="TESTED" value="No" constant="no"/>
+<attribute name="VALUE" value="STM32F405RGT6" constant="no"/>
 </technology>
 </technologies>
 </device>
