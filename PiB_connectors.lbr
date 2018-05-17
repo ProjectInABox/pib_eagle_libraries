@@ -2117,6 +2117,41 @@
 <text x="-2.54" y="3.81" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="2X03-VERT-MALE_SHROUDED" urn="urn:adsk.eagle:footprint:3056040/2">
+<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
+<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
+<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
+<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
+<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
+<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
+<text x="0" y="-5.04" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="5.167" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<pad name="1" x="-2.54" y="-1.27" drill="1.1" diameter="1.8796" shape="octagon"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.1" diameter="1.8796" shape="octagon"/>
+<pad name="3" x="0" y="-1.27" drill="1.1" diameter="1.8796" shape="octagon"/>
+<pad name="4" x="0" y="1.27" drill="1.1" diameter="1.8796" shape="octagon"/>
+<pad name="5" x="2.54" y="-1.27" drill="1.1" diameter="1.8796" shape="octagon"/>
+<pad name="6" x="2.54" y="1.27" drill="1.1" diameter="1.8796" shape="octagon"/>
+<wire x1="-7.64" y1="4.425" x2="7.64" y2="4.425" width="0.127" layer="21"/>
+<wire x1="7.64" y1="4.425" x2="7.64" y2="-4.425" width="0.127" layer="21"/>
+<wire x1="7.64" y1="-4.425" x2="2.25" y2="-4.425" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-4.425" x2="2.25" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-3.175" x2="2.25" y2="-2.675" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-2.675" x2="-2.25" y2="-2.675" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-2.675" x2="-2.25" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-3.175" x2="-2.25" y2="-4.425" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-4.425" x2="-7.64" y2="-4.425" width="0.127" layer="21"/>
+<wire x1="-7.64" y1="-4.425" x2="-7.64" y2="4.425" width="0.127" layer="21"/>
+<wire x1="-6.48" y1="3.175" x2="-6.48" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="6.48" y1="-3.175" x2="6.48" y2="3.175" width="0.127" layer="21"/>
+<wire x1="6.48" y1="3.175" x2="-6.48" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="-4.6" x2="7.8" y2="-4.6" width="0.127" layer="39"/>
+<wire x1="7.8" y1="-4.6" x2="7.8" y2="4.7" width="0.127" layer="39"/>
+<wire x1="7.8" y1="4.7" x2="-7.8" y2="4.7" width="0.127" layer="39"/>
+<wire x1="-7.8" y1="4.7" x2="-7.8" y2="-4.6" width="0.127" layer="39"/>
+<wire x1="-6.48" y1="-3.175" x2="-2.25" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-3.175" x2="6.48" y2="-3.175" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X06-RA-MALE" urn="urn:adsk.eagle:package:2993097/2" type="model">
@@ -2172,6 +2207,11 @@
 <package3d name="1X03-VERT-MALE" urn="urn:adsk.eagle:package:3035518/2" type="model">
 <packageinstances>
 <packageinstance name="1X03-VERT-MALE"/>
+</packageinstances>
+</package3d>
+<package3d name="2X03-VERT-MALE_SHROUDED" urn="urn:adsk.eagle:package:3056881/2" type="model">
+<packageinstances>
+<packageinstance name="2X03-VERT-MALE_SHROUDED"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3757,6 +3797,29 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MFR" value="Amphenol FCI" constant="no"/>
 <attribute name="MPN" value="67997-206HLF" constant="no"/>
 <attribute name="VALUE" value="2x03 VERT MALE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH_VERT-MALE_SHROUDED-4" package="2X03-VERT-MALE_SHROUDED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3056881/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://multimedia.3m.com/mws/media/22504O/3mtm-100-in-loprof-hdr-100x-100strt-ra-4-wall-ts0818.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=3M15451-ND" constant="no"/>
+<attribute name="DISTPN" value="3M15451-ND" constant="no"/>
+<attribute name="MFR" value="3M" constant="no"/>
+<attribute name="MPN" value="30306-6002HB" constant="no"/>
 </technology>
 </technologies>
 </device>
