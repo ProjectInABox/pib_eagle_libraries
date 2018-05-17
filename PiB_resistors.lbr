@@ -1455,24 +1455,22 @@
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-402_1/16W_1%" package="RESISTOR_SMD-0402">
+<device name="_SMD-0402_1/16W-1%" package="RESC1005X35_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2749849/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2899165/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="221K" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/yageo/AC0402FR-07221KL/YAG5653CT-ND/7563673" constant="no"/>
-<attribute name="DISTPN" value="YAG5653CT-ND " constant="no"/>
+<attribute name="DISTPN" value="YAG5653CT-ND" constant="no"/>
 <attribute name="MFR" value="Yageo" constant="no"/>
 <attribute name="MPN" value="AC0402FR-07221KL" constant="no"/>
-<attribute name="VALUE" value="221k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1558,24 +1556,23 @@
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-0805_1/4W-5%" package="RESISTOR_SMD-805">
+<device name="_SMD-0805_1/4W-5%" package="RESC2012X60_SMD-0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2749855/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3034995/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773269&amp;DocType=DS&amp;DocLang=English" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RLP73K2AR75JTD/A109814CT-ND/4032580" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=A109814CT-ND" constant="no"/>
 <attribute name="DISTPN" value="A109814CT-ND" constant="no"/>
 <attribute name="MFR" value="TE Connectivity Passive Product" constant="no"/>
 <attribute name="MPN" value="RLP73K2AR75JTD" constant="no"/>
-<attribute name="VALUE" value="0.75Ω" constant="no"/>
+<attribute name="VALUE" value="0.75" constant="no"/>
 </technology>
 </technologies>
 </device>
