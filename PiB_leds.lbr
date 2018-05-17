@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -638,7 +638,7 @@
 <wire x1="2.6" y1="-1.8" x2="-2.6" y2="-1.8" width="0.1524" layer="39"/>
 <wire x1="-2.6" y1="-1.8" x2="-2.6" y2="1.8" width="0.1524" layer="39"/>
 </package>
-<package name="LEDC1005X40" urn="urn:adsk.eagle:footprint:2899409/1" locally_modified="yes">
+<package name="LEDC1005X40" urn="urn:adsk.eagle:footprint:2899409/2">
 <description>CHIP, 1 X 0.5 X 0.4 mm body
 &lt;p&gt;CHIP package with body size 1 X 0.5 X 0.4 mm&lt;/p&gt;</description>
 <circle x="-1.4299" y="0" radius="0.075" width="0" layer="21"/>
@@ -649,16 +649,16 @@
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.12" layer="51"/>
 <wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.12" layer="51"/>
 <wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.12" layer="51"/>
-<smd name="A" x="-0.5" y="0" dx="0.4539" dy="0.5539" layer="1" thermals="no"/>
-<smd name="K" x="0.5" y="0" dx="0.4539" dy="0.5539" layer="1" thermals="no"/>
-<text x="-0.389" y="1.2259" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="-0.389" y="-1.2259" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-1" y1="-0.45" x2="1" y2="-0.45" width="0.127" layer="39"/>
 <wire x1="1" y1="-0.45" x2="1" y2="0.45" width="0.127" layer="39"/>
 <wire x1="1" y1="0.45" x2="-1" y2="0.45" width="0.127" layer="39"/>
 <wire x1="-1" y1="0.45" x2="-1" y2="-0.45" width="0.127" layer="39"/>
+<smd name="A" x="-0.5" y="0" dx="0.4539" dy="0.5539" layer="1" thermals="no"/>
+<smd name="K" x="0.5" y="0" dx="0.4539" dy="0.5539" layer="1" thermals="no"/>
+<text x="-0.389" y="1.2259" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="-0.389" y="-1.2259" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
-<package name="LEDC1608X80" urn="urn:adsk.eagle:footprint:2959496/1" locally_modified="yes">
+<package name="LEDC1608X80" urn="urn:adsk.eagle:footprint:2959496/2">
 <description>CHIP, 1.6 X 0.8 X 0.8 mm body
 &lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.8 mm&lt;/p&gt;</description>
 <circle x="-1.9176" y="0" radius="0.075" width="0" layer="21"/>
@@ -669,16 +669,16 @@
 <wire x1="-0.85" y1="-0.45" x2="-0.85" y2="0.45" width="0.12" layer="51"/>
 <wire x1="-0.85" y1="0.45" x2="0.85" y2="0.45" width="0.12" layer="51"/>
 <wire x1="0.85" y1="0.45" x2="0.85" y2="-0.45" width="0.12" layer="51"/>
-<smd name="A" x="-0.7346" y="0" dx="0.96" dy="0.9291" layer="1" thermals="no"/>
-<smd name="K" x="0.7346" y="0" dx="0.96" dy="0.9291" layer="1" thermals="no"/>
-<text x="-0.389" y="1.4136" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="-0.389" y="-1.4136" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="39"/>
 <wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="39"/>
 <wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="39"/>
 <wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="39"/>
+<smd name="A" x="-0.7346" y="0" dx="0.96" dy="0.9291" layer="1" thermals="no"/>
+<smd name="K" x="0.7346" y="0" dx="0.96" dy="0.9291" layer="1" thermals="no"/>
+<text x="-0.389" y="1.4136" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="-0.389" y="-1.4136" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
-<package name="LEDC2012X120" urn="urn:adsk.eagle:footprint:2966316/1" locally_modified="yes">
+<package name="LEDC2012X120" urn="urn:adsk.eagle:footprint:2966316/2">
 <description>CHIP, 2 X 1.25 X 1.2 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.25 X 1.2 mm&lt;/p&gt;</description>
 <circle x="-2.1176" y="0" radius="0.075" width="0" layer="21"/>
@@ -689,32 +689,32 @@
 <wire x1="-1.05" y1="-0.675" x2="-1.05" y2="0.675" width="0.12" layer="51"/>
 <wire x1="-1.05" y1="0.675" x2="1.05" y2="0.675" width="0.12" layer="51"/>
 <wire x1="1.05" y1="0.675" x2="1.05" y2="-0.675" width="0.12" layer="51"/>
-<smd name="A" x="-0.9596" y="0" dx="1.01" dy="1.3791" layer="1" thermals="no"/>
-<smd name="K" x="0.9596" y="0" dx="1.01" dy="1.3791" layer="1" thermals="no"/>
-<text x="-0.389" y="1.6386" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="-0.389" y="-1.6386" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-1.75" y1="-0.95" x2="1.75" y2="-0.95" width="0.127" layer="39"/>
 <wire x1="1.75" y1="-0.95" x2="1.75" y2="0.95" width="0.127" layer="39"/>
 <wire x1="1.75" y1="0.95" x2="-1.75" y2="0.95" width="0.127" layer="39"/>
 <wire x1="-1.75" y1="0.95" x2="-1.75" y2="-0.95" width="0.127" layer="39"/>
+<smd name="A" x="-0.9596" y="0" dx="1.01" dy="1.3791" layer="1" thermals="no"/>
+<smd name="K" x="0.9596" y="0" dx="1.01" dy="1.3791" layer="1" thermals="no"/>
+<text x="-0.389" y="1.6386" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="-0.389" y="-1.6386" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="LEDC1005X40" urn="urn:adsk.eagle:package:2899303/1" locally_modified="yes" type="model">
+<package3d name="LEDC1005X40" urn="urn:adsk.eagle:package:2899303/3" type="model">
 <description>CHIP, 1 X 0.5 X 0.4 mm body
 &lt;p&gt;CHIP package with body size 1 X 0.5 X 0.4 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="LEDC1005X40"/>
 </packageinstances>
 </package3d>
-<package3d name="LEDC1608X80" urn="urn:adsk.eagle:package:2959495/1" locally_modified="yes" type="model">
+<package3d name="LEDC1608X80" urn="urn:adsk.eagle:package:2959495/3" type="model">
 <description>CHIP, 1.6 X 0.8 X 0.8 mm body
 &lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.8 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="LEDC1608X80"/>
 </packageinstances>
 </package3d>
-<package3d name="LEDC2012X120" urn="urn:adsk.eagle:package:2966314/1" locally_modified="yes" type="model">
+<package3d name="LEDC2012X120" urn="urn:adsk.eagle:package:2966314/3" type="model">
 <description>CHIP, 2 X 1.25 X 1.2 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.25 X 1.2 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -1229,42 +1229,6 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0603_DISCRETE_GREEN" package="LED_SMD-0603_">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="K" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Dialight%20PDFs/598_Series_0603_Pkg.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=350-2035-1-ND" constant="no"/>
-<attribute name="DISTPN" value="350-2035-1-ND" constant="no"/>
-<attribute name="MFR" value="Dialight" constant="no"/>
-<attribute name="MPN" value="5988070107F" constant="no"/>
-<attribute name="VALUE" value="GREEN" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-0603_DISCRETE_RED" package="LED_SMD-0603_">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="K" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Dialight%20PDFs/598_Series_0603_Pkg.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=350-2029-1-ND" constant="no"/>
-<attribute name="DISTPN" value="350-2029-1-ND" constant="no"/>
-<attribute name="MFR" value="Dialight" constant="no"/>
-<attribute name="MPN" value="Dialight" constant="no"/>
-<attribute name="VALUE" value="RED" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_SMD-0805_DISCRETE_NO-COLOR_NO-SILK" package="LED_SMD-805_NO-SILK">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
@@ -1289,7 +1253,7 @@
 <connect gate="G$1" pin="K" pad="K"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2899303/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2899303/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1309,7 +1273,7 @@
 <connect gate="G$1" pin="K" pad="K"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2899303/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2899303/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1329,7 +1293,7 @@
 <connect gate="G$1" pin="K" pad="K"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2899303/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2899303/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1349,16 +1313,16 @@
 <connect gate="G$1" pin="K" pad="K"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2959495/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2959495/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Dialight%20PDFs/598_Series_0603_Pkg.pdf" constant="no"/>
+<attribute name="DATASHEET" value="http://katalog.we-online.de/led/datasheet/150060BS75000.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=350-2037-1-ND" constant="no"/>
-<attribute name="DISTPN" value="350-2037-1-ND" constant="no"/>
-<attribute name="MFR" value="Dialight" constant="no"/>
-<attribute name="MPN" value="5988091107F" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=732-4966-1-ND" constant="no"/>
+<attribute name="DISTPN" value="732-4966-1-ND" constant="no"/>
+<attribute name="MFR" value="Wurth Electronics Inc." constant="no"/>
+<attribute name="MPN" value="150060BS75000" constant="no"/>
 <attribute name="VALUE" value="BLUE" constant="no"/>
 </technology>
 </technologies>
@@ -1369,7 +1333,7 @@
 <connect gate="G$1" pin="K" pad="K"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2966314/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2966314/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1380,6 +1344,46 @@
 <attribute name="MFR" value="Lite-On Inc." constant="no"/>
 <attribute name="MPN" value="LTST-C170TBKT" constant="no"/>
 <attribute name="VALUE" value="BLUE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0603_DISCRETE_GREEN" package="LEDC1608X80">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2959495/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://katalog.we-online.de/led/datasheet/150060GS75000.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=732-4971-1-ND" constant="no"/>
+<attribute name="DISTPN" value="732-4971-1-ND" constant="no"/>
+<attribute name="MFR" value="Wurth Electronics Inc." constant="no"/>
+<attribute name="MPN" value="150060GS75000" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0603_DISCRETE_RED" package="LEDC1608X80">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2959495/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://katalog.we-online.de/led/datasheet/150060RS75000.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=732-4978-1-ND" constant="no"/>
+<attribute name="DISTPN" value="732-4978-1-ND" constant="no"/>
+<attribute name="MFR" value="Wurth Electronics Inc." constant="no"/>
+<attribute name="MPN" value="150060RS75000" constant="no"/>
+<attribute name="VALUE" value="RED" constant="no"/>
 </technology>
 </technologies>
 </device>
