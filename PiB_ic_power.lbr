@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -492,19 +492,19 @@
 <wire x1="-1.3" y1="-0.9" x2="-1.6" y2="-0.9" width="0.127" layer="39"/>
 <wire x1="-1.6" y1="-0.9" x2="-1.6" y2="0.9" width="0.127" layer="39"/>
 </package>
-<package name="SIL0008E-1.75">
-<smd name="PR@1" x="0.55" y="0" dx="0.8" dy="1.9" layer="1"/>
-<smd name="PL@1" x="-0.55" y="0" dx="0.8" dy="1.9" layer="1"/>
-<pad name="PL@2" x="-0.55" y="0" drill="0.254" diameter="0.381"/>
-<pad name="PR@2" x="0.55" y="0" drill="0.254" diameter="0.381"/>
-<smd name="2" x="-1.725" y="0.4" dx="0.95" dy="0.4" layer="1" roundness="50"/>
-<smd name="1" x="-1.725" y="1.2" dx="0.95" dy="0.4" layer="1" roundness="50"/>
-<smd name="3" x="-1.725" y="-0.4" dx="0.95" dy="0.4" layer="1" roundness="50"/>
-<smd name="4" x="-1.725" y="-1.2" dx="0.95" dy="0.4" layer="1" roundness="50"/>
-<smd name="5" x="1.725" y="-1.2" dx="0.95" dy="0.4" layer="1" roundness="50"/>
-<smd name="6" x="1.725" y="-0.4" dx="0.95" dy="0.4" layer="1" roundness="50"/>
-<smd name="7" x="1.725" y="0.4" dx="0.95" dy="0.4" layer="1" roundness="50"/>
-<smd name="8" x="1.725" y="1.2" dx="0.95" dy="0.4" layer="1" roundness="50"/>
+<package name="SIL0008E-1.75" urn="urn:adsk.eagle:footprint:3069125/1" locally_modified="yes">
+<smd name="PR@1" x="0.5" y="0" dx="0.7" dy="1.9" layer="1"/>
+<smd name="PL@1" x="-0.5" y="0" dx="0.7" dy="1.9" layer="1"/>
+<smd name="2" x="-1.725" y="0.4" dx="0.95" dy="0.4" layer="1"/>
+<smd name="1" x="-1.725" y="1.2" dx="0.95" dy="0.4" layer="1"/>
+<smd name="3" x="-1.725" y="-0.4" dx="0.95" dy="0.4" layer="1"/>
+<smd name="4" x="-1.725" y="-1.2" dx="0.95" dy="0.4" layer="1"/>
+<smd name="5" x="1.725" y="-1.2" dx="0.95" dy="0.4" layer="1"/>
+<smd name="6" x="1.725" y="-0.4" dx="0.95" dy="0.4" layer="1"/>
+<smd name="7" x="1.725" y="0.4" dx="0.95" dy="0.4" layer="1"/>
+<smd name="8" x="1.725" y="1.2" dx="0.95" dy="0.4" layer="1"/>
+<pad name="PL@2" x="-0.45" y="0" drill="0.254" diameter="0.381"/>
+<pad name="PR@2" x="0.45" y="0" drill="0.254" diameter="0.381"/>
 <wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="51"/>
 <wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
 <wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.127" layer="51"/>
@@ -513,11 +513,11 @@
 <wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-2.45" y1="1.85" x2="2.45" y2="1.85" width="0.1016" layer="39"/>
+<wire x1="2.45" y1="1.85" x2="2.45" y2="-1.85" width="0.1016" layer="39"/>
+<wire x1="2.45" y1="-1.85" x2="-2.45" y2="-1.85" width="0.1016" layer="39"/>
+<wire x1="-2.45" y1="-1.85" x2="-2.45" y2="1.85" width="0.1016" layer="39"/>
 <circle x="-0.85" y="1.36" radius="0.284253125" width="0" layer="21"/>
-<wire x1="-1.85" y1="1.85" x2="1.85" y2="1.85" width="0.1016" layer="39"/>
-<wire x1="1.85" y1="1.85" x2="1.85" y2="-1.85" width="0.1016" layer="39"/>
-<wire x1="1.85" y1="-1.85" x2="-1.85" y2="-1.85" width="0.1016" layer="39"/>
-<wire x1="-1.85" y1="-1.85" x2="-1.85" y2="1.85" width="0.1016" layer="39"/>
 <text x="0" y="1.9" size="0.5" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0.05" y="-1.55" size="0.3" layer="27" font="vector" align="bottom-center">LMZ21701</text>
 </package>
@@ -776,6 +776,11 @@
 &lt;p&gt;4-pin SOT223 package with 2.3 mm pitch, 7 mm span with body size 6.5 X 3.5 X 1.8 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT229P700X180-4"/>
+</packageinstances>
+</package3d>
+<package3d name="SIL0008E-1.75" urn="urn:adsk.eagle:package:3069149/2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="SIL0008E-1.75"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1520,7 +1525,7 @@
 <gate name="G$1" symbol="VREG_TPS73633" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_DBVR" package="SOT-23">
+<device name="_TPS73633DBVR_400MA-3.3V" package="SOT95P280X145-5">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -1528,17 +1533,18 @@
 <connect gate="G$1" pin="NR/FB" pad="4"/>
 <connect gate="G$1" pin="OUT" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2889790/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tps736.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/TPS73633DBVR/296-27064-1-ND/2255336" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-27064-1-ND" constant="no"/>
 <attribute name="DISTPN" value="296-27064-1-ND" constant="no"/>
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="TPS73633DBVR" constant="no"/>
-<attribute name="TESTED" value="No" constant="no"/>
-<attribute name="VALUE" value="400mA/3.3V" constant="no"/>
+<attribute name="VALUE" value="TPS73633DBVR" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1550,7 +1556,7 @@
 <gate name="G$1" symbol="VREG_SWITCHING_LMZ21701" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-SIL0008" package="SIL0008E-1.75">
+<device name="_LMZ21701_1A-VADJ" package="SIL0008E-1.75">
 <connects>
 <connect gate="G$1" pin="EN" pad="7"/>
 <connect gate="G$1" pin="FB" pad="2"/>
@@ -1561,17 +1567,18 @@
 <connect gate="G$1" pin="VOS" pad="6"/>
 <connect gate="G$1" pin="VOUT" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3069149/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lmz21701.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/LMZ21701SILT/296-38545-1-ND/5034153" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-38545-1-ND" constant="no"/>
 <attribute name="DISTPN" value="296-38545-1-ND" constant="no"/>
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="LMZ21701SILT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="0.9-6V/1A" constant="no"/>
+<attribute name="VALUE" value="LMZ21701 1A/VADJ" constant="no"/>
 </technology>
 </technologies>
 </device>

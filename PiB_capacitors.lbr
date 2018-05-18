@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -903,20 +903,23 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0402_50V-10%" package="_CER_SMD_0402">
+<device name="_CER_SMD_0402_16V-10%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2886515/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=UMK105BJ224KV-F&amp;fileName=UMK105BJ224KV-F_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B1X5R1C224K050BC.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3500-1-ND" constant="no"/>
-<attribute name="DISTPN" value="587-3500-1-ND" constant="no"/>
-<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
-<attribute name="MPN" value="UMK105BJ224KV-F" constant="no"/>
-<attribute name="VALUE" value="0.22uF/50V" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-7877-1-ND" constant="no"/>
+<attribute name="DISTPN" value="445-7877-1-ND" constant="no"/>
+<attribute name="MFR" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="CGA2B1X5R1C224K050BC" constant="no"/>
+<attribute name="VALUE" value="0.22uF/16V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1495,24 +1498,6 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_CER_SMD-402_2.2UF-6.3V" package="_CER_SMD_0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155D80J225KE95-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155D80J225KE95D/490-10449-1-ND/5026359" constant="no"/>
-<attribute name="DISTPN" value="490-10449-1-ND " constant="no"/>
-<attribute name="MFR" value="   Murata Electronics North America " constant="no"/>
-<attribute name="MPN" value="GRM155D80J225KE95D" constant="no"/>
-<attribute name="VALUE" value="2.2uF/6.3V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_CER_SMD-0603_2.2UF-16V" package="CAPC1608X95">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1533,6 +1518,26 @@
 </technology>
 </technologies>
 </device>
+<device name="_CER_SMD-0402_25V-10%" package="CAPC1005X55_SMD-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2886515/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-9090-1-ND" constant="no"/>
+<attribute name="DISTPN" value="445-9090-1-ND" constant="no"/>
+<attribute name="MFR" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="C1005X5R1E225K050BC" constant="no"/>
+<attribute name="VALUE" value="2.2uF/25V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="3300PF" prefix="C" uservalue="yes">
@@ -1540,20 +1545,22 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_CER_SMD-603_50V-10%" package="_CER_SMD-603">
+<device name="_CER-SMD-0402_50V-10%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2886515/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H332KA01-01.pdf" constant="no"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05B332KB5NNNC.jsp" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1503-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-1503-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM188R71H332KA01D" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1276-1552-1-ND" constant="no"/>
+<attribute name="DISTPN" value="1276-1552-1-ND" constant="no"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" constant="no"/>
+<attribute name="MPN" value="CL05B332KB5NNNC" constant="no"/>
 <attribute name="VALUE" value="3300pF/50V" constant="no"/>
 </technology>
 </technologies>
@@ -1673,20 +1680,23 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0402_50V-10%" package="_CER_SMD_0402">
+<device name="_CER_SMD-0402_35V-10%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2886515/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B105KQ5NQNC_Spec.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1V103K050BB.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1276-1499-1-ND" constant="no"/>
-<attribute name="DISTPN" value="1276-1499-1-ND" constant="no"/>
-<attribute name="MFR" value="Samsung Electro-Mechanics" constant="no"/>
-<attribute name="MPN" value="CL05B103KB5NFNC" constant="no"/>
-<attribute name="VALUE" value="0.01uF/50V" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12187-1-ND" constant="no"/>
+<attribute name="DISTPN" value="445-12187-1-ND" constant="no"/>
+<attribute name="MFR" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="CGA2B3X5R1V103K050BB" constant="no"/>
+<attribute name="VALUE" value="0.01uF/35V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1697,20 +1707,22 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-402_50V_10%" package="_CER_SMD_0402">
+<device name="_SMD-0402_50V-10%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2886515/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=UMK105B7471KV-F&amp;fileName=UMK105B7471KV-F_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DATASHEET" value="https://psearch.en.murata.com/capacitor/product/GCM155R71H471KA37%23.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/UMK105B7471KV-F/587-1219-1-ND/930996" constant="no"/>
-<attribute name="DISTPN" value="587-1219-1-ND" constant="no"/>
-<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
-<attribute name="MPN" value="UMK105B7471KV-F" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-4913-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-4913-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GCM155R71H471KA37D" constant="no"/>
 <attribute name="VALUE" value="470pF/50V" constant="no"/>
 </technology>
 </technologies>

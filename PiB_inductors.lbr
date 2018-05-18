@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -302,6 +302,24 @@
 <wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.127" layer="39"/>
 <wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.127" layer="39"/>
 </package>
+<package name="INDC2012X100" urn="urn:adsk.eagle:footprint:3069079/1" locally_modified="yes">
+<description>CHIP, 2 X 1.25 X 1 mm body
+&lt;p&gt;CHIP package with body size 2 X 1.25 X 1 mm&lt;/p&gt;</description>
+<wire x1="1" y1="0.8949" x2="-1" y2="0.8949" width="0.12" layer="21"/>
+<wire x1="1" y1="-0.8949" x2="-1" y2="-0.8949" width="0.12" layer="21"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.12" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.12" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.12" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.12" layer="51"/>
+<smd name="1" x="-0.925" y="0" dx="0.9618" dy="1.3618" layer="1"/>
+<smd name="2" x="0.925" y="0" dx="0.9618" dy="1.3618" layer="1"/>
+<text x="0" y="1.6299" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.6299" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-1.7" y1="0.95" x2="1.7" y2="0.95" width="0.127" layer="39"/>
+<wire x1="1.7" y1="0.95" x2="1.7" y2="-0.95" width="0.127" layer="39"/>
+<wire x1="1.7" y1="-0.95" x2="-1.7" y2="-0.95" width="0.127" layer="39"/>
+<wire x1="-1.7" y1="-0.95" x2="-1.7" y2="0.95" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="_AXIAL_L22.9-D11.4" urn="urn:adsk.eagle:package:2752786/2" type="model">
@@ -330,6 +348,13 @@
 &lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.6 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="INDC1608X60"/>
+</packageinstances>
+</package3d>
+<package3d name="INDC2012X100" urn="urn:adsk.eagle:package:3069078/1" locally_modified="yes" type="model">
+<description>CHIP, 2 X 1.25 X 1 mm body
+&lt;p&gt;CHIP package with body size 2 X 1.25 X 1 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDC2012X100"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -443,45 +468,43 @@
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-805_1A-0.175OHM-20%" package="_SMD-805">
+<device name="_SMD-0603_470MA-0.312OHM-20%" package="INDC1608X60">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2752787/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2899745/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://www.murata.com/~/media/webrenewal/support/library/catalog/products/inductor/chip/o05e.ashx" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-12073-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-12073-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="LQM2MPN4R7MG0L" constant="no"/>
-<attribute name="VALUE" value="4.7uH" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMD-0603_0.470A-0.312OHM-20%" package="_SMD-0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2752785/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
 <attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=CBMF1608T4R7M&amp;fileName=CBMF1608T4R7M_SS&amp;mode=specSheetDownload" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-1719-1-ND" constant="no"/>
 <attribute name="DISTPN" value="587-1719-1-ND" constant="no"/>
 <attribute name="MFR" value="Taiyo Yuden" constant="no"/>
 <attribute name="MPN" value="CBMF1608T4R7M" constant="no"/>
-<attribute name="VALUE" value="4.7uH" constant="no"/>
+<attribute name="VALUE" value="4.7uH/470mA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0805_1.1A-0.175OHM-20%" package="INDC2012X100">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3069078/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0022.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-12073-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-12073-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="LQM2MPN4R7MG0L" constant="no"/>
+<attribute name="VALUE" value="4.7uH/1.1A" constant="no"/>
 </technology>
 </technologies>
 </device>
