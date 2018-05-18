@@ -949,22 +949,6 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0603_250V-5%" package="_CER_SMD-603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="https://www.johansontechnology.com/downloads/JTI-CAT-MLCC-HighQ.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=712-1314-1-ND" constant="no"/>
-<attribute name="DISTPN" value="712-1314-1-ND" constant="no"/>
-<attribute name="MFR" value="Johanson Technology Inc." constant="no"/>
-<attribute name="MPN" value="251R14S120JV4T" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_SMD-0402_100V-5%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -985,6 +969,26 @@
 </technology>
 </technologies>
 </device>
+<device name="_SMD-0603_250V-5%_" package="CAPC1608X95">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3041595/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.johansontechnology.com/downloads/JTI-CAT-MLCC-HighQ.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=712-1314-1-ND" constant="no"/>
+<attribute name="DISTPN" value="712-1314-1-ND" constant="no"/>
+<attribute name="MFR" value="Johanson Technology Inc." constant="no"/>
+<attribute name="MPN" value="251R14S120JV4T" constant="no"/>
+<attribute name="VALUE" value="12pF/250V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="1UF" prefix="C" uservalue="yes">
@@ -992,24 +996,6 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_CER_SMD-603_25V-10%" package="_CER_SMD-603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188C81E105KE13-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-12291-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-12291-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRT188C81E105KE13D" constant="no"/>
-<attribute name="VALUE" value="1uF/25V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_CER_SMD-0402_25V-10%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1030,7 +1016,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0805_25V-10%" package="CAPC2012X95_SMD-0805">
+<device name="_CER_SMD-0805_25V-10%" package="CAPC2012X95_SMD-0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1047,6 +1033,26 @@
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GRM216R61E105KA12D" constant="no"/>
 <attribute name="VALUE" value="1uF/25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CER_SMD-0603_16V-10%" package="CAPC1608X95">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3041595/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGB3B3JB1C105K055AB.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-13234-1-ND" constant="no"/>
+<attribute name="DISTPN" value="445-13234-1-ND" constant="no"/>
+<attribute name="MFR" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="CGB3B3JB1C105K055AB" constant="no"/>
+<attribute name="VALUE" value="1uF/16V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1076,22 +1082,6 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0603_250V-5%" package="_CER_SMD-603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/_en/search/productDocs.jsp?YageoPartNumber=AC0603JRNPOYBN220" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-3095-1-ND" constant="no"/>
-<attribute name="DISTPN" value="311-3095-1-ND" constant="no"/>
-<attribute name="MFR" value="Yageo" constant="no"/>
-<attribute name="MPN" value="AC0603JRNPOYBN220" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_CER_SMD-0402-100V-5%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1109,6 +1099,26 @@
 <attribute name="MFR" value="Taiyo Yuden" constant="no"/>
 <attribute name="MPN" value="HMK105CG220JV-F" constant="no"/>
 <attribute name="VALUE" value="22pF/100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CER_SMD-0603_250V-5%" package="CAPC1608X95">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3041595/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/_en/search/productDocs.jsp?YageoPartNumber=AC0603JRNPOYBN220" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-3095-1-ND" constant="no"/>
+<attribute name="DISTPN" value="311-3095-1-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="AC0603JRNPOYBN220" constant="no"/>
+<attribute name="VALUE" value="22pF/250V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1138,22 +1148,6 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0603_100V-33%" package="_CER_SMD-603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-3552-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-3552-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GQM1885C2AR75CB01D" constant="no"/>
-<attribute name="VALUE" value="0.75pF/100V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_CER_SMD-0402_50V-33%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1171,6 +1165,26 @@
 <attribute name="MFR" value="TDK Corporation" constant="no"/>
 <attribute name="MPN" value="C1005C0G1HR75C050BA" constant="no"/>
 <attribute name="VALUE" value="0.75pF/50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CER_SMD-0603_100V-33%" package="CAPC1608X95">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3041595/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM1885C2AR75CB01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-3552-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-3552-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GQM1885C2AR75CB01D" constant="no"/>
+<attribute name="VALUE" value="0.75pF/100V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1662,24 +1676,6 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-0603_50V-10%" package="_CER_SMD-603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1512-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-1512-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM188R71H103KA01D" constant="no"/>
-<attribute name="VALUE" value="0.01uF/50V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_CER_SMD-0402_35V-10%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1697,6 +1693,25 @@
 <attribute name="MFR" value="TDK Corporation" constant="no"/>
 <attribute name="MPN" value="CGA2B3X5R1V103K050BB" constant="no"/>
 <attribute name="VALUE" value="0.01uF/35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CER_SMD-0603_50V-10%" package="CAPC1608X95">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3041595/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1512-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-1512-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM188R71H103KA01D" constant="no"/>
 </technology>
 </technologies>
 </device>

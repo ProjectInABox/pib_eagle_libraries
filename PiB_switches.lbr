@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -191,7 +191,7 @@
 <wire x1="4.064" y1="-2.794" x2="4.064" y2="2.794" width="0.1" layer="39"/>
 <wire x1="4.064" y1="2.794" x2="-4.064" y2="2.794" width="0.1" layer="39"/>
 </package>
-<package name="BTN_MOMENTARY_SPST-NO_PTH_L12-W12">
+<package name="BTN_MOMENTARY_SPST-NO_PTH_L12-W12" urn="urn:adsk.eagle:footprint:3076664/1" locally_modified="yes">
 <wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>
 <wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="21"/>
 <wire x1="6" y1="5" x2="6" y2="4" width="0.2032" layer="21"/>
@@ -204,16 +204,6 @@
 <wire x1="5" y1="6" x2="6" y2="5" width="0.2032" layer="21" curve="-90"/>
 <wire x1="6" y1="-5" x2="5" y2="-6" width="0.2032" layer="21" curve="-90"/>
 <wire x1="-5" y1="-6" x2="-6" y2="-5" width="0.2032" layer="21" curve="-90"/>
-<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
-<circle x="-4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<pad name="4" x="-6.25" y="2.5" drill="1.2" diameter="2.159"/>
-<pad name="2" x="-6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="1" x="6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="3" x="6.25" y="2.5" drill="1.2" diameter="2.159"/>
-<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 <wire x1="-5.08" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="27"/>
 <wire x1="0" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="27"/>
 <wire x1="-5.08" y1="2.54" x2="0" y2="2.54" width="0.127" layer="27"/>
@@ -235,8 +225,22 @@
 <wire x1="6.35" y1="-6.35" x2="-6.35" y2="-6.35" width="0.127" layer="39"/>
 <wire x1="-6.35" y1="-6.35" x2="-6.35" y2="-3.81" width="0.127" layer="39"/>
 <wire x1="-6.35" y1="-3.81" x2="-7.62" y2="-3.81" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
+<circle x="-4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
+<circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
+<circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
+<circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
+<pad name="4" x="-6.25" y="2.5" drill="1.2" diameter="2.159"/>
+<pad name="2" x="-6.25" y="-2.5" drill="1.2" diameter="2.159"/>
+<pad name="1" x="6.25" y="-2.5" drill="1.2" diameter="2.159"/>
+<pad name="3" x="6.25" y="2.5" drill="1.2" diameter="2.159"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<wire x1="-7.6" y1="3.8" x2="-7.6" y2="-3.8" width="0.127" layer="40"/>
+<wire x1="-7.6" y1="-3.8" x2="7.6" y2="-3.8" width="0.127" layer="40"/>
+<wire x1="7.6" y1="-3.8" x2="7.6" y2="3.8" width="0.127" layer="40"/>
+<wire x1="7.6" y1="3.8" x2="-7.6" y2="3.8" width="0.127" layer="40"/>
 </package>
-<package name="SW_SLIDE_SPDT_RA_SMD_4V_300MA_6.7L-2.6W" urn="urn:adsk.eagle:footprint:2959386/1" locally_modified="yes">
+<package name="SW_SLIDE_SPDT_RA_SMD_4V_300MA_6.7L-2.6W" urn="urn:adsk.eagle:footprint:2959386/2">
 <wire x1="-1.3" y1="-3.35" x2="1.3" y2="-3.35" width="0.127" layer="51"/>
 <wire x1="1.3" y1="-3.35" x2="1.3" y2="3.35" width="0.127" layer="51"/>
 <wire x1="1.3" y1="3.35" x2="-1.3" y2="3.35" width="0.127" layer="51"/>
@@ -376,7 +380,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="SW_SLIDE_SPDT_RA_SMD_4V_300MA_6.7L-2.6W" urn="urn:adsk.eagle:package:2959400/2" locally_modified="yes" type="model">
+<package3d name="SW_SLIDE_SPDT_RA_SMD_4V_300MA_6.7L-2.6W" urn="urn:adsk.eagle:package:2959400/3" type="model">
 <packageinstances>
 <packageinstance name="SW_SLIDE_SPDT_RA_SMD_4V_300MA_6.7L-2.6W"/>
 </packageinstances>
@@ -394,6 +398,11 @@
 <package3d name="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8" urn="urn:adsk.eagle:package:3034784/2" type="model">
 <packageinstances>
 <packageinstance name="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8"/>
+</packageinstances>
+</package3d>
+<package3d name="BTN_MOMENTARY_SPST-NO_PTH_L12-W12" urn="urn:adsk.eagle:package:3076672/2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="BTN_MOMENTARY_SPST-NO_PTH_L12-W12"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -523,24 +532,6 @@
 </technology>
 </technologies>
 </device>
-<device name="SPST-PTH-L12-W12-H7.2" package="BTN_MOMENTARY_SPST-NO_PTH_L12-W12">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/Buttons/TSA12110%20TACT%20SWITCH.jpg" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1332-ND" constant="no"/>
-<attribute name="DISTPN" value="1568-1332-ND" constant="no"/>
-<attribute name="MFR" value="SparkFun Electronics" constant="no"/>
-<attribute name="MPN" value="COM-10302" constant="no"/>
-<attribute name="VALUE" value="50mA/12V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_SPST-NO_SMD_50MA-32V_L4.6-W2.8" package="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8">
 <connects>
 <connect gate="G$1" pin="1" pad="2"/>
@@ -558,6 +549,26 @@
 <attribute name="MFR" value="C&amp;K" constant="no"/>
 <attribute name="MPN" value="KMR211GLFS" constant="no"/>
 <attribute name="VALUE" value="50mA/32V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SPST_PTH_L12-W12-H7.2" package="BTN_MOMENTARY_SPST-NO_PTH_L12-W12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3076672/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.sparkfun.com/datasheets/Components/Buttons/TSA12110%20TACT%20SWITCH.jpg" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1332-ND" constant="no"/>
+<attribute name="DISTPN" value="1568-1332-ND" constant="no"/>
+<attribute name="MFR" value="SparkFun Electronics" constant="no"/>
+<attribute name="MPN" value="COM-10302" constant="no"/>
+<attribute name="VALUE" value="50mA/12V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -595,7 +606,7 @@
 <connect gate="G$1" pin="S2" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2959400/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2959400/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -608,26 +619,6 @@
 <attribute name="MPN" value="MA12RTR" constant="no"/>
 <attribute name="TESTED" value="YES" constant="no"/>
 <attribute name="VALUE" value="300mA/4V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_VERT_PTH_5A-28V_13L-7W" package="SW_TOGGLE_SPDT_5A-28V_13L-7W">
-<connects>
-<connect gate="G$1" pin="P" pad="P"/>
-<connect gate="G$1" pin="S1" pad="S2"/>
-<connect gate="G$1" pin="S2" pad="S1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://www.e-switch.com/system/asset/product_line/data_sheet/129/100.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=%09EG2355-ND" constant="no"/>
-<attribute name="DISTPN" value="EG2355-ND" constant="no"/>
-<attribute name="MFR" value="E-Switch" constant="no"/>
-<attribute name="MPN" value="100SP1T1B4M2QE" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="5A/28V" constant="no"/>
 </technology>
 </technologies>
 </device>

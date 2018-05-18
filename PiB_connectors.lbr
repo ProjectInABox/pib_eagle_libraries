@@ -1885,7 +1885,7 @@
 <wire x1="4.5" y1="3.7" x2="-4.5" y2="3.7" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="-7.2" x2="4.5" y2="-7.2" width="0.127" layer="51"/>
 </package>
-<package name="1X12-VERT-MALE-SHROUDED" urn="urn:adsk.eagle:footprint:3035509/1">
+<package name="1X12-VERT-MALE-SHROUDED" urn="urn:adsk.eagle:footprint:3035509/1" locally_modified="yes">
 <wire x1="-13" y1="2.85" x2="-13" y2="-2.35" width="0.2032" layer="21"/>
 <wire x1="-13" y1="2.85" x2="13" y2="2.85" width="0.2032" layer="21"/>
 <wire x1="13" y1="2.85" x2="13" y2="-2.35" width="0.2032" layer="21"/>
@@ -1933,6 +1933,10 @@
 <rectangle x1="-9.25" y1="-0.25" x2="-8.75" y2="0.25" layer="51"/>
 <rectangle x1="-7.25" y1="-0.25" x2="-6.75" y2="0.25" layer="51"/>
 <rectangle x1="-5.25" y1="-0.25" x2="-4.75" y2="0.25" layer="51"/>
+<wire x1="-12.319" y1="-1.27" x2="12.319" y2="-1.27" width="0.127" layer="40"/>
+<wire x1="12.319" y1="-1.27" x2="12.319" y2="1.27" width="0.127" layer="40"/>
+<wire x1="12.319" y1="1.27" x2="-12.319" y2="1.27" width="0.127" layer="40"/>
+<wire x1="-12.319" y1="1.27" x2="-12.319" y2="-1.27" width="0.127" layer="40"/>
 </package>
 <package name="1X02_MOLEX_89401_VERT-HOUSING" urn="urn:adsk.eagle:footprint:3035510/1">
 <wire x1="-3" y1="7.6" x2="-3" y2="0.12" width="0.127" layer="21"/>
@@ -2221,6 +2225,26 @@
 <package3d name="2X04-VERT-MALE" urn="urn:adsk.eagle:package:3068983/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="2X04-VERT-MALE"/>
+</packageinstances>
+</package3d>
+<package3d name="1X12-VERT-MALE-SHROUDED" urn="urn:adsk.eagle:package:3074920/2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="1X12-VERT-MALE-SHROUDED"/>
+</packageinstances>
+</package3d>
+<package3d name="1X04-VERT-MALE" urn="urn:adsk.eagle:package:3074904/2" type="model">
+<packageinstances>
+<packageinstance name="1X04-VERT-MALE"/>
+</packageinstances>
+</package3d>
+<package3d name="FTDI_BASIC-6PIN-MALE-VERT" urn="urn:adsk.eagle:package:3074894/2" type="model">
+<packageinstances>
+<packageinstance name="FTDI_BASIC-6PIN-MALE-VERT"/>
+</packageinstances>
+</package3d>
+<package3d name="1X06-VERT-MALE" urn="urn:adsk.eagle:package:3074903/2" type="model">
+<packageinstances>
+<packageinstance name="1X06-VERT-MALE"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3011,27 +3035,6 @@ CARD</text>
 <gate name="G$1" symbol="1X04" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_VERT-MALE" package="1X04-VERT-MALE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.sullinscorp.com/catalogs/77_PAGE108-109_.100_MALE_HDR.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC04SAAN" constant="no"/>
-<attribute name="DISTPN" value="S1012E-04-ND" constant="no"/>
-<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="PEC04SAAN" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="1x04-VERT-MALE" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_VERT-FEMALE" package="1X04-VERT-FEMALE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -3050,6 +3053,28 @@ CARD</text>
 <attribute name="MPN" value="PPPC041LFBN-RC " constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 <attribute name="VALUE" value="1x04-VERT-FEMALE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_VERT-MALE" package="1X04-VERT-MALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3074904/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.sullinscorp.com/catalogs/77_PAGE108-109_.100_MALE_HDR.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC04SAAN" constant="no"/>
+<attribute name="DISTPN" value="S1012E-04-ND" constant="no"/>
+<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PEC04SAAN" constant="no"/>
+<attribute name="VALUE" value="1x04 VERT MALE" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3148,6 +3173,30 @@ CARD</text>
 <attribute name="MFR" value="Amphenol FCI" constant="no"/>
 <attribute name="MPN" value="68016-406HLF" constant="no"/>
 <attribute name="VALUE" value="1x06 RA-MALE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH_VERT-MALE" package="1X06-VERT-MALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3074903/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC06SAAN" constant="no"/>
+<attribute name="DISTPN" value="S1012E-06-ND" constant="no"/>
+<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PEC06SAAN" constant="no"/>
+<attribute name="VALUE" value="1x06 VERT MALE" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3392,29 +3441,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </technology>
 </technologies>
 </device>
-<device name="PTH-VERT" package="FTDI_BASIC-6PIN-MALE-VERT">
-<connects>
-<connect gate="G$1" pin="CTS" pad="CTS"/>
-<connect gate="G$1" pin="DTR" pad="DTR"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RXI" pad="RXI"/>
-<connect gate="G$1" pin="TXO" pad="TXO"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.sullinscorp.com/catalogs/77_PAGE108-109_.100_MALE_HDR.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC06SAAN" constant="no"/>
-<attribute name="DISTPN" value="S1012E-06-ND" constant="no"/>
-<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="PEC06SAAN" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="1x06-MALE-VERT" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_PTH_RA-MALE" package="FTDI_BASIC-6PIN-MALE-RA">
 <connects>
 <connect gate="G$1" pin="CTS" pad="CTS"/>
@@ -3435,6 +3461,30 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
 <attribute name="MFR_CONNECTOR" value="Amphenol FCI" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="68016-406HLF" constant="no"/>
+<attribute name="VALUE" value="FTDI" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH-VERT-MALE" package="FTDI_BASIC-6PIN-MALE-VERT">
+<connects>
+<connect gate="G$1" pin="CTS" pad="CTS"/>
+<connect gate="G$1" pin="DTR" pad="DTR"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RXI" pad="RXI"/>
+<connect gate="G$1" pin="TXO" pad="TXO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3074894/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC06SAAN" constant="no"/>
+<attribute name="DISTPN" value="S1012E-06-ND" constant="no"/>
+<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PEC06SAAN" constant="no"/>
 <attribute name="VALUE" value="FTDI" constant="no"/>
 </technology>
 </technologies>
@@ -3939,7 +3989,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <gate name="G$1" symbol="GIMBAL-CONNECTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1X12-VERT-MALE-SHROUDED">
+<device name="_PTH_VERT-MALE_SHROUDED_PITCH-2MM_SHROUDED-3" package="1X12-VERT-MALE-SHROUDED">
 <connects>
 <connect gate="G$1" pin="GND_H" pad="6"/>
 <connect gate="G$1" pin="GND_V" pad="3"/>
@@ -3948,8 +3998,12 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <connect gate="G$1" pin="VCC_H" pad="4"/>
 <connect gate="G$1" pin="VCC_V" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3074920/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DATASHEET" value="N/A" constant="no"/>
 <attribute name="DATASHEET_CONNECTOR" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1735446&amp;DocType=Customer+Drawing&amp;DocLang=English" constant="no"/>
 <attribute name="DIST" value="HobbyKing" constant="no"/>
 <attribute name="DISTLINK" value="https://hobbyking.com/en_us/frsky-replacement-gimbal-for-taranis-transmitter.html?___store=en_us" constant="no"/>
@@ -3957,9 +4011,11 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="DISTPN" value=" 236000033-0" constant="no"/>
 <attribute name="DISTPN_CONNECTOR" value="A100106-ND" constant="no"/>
 <attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="FrSKY" constant="no"/>
 <attribute name="MFR_CONNECTOR" value="TE Connectivity AMP Connectors" constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="1-1735446-2" constant="no"/>
-<attribute name="VALUE" value="FrSKY GIMBAL" constant="no"/>
+<attribute name="VALUE" value="GIMBAL" constant="no"/>
 </technology>
 </technologies>
 </device>

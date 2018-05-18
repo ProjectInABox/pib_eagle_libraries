@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -625,7 +625,7 @@
 <text x="0" y="-0.3" size="0.3" layer="25" align="center">MCP1700</text>
 <circle x="-1.7" y="-0.95" radius="0.22360625" width="0" layer="25"/>
 </package>
-<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:2889791/1">
+<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:2889791/1" locally_modified="yes">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.9 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.9 X 1.6 X 1.45 mm&lt;/p&gt;</description>
 <circle x="-1.3663" y="1.5736" radius="0.075" width="0" layer="21"/>
@@ -642,6 +642,10 @@
 <smd name="5" x="1.2313" y="0.95" dx="1.2527" dy="0.5891" layer="1" thermals="no"/>
 <text x="0" y="2.2836" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.1936" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-2.3" y1="1.7" x2="-2.3" y2="-1.7" width="0.127" layer="39"/>
+<wire x1="-2.3" y1="-1.7" x2="2.3" y2="-1.7" width="0.127" layer="39"/>
+<wire x1="2.3" y1="-1.7" x2="2.3" y2="1.7" width="0.127" layer="39"/>
+<wire x1="2.3" y1="1.7" x2="-2.3" y2="1.7" width="0.127" layer="39"/>
 </package>
 <package name="SOT95P237X112-3_SOT-23-3" urn="urn:adsk.eagle:footprint:2889830/1" locally_modified="yes">
 <description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.86 X 1.28 X 1.12 mm body
@@ -743,7 +747,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:2889790/1" type="model">
+<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:2889790/1" locally_modified="yes" type="model">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.9 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.9 X 1.6 X 1.45 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -1473,27 +1477,6 @@
 </technology>
 </technologies>
 </device>
-<device name="TPS76830QDR_1A-3.0V" package="SOIC-8_W3.9MM">
-<connects>
-<connect gate="G$1" pin="!EN" pad="2"/>
-<connect gate="G$1" pin="FB/NC" pad="7"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="PG" pad="8"/>
-<connect gate="G$1" pin="VIN" pad="3 4"/>
-<connect gate="G$1" pin="VOUT" pad="5 6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tps768.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-2749-5-ND" constant="no"/>
-<attribute name="DISTPN" value="296-2749-5-ND" constant="no"/>
-<attribute name="MFR" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="TPS76830QD" constant="no"/>
-<attribute name="VALUE" value="1A/3.0V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_TPS76833QDR_1A-3.3V" package="SOIC127P600X265-8">
 <connects>
 <connect gate="G$1" pin="!EN" pad="2"/>
@@ -1515,6 +1498,30 @@
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="TPS76833QDR" constant="no"/>
 <attribute name="VALUE" value="1A/3.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TPS76830QDR_1A-3.0V" package="SOIC127P600X265-8">
+<connects>
+<connect gate="G$1" pin="!EN" pad="2"/>
+<connect gate="G$1" pin="FB/NC" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="PG" pad="8"/>
+<connect gate="G$1" pin="VIN" pad="3 4"/>
+<connect gate="G$1" pin="VOUT" pad="5 6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2899754/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tps768.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-2749-5-ND" constant="no"/>
+<attribute name="DISTPN" value="296-2749-5-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="TPS76830QD" constant="no"/>
+<attribute name="VALUE" value="TPS76830QD" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1702,7 +1709,15 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:2889790/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lp2992.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LP2992AIM5-1.8%2FNOPBCT-ND" constant="no"/>
+<attribute name="DISTPN" value="LP2992AIM5-1.8/NOPBCT-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LP2992AIM5-1.8/NOPB" constant="no"/>
+<attribute name="VALUE" value="LP2992A 250mA/1.8V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
