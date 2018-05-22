@@ -1524,10 +1524,10 @@ package type OT</description>
 <text x="0" y="5.535" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.535" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
-<package name="OSCCC500X320X110" urn="urn:adsk.eagle:footprint:2939177/2">
+<package name="OSCCC500X320X110" urn="urn:adsk.eagle:footprint:2939177/2" locally_modified="yes">
 <description>OSCILLATOR CORNERCONCAVE, 5 X 3.2 X 1.1 mm body
 &lt;p&gt;OSCILLATOR CORNERCONCAVE package with body size 5 X 3.2 X 1.1 mm&lt;/p&gt;</description>
-<circle x="-3.0849" y="-1.25" radius="0.075" width="0" layer="21"/>
+<circle x="-3.4659" y="-1.25" radius="0.25" width="0" layer="21"/>
 <wire x1="-2.8159" y1="0.3901" x2="-2.8159" y2="-0.3901" width="0.12" layer="21"/>
 <wire x1="2.8159" y1="0.3901" x2="2.8159" y2="-0.3901" width="0.12" layer="21"/>
 <wire x1="-0.9901" y1="1.9159" x2="0.9901" y2="1.9159" width="0.12" layer="21"/>
@@ -1630,7 +1630,7 @@ package type OT</description>
 <packageinstance name="SOP65P650X110-28"/>
 </packageinstances>
 </package3d>
-<package3d name="OSCCC500X320X110" urn="urn:adsk.eagle:package:2939176/2" type="model">
+<package3d name="OSCCC500X320X110" urn="urn:adsk.eagle:package:2939176/2" locally_modified="yes" type="model">
 <description>OSCILLATOR CORNERCONCAVE, 5 X 3.2 X 1.1 mm body
 &lt;p&gt;OSCILLATOR CORNERCONCAVE package with body size 5 X 3.2 X 1.1 mm&lt;/p&gt;</description>
 <packageinstances>

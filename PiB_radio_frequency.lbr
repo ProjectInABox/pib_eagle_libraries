@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -386,7 +386,7 @@
 <package name="RESCAXE65P200X125X95-6" urn="urn:adsk.eagle:footprint:2933576/1" locally_modified="yes">
 <description>6-CHIPARRAY 2-SIDE CONVEX, 0.65 mm pitch, 2 X 1.25 X 0.95 mm body
 &lt;p&gt;6-pin CHIPARRAY 2-SIDE CONVEX package with 0.65 mm pitch with body size 2 X 1.25 X 0.95 mm&lt;/p&gt;</description>
-<circle x="-1.004" y="1.1236" radius="0.075" width="0" layer="21"/>
+<circle x="-1.004" y="1.3776" radius="0.3" width="0" layer="21"/>
 <wire x1="-0.675" y1="1.1086" x2="0.675" y2="1.1086" width="0.12" layer="21"/>
 <wire x1="-0.675" y1="-1.1086" x2="0.675" y2="-1.1086" width="0.12" layer="21"/>
 <wire x1="0.675" y1="-1.05" x2="-0.675" y2="-1.05" width="0.12" layer="51"/>

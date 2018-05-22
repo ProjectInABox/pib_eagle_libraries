@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1933,10 +1933,10 @@
 <rectangle x1="-9.25" y1="-0.25" x2="-8.75" y2="0.25" layer="51"/>
 <rectangle x1="-7.25" y1="-0.25" x2="-6.75" y2="0.25" layer="51"/>
 <rectangle x1="-5.25" y1="-0.25" x2="-4.75" y2="0.25" layer="51"/>
-<wire x1="-12.319" y1="-1.27" x2="12.319" y2="-1.27" width="0.127" layer="40"/>
-<wire x1="12.319" y1="-1.27" x2="12.319" y2="1.27" width="0.127" layer="40"/>
-<wire x1="12.319" y1="1.27" x2="-12.319" y2="1.27" width="0.127" layer="40"/>
-<wire x1="-12.319" y1="1.27" x2="-12.319" y2="-1.27" width="0.127" layer="40"/>
+<wire x1="-12.219" y1="-1.17" x2="12.219" y2="-1.17" width="0.127" layer="40"/>
+<wire x1="12.219" y1="-1.17" x2="12.219" y2="1.17" width="0.127" layer="40"/>
+<wire x1="12.219" y1="1.17" x2="-12.219" y2="1.17" width="0.127" layer="40"/>
+<wire x1="-12.219" y1="1.17" x2="-12.219" y2="-1.17" width="0.127" layer="40"/>
 </package>
 <package name="1X02_MOLEX_89401_VERT-HOUSING" urn="urn:adsk.eagle:footprint:3035510/1">
 <wire x1="-3" y1="7.6" x2="-3" y2="0.12" width="0.127" layer="21"/>
