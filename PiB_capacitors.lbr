@@ -1712,6 +1712,7 @@
 <attribute name="DISTPN" value="490-1512-1-ND" constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GRM188R71H103KA01D" constant="no"/>
+<attribute name="VALUE" value="0.01uF/50V" constant="no"/>
 </technology>
 </technologies>
 </device>
