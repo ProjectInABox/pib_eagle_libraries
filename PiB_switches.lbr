@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -273,7 +273,7 @@
 <hole x="0" y="1.5" drill="0.9"/>
 <text x="0" y="0" size="0.6096" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
-<package name="SW_TOGGLE_SPDT_5A-28V_13L-7W" urn="urn:adsk.eagle:footprint:3033348/3">
+<package name="SW_TOGGLE_SPDT_5A-28V_13L-7W" urn="urn:adsk.eagle:footprint:3033348/3" locally_modified="yes">
 <pad name="S1" x="0" y="-4.7" drill="1.875" diameter="3.075" rot="R180"/>
 <pad name="P" x="0" y="0" drill="1.875" diameter="3.075" rot="R180"/>
 <pad name="S2" x="0" y="4.7" drill="1.875" diameter="3.075" rot="R180"/>
@@ -281,36 +281,32 @@
 <wire x1="3.5" y1="6.5" x2="-3.5" y2="6.5" width="0.1" layer="21"/>
 <wire x1="-3.5" y1="6.5" x2="-3.5" y2="-6.5" width="0.1" layer="21"/>
 <wire x1="-3.5" y1="-6.5" x2="3.5" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="3.81" y1="6.858" x2="3.81" y2="-6.858" width="0.127" layer="39"/>
-<wire x1="3.81" y1="-6.858" x2="-3.81" y2="-6.858" width="0.127" layer="39"/>
-<wire x1="-3.81" y1="-6.858" x2="-3.81" y2="6.858" width="0.127" layer="39"/>
-<wire x1="-3.81" y1="6.858" x2="3.81" y2="6.858" width="0.127" layer="39"/>
+<wire x1="3.61" y1="6.658" x2="3.61" y2="-6.658" width="0.127" layer="39"/>
+<wire x1="3.61" y1="-6.658" x2="-3.61" y2="-6.658" width="0.127" layer="39"/>
+<wire x1="-3.61" y1="-6.658" x2="-3.61" y2="6.658" width="0.127" layer="39"/>
+<wire x1="-3.61" y1="6.658" x2="3.61" y2="6.658" width="0.127" layer="39"/>
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
-<package name="SW_SLIDE_SPDT_VERT_8.6L-4.3W">
-<pad name="2" x="0" y="0" drill="0.825" diameter="1.5"/>
-<pad name="1" x="0" y="2" drill="0.825" diameter="1.5"/>
-<pad name="3" x="0" y="-2" drill="0.825" diameter="1.5"/>
+<package name="SW_SLIDE_SPDT_VERT_8.6L-4.3W" urn="urn:adsk.eagle:footprint:3727005/1" locally_modified="yes">
+<pad name="P" x="0" y="0" drill="0.825" diameter="1.5"/>
+<pad name="S1" x="0" y="2" drill="0.825" diameter="1.5"/>
+<pad name="S2" x="0" y="-2" drill="0.825" diameter="1.5"/>
 <hole x="0" y="4.1" drill="1.275"/>
 <hole x="0" y="-4.1" drill="1.275"/>
 <wire x1="-2.15" y1="4.3" x2="-2.15" y2="-4.3" width="0.127" layer="21"/>
 <wire x1="-2.15" y1="-4.3" x2="2.15" y2="-4.3" width="0.127" layer="21"/>
 <wire x1="2.15" y1="-4.3" x2="2.15" y2="4.3" width="0.127" layer="21"/>
 <wire x1="2.15" y1="4.3" x2="-2.15" y2="4.3" width="0.127" layer="21"/>
-<text x="-1.524" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
 <wire x1="-1" y1="2" x2="1" y2="2" width="0.127" layer="51"/>
 <wire x1="1" y1="2" x2="1" y2="-2" width="0.127" layer="51"/>
 <wire x1="1" y1="-2" x2="-1" y2="-2" width="0.127" layer="51"/>
 <wire x1="-1" y1="-2" x2="-1" y2="2" width="0.127" layer="51"/>
-<rectangle x1="-1" y1="0" x2="1" y2="2" layer="51"/>
-<circle x="0" y="-4.1" radius="1" width="0" layer="41"/>
-<circle x="0" y="-4.1" radius="1" width="0" layer="42"/>
-<circle x="0" y="4.1" radius="1" width="0" layer="41"/>
-<circle x="0" y="4.1" radius="1" width="0" layer="42"/>
 <wire x1="-2.413" y1="-5.207" x2="-2.413" y2="5.207" width="0.127" layer="39"/>
 <wire x1="-2.413" y1="5.207" x2="2.413" y2="5.207" width="0.127" layer="39"/>
 <wire x1="2.413" y1="5.207" x2="2.413" y2="-5.207" width="0.127" layer="39"/>
 <wire x1="2.413" y1="-5.207" x2="-2.413" y2="-5.207" width="0.127" layer="39"/>
+<text x="-1.524" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-1" y1="0" x2="1" y2="2" layer="51"/>
 </package>
 <package name="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8" urn="urn:adsk.eagle:footprint:3034774/1">
 <wire x1="-2.1" y1="-1.4" x2="-2.1" y2="1.4" width="0.127" layer="21"/>
@@ -390,7 +386,7 @@
 <packageinstance name="SW_SLIDE_SPDT_RA_PTH_12.7L-9.5W"/>
 </packageinstances>
 </package3d>
-<package3d name="SW_TOGGLE_SPDT_5A-28V_13L-7W" urn="urn:adsk.eagle:package:3033359/4" type="model">
+<package3d name="SW_TOGGLE_SPDT_5A-28V_13L-7W" urn="urn:adsk.eagle:package:3033359/4" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="SW_TOGGLE_SPDT_5A-28V_13L-7W"/>
 </packageinstances>
@@ -403,6 +399,11 @@
 <package3d name="BTN_MOMENTARY_SPST-NO_PTH_L12-W12" urn="urn:adsk.eagle:package:3076672/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="BTN_MOMENTARY_SPST-NO_PTH_L12-W12"/>
+</packageinstances>
+</package3d>
+<package3d name="SW_SLIDE_SPDT_VERT_8.6L-4.3W" urn="urn:adsk.eagle:package:3727012/2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="SW_SLIDE_SPDT_VERT_8.6L-4.3W"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -579,26 +580,6 @@
 <gate name="G$1" symbol="SWITCH_SPDT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_VERT_PTH_300MA-30V_8.6L-4.3W" package="SW_SLIDE_SPDT_VERT_8.6L-4.3W">
-<connects>
-<connect gate="G$1" pin="P" pad="2"/>
-<connect gate="G$1" pin="S1" pad="1"/>
-<connect gate="G$1" pin="S2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/C&amp;K/SS-12D07-VG_GA_PA.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CKN10397-ND" constant="no"/>
-<attribute name="DISTPN" value="CKN10397-ND" constant="no"/>
-<attribute name="MFR" value="C&amp;K" constant="no"/>
-<attribute name="MPN" value="SS-12D07-VG 4 NS GA PA" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="300mA/30V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_RA_SMD_300MA-4V_6.7L-2.6W" package="SW_SLIDE_SPDT_RA_SMD_4V_300MA_6.7L-2.6W">
 <connects>
 <connect gate="G$1" pin="P" pad="2"/>
@@ -680,6 +661,27 @@
 <attribute name="MFR" value="E-Switch" constant="no"/>
 <attribute name="MPN" value="100SP1T1B4M2QE" constant="no"/>
 <attribute name="VALUE" value="5A/28V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH_VERT_300MA-30V_8.6L-4.3W" package="SW_SLIDE_SPDT_VERT_8.6L-4.3W">
+<connects>
+<connect gate="G$1" pin="P" pad="P"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3727012/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/C&amp;K/SS-12D07-VG_GA_PA.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CKN10397-ND" constant="no"/>
+<attribute name="DISTPN" value="CKN10397-ND" constant="no"/>
+<attribute name="MFR" value="C&amp;K" constant="no"/>
+<attribute name="MPN" value="SS-12D07-VG 4 NS GA PA" constant="no"/>
+<attribute name="VALUE" value="300mA/30V" constant="no"/>
 </technology>
 </technologies>
 </device>

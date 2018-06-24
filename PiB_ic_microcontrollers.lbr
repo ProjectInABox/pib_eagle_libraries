@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2562,6 +2562,98 @@
 <text x="0" y="13.625" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-13.625" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SOIC127P798X216-8" urn="urn:adsk.eagle:footprint:3726849/1" locally_modified="yes">
+<description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.98 mm span with body size 5.24 X 5.29 X 2.16 mm&lt;/p&gt;</description>
+<circle x="-3.5928" y="2.6997" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.7" y1="2.4497" x2="-2.7" y2="2.675" width="0.12" layer="21"/>
+<wire x1="-2.7" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="21"/>
+<wire x1="2.7" y1="2.675" x2="2.7" y2="2.4497" width="0.12" layer="21"/>
+<wire x1="-2.7" y1="-2.4497" x2="-2.7" y2="-2.675" width="0.12" layer="21"/>
+<wire x1="-2.7" y1="-2.675" x2="2.7" y2="-2.675" width="0.12" layer="21"/>
+<wire x1="2.7" y1="-2.675" x2="2.7" y2="-2.4497" width="0.12" layer="21"/>
+<wire x1="2.7" y1="-2.675" x2="-2.7" y2="-2.675" width="0.12" layer="51"/>
+<wire x1="-2.7" y1="-2.675" x2="-2.7" y2="2.675" width="0.12" layer="51"/>
+<wire x1="-2.7" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="51"/>
+<wire x1="2.7" y1="2.675" x2="2.7" y2="-2.675" width="0.12" layer="51"/>
+<smd name="1" x="-3.6284" y="1.905" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="2" x="-3.6284" y="0.635" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="3" x="-3.6284" y="-0.635" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="4" x="-3.6284" y="-1.905" dx="1.7143" dy="0.5815" layer="1" thermals="no"/>
+<smd name="5" x="3.6284" y="-1.905" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="6" x="3.6284" y="-0.635" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="7" x="3.6284" y="0.635" dx="1.7143" dy="0.5815" layer="1"/>
+<smd name="8" x="3.6284" y="1.905" dx="1.7143" dy="0.5815" layer="1"/>
+<text x="0" y="3.5847" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.31" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-5" y1="-2.8" x2="5" y2="-2.8" width="0.127" layer="39"/>
+<wire x1="5" y1="-2.8" x2="5" y2="2.8" width="0.127" layer="39"/>
+<wire x1="5" y1="2.8" x2="-5" y2="2.8" width="0.127" layer="39"/>
+<wire x1="-5" y1="2.8" x2="-5" y2="-2.8" width="0.127" layer="39"/>
+</package>
+<package name="QFP80P900X900X120-32" urn="urn:adsk.eagle:footprint:3740864/1" locally_modified="yes">
+<description>32-QFP, 0.8 mm pitch, 9 mm span, 7 X 7 X 1.2 mm body
+&lt;p&gt;32-pin QFP package with 0.8 mm pitch, 9 mm lead span1 X 9 mm lead span2 with body size 7 X 7 X 1.2 mm&lt;/p&gt;</description>
+<circle x="-4.1656" y="4.1775" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.55" y1="3.3275" x2="-3.55" y2="3.55" width="0.12" layer="21"/>
+<wire x1="-3.55" y1="3.55" x2="-3.3275" y2="3.55" width="0.12" layer="21"/>
+<wire x1="3.55" y1="3.3275" x2="3.55" y2="3.55" width="0.12" layer="21"/>
+<wire x1="3.55" y1="3.55" x2="3.3275" y2="3.55" width="0.12" layer="21"/>
+<wire x1="3.55" y1="-3.3275" x2="3.55" y2="-3.55" width="0.12" layer="21"/>
+<wire x1="3.55" y1="-3.55" x2="3.3275" y2="-3.55" width="0.12" layer="21"/>
+<wire x1="-3.55" y1="-3.3275" x2="-3.55" y2="-3.55" width="0.12" layer="21"/>
+<wire x1="-3.55" y1="-3.55" x2="-3.3275" y2="-3.55" width="0.12" layer="21"/>
+<wire x1="3.55" y1="-3.55" x2="-3.55" y2="-3.55" width="0.12" layer="51"/>
+<wire x1="-3.55" y1="-3.55" x2="-3.55" y2="3.55" width="0.12" layer="51"/>
+<wire x1="-3.55" y1="3.55" x2="3.55" y2="3.55" width="0.12" layer="51"/>
+<wire x1="3.55" y1="3.55" x2="3.55" y2="-3.55" width="0.12" layer="51"/>
+<smd name="1" x="-4.1813" y="2.8" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="2" x="-4.1813" y="2" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="3" x="-4.1813" y="1.2" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="4" x="-4.1813" y="0.4" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="5" x="-4.1813" y="-0.4" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="6" x="-4.1813" y="-1.2" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="7" x="-4.1813" y="-2" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="8" x="-4.1813" y="-2.8" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="9" x="-2.8" y="-4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="10" x="-2" y="-4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="11" x="-1.2" y="-4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="12" x="-0.4" y="-4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="13" x="0.4" y="-4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="14" x="1.2" y="-4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="15" x="2" y="-4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="16" x="2.8" y="-4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="17" x="4.1813" y="-2.8" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="18" x="4.1813" y="-2" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="19" x="4.1813" y="-1.2" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="20" x="4.1813" y="-0.4" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="21" x="4.1813" y="0.4" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="22" x="4.1813" y="1.2" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="23" x="4.1813" y="2" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="24" x="4.1813" y="2.8" dx="1.5998" dy="0.5471" layer="1"/>
+<smd name="25" x="2.8" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="26" x="2" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="27" x="1.2" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="28" x="0.4" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="29" x="-0.4" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="30" x="-1.2" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="31" x="-2" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<smd name="32" x="-2.8" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
+<text x="0" y="5.6162" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.6162" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-4.5" y1="-6" x2="4.5" y2="-6" width="0.127" layer="39"/>
+<wire x1="6" y1="-4.5" x2="6" y2="4.5" width="0.127" layer="39"/>
+<wire x1="4.5" y1="6" x2="-4.5" y2="6" width="0.127" layer="39"/>
+<wire x1="-6" y1="4.5" x2="-6" y2="-4.5" width="0.127" layer="39"/>
+<wire x1="-6" y1="4.5" x2="-4.5" y2="4.5" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="4.5" x2="-4.5" y2="6" width="0.127" layer="39"/>
+<wire x1="4.5" y1="6" x2="4.5" y2="4.5" width="0.127" layer="39"/>
+<wire x1="4.5" y1="4.5" x2="6" y2="4.5" width="0.127" layer="39"/>
+<wire x1="-6" y1="-4.5" x2="-4.5" y2="-4.5" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="-6" width="0.127" layer="39"/>
+<wire x1="4.5" y1="-6" x2="4.5" y2="-4.5" width="0.127" layer="39"/>
+<wire x1="4.5" y1="-4.5" x2="6" y2="-4.5" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIP-20" urn="urn:adsk.eagle:package:2750531/2" locally_modified="yes" type="model">
@@ -2692,6 +2784,20 @@
 &lt;p&gt;20-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 25.735 X 6.605 X 5.33 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="DIP794W46P254L2573H533Q20B"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P798X216-8" urn="urn:adsk.eagle:package:3726844/1" locally_modified="yes" type="model">
+<description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.98 mm span with body size 5.24 X 5.29 X 2.16 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P798X216-8"/>
+</packageinstances>
+</package3d>
+<package3d name="QFP80P900X900X120-32" urn="urn:adsk.eagle:package:3740499/1" locally_modified="yes" type="model">
+<description>32-QFP, 0.8 mm pitch, 9 mm span, 7 X 7 X 1.2 mm body
+&lt;p&gt;32-pin QFP package with 0.8 mm pitch, 9 mm lead span1 X 9 mm lead span2 with body size 7 X 7 X 1.2 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="QFP80P900X900X120-32"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3304,6 +3410,57 @@
 </technology>
 </technologies>
 </device>
+<device name="_TQFP-32_ATMEGA328P" package="QFP80P900X900X120-32">
+<connects>
+<connect gate="A" pin="(!SS!/OC1B/PCINT2/D10-PWM10)PB2" pad="14"/>
+<connect gate="A" pin="(ADC0/PCINT8/D14-A0)PC0" pad="23"/>
+<connect gate="A" pin="(ADC1/PCINT9/D15-A1)PC1" pad="24"/>
+<connect gate="A" pin="(ADC2/PCINT10/D16-A2)PC2" pad="25"/>
+<connect gate="A" pin="(ADC3/PCINT11/D17-A3)PC3" pad="26"/>
+<connect gate="A" pin="(AIN0/OC0A/PCINT22/D6-PWM6)PD6" pad="10"/>
+<connect gate="A" pin="(AIN1/PCINT23/D7)PD7" pad="11"/>
+<connect gate="A" pin="(INT0/PCINT18/D2)PD2" pad="32"/>
+<connect gate="A" pin="(INT1/OC2B/PCINT19/D3-PWM3)PD3" pad="1"/>
+<connect gate="A" pin="(LKO/ICP1/PCINT0/D8)PB0" pad="12"/>
+<connect gate="A" pin="(MISO/PCINT4/D12)PB4" pad="16"/>
+<connect gate="A" pin="(MOSI/OC2A/PCINT3/D11-PWM11)PB3" pad="15"/>
+<connect gate="A" pin="(PCINT1/OC1A/D9-PWM9)PB1" pad="13"/>
+<connect gate="A" pin="(RXD/PCINT16/D0)PD0" pad="30"/>
+<connect gate="A" pin="(SCK/PCINT5/D13)PB5" pad="17"/>
+<connect gate="A" pin="(SCL/ADC5/PCINT13/D19-A5)PC5" pad="28"/>
+<connect gate="A" pin="(SDA/ADC4/PCINT12/D18-A4)PC4" pad="27"/>
+<connect gate="A" pin="(T0/XCK/PCINT20/D4)PD4" pad="2"/>
+<connect gate="A" pin="(T1/OC0B/PCINT21/D5-PWM5)PD5" pad="9"/>
+<connect gate="A" pin="(TXD/PCINT17/D1)PD1" pad="31"/>
+<connect gate="A" pin="ADC6" pad="19"/>
+<connect gate="A" pin="ADC7" pad="22"/>
+<connect gate="A" pin="AREF" pad="20"/>
+<connect gate="A" pin="AVCC" pad="18"/>
+<connect gate="A" pin="GND@1" pad="3"/>
+<connect gate="A" pin="GND@2" pad="5"/>
+<connect gate="A" pin="GND@3" pad="21"/>
+<connect gate="A" pin="PB6(D20*/XTAL1/TOSC1/PCINT6)" pad="7"/>
+<connect gate="A" pin="PB7(D21*/XTAL2/TOSC2/PCINT7)" pad="8"/>
+<connect gate="A" pin="PC6(D22*/PCINT14/!RESET!)" pad="29"/>
+<connect gate="A" pin="VCC@1" pad="4"/>
+<connect gate="A" pin="VCC@2" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3740499/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf" constant="no"/>
+<attribute name="DATASHEET2" value="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Summary.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATMEGA328P-AU-ND" constant="no"/>
+<attribute name="DISTPN" value="ATMEGA328P-AU-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATMEGA328P-AU" constant="no"/>
+<attribute name="VALUE" value="ATMEGA328p" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="ATTINY2313" prefix="MCU" uservalue="yes">
@@ -3708,6 +3865,32 @@
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="_SO-8_ATTINY-85V" package="SOIC127P798X216-8">
+<connects>
+<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
+<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
+<connect gate="G$1" pin="(PCINT3/XTAL1/CLKI/!OC1B!/ADC3/D3-A3)PB3" pad="2"/>
+<connect gate="G$1" pin="(PCINT4/XTAL2/CLKO/OC1B/ADC2/D4-A2-PWM4)PB4" pad="3"/>
+<connect gate="G$1" pin="(PCINT5/!RESET!/ADC0/DW/D5-A0)PB5" pad="1"/>
+<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" pad="7"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3726844/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85V-10SU-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY85V-10SU-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATTINY85V-10SU" constant="no"/>
+<attribute name="VALUE" value="ATtiny85V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

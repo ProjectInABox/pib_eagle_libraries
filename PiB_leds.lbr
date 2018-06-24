@@ -638,7 +638,7 @@
 <wire x1="2.6" y1="-1.8" x2="-2.6" y2="-1.8" width="0.1524" layer="39"/>
 <wire x1="-2.6" y1="-1.8" x2="-2.6" y2="1.8" width="0.1524" layer="39"/>
 </package>
-<package name="LEDC1005X40" urn="urn:adsk.eagle:footprint:2899409/2">
+<package name="LEDC1005X40_LED-0402" urn="urn:adsk.eagle:footprint:2899409/2" locally_modified="yes">
 <description>CHIP, 1 X 0.5 X 0.4 mm body
 &lt;p&gt;CHIP package with body size 1 X 0.5 X 0.4 mm&lt;/p&gt;</description>
 <circle x="-1.4299" y="0" radius="0.075" width="0" layer="21"/>
@@ -658,7 +658,7 @@
 <text x="-0.389" y="1.2259" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="-0.389" y="-1.2259" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
-<package name="LEDC1608X80" urn="urn:adsk.eagle:footprint:2959496/2">
+<package name="LEDC1608X80_LED-0603" urn="urn:adsk.eagle:footprint:2959496/2" locally_modified="yes">
 <description>CHIP, 1.6 X 0.8 X 0.8 mm body
 &lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.8 mm&lt;/p&gt;</description>
 <circle x="-1.9176" y="0" radius="0.075" width="0" layer="21"/>
@@ -678,7 +678,7 @@
 <text x="-0.389" y="1.4136" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="-0.389" y="-1.4136" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
-<package name="LEDC2012X120" urn="urn:adsk.eagle:footprint:2966316/2">
+<package name="LEDC2012X120_LED-0805" urn="urn:adsk.eagle:footprint:2966316/2" locally_modified="yes">
 <description>CHIP, 2 X 1.25 X 1.2 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.25 X 1.2 mm&lt;/p&gt;</description>
 <circle x="-2.1176" y="0" radius="0.075" width="0" layer="21"/>
@@ -700,25 +700,25 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="LEDC1005X40" urn="urn:adsk.eagle:package:2899303/3" type="model">
+<package3d name="LEDC1005X40" urn="urn:adsk.eagle:package:2899303/3" locally_modified="yes" type="model">
 <description>CHIP, 1 X 0.5 X 0.4 mm body
 &lt;p&gt;CHIP package with body size 1 X 0.5 X 0.4 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="LEDC1005X40"/>
+<packageinstance name="LEDC1005X40_LED-0402"/>
 </packageinstances>
 </package3d>
-<package3d name="LEDC1608X80" urn="urn:adsk.eagle:package:2959495/3" type="model">
+<package3d name="LEDC1608X80" urn="urn:adsk.eagle:package:2959495/3" locally_modified="yes" type="model">
 <description>CHIP, 1.6 X 0.8 X 0.8 mm body
 &lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.8 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="LEDC1608X80"/>
+<packageinstance name="LEDC1608X80_LED-0603"/>
 </packageinstances>
 </package3d>
-<package3d name="LEDC2012X120" urn="urn:adsk.eagle:package:2966314/3" type="model">
+<package3d name="LEDC2012X120" urn="urn:adsk.eagle:package:2966314/3" locally_modified="yes" type="model">
 <description>CHIP, 2 X 1.25 X 1.2 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.25 X 1.2 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="LEDC2012X120"/>
+<packageinstance name="LEDC2012X120_LED-0805"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1247,7 +1247,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="_SMD-0402_DISCRETE_BLUE" package="LEDC1005X40">
+<device name="_SMD-0402_DISCRETE_BLUE" package="LEDC1005X40_LED-0402">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -1267,7 +1267,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0402_DISCRETE_RED" package="LEDC1005X40">
+<device name="_SMD-0402_DISCRETE_RED" package="LEDC1005X40_LED-0402">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -1287,7 +1287,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0402_DISCRETE_GREEN" package="LEDC1005X40">
+<device name="_SMD-0402_DISCRETE_GREEN" package="LEDC1005X40_LED-0402">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -1307,7 +1307,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0603_DISCRETE_BLUE" package="LEDC1608X80">
+<device name="_SMD-0603_DISCRETE_BLUE" package="LEDC1608X80_LED-0603">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -1327,7 +1327,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0805_DISCRETE_BLUE" package="LEDC2012X120">
+<device name="_SMD-0805_DISCRETE_BLUE" package="LEDC2012X120_LED-0805">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -1347,7 +1347,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0603_DISCRETE_GREEN" package="LEDC1608X80">
+<device name="_SMD-0603_DISCRETE_GREEN" package="LEDC1608X80_LED-0603">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -1367,7 +1367,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0603_DISCRETE_RED" package="LEDC1608X80">
+<device name="_SMD-0603_DISCRETE_RED" package="LEDC1608X80_LED-0603">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
@@ -1384,6 +1384,26 @@
 <attribute name="MFR" value="Wurth Electronics Inc." constant="no"/>
 <attribute name="MPN" value="150060RS75000" constant="no"/>
 <attribute name="VALUE" value="RED" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0805_DISCRETE_GREEN_" package="LEDC2012X120_LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2966314/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=160-1414-1-ND" constant="no"/>
+<attribute name="DISTPN" value="160-1414-1-ND" constant="no"/>
+<attribute name="MFR" value="Lite-On Inc." constant="no"/>
+<attribute name="MPN" value="LTST-C170KGKT" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
 </technology>
 </technologies>
 </device>

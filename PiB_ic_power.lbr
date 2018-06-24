@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -745,6 +745,32 @@
 <wire x1="4.4" y1="-3.4" x2="4.4" y2="3.4" width="0.127" layer="39"/>
 <wire x1="4.4" y1="3.4" x2="-4.4" y2="3.4" width="0.127" layer="39"/>
 </package>
+<package name="SOIC127P600X100-8" urn="urn:adsk.eagle:footprint:3741295/1" locally_modified="yes">
+<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.9 X 1 mm&lt;/p&gt;</description>
+<circle x="-2.4288" y="2.9008" radius="0.25" width="0" layer="21"/>
+<wire x1="-2" y1="2.5108" x2="2" y2="2.5108" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2.5108" x2="2" y2="-2.5108" width="0.12" layer="21"/>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.12" layer="51"/>
+<smd name="1" x="-2.6533" y="1.905" dx="1.6088" dy="0.5835" layer="1"/>
+<smd name="2" x="-2.6533" y="0.635" dx="1.6088" dy="0.5835" layer="1"/>
+<smd name="3" x="-2.6533" y="-0.635" dx="1.6088" dy="0.5835" layer="1"/>
+<smd name="4" x="-2.6533" y="-1.905" dx="1.6088" dy="0.5835" layer="1"/>
+<smd name="5" x="2.6533" y="-1.905" dx="1.6088" dy="0.5835" layer="1"/>
+<smd name="6" x="2.6533" y="-0.635" dx="1.6088" dy="0.5835" layer="1"/>
+<smd name="7" x="2.6533" y="0.635" dx="1.6088" dy="0.5835" layer="1"/>
+<smd name="8" x="2.6533" y="1.905" dx="1.6088" dy="0.5835" layer="1"/>
+<text x="0" y="3.5858" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.1458" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-4" y1="-2.7" x2="4" y2="-2.7" width="0.127" layer="39"/>
+<wire x1="4" y1="-2.7" x2="4" y2="2.7" width="0.127" layer="39"/>
+<wire x1="4" y1="2.7" x2="-4" y2="2.7" width="0.127" layer="39"/>
+<wire x1="-4" y1="2.7" x2="-4" y2="-2.7" width="0.127" layer="39"/>
+<smd name="FIN" x="0" y="0" dx="2.4" dy="3.2" layer="1" stop="no" thermals="no"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:2889790/1" locally_modified="yes" type="model">
@@ -785,6 +811,13 @@
 <package3d name="SIL0008E-1.75" urn="urn:adsk.eagle:package:3069149/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="SIL0008E-1.75"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X100-8" urn="urn:adsk.eagle:package:3741292/1" locally_modified="yes" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6 mm span with body size 4.9 X 3.9 X 1 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X100-8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -999,6 +1032,42 @@
 <text x="6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">BYPASS</text>
 <text x="0" y="5.842" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="4.318" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="MCP1802">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="VIN" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="!SHDN" x="-10.16" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="NC" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="VOUT" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="8.89" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="6.35" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
+<text x="6.35" y="-2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">NC</text>
+<text x="6.35" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
+<text x="-6.35" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-left">!SHDN</text>
+<text x="-6.35" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
+</symbol>
+<symbol name="BDXXGC0WEFJ">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="VIN" x="-10.16" y="2.54" visible="pad" length="short"/>
+<pin name="EN" x="-10.16" y="0" visible="pad" length="short"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="VOS/FB" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="VOUT" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
+<text x="-6.35" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
+<text x="-6.35" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-left">EN</text>
+<text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
+<text x="6.35" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">Vos/FB</text>
+<text x="6.35" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
+<text x="0" y="8.89" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="6.35" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1521,7 +1590,7 @@
 <attribute name="DISTPN" value="296-2749-5-ND" constant="no"/>
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="TPS76830QD" constant="no"/>
-<attribute name="VALUE" value="TPS76830QD" constant="no"/>
+<attribute name="VALUE" value="TPS76830QD 1A/3V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1738,6 +1807,89 @@
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP18XX" prefix="VREG" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="MCP1802" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_MCP1802-330_300MA-3.3V" package="SOT95P280X145-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2889790/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=MCP1802T-3302I%2FOTCT-ND" constant="no"/>
+<attribute name="DISTPN" value="MCP1802T-3302I/OTCT-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="MCP1802T-3302I/OT" constant="no"/>
+<attribute name="VALUE" value="MCP1802 300mA/3.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MCP1802-500_300MA-5V" package="SOT95P280X145-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2889790/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=MCP1802T-5002I%2FOTCT-ND" constant="no"/>
+<attribute name="DISTPN" value="MCP1802T-5002I/OTCT-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="MCP1802T-5002I/OT" constant="no"/>
+<attribute name="VALUE" value="MCP1802T-500 300mA/5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BDXXGC0WEFJ" prefix="VREG" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="BDXXGC0WEFJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_BD60GC0WEFJ_1A-6V" package="SOIC127P600X100-8">
+<connects>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3 4 6 7 FIN"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
+<connect gate="G$1" pin="VOS/FB" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3741292/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxgc0wefj-e.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=BD60GC0WEFJ-E2CT-ND" constant="no"/>
+<attribute name="DISTPN" value="BD60GC0WEFJ-E2CT-ND" constant="no"/>
+<attribute name="MFR" value="Rohm Semiconductor" constant="no"/>
+<attribute name="MPN" value="BD60GC0WEFJ-E2" constant="no"/>
+<attribute name="VALUE" value="BD60GC0WEFJ 1A/6V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
