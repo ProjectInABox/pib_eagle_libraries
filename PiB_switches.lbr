@@ -281,11 +281,12 @@
 <wire x1="3.5" y1="6.5" x2="-3.5" y2="6.5" width="0.1" layer="21"/>
 <wire x1="-3.5" y1="6.5" x2="-3.5" y2="-6.5" width="0.1" layer="21"/>
 <wire x1="-3.5" y1="-6.5" x2="3.5" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="3.61" y1="6.658" x2="3.61" y2="-6.658" width="0.127" layer="39"/>
-<wire x1="3.61" y1="-6.658" x2="-3.61" y2="-6.658" width="0.127" layer="39"/>
-<wire x1="-3.61" y1="-6.658" x2="-3.61" y2="6.658" width="0.127" layer="39"/>
-<wire x1="-3.61" y1="6.658" x2="3.61" y2="6.658" width="0.127" layer="39"/>
-<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<wire x1="3.6" y1="6.6" x2="3.6" y2="-6.6" width="0.127" layer="39"/>
+<wire x1="3.6" y1="-6.6" x2="-3.6" y2="-6.6" width="0.127" layer="39"/>
+<wire x1="-3.6" y1="-6.6" x2="-3.6" y2="6.6" width="0.127" layer="39"/>
+<wire x1="-3.6" y1="6.6" x2="3.6" y2="6.6" width="0.127" layer="39"/>
+<text x="-2" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2" y="0" size="0.5" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
 <package name="SW_SLIDE_SPDT_VERT_8.6L-4.3W" urn="urn:adsk.eagle:footprint:3727005/1" locally_modified="yes">
 <pad name="P" x="0" y="0" drill="0.825" diameter="1.5"/>
@@ -301,12 +302,21 @@
 <wire x1="1" y1="2" x2="1" y2="-2" width="0.127" layer="51"/>
 <wire x1="1" y1="-2" x2="-1" y2="-2" width="0.127" layer="51"/>
 <wire x1="-1" y1="-2" x2="-1" y2="2" width="0.127" layer="51"/>
-<wire x1="-2.413" y1="-5.207" x2="-2.413" y2="5.207" width="0.127" layer="39"/>
-<wire x1="-2.413" y1="5.207" x2="2.413" y2="5.207" width="0.127" layer="39"/>
-<wire x1="2.413" y1="5.207" x2="2.413" y2="-5.207" width="0.127" layer="39"/>
-<wire x1="2.413" y1="-5.207" x2="-2.413" y2="-5.207" width="0.127" layer="39"/>
-<text x="-1.524" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="-1.246" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-1" y1="0" x2="1" y2="2" layer="51"/>
+<text x="1.246" y="0" size="0.5" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<wire x1="1.1" y1="-5.2" x2="-1.1" y2="-5.2" width="0.127" layer="39"/>
+<wire x1="-2.3" y1="4.5" x2="-1.1" y2="4.5" width="0.127" layer="39"/>
+<wire x1="-1.1" y1="4.5" x2="-1.1" y2="5.2" width="0.127" layer="39"/>
+<wire x1="2.3" y1="4.5" x2="1.1" y2="4.5" width="0.127" layer="39"/>
+<wire x1="1.1" y1="4.5" x2="1.1" y2="5.2" width="0.127" layer="39"/>
+<wire x1="-2.3" y1="-4.5" x2="-1.1" y2="-4.5" width="0.127" layer="39"/>
+<wire x1="-1.1" y1="-4.5" x2="-1.1" y2="-5.2" width="0.127" layer="39"/>
+<wire x1="2.3" y1="-4.5" x2="1.1" y2="-4.5" width="0.127" layer="39"/>
+<wire x1="1.1" y1="-4.5" x2="1.1" y2="-5.2" width="0.127" layer="39"/>
+<wire x1="-1.1" y1="5.2" x2="1.1" y2="5.2" width="0.127" layer="39"/>
+<wire x1="-2.3" y1="4.5" x2="-2.3" y2="-4.5" width="0.127" layer="39"/>
+<wire x1="2.3" y1="-4.5" x2="2.3" y2="4.5" width="0.127" layer="39"/>
 </package>
 <package name="BTN_MOMENTARY_SPDT-NO_L4.6-W2.8" urn="urn:adsk.eagle:footprint:3034774/1">
 <wire x1="-2.1" y1="-1.4" x2="-2.1" y2="1.4" width="0.127" layer="21"/>
@@ -476,8 +486,8 @@
 <pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="S1" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="S2" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="1.27" y="3.556" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="1.27" y="-3.556" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="1.27" y="3.048" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-3.302" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
 </symbol>
 <symbol name="SWITCH_SPST">

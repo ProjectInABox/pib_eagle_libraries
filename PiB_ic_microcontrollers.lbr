@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2565,16 +2565,18 @@
 <package name="SOIC127P798X216-8" urn="urn:adsk.eagle:footprint:3726849/1" locally_modified="yes">
 <description>8-SOIC, 1.27 mm pitch, 7.98 mm span, 5.24 X 5.29 X 2.16 mm body
 &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.98 mm span with body size 5.24 X 5.29 X 2.16 mm&lt;/p&gt;</description>
-<circle x="-3.5928" y="2.6997" radius="0.25" width="0" layer="21"/>
+<circle x="-3.0928" y="3.0997" radius="0.25" width="0" layer="21"/>
 <wire x1="-2.7" y1="2.4497" x2="-2.7" y2="2.675" width="0.12" layer="21"/>
 <wire x1="-2.7" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="21"/>
 <wire x1="2.7" y1="2.675" x2="2.7" y2="2.4497" width="0.12" layer="21"/>
 <wire x1="-2.7" y1="-2.4497" x2="-2.7" y2="-2.675" width="0.12" layer="21"/>
 <wire x1="-2.7" y1="-2.675" x2="2.7" y2="-2.675" width="0.12" layer="21"/>
 <wire x1="2.7" y1="-2.675" x2="2.7" y2="-2.4497" width="0.12" layer="21"/>
-<wire x1="2.7" y1="-2.675" x2="-2.7" y2="-2.675" width="0.12" layer="51"/>
+<wire x1="2.7" y1="-2.675" x2="-2.2" y2="-2.675" width="0.12" layer="51"/>
+<wire x1="-2.2" y1="-2.675" x2="-2.7" y2="-2.675" width="0.12" layer="51"/>
 <wire x1="-2.7" y1="-2.675" x2="-2.7" y2="2.675" width="0.12" layer="51"/>
-<wire x1="-2.7" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="51"/>
+<wire x1="-2.7" y1="2.675" x2="-2.2" y2="2.675" width="0.12" layer="51"/>
+<wire x1="-2.2" y1="2.675" x2="2.7" y2="2.675" width="0.12" layer="51"/>
 <wire x1="2.7" y1="2.675" x2="2.7" y2="-2.675" width="0.12" layer="51"/>
 <smd name="1" x="-3.6284" y="1.905" dx="1.7143" dy="0.5815" layer="1"/>
 <smd name="2" x="-3.6284" y="0.635" dx="1.7143" dy="0.5815" layer="1"/>
@@ -2584,17 +2586,18 @@
 <smd name="6" x="3.6284" y="-0.635" dx="1.7143" dy="0.5815" layer="1"/>
 <smd name="7" x="3.6284" y="0.635" dx="1.7143" dy="0.5815" layer="1"/>
 <smd name="8" x="3.6284" y="1.905" dx="1.7143" dy="0.5815" layer="1"/>
-<text x="0" y="3.5847" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.31" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="2.9" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-5" y1="-2.8" x2="5" y2="-2.8" width="0.127" layer="39"/>
 <wire x1="5" y1="-2.8" x2="5" y2="2.8" width="0.127" layer="39"/>
 <wire x1="5" y1="2.8" x2="-5" y2="2.8" width="0.127" layer="39"/>
 <wire x1="-5" y1="2.8" x2="-5" y2="-2.8" width="0.127" layer="39"/>
+<wire x1="-2.7" y1="-2.675" x2="-2.7" y2="2.675" width="0.12" layer="51"/>
 </package>
 <package name="QFP80P900X900X120-32" urn="urn:adsk.eagle:footprint:3740864/1" locally_modified="yes">
 <description>32-QFP, 0.8 mm pitch, 9 mm span, 7 X 7 X 1.2 mm body
 &lt;p&gt;32-pin QFP package with 0.8 mm pitch, 9 mm lead span1 X 9 mm lead span2 with body size 7 X 7 X 1.2 mm&lt;/p&gt;</description>
-<circle x="-4.1656" y="4.1775" radius="0.25" width="0" layer="21"/>
+<circle x="-4" y="4" radius="0.25" width="0" layer="21"/>
 <wire x1="-3.55" y1="3.3275" x2="-3.55" y2="3.55" width="0.12" layer="21"/>
 <wire x1="-3.55" y1="3.55" x2="-3.3275" y2="3.55" width="0.12" layer="21"/>
 <wire x1="3.55" y1="3.3275" x2="3.55" y2="3.55" width="0.12" layer="21"/>
@@ -2639,8 +2642,8 @@
 <smd name="30" x="-1.2" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
 <smd name="31" x="-2" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
 <smd name="32" x="-2.8" y="4.1813" dx="1.5998" dy="0.5471" layer="1" rot="R90"/>
-<text x="0" y="5.6162" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.6162" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="5.4162" size="0.5" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.3162" size="0.5" layer="27" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-4.5" y1="-6" x2="4.5" y2="-6" width="0.127" layer="39"/>
 <wire x1="6" y1="-4.5" x2="6" y2="4.5" width="0.127" layer="39"/>
 <wire x1="4.5" y1="6" x2="-4.5" y2="6" width="0.127" layer="39"/>
@@ -2942,8 +2945,8 @@
 <wire x1="-40.64" y1="-30.48" x2="40.64" y2="-30.48" width="0.1524" layer="94"/>
 <wire x1="40.64" y1="-30.48" x2="40.64" y2="27.94" width="0.1524" layer="94"/>
 <wire x1="40.64" y1="27.94" x2="-40.64" y2="27.94" width="0.1524" layer="94"/>
-<text x="0" y="29.972" size="1.27" layer="95" font="vector" ratio="10" rot="SR0" align="center">&gt;NAME</text>
-<text x="0" y="28.702" size="0.8128" layer="96" font="vector" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+<text x="0" y="28.448" size="1.27" layer="95" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-30.988" size="1.27" layer="96" font="vector" ratio="10" rot="SR0" align="top-center">&gt;VALUE</text>
 <text x="-18.034" y="22.86" size="0.8128" layer="97" font="vector" ratio="10" align="bottom-center">*RESET pin must be disabled</text>
 <text x="-45.72" y="-17.78" size="1.27" layer="97" font="vector" ratio="10" align="bottom-right">NC</text>
 <text x="-45.72" y="-20.32" size="1.27" layer="97" font="vector" ratio="10" align="bottom-right">NC</text>

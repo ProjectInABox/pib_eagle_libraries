@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -628,7 +628,7 @@
 <package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:2889791/1" locally_modified="yes">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.9 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.9 X 1.6 X 1.45 mm&lt;/p&gt;</description>
-<circle x="-1.1663" y="1.8736" radius="0.25" width="0" layer="21"/>
+<circle x="-1.4663" y="1.9736" radius="0.25" width="0" layer="21"/>
 <wire x1="-0.875" y1="1.5586" x2="0.875" y2="1.5586" width="0.12" layer="21"/>
 <wire x1="-0.875" y1="-1.5586" x2="0.875" y2="-1.5586" width="0.12" layer="21"/>
 <wire x1="0.875" y1="-1.525" x2="-0.875" y2="-1.525" width="0.12" layer="51"/>
@@ -640,8 +640,8 @@
 <smd name="3" x="-1.2313" y="-0.95" dx="1.2527" dy="0.5891" layer="1" thermals="no"/>
 <smd name="4" x="1.2313" y="-0.95" dx="1.2527" dy="0.5891" layer="1" thermals="no"/>
 <smd name="5" x="1.2313" y="0.95" dx="1.2527" dy="0.5891" layer="1" thermals="no"/>
-<text x="0" y="2.2836" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.1936" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.9" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-2.3" y1="1.7" x2="-2.3" y2="-1.7" width="0.127" layer="39"/>
 <wire x1="-2.3" y1="-1.7" x2="2.3" y2="-1.7" width="0.127" layer="39"/>
 <wire x1="2.3" y1="-1.7" x2="2.3" y2="1.7" width="0.127" layer="39"/>
@@ -755,16 +755,16 @@
 <wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.12" layer="51"/>
 <wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.12" layer="51"/>
 <wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.12" layer="51"/>
-<smd name="1" x="-2.6533" y="1.905" dx="1.6088" dy="0.5835" layer="1"/>
-<smd name="2" x="-2.6533" y="0.635" dx="1.6088" dy="0.5835" layer="1"/>
-<smd name="3" x="-2.6533" y="-0.635" dx="1.6088" dy="0.5835" layer="1"/>
-<smd name="4" x="-2.6533" y="-1.905" dx="1.6088" dy="0.5835" layer="1"/>
-<smd name="5" x="2.6533" y="-1.905" dx="1.6088" dy="0.5835" layer="1"/>
-<smd name="6" x="2.6533" y="-0.635" dx="1.6088" dy="0.5835" layer="1"/>
-<smd name="7" x="2.6533" y="0.635" dx="1.6088" dy="0.5835" layer="1"/>
-<smd name="8" x="2.6533" y="1.905" dx="1.6088" dy="0.5835" layer="1"/>
-<text x="0" y="3.5858" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.1458" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<smd name="1" x="-2.6533" y="1.905" dx="1.6088" dy="0.5835" layer="1" thermals="no"/>
+<smd name="2" x="-2.6533" y="0.635" dx="1.6088" dy="0.5835" layer="1" thermals="no"/>
+<smd name="3" x="-2.6533" y="-0.635" dx="1.6088" dy="0.5835" layer="1" thermals="no"/>
+<smd name="4" x="-2.6533" y="-1.905" dx="1.6088" dy="0.5835" layer="1" thermals="no"/>
+<smd name="5" x="2.6533" y="-1.905" dx="1.6088" dy="0.5835" layer="1" thermals="no"/>
+<smd name="6" x="2.6533" y="-0.635" dx="1.6088" dy="0.5835" layer="1" thermals="no"/>
+<smd name="7" x="2.6533" y="0.635" dx="1.6088" dy="0.5835" layer="1" thermals="no"/>
+<smd name="8" x="2.6533" y="1.905" dx="1.6088" dy="0.5835" layer="1" thermals="no"/>
+<text x="0" y="2.8" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.8" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-4" y1="-2.7" x2="4" y2="-2.7" width="0.127" layer="39"/>
 <wire x1="4" y1="-2.7" x2="4" y2="2.7" width="0.127" layer="39"/>
 <wire x1="4" y1="2.7" x2="-4" y2="2.7" width="0.127" layer="39"/>
@@ -1043,8 +1043,8 @@
 <pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="NC" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="VOUT" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<text x="0" y="8.89" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="6.35" size="1.27" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="7.366" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="5.588" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
 <text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
 <text x="6.35" y="-2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">NC</text>
 <text x="6.35" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
@@ -1066,8 +1066,8 @@
 <text x="0" y="-3.81" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
 <text x="6.35" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">Vos/FB</text>
 <text x="6.35" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
-<text x="0" y="8.89" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="6.35" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="7.62" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="5.588" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>

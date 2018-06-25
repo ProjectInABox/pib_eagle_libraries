@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -367,7 +367,7 @@
 <text x="0" y="3.048" size="1.27" layer="21" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="1.524" size="1.27" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WSON-8-PPAD" urn="urn:adsk.eagle:footprint:2992775/2">
+<package name="WSON-8-PPAD" urn="urn:adsk.eagle:footprint:2992775/2" locally_modified="yes">
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.1" layer="51"/>
 <wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="51"/>
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="51"/>
@@ -378,9 +378,7 @@
 <wire x1="-1.6" y1="-1.1" x2="1.6" y2="-1.1" width="0.127" layer="39"/>
 <wire x1="1.6" y1="-1.1" x2="1.6" y2="1.1" width="0.127" layer="39"/>
 <wire x1="1.6" y1="1.1" x2="-1.6" y2="1.1" width="0.127" layer="39"/>
-<circle x="-1" y="1" radius="0.05" width="0.127" layer="21"/>
-<circle x="-1.33" y="1.33" radius="0.2" width="0.2032" layer="21"/>
-<circle x="-1.33" y="1.33" radius="0.2" width="0.127" layer="51"/>
+<circle x="-1.2" y="1.2" radius="0.05" width="0.127" layer="21"/>
 <rectangle x1="-0.975" y1="0.1" x2="-0.725" y2="0.4" layer="51" rot="R270"/>
 <rectangle x1="-0.975" y1="0.6" x2="-0.725" y2="0.9" layer="51" rot="R270"/>
 <rectangle x1="-0.975" y1="-0.4" x2="-0.725" y2="-0.1" layer="51" rot="R270"/>
@@ -406,9 +404,10 @@
 <vertex x="-0.45" y="0.5"/>
 <vertex x="-0.1" y="0.8"/>
 </polygon>
-<text x="0" y="1.651" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
+<text x="0" y="1.3" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <pad name="P$1" x="0" y="-0.38" drill="0.3302" diameter="0.75" shape="square" stop="no" thermals="no"/>
 <pad name="P$2" x="0" y="0.37" drill="0.3302" diameter="0.75" shape="square" stop="no" thermals="no"/>
+<text x="0" y="-1.3" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
 <package name="CONNECTOR_TMP36">
 <pad name="1" x="-2.54" y="-1.27" drill="0.8128" diameter="1.8796"/>
@@ -587,19 +586,24 @@
 <text x="0" y="-0.762" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
 <package name="DUAL_PTH_PADS">
-<text x="-2.008" y="1" size="1.27" layer="21" font="vector">+</text>
-<wire x1="-3.135" y1="-1.877" x2="-3.135" y2="2.377" width="0.127" layer="39"/>
-<wire x1="-3.008" y1="-1.75" x2="2.992" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-3.008" y1="2.25" x2="-3.008" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-3.135" y1="2.377" x2="3.119" y2="2.377" width="0.127" layer="39"/>
-<text x="-0.008" y="3" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0.992" y="1" size="1.27" layer="21" font="vector">-</text>
-<wire x1="3.119" y1="-1.877" x2="-3.135" y2="-1.877" width="0.127" layer="39"/>
-<wire x1="2.992" y1="-1.75" x2="2.992" y2="2.25" width="0.127" layer="21"/>
-<wire x1="2.992" y1="2.25" x2="-3.008" y2="2.25" width="0.127" layer="21"/>
-<wire x1="3.119" y1="2.377" x2="3.119" y2="-1.877" width="0.127" layer="39"/>
+<text x="-1.608" y="1.5" size="1" layer="21" font="vector" ratio="10" align="center">+</text>
+<wire x1="-3.2" y1="-1.6" x2="-3.2" y2="2.2" width="0.127" layer="39"/>
+<wire x1="-3" y1="-1.45" x2="3" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-3" y1="2" x2="-3" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="2.2" x2="3.2" y2="2.2" width="0.127" layer="39"/>
+<text x="-0.008" y="2.3" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="1.592" y="1.5" size="1" layer="21" font="vector" ratio="10" align="center">-</text>
+<wire x1="3.2" y1="-1.6" x2="-3.2" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="3" y1="-1.45" x2="3" y2="2" width="0.127" layer="21"/>
+<wire x1="3" y1="2" x2="-3" y2="2" width="0.127" layer="21"/>
+<wire x1="3.2" y1="2.2" x2="3.2" y2="-1.6" width="0.127" layer="39"/>
 <pad name="+" x="-1.6" y="0" drill="1" diameter="2"/>
-<pad name="-" x="1.6" y="0" drill="1" diameter="2"/>
+<pad name="-" x="1.6" y="0" drill="1" diameter="2" thermals="no"/>
+<text x="0" y="-1.8" size="0.5" layer="21" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-2.8" y1="1.2" x2="-2.8" y2="-1.2" width="0.127" layer="40"/>
+<wire x1="-2.8" y1="-1.2" x2="2.8" y2="-1.2" width="0.127" layer="40"/>
+<wire x1="2.8" y1="-1.2" x2="2.8" y2="1.2" width="0.127" layer="40"/>
+<wire x1="2.8" y1="1.2" x2="-2.8" y2="1.2" width="0.127" layer="40"/>
 </package>
 <package name="CONNECTOR_SERVO_NO-MARKINGS">
 <wire x1="-4.06" y1="1.27" x2="4.06" y2="1.27" width="0.2032" layer="21"/>
@@ -1108,13 +1112,13 @@
 <wire x1="1.85" y1="7.55" x2="-5.85" y2="7.55" width="0.127" layer="51"/>
 <wire x1="-5.85" y1="7.55" x2="-5.85" y2="-7.55" width="0.127" layer="51"/>
 </package>
-<package name="CONNECTOR-RA_THUMBSTICK-2AXIS" urn="urn:adsk.eagle:footprint:3729429/1">
+<package name="CONNECTOR-RA_THUMBSTICK-2AXIS" urn="urn:adsk.eagle:footprint:3729429/1" locally_modified="yes">
 <wire x1="-1.27" y1="6.35" x2="2.54" y2="6.35" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="6.35" x2="11.049" y2="6.35" width="0.2032" layer="21"/>
-<wire x1="11.049" y1="6.35" x2="11.049" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="10.049" y2="6.35" width="0.2032" layer="21"/>
+<wire x1="10.049" y1="6.35" x2="10.049" y2="-6.35" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-6.35" x2="-1.27" y2="6.35" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-6.35" x2="2.54" y2="-6.35" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-6.35" x2="11.049" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-6.35" x2="10.049" y2="-6.35" width="0.2032" layer="21"/>
 <wire x1="2.54" y1="6.35" x2="2.54" y2="-6.35" width="0.2032" layer="21"/>
 <pad name="Y" x="0" y="-2.54" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="X" x="0" y="0" drill="1.016" diameter="1.8796" rot="R180"/>
@@ -1126,13 +1130,17 @@
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51" rot="R90"/>
 <rectangle x1="-0.254" y1="-2.794" x2="0.254" y2="-2.286" layer="51" rot="R90"/>
 <rectangle x1="-0.254" y1="-5.334" x2="0.254" y2="-4.826" layer="51" rot="R90"/>
-<text x="-1.5" y="-2.46" size="0.6096" layer="21" font="vector" ratio="10" rot="SR0" align="center-right">Y</text>
-<text x="-1.5" y="5.12" size="0.6096" layer="21" font="vector" ratio="10" rot="SR0" align="center-right">GND</text>
-<text x="-1.5" y="0" size="0.6096" layer="21" font="vector" ratio="10" rot="SR0" align="center-right">X</text>
-<text x="-1.5" y="2.5" size="0.6096" layer="21" font="vector" ratio="10" rot="SR0" align="center-right">VCC</text>
-<text x="0" y="6.858" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-6.858" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<text x="-1.5" y="-5" size="0.6096" layer="21" font="vector" ratio="10" rot="SR0" align="center-right">SW</text>
+<text x="1.27" y="-2.54" size="0.5" layer="21" font="vector" ratio="10" rot="SR270" align="bottom-center">Y</text>
+<text x="1.27" y="5.08" size="0.5" layer="21" font="vector" ratio="10" rot="SR270" align="bottom-center">GND</text>
+<text x="1.27" y="0" size="0.5" layer="21" font="vector" ratio="10" rot="SR270" align="bottom-center">X</text>
+<text x="1.27" y="2.54" size="0.5" layer="21" font="vector" ratio="10" rot="SR270" align="bottom-center">VCC</text>
+<text x="0" y="6.758" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.758" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="1.27" y="-5.08" size="0.5" layer="21" font="vector" ratio="10" rot="SR270" align="bottom-center">SW</text>
+<wire x1="-1.4" y1="-6.5" x2="10.2" y2="-6.5" width="0.127" layer="39"/>
+<wire x1="10.2" y1="-6.5" x2="10.2" y2="6.5" width="0.127" layer="39"/>
+<wire x1="10.2" y1="6.5" x2="-1.4" y2="6.5" width="0.127" layer="39"/>
+<wire x1="-1.4" y1="6.5" x2="-1.4" y2="-6.5" width="0.127" layer="39"/>
 </package>
 <package name="MOUNT_VOLTAGE-DISPLAY_2-WIRE">
 <pad name="BLK" x="1.27" y="0" drill="0.5"/>
@@ -1161,18 +1169,24 @@
 <package name="ARDUINO-UNO-R3_SHIELD">
 </package>
 <package name="CONNECTOR_MOTOR">
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.2032" layer="21"/>
-<pad name="-" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="+" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51" rot="R180"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51" rot="R180"/>
-<text x="0" y="2.794" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="2.54" width="0.2032" layer="21"/>
-<text x="-1.143" y="1.635" size="1.27" layer="21" font="vector" ratio="10" rot="SR0" align="center">+</text>
-<text x="1.397" y="1.635" size="1.27" layer="21" font="vector" ratio="10" rot="SR0" align="center">-</text>
-<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="2.54" width="0.2032" layer="21"/>
+<text x="-1.608" y="1.5" size="1" layer="21" font="vector" ratio="10" align="center">+</text>
+<wire x1="-3.2" y1="-1.6" x2="-3.2" y2="2.2" width="0.127" layer="39"/>
+<wire x1="-3" y1="-1.45" x2="3" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-3" y1="2" x2="-3" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="2.2" x2="3.2" y2="2.2" width="0.127" layer="39"/>
+<text x="-0.008" y="2.173" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="1.592" y="1.5" size="1" layer="21" font="vector" ratio="10" align="center">-</text>
+<wire x1="3.2" y1="-1.6" x2="-3.2" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="3" y1="-1.45" x2="3" y2="2" width="0.127" layer="21"/>
+<wire x1="3" y1="2" x2="-3" y2="2" width="0.127" layer="21"/>
+<wire x1="3.2" y1="2.2" x2="3.2" y2="-1.6" width="0.127" layer="39"/>
+<pad name="+" x="-1.6" y="0" drill="1" diameter="2"/>
+<pad name="-" x="1.6" y="0" drill="1" diameter="2" thermals="no"/>
+<text x="0" y="-1.673" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-2.8" y1="1.2" x2="-2.8" y2="-1.2" width="0.127" layer="40"/>
+<wire x1="-2.8" y1="-1.2" x2="2.8" y2="-1.2" width="0.127" layer="40"/>
+<wire x1="2.8" y1="-1.2" x2="2.8" y2="1.2" width="0.127" layer="40"/>
+<wire x1="2.8" y1="1.2" x2="-2.8" y2="1.2" width="0.127" layer="40"/>
 </package>
 <package name="WDFN_EXPOSED_PAD" urn="urn:adsk.eagle:footprint:3057103/1" locally_modified="yes">
 <wire x1="-1.6" y1="1.6" x2="-1.6" y2="-1.6" width="0.1" layer="21"/>
@@ -1531,7 +1545,7 @@ package type OT</description>
 <package name="OSCCC500X320X110" urn="urn:adsk.eagle:footprint:2939177/2" locally_modified="yes">
 <description>OSCILLATOR CORNERCONCAVE, 5 X 3.2 X 1.1 mm body
 &lt;p&gt;OSCILLATOR CORNERCONCAVE package with body size 5 X 3.2 X 1.1 mm&lt;/p&gt;</description>
-<circle x="-3.4659" y="-1.25" radius="0.25" width="0" layer="21"/>
+<circle x="-3.3659" y="-1.65" radius="0.25" width="0" layer="21"/>
 <wire x1="-2.8159" y1="0.3901" x2="-2.8159" y2="-0.3901" width="0.12" layer="21"/>
 <wire x1="2.8159" y1="0.3901" x2="2.8159" y2="-0.3901" width="0.12" layer="21"/>
 <wire x1="-0.9901" y1="1.9159" x2="0.9901" y2="1.9159" width="0.12" layer="21"/>
@@ -1540,17 +1554,17 @@ package type OT</description>
 <wire x1="-2.55" y1="-1.65" x2="-2.55" y2="1.65" width="0.12" layer="51"/>
 <wire x1="-2.55" y1="1.65" x2="2.55" y2="1.65" width="0.12" layer="51"/>
 <wire x1="2.55" y1="1.65" x2="2.55" y2="-1.65" width="0.12" layer="51"/>
-<wire x1="-3.05" y1="-2.15" x2="3.05" y2="-2.15" width="0.127" layer="39"/>
-<wire x1="3.05" y1="-2.15" x2="3.05" y2="2.15" width="0.127" layer="39"/>
-<wire x1="3.05" y1="2.15" x2="-3.05" y2="2.15" width="0.127" layer="39"/>
-<wire x1="-3.05" y1="2.15" x2="-3.05" y2="-2.15" width="0.127" layer="39"/>
+<wire x1="-3" y1="-2.1" x2="3" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="3" y1="-2.1" x2="3" y2="2.1" width="0.127" layer="39"/>
+<wire x1="3" y1="2.1" x2="-3" y2="2.1" width="0.127" layer="39"/>
+<wire x1="-3" y1="2.1" x2="-3" y2="-2.1" width="0.127" layer="39"/>
 <smd name="1" x="-2" y="-1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
 <smd name="2" x="2" y="-1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
 <smd name="3" x="2" y="1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
 <smd name="4" x="-2" y="1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
-<text x="-0.172" y="2.5509" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="-0.172" y="-2.5509" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<text x="0" y="0" size="0.5" layer="27" font="vector" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
+<text x="0" y="2.2" size="0.5" layer="25" font="vector" ratio="10" rot="SR0" align="center">&gt;NAME</text>
+<text x="0" y="-2.2" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="0" size="0.5" layer="21" font="vector" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
 </package>
 <package name="SOIC127P600X150-8" urn="urn:adsk.eagle:footprint:3041605/1" locally_modified="yes">
 <description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.85 X 1.5 mm body
@@ -1657,15 +1671,15 @@ package type OT</description>
 <wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
 <pad name="SIG" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="VCC" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="GND" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="GND" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90" thermals="no"/>
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<text x="0" y="-4.321" size="1.27" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
-<text x="0" y="-2.797" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0.1" y="1.915" size="0.8128" layer="21" font="vector" ratio="10" align="center">VCC</text>
-<text x="2.54" y="1.915" size="0.8128" layer="21" font="vector" ratio="10" align="center">GND</text>
-<text x="-2.54" y="1.915" size="0.8128" layer="21" font="vector" ratio="10" align="center">SIG</text>
+<text x="0" y="-2.4" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="-1.6" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="1.715" size="0.5" layer="21" font="vector" ratio="10" align="center">VCC</text>
+<text x="2.54" y="1.715" size="0.5" layer="21" font="vector" ratio="10" align="center">GND</text>
+<text x="-2.54" y="1.715" size="0.5" layer="21" font="vector" ratio="10" align="center">SIG</text>
 <wire x1="4.018" y1="1.524" x2="-4.018" y2="1.524" width="0.127" layer="39"/>
 <wire x1="-4.018" y1="1.524" x2="-4.018" y2="-1.524" width="0.127" layer="39"/>
 <wire x1="-4.018" y1="-1.524" x2="4.018" y2="-1.524" width="0.127" layer="39"/>
@@ -1694,7 +1708,7 @@ package type OT</description>
 <packageinstance name="OSCCC500X320X110"/>
 </packageinstances>
 </package3d>
-<package3d name="WSON-8-PPAD" urn="urn:adsk.eagle:package:2992818/3" type="model">
+<package3d name="WSON-8-PPAD" urn="urn:adsk.eagle:package:2992818/3" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="WSON-8-PPAD"/>
 </packageinstances>
@@ -1718,7 +1732,7 @@ package type OT</description>
 <packageinstance name="QFN40P300X300X95-24"/>
 </packageinstances>
 </package3d>
-<package3d name="CONNECTOR-RA_THUMBSTICK-2AXIS" urn="urn:adsk.eagle:package:3729471/2" type="model">
+<package3d name="CONNECTOR-RA_THUMBSTICK-2AXIS" urn="urn:adsk.eagle:package:3729471/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="CONNECTOR-RA_THUMBSTICK-2AXIS"/>
 </packageinstances>
@@ -1865,8 +1879,8 @@ package type OT</description>
 <pin name="IN1/PH" x="-12.7" y="0" visible="pin" length="short" direction="pas"/>
 <pin name="OUT1" x="12.7" y="0" visible="pin" length="short" direction="pas" rot="R180"/>
 <pin name="IN2/EN" x="-12.7" y="-10.16" visible="pin" length="short" direction="pas"/>
-<text x="0" y="12.192" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="10.922" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="0" y="12.446" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="10.668" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
 </symbol>
 <symbol name="TMP36">
 <wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
@@ -1970,16 +1984,16 @@ package type OT</description>
 <text x="0" y="8.382" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">TCA4422</text>
 </symbol>
 <symbol name="MOTOR_PADS">
-<pin name="V+" x="5.08" y="0" length="short" rot="R180"/>
-<pin name="V-" x="5.08" y="-2.54" length="short" rot="R180"/>
+<pin name="V+" x="5.08" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="V-" x="5.08" y="-2.54" visible="pin" length="short" rot="R180"/>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.254" layer="94"/>
 <wire x1="3.81" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<text x="-0.508" y="2.794" size="0.8128" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="-0.508" y="-5.334" size="0.6096" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="-0.508" y="3.048" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="-0.508" y="-5.588" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </symbol>
 <symbol name="BATTERY">
 <wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
@@ -2694,7 +2708,7 @@ VCC    : 3.3V - 5.25V</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DRV883X_H-BRIDGE" prefix="IC" uservalue="yes">
+<deviceset name="DRV883X_H-BRIDGE" prefix="H-BRIDGE" uservalue="yes">
 <description>DRV883x Series H-Bridge - DRV8837 -&gt; PWM (IN1 &amp; IN2); DRV8838 -&gt; PH IN1/ENA
  IN2</description>
 <gates>
