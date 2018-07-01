@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -687,13 +687,17 @@
 <smd name="3" x="-6.3107" y="0" dx="2.3327" dy="1.0485" layer="1"/>
 <smd name="4" x="-6.3107" y="-1.702" dx="2.3327" dy="1.0485" layer="1"/>
 <smd name="5" x="-6.3107" y="-3.404" dx="2.3327" dy="1.0485" layer="1"/>
-<smd name="6" x="2.5348" y="0" dx="9.8846" dy="10.8398" layer="1"/>
-<text x="0" y="6.3089" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-6.3089" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-8.2" y1="-6.1" x2="8.2" y2="-6.1" width="0.127" layer="39"/>
-<wire x1="8.2" y1="-6.1" x2="8.2" y2="6.1" width="0.127" layer="39"/>
-<wire x1="8.2" y1="6.1" x2="-8.2" y2="6.1" width="0.127" layer="39"/>
-<wire x1="-8.2" y1="6.1" x2="-8.2" y2="-6.1" width="0.127" layer="39"/>
+<smd name="6" x="2.5348" y="0" dx="9.8846" dy="10.8398" layer="1" thermals="no"/>
+<text x="0" y="6.3089" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.3089" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-4.5" y1="-6.1" x2="8.1" y2="-6.1" width="0.127" layer="39"/>
+<wire x1="8.1" y1="-6.1" x2="8.1" y2="6.1" width="0.127" layer="39"/>
+<wire x1="8.1" y1="6.1" x2="-4.5" y2="6.1" width="0.127" layer="39"/>
+<wire x1="-8.1" y1="4.5" x2="-8.1" y2="-4.5" width="0.127" layer="39"/>
+<wire x1="-8.1" y1="-4.5" x2="-4.5" y2="-4.5" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="-6.1" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="6.1" x2="-4.5" y2="4.5" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="4.5" x2="-8.1" y2="4.5" width="0.127" layer="39"/>
 </package>
 <package name="SOIC127P600X265-8" urn="urn:adsk.eagle:footprint:2899755/1" locally_modified="yes">
 <description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 2.65 mm body
@@ -713,12 +717,12 @@
 <smd name="6" x="2.4734" y="-0.635" dx="1.9685" dy="0.5991" layer="1" thermals="no"/>
 <smd name="7" x="2.4734" y="0.635" dx="1.9685" dy="0.5991" layer="1" thermals="no"/>
 <smd name="8" x="2.4734" y="1.905" dx="1.9685" dy="0.5991" layer="1" thermals="no"/>
-<text x="0" y="3.2436" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.1536" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-3.65" y1="-2.65" x2="-3.65" y2="2.65" width="0.127" layer="39"/>
-<wire x1="-3.65" y1="2.65" x2="3.65" y2="2.65" width="0.127" layer="39"/>
-<wire x1="3.65" y1="2.65" x2="3.65" y2="-2.65" width="0.127" layer="39"/>
-<wire x1="3.65" y1="-2.65" x2="-3.65" y2="-2.65" width="0.127" layer="39"/>
+<text x="0" y="2.8" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.8" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-3.9" y1="-2.7" x2="-3.9" y2="2.7" width="0.127" layer="39"/>
+<wire x1="-3.9" y1="2.7" x2="3.9" y2="2.7" width="0.127" layer="39"/>
+<wire x1="3.9" y1="2.7" x2="3.9" y2="-2.7" width="0.127" layer="39"/>
+<wire x1="3.9" y1="-2.7" x2="-3.9" y2="-2.7" width="0.127" layer="39"/>
 </package>
 <package name="SOT229P700X180-4" urn="urn:adsk.eagle:footprint:2900308/1" locally_modified="yes">
 <description>4-SOT223, 2.3 mm pitch, 7 mm span, 6.5 X 3.5 X 1.8 mm body
@@ -823,15 +827,15 @@
 </packages3d>
 <symbols>
 <symbol name="VREG-LINEAR-FIXED">
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="VI" x="-10.16" y="0" visible="pad" length="short"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
-<pin name="VO" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
-<text x="0" y="5.842" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="4.318" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<pin name="VI" x="-10.16" y="0" visible="pad" length="short" direction="pwr"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="VO" x="10.16" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="4.826" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="3.048" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
 <text x="-6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
 <text x="6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
 <text x="0" y="-4.445" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
@@ -878,13 +882,13 @@
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="VIN" x="-10.16" y="2.54" visible="pad" length="short"/>
-<pin name="!SHDN" x="-10.16" y="0" visible="pad" length="short"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
-<pin name="SENSE" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
-<pin name="VOUT" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
-<text x="0" y="4.318" size="0.6096" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<text x="0" y="6.096" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<pin name="VIN" x="-10.16" y="2.54" visible="pad" length="short" direction="pwr"/>
+<pin name="!SHDN" x="-10.16" y="0" visible="pad" length="short" direction="pwr"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="SENSE" x="10.16" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="VOUT" x="10.16" y="2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="5.334" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="7.112" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="-6.985" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
 <text x="-6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-left">!SHDN</text>
 <text x="0" y="-4.445" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
@@ -914,20 +918,22 @@
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
-<pin name="VIN" x="-10.16" y="2.54" visible="pad" length="short"/>
-<pin name="!EN" x="-10.16" y="-2.54" visible="pad" length="short"/>
-<pin name="VOUT" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="VIN" x="-10.16" y="2.54" visible="pad" length="short" direction="pwr"/>
+<pin name="!EN" x="-10.16" y="-2.54" visible="pad" length="short" direction="pwr"/>
+<pin name="VOUT" x="10.16" y="2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
 <pin name="FB/NC" x="-10.16" y="0" visible="pad" length="short"/>
 <text x="-6.985" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
 <text x="-6.985" y="-2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-left">!EN</text>
 <text x="6.985" y="2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
 <text x="-6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" rot="R180" align="center-right">FB/NC</text>
 <text x="0" y="-4.445" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
-<text x="0" y="6.096" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="4.318" size="0.6096" layer="95" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<pin name="PG" x="10.16" y="-2.54" visible="pad" length="short" rot="R180"/>
+<text x="0" y="7.366" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="5.588" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<pin name="PG" x="10.16" y="-2.54" visible="pad" length="short" direction="nc" rot="R180"/>
 <text x="6.985" y="-2.54" size="1.27" layer="97" font="vector" ratio="10" align="center-right">PG</text>
+<text x="10.16" y="-2.54" size="1.27" layer="97" font="vector" ratio="10">NC</text>
+<text x="-10.16" y="0" size="1.27" layer="97" font="vector" ratio="10" align="bottom-right">NC</text>
 </symbol>
 <symbol name="VREG_TPS73633">
 <pin name="IN" x="-12.7" y="5.08" length="middle"/>

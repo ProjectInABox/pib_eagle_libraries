@@ -69,7 +69,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -465,12 +465,12 @@
 <wire x1="0.525" y1="0.325" x2="0.525" y2="-0.325" width="0.12" layer="51"/>
 <smd name="A" x="-0.3701" y="0" dx="0.4098" dy="0.55" layer="1" thermals="no"/>
 <smd name="K" x="0.3701" y="0" dx="0.4098" dy="0.55" layer="1" thermals="no"/>
-<text x="-0.127" y="1.224" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.127" y="-1.224" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="-0.85" y1="-0.5" x2="-0.85" y2="0.5" width="0.127" layer="39"/>
-<wire x1="-0.85" y1="0.5" x2="0.85" y2="0.5" width="0.127" layer="39"/>
-<wire x1="0.85" y1="0.5" x2="0.85" y2="-0.5" width="0.127" layer="39"/>
-<wire x1="0.85" y1="-0.5" x2="-0.85" y2="-0.5" width="0.127" layer="39"/>
+<text x="0" y="0.7" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.7" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.127" layer="39"/>
+<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.127" layer="39"/>
+<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.127" layer="39"/>
+<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.127" layer="39"/>
 <circle x="-1.2899" y="0" radius="0.075" width="0" layer="21"/>
 </package>
 <package name="SODFL3516X170" urn="urn:adsk.eagle:footprint:2939217/1" locally_modified="yes">
@@ -485,18 +485,18 @@
 <wire x1="1.4" y1="0.9" x2="1.4" y2="-0.9" width="0.12" layer="51"/>
 <smd name="A" x="-1.4894" y="0" dx="1.1364" dy="1.8153" layer="1" thermals="no"/>
 <smd name="K" x="1.4894" y="0" dx="1.1364" dy="1.8153" layer="1" thermals="no"/>
-<text x="-0.157" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.157" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.4" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <circle x="-2.8499" y="0" radius="0.075" width="0" layer="21"/>
-<wire x1="-2.4" y1="-1.15" x2="2.4" y2="-1.15" width="0.127" layer="39"/>
-<wire x1="2.4" y1="-1.15" x2="2.4" y2="1.15" width="0.127" layer="39"/>
-<wire x1="2.4" y1="1.15" x2="-2.4" y2="1.15" width="0.127" layer="39"/>
-<wire x1="-2.4" y1="1.15" x2="-2.4" y2="-1.15" width="0.127" layer="39"/>
+<wire x1="-2.5" y1="-1.2" x2="2.5" y2="-1.2" width="0.127" layer="39"/>
+<wire x1="2.5" y1="-1.2" x2="2.5" y2="1.2" width="0.127" layer="39"/>
+<wire x1="2.5" y1="1.2" x2="-2.5" y2="1.2" width="0.127" layer="39"/>
+<wire x1="-2.5" y1="1.2" x2="-2.5" y2="-1.2" width="0.127" layer="39"/>
 </package>
 <package name="SOTFL65P209X90-3" urn="urn:adsk.eagle:footprint:2940071/1" locally_modified="yes">
 <description>3-SOTFL, 0.65 mm pitch, 2.1 mm span, 2 X 1.6 X 0.9 mm body
 &lt;p&gt;3-pin SOTFL package with 0.65 mm pitch, 2.1 mm span with body size 2 X 1.6 X 0.9 mm&lt;/p&gt;</description>
-<circle x="-1.065" y="1.1975" radius="0.075" width="0" layer="21"/>
+<circle x="-0.965" y="1.3975" radius="0.075" width="0" layer="21"/>
 <wire x1="-0.83" y1="1.1825" x2="0.83" y2="1.1825" width="0.12" layer="21"/>
 <wire x1="-0.83" y1="-1.1825" x2="0.83" y2="-1.1825" width="0.12" layer="21"/>
 <wire x1="0.83" y1="-1.03" x2="-0.83" y2="-1.03" width="0.12" layer="51"/>
@@ -506,12 +506,16 @@
 <smd name="1" x="-0.9575" y="0.65" dx="0.6851" dy="0.4371" layer="1" thermals="no"/>
 <smd name="2" x="-0.9575" y="-0.65" dx="0.6851" dy="0.4371" layer="1" thermals="no"/>
 <smd name="3" x="0.9575" y="0" dx="0.6851" dy="0.4371" layer="1" thermals="no"/>
-<text x="0" y="1.9075" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.8175" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-1.6" y1="-1.2" x2="1.6" y2="-1.2" width="0.127" layer="39"/>
-<wire x1="1.6" y1="-1.2" x2="1.6" y2="1.2" width="0.127" layer="39"/>
-<wire x1="1.6" y1="1.2" x2="-1.6" y2="1.2" width="0.127" layer="39"/>
-<wire x1="-1.6" y1="1.2" x2="-1.6" y2="-1.2" width="0.127" layer="39"/>
+<text x="0" y="1.4" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-1.6" y1="-1.3" x2="1" y2="-1.3" width="0.127" layer="39"/>
+<wire x1="1.5" y1="-0.5" x2="1.5" y2="0.5" width="0.127" layer="39"/>
+<wire x1="1" y1="1.3" x2="-1.6" y2="1.3" width="0.127" layer="39"/>
+<wire x1="-1.6" y1="1.3" x2="-1.6" y2="-1.3" width="0.127" layer="39"/>
+<wire x1="1.5" y1="0.5" x2="1" y2="0.5" width="0.127" layer="39"/>
+<wire x1="1" y1="0.5" x2="1" y2="1.3" width="0.127" layer="39"/>
+<wire x1="1" y1="-1.3" x2="1" y2="-0.5" width="0.127" layer="39"/>
+<wire x1="1" y1="-0.5" x2="1.5" y2="-0.5" width="0.127" layer="39"/>
 </package>
 <package name="SOT-723">
 <wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.06" layer="51"/>
@@ -638,8 +642,8 @@
 </symbol>
 <symbol name="DIODE_GENERAL-PURPOSE">
 <wire x1="-1.524" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="2.286" y="-0.762" size="0.8128" layer="95" font="vector" ratio="10">&gt;NAME</text>
-<text x="2.286" y="-1.778" size="0.8128" layer="96" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<text x="2.286" y="-0.762" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="2.286" y="-1.778" size="1.27" layer="96" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <pin name="A" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="K" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <wire x1="0" y1="0" x2="1.524" y2="0" width="0.254" layer="94"/>
@@ -683,8 +687,8 @@
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
 <pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<text x="3.048" y="0.762" size="0.8128" layer="95" font="vector" ratio="10" align="center-left">&gt;NAME</text>
-<text x="3.048" y="-0.508" size="0.6096" layer="96" font="vector" ratio="10" align="center-left">&gt;VALUE</text>
+<text x="3.048" y="0.508" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="3.048" y="-0.508" size="1.27" layer="96" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </symbol>
 <symbol name="MOSFET_P-CHANNEL">
 <wire x1="0" y1="0.762" x2="0" y2="0" width="0.254" layer="94"/>
@@ -970,7 +974,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER_NCHAN" prefix="Q" uservalue="yes">
+<deviceset name="POWER_NCHAN" prefix="NFET" uservalue="yes">
 <description>Collection of Power MOSFET</description>
 <gates>
 <gate name="G$1" symbol="MOSFET_N-CHANNEL" x="0" y="0"/>
