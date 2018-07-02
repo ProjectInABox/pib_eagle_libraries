@@ -669,14 +669,14 @@
 <wire x1="-0.85" y1="-0.45" x2="-0.85" y2="0.45" width="0.12" layer="51"/>
 <wire x1="-0.85" y1="0.45" x2="0.85" y2="0.45" width="0.12" layer="51"/>
 <wire x1="0.85" y1="0.45" x2="0.85" y2="-0.45" width="0.12" layer="51"/>
-<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="39"/>
-<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="39"/>
-<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="39"/>
-<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="39"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="39"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="39"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="39"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="39"/>
 <smd name="A" x="-0.7346" y="0" dx="0.96" dy="0.9291" layer="1" thermals="no"/>
 <smd name="K" x="0.7346" y="0" dx="0.96" dy="0.9291" layer="1" thermals="no"/>
-<text x="-0.389" y="1.4136" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="-0.389" y="-1.4136" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="1" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
 <package name="LEDC2012X120_LED-0805" urn="urn:adsk.eagle:footprint:2966316/2" locally_modified="yes">
 <description>CHIP, 2 X 1.25 X 1.2 mm body

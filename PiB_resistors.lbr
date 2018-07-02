@@ -403,12 +403,12 @@
 <wire x1="0.85" y1="0.45" x2="0.85" y2="-0.45" width="0.12" layer="51"/>
 <smd name="1" x="-0.8204" y="0" dx="0.7884" dy="0.9291" layer="1" thermals="no"/>
 <smd name="2" x="0.8204" y="0" dx="0.7884" dy="0.9291" layer="1" thermals="no"/>
-<text x="0" y="1.4136" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.4136" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-1.5" y1="-0.7" x2="1.5" y2="-0.7" width="0.127" layer="39"/>
-<wire x1="1.5" y1="-0.7" x2="1.5" y2="0.7" width="0.127" layer="39"/>
-<wire x1="1.5" y1="0.7" x2="-1.5" y2="0.7" width="0.127" layer="39"/>
-<wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.127" layer="39"/>
+<text x="0" y="1" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-1.5" y1="-0.8" x2="1.5" y2="-0.8" width="0.127" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="1.5" y2="0.8" width="0.127" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="-1.5" y2="0.8" width="0.127" layer="39"/>
+<wire x1="-1.5" y1="0.8" x2="-1.5" y2="-0.8" width="0.127" layer="39"/>
 </package>
 <package name="RESC2012X60_SMD-0805" urn="urn:adsk.eagle:footprint:3034997/1" locally_modified="yes">
 <description>CHIP, 2 X 1.25 X 0.6 mm body
@@ -491,8 +491,8 @@
 <wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
-<text x="0" y="-1.27" size="0.8128" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<text x="0" y="1.2446" size="0.8128" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.2446" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
@@ -1535,7 +1535,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="0.75Ω">
+<deviceset name="0.75Ω" prefix="R">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1562,7 +1562,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1.8KΩ">
+<deviceset name="1.8KΩ" prefix="R">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
