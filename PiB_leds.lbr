@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1530,7 +1530,21 @@
 <connect gate="G$1" pin="K" pad="TX_K"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_EMITTER" value="https://dammedia.osram.info/media/resource/hires/osram-dam-2496274/SFH%204545.pdf" constant="no"/>
+<attribute name="DATASHEET_RECEIVER" value="http://www.vishay.com/docs/81549/teft4300.pdf" constant="no"/>
+<attribute name="DISTLINK_EMITTER" value="https://www.digikey.com/products/en?keywords=475-2919-ND" constant="no"/>
+<attribute name="DISTLINK_RECEIVER" value="https://www.digikey.com/products/en?keywords=751-1041-ND" constant="no"/>
+<attribute name="DISTPN_EMITTER" value="475-2919-ND" constant="no"/>
+<attribute name="DISTPN_RECEIVER" value="751-1041-ND" constant="no"/>
+<attribute name="DIST_EMITTER" value="Digikey" constant="no"/>
+<attribute name="DIST_RECEIVER" value="Digikey" constant="no"/>
+<attribute name="MFR_EMITTER" value="OSRAM Opto Semiconductors Inc." constant="no"/>
+<attribute name="MFR_RECEIVER" value="Vishay Semiconductor Opto Division" constant="no"/>
+<attribute name="MPN_EMITTER" value="SFH 4545" constant="no"/>
+<attribute name="MPN_RECEIVER" value="TEFT4300" constant="no"/>
+<attribute name="VALUE" value="IR Vertical Sensor Mount" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

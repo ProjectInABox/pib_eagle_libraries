@@ -3752,27 +3752,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <gate name="G$1" symbol="6PINCONNECTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="PTH-RA" package="FTDI_BASIC-6PIN-MALE-RA">
-<connects>
-<connect gate="G$1" pin="CTS" pad="CTS"/>
-<connect gate="G$1" pin="DTR" pad="DTR"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RXI" pad="RXI"/>
-<connect gate="G$1" pin="TXO" pad="TXO"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/68015.pdf"/>
-<attribute name="DIST" value="Digikey"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=609-3327-ND" constant="no"/>
-<attribute name="DISTPN" value="609-3327-ND"/>
-<attribute name="MFR" value="Amphenol FCI"/>
-<attribute name="MPN" value="68016-406HLF"/>
-<attribute name="PRICE" value="0.33"/>
-</technology>
-</technologies>
-</device>
 <device name="_PTH_RA-MALE" package="FTDI_BASIC-6PIN-MALE-RA">
 <connects>
 <connect gate="G$1" pin="CTS" pad="CTS"/>
@@ -3787,11 +3766,17 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/DEV-09873_Web.pdf" constant="no"/>
 <attribute name="DATASHEET_CONNECTOR" value="https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68015.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1104-ND" constant="no"/>
 <attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=609-3327-ND" constant="no"/>
+<attribute name="DISTPN" value="1568-1104-ND" constant="no"/>
 <attribute name="DISTPN_CONNECTOR" value="609-3327-ND" constant="no"/>
 <attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="SparkFun Electronics" constant="no"/>
 <attribute name="MFR_CONNECTOR" value="Amphenol FCI" constant="no"/>
+<attribute name="MPN" value="DEV-09873" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="68016-406HLF" constant="no"/>
 <attribute name="VALUE" value="FTDI" constant="no"/>
 </technology>
@@ -3811,12 +3796,18 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/DEV-09873_Web.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC06SAAN" constant="no"/>
-<attribute name="DISTPN" value="S1012E-06-ND" constant="no"/>
-<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="PEC06SAAN" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1104-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PEC06SAAN" constant="no"/>
+<attribute name="DISTPN" value="1568-1104-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S1012E-06-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="SparkFun Electronics" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="DEV-09873" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PEC06SAAN" constant="no"/>
 <attribute name="VALUE" value="FTDI" constant="no"/>
 </technology>
 </technologies>

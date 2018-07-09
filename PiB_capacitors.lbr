@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -529,8 +529,8 @@
 <wire x1="-0.525" y1="-0.25" x2="-0.525" y2="0.25" width="0.12" layer="51"/>
 <wire x1="-0.525" y1="0.25" x2="0.525" y2="0.25" width="0.12" layer="51"/>
 <wire x1="0.525" y1="0.25" x2="0.525" y2="-0.25" width="0.12" layer="51"/>
-<smd name="1" x="-0.4575" y="0" dx="0.5851" dy="0.6118" layer="1"/>
-<smd name="2" x="0.4575" y="0" dx="0.5851" dy="0.6118" layer="1"/>
+<smd name="1" x="-0.4575" y="0" dx="0.5851" dy="0.6118" layer="1" thermals="no"/>
+<smd name="2" x="0.4575" y="0" dx="0.5851" dy="0.6118" layer="1" thermals="no"/>
 <text x="0" y="0.7" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.7" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-1" y1="0.6" x2="-1" y2="-0.6" width="0.127" layer="39"/>
@@ -547,8 +547,8 @@
 <wire x1="-1.75" y1="-1.35" x2="-1.75" y2="1.35" width="0.12" layer="51"/>
 <wire x1="-1.75" y1="1.35" x2="1.75" y2="1.35" width="0.12" layer="51"/>
 <wire x1="1.75" y1="1.35" x2="1.75" y2="-1.35" width="0.12" layer="51"/>
-<smd name="1" x="-1.475" y="0" dx="1.2603" dy="2.7153" layer="1"/>
-<smd name="2" x="1.475" y="0" dx="1.2603" dy="2.7153" layer="1"/>
+<smd name="1" x="-1.475" y="0" dx="1.2603" dy="2.7153" layer="1" thermals="no"/>
+<smd name="2" x="1.475" y="0" dx="1.2603" dy="2.7153" layer="1" thermals="no"/>
 <text x="0" y="1.9" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.9" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-2.4" y1="1.7" x2="-2.4" y2="-1.7" width="0.127" layer="39"/>
@@ -765,12 +765,12 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=JMK105CBJ106MV-F&amp;fileName=JMK105CBJ106MV-F_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DATASHEET" value="https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-5868-1-ND" constant="no"/>
-<attribute name="DISTPN" value="587-5868-1-ND" constant="no"/>
-<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
-<attribute name="MPN" value="JMK105CBJ106MV-F" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-13233-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-13233-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM155C80J106ME11D" constant="no"/>
 <attribute name="VALUE" value="10uF/6.3V" constant="no"/>
 </technology>
 </technologies>
@@ -805,12 +805,12 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=LMK107BBJ106MALT&amp;fileName=LMK107BBJ106MALT_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A106MPNNHBC.jsp" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3258-1-ND" constant="no"/>
-<attribute name="DISTPN" value="587-3258-1-ND" constant="no"/>
-<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
-<attribute name="MPN" value="LMK107BBJ106MALT" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1276-6775-1-ND" constant="no"/>
+<attribute name="DISTPN" value="1276-6775-1-ND" constant="no"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" constant="no"/>
+<attribute name="MPN" value="CL10A106MPNNHBC" constant="no"/>
 <attribute name="VALUE" value="10uF/10V" constant="no"/>
 </technology>
 </technologies>
@@ -832,12 +832,12 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" constant="no"/>
-<attribute name="DISTPN" value="445-12213-1-ND" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-173610-1-ND" constant="no"/>
+<attribute name="DISTPN" value="445-173610-1-ND" constant="no"/>
 <attribute name="MFR" value="TDK Corporation" constant="no"/>
-<attribute name="MPN" value="CGA2B3X5R1H104K050BB" constant="no"/>
+<attribute name="MPN" value="C1005X7R1H104K050BE" constant="no"/>
 <attribute name="VALUE" value="0.1uF/50V" constant="no"/>
 </technology>
 </technologies>
@@ -872,12 +872,12 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_hightemp_en.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-1245-1-ND" constant="no"/>
-<attribute name="DISTPN" value="587-1245-1-ND" constant="no"/>
-<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
-<attribute name="MPN" value="TMK107BJ104KA-T" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-5885-1-ND" constant="no"/>
+<attribute name="DISTPN" value="445-5885-1-ND" constant="no"/>
+<attribute name="MFR" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="CGA3E2X8R1E104K080AA" constant="no"/>
 <attribute name="VALUE" value="0.1uF/25V" constant="no"/>
 </technology>
 </technologies>
@@ -965,12 +965,12 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C2A120JA01-01.pdf" constant="no"/>
+<attribute name="DATASHEET" value="http://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-7300-1-ND" constant="no"/>
-<attribute name="DISTPN" value="490-7300-1-ND" constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
-<attribute name="MPN" value="GRM1555C2A120JA01D" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-5001-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-5001-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="HMK105CG120JV-F" constant="no"/>
 <attribute name="VALUE" value="12pF/100V" constant="no"/>
 </technology>
 </technologies>
@@ -1072,13 +1072,13 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGB3B3JB1C105K055AB.pdf" constant="no"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A105KB8NNNC.jsp" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-13234-1-ND" constant="no"/>
-<attribute name="DISTPN" value="445-13234-1-ND" constant="no"/>
-<attribute name="MFR" value="TDK Corporation" constant="no"/>
-<attribute name="MPN" value="CGB3B3JB1C105K055AB" constant="no"/>
-<attribute name="VALUE" value="1uF/16V" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1276-1860-1-ND" constant="no"/>
+<attribute name="DISTPN" value="1276-1860-1-ND" constant="no"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics" constant="no"/>
+<attribute name="MPN" value="CL10A105KB8NNNC" constant="no"/>
+<attribute name="VALUE" value="1uF/50V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1549,13 +1549,13 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=EMK107BJ225KA-T&amp;fileName=EMK107BJ225KA-T_SS&amp;mode=specSheetDownload" constant="no"/>
+<attribute name="DATASHEET" value="https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-1430-1-ND" constant="no"/>
-<attribute name="DISTPN" value="587-1430-1-ND" constant="no"/>
-<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
-<attribute name="MPN" value="EMK107BJ225KA-T" constant="no"/>
-<attribute name="VALUE" value="2.2uF/16V" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-7204-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-7204-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM188R6YA225KA12D" constant="no"/>
+<attribute name="VALUE" value="2.2uF/35V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1623,13 +1623,13 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc01_hq_e.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3152-1-ND" constant="no"/>
-<attribute name="DISTPN" value="587-3152-1-ND" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3432-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-3432-1-ND" constant="no"/>
 <attribute name="MFR" value="Taiyo Yuden" constant="no"/>
-<attribute name="MPN" value="EMK325ABJ107MM-T" constant="no"/>
-<attribute name="VALUE" value="100uF/16V" constant="no"/>
+<attribute name="MPN" value="LMK325ABJ107MMHT" constant="no"/>
+<attribute name="VALUE" value="100uF/10V" constant="no"/>
 </technology>
 </technologies>
 </device>

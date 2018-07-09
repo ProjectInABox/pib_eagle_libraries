@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2493,47 +2493,6 @@ VCC    : 3.3V - 5.25V</text>
 <gate name="G$1" symbol="CD74HC4067-SM96_16:1_MUX-DEMUX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SSOP-24">
-<connects>
-<connect gate="G$1" pin="!EN" pad="15"/>
-<connect gate="G$1" pin="C0" pad="9"/>
-<connect gate="G$1" pin="C1" pad="8"/>
-<connect gate="G$1" pin="C10" pad="21"/>
-<connect gate="G$1" pin="C11" pad="20"/>
-<connect gate="G$1" pin="C12" pad="19"/>
-<connect gate="G$1" pin="C13" pad="18"/>
-<connect gate="G$1" pin="C14" pad="17"/>
-<connect gate="G$1" pin="C15" pad="16"/>
-<connect gate="G$1" pin="C2" pad="7"/>
-<connect gate="G$1" pin="C3" pad="6"/>
-<connect gate="G$1" pin="C4" pad="5"/>
-<connect gate="G$1" pin="C5" pad="4"/>
-<connect gate="G$1" pin="C6" pad="3"/>
-<connect gate="G$1" pin="C7" pad="2"/>
-<connect gate="G$1" pin="C8" pad="23"/>
-<connect gate="G$1" pin="C9" pad="22"/>
-<connect gate="G$1" pin="GND" pad="12"/>
-<connect gate="G$1" pin="S0" pad="10"/>
-<connect gate="G$1" pin="S1" pad="11"/>
-<connect gate="G$1" pin="S2" pad="14"/>
-<connect gate="G$1" pin="S3" pad="13"/>
-<connect gate="G$1" pin="SIG" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="24"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-9226-1-ND" constant="no"/>
-<attribute name="DISTPN" value="296-9226-1-ND" constant="no"/>
-<attribute name="MFR" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="CD74HC4067SM96" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="CH16_MUX-DEMUX" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_SOP-24_16:1-MUX-DEMUX" package="SOP65P780X200-24">
 <connects>
 <connect gate="G$1" pin="!EN" pad="15"/>
@@ -2565,7 +2524,14 @@ VCC    : 3.3V - 5.25V</text>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:2900211/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-9226-1-ND" constant="no"/>
+<attribute name="DISTPN" value="296-9226-1-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="CD74HC4067SM96" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2658,7 +2624,7 @@ VCC    : 3.3V - 5.25V</text>
 <attribute name="DATASHEET" value="https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=568-11925-1-ND" constant="no"/>
-<attribute name="DISTPN" value="NXP USA Inc." constant="no"/>
+<attribute name="DISTPN" value="568-11925-1-ND" constant="no"/>
 <attribute name="MFR" value="NXP USA Inc." constant="no"/>
 <attribute name="MPN" value="PCA9685PW,118" constant="no"/>
 <attribute name="VALUE" value="PCA9685" constant="no"/>
