@@ -572,7 +572,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FLEX-SENSOR" prefix="LIPO" uservalue="yes">
+<deviceset name="FLEX_SENSOR" prefix="LIPO" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="FSR" x="0" y="0"/>
 </gates>
@@ -711,6 +711,165 @@
 <attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM1720-ND" constant="no"/>
 <attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM1142CT-ND" constant="no"/>
 <attribute name="DISTPN" value="SEN-08606" constant="no"/>
+<attribute name="DISTPN_CONNECTOR1" value="WM1742-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR2" value="WM1720-ND" constant="no"/>
+<attribute name="DISTPN_CRIMP" value="WM1142CT-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR1" value="Digikey" constant="no"/>
+<attribute name="DIST_CONNECTOR2" value="Digikey" constant="no"/>
+<attribute name="DIST_CRIMP" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Spectra Symbol" constant="no"/>
+<attribute name="MFR_CONNECTOR1" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CONNECTOR2" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CRIMP" value="Molex, LLC" constant="no"/>
+<attribute name="MPN" value="FS-L-0095-103-ST" constant="no"/>
+<attribute name="MPN_CONNECTOR1" value="0530480210" constant="no"/>
+<attribute name="MPN_CONNECTOR2" value="51021-0200" constant="no"/>
+<attribute name="MPN_CRIMP" value="0500798000" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FORCE-SENSITIVE-RESISTOR_SENSOR" prefix="LIPO" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FSR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_FSR-5MM_89401_RA-MALE_PITCH-2MM" package="_MOLEX-89401_RA_PITCH-2MM">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2971487/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://cdn2.hubspot.net/hubfs/3899023/Interlinkelectronics%20November2017/Docs/Datasheet_FSR.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR1" value="https://www.molex.com/pdm_docs/sd/894010210_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR2" value="https://www.molex.com/pdm_docs/sd/873690200_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CRIMP" value="https://www.molex.com/pdm_docs/sd/502128000_sd.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1027-1014-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=WM14854-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM10118-ND" constant="no"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM4561CT-ND" constant="no"/>
+<attribute name="DISTPN" value="1027-1014-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR1" value="WM14854-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR2" value="WM10118-ND" constant="no"/>
+<attribute name="DISTPN_CRIMP" value="WM4561CT-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR1" value="Digikey" constant="no"/>
+<attribute name="DIST_CONNECTOR2" value="Digikey" constant="no"/>
+<attribute name="DIST_CRIMP" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Spectra Symbol" constant="no"/>
+<attribute name="MFR_CONNECTOR1" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CONNECTOR2" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CRIMP" value="Molex, LLC" constant="no"/>
+<attribute name="MPN" value="FS-L-0095-103-ST" constant="no"/>
+<attribute name="MPN_CONNECTOR1" value="0894010210" constant="no"/>
+<attribute name="MPN_CONNECTOR2" value="0873690200" constant="no"/>
+<attribute name="MPN_CRIMP" value="50212-8000" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_FSR-5MM_89400_VERT-MALE_PITCH-2MM" package="_MOLEX-89400_VERT_PITCH-2MM">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2972596/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://cdn2.hubspot.net/hubfs/3899023/Interlinkelectronics%20November2017/Docs/Datasheet_FSR.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR1" value="https://www.molex.com/pdm_docs/sd/894000220_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR2" value="https://www.molex.com/pdm_docs/sd/873690200_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CRIMP" value="https://www.molex.com/pdm_docs/sd/502128000_sd.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1027-1014-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=WM4340-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM10118-ND" constant="no"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM4561CT-ND" constant="no"/>
+<attribute name="DISTPN" value="1027-1014-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR1" value="WM4340-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR2" value="WM10118-ND" constant="no"/>
+<attribute name="DISTPN_CRIMP" value="WM4561CT-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR1" value="Digikey" constant="no"/>
+<attribute name="DIST_CONNECTOR2" value="Digikey" constant="no"/>
+<attribute name="DIST_CRIMP" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Spectra Symbol" constant="no"/>
+<attribute name="MFR_CONNECTOR1" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CONNECTOR2" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CRIMP" value="Molex, LLC" constant="no"/>
+<attribute name="MPN" value="FS-L-0095-103-ST" constant="no"/>
+<attribute name="MPN_CONNECTOR1" value="0894000220" constant="no"/>
+<attribute name="MPN_CONNECTOR2" value="0873690200" constant="no"/>
+<attribute name="MPN_CRIMP" value="50212-8000" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_FSR-5MM_0530470210_VERT-MALE_PITCH-1.25MM" package="_MOLEX-0530470210_VERT_PITCH-1.25MM">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2973718/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://cdn2.hubspot.net/hubfs/3899023/Interlinkelectronics%20November2017/Docs/Datasheet_FSR.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR1" value="https://www.molex.com/pdm_docs/sd/530470210_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR2" value="https://www.molex.com/pdm_docs/sd/510210700_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CRIMP" value="https://www.molex.com/pdm_docs/sd/500798000_sd.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1027-1014-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=WM1731-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM1720-ND" constant="no"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM1142CT-ND" constant="no"/>
+<attribute name="DISTPN" value="1027-1014-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR1" value="WM1731-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR2" value="WM1720-ND" constant="no"/>
+<attribute name="DISTPN_CRIMP" value="WM1142CT-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR1" value="Digikey" constant="no"/>
+<attribute name="DIST_CONNECTOR2" value="Digikey" constant="no"/>
+<attribute name="DIST_CRIMP" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Spectra Symbol" constant="no"/>
+<attribute name="MFR_CONNECTOR1" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CONNECTOR2" value="Molex, LLC" constant="no"/>
+<attribute name="MFR_CRIMP" value="Molex, LLC" constant="no"/>
+<attribute name="MPN" value="FS-L-0095-103-ST" constant="no"/>
+<attribute name="MPN_CONNECTOR1" value="0530470210" constant="no"/>
+<attribute name="MPN_CONNECTOR2" value="51021-0200" constant="no"/>
+<attribute name="MPN_CRIMP" value="0500798000" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_FSR-5MM_0530480210_RA-MALE_PITCH-1.25MM" package="_MOLEX-0530480210_RA_PITCH-1.25MM">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2973719/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://cdn2.hubspot.net/hubfs/3899023/Interlinkelectronics%20November2017/Docs/Datasheet_FSR.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR1" value="53048-0210" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR2" value="https://www.molex.com/pdm_docs/sd/510210700_sd.pdf" constant="no"/>
+<attribute name="DATASHEET_CRIMP" value="https://www.molex.com/pdm_docs/sd/500798000_sd.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1027-1014-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR1" value="https://www.digikey.com/products/en?keywords=WM1742-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR2" value="https://www.digikey.com/products/en?keywords=WM1720-ND" constant="no"/>
+<attribute name="DISTLINK_CRIMP" value="https://www.digikey.com/products/en?keywords=WM1142CT-ND" constant="no"/>
+<attribute name="DISTPN" value="1027-1014-ND" constant="no"/>
 <attribute name="DISTPN_CONNECTOR1" value="WM1742-ND" constant="no"/>
 <attribute name="DISTPN_CONNECTOR2" value="WM1720-ND" constant="no"/>
 <attribute name="DISTPN_CRIMP" value="WM1142CT-ND" constant="no"/>
