@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3688,86 +3688,6 @@
 <gate name="G$1" symbol="ATTINYX5" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SO-8" package="SO-8">
-<connects>
-<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
-<connect gate="G$1" pin="(PCINT3/XTAL1/CLKI/!OC1B!/ADC3/D3-A3)PB3" pad="2"/>
-<connect gate="G$1" pin="(PCINT4/XTAL2/CLKO/OC1B/ADC2/D4-A2-PWM4)PB4" pad="3"/>
-<connect gate="G$1" pin="(PCINT5/!RESET!/ADC0/DW/D5-A0)PB5" pad="1"/>
-<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" pad="7"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2750522/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20SU-ND" constant="no"/>
-<attribute name="DISTPN" value="ATTINY85-20SU-ND" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATTINY85-20SU" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ATTINY85" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_DIP-8" package="DIP-8">
-<connects>
-<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
-<connect gate="G$1" pin="(PCINT3/XTAL1/CLKI/!OC1B!/ADC3/D3-A3)PB3" pad="2"/>
-<connect gate="G$1" pin="(PCINT4/XTAL2/CLKO/OC1B/ADC2/D4-A2-PWM4)PB4" pad="3"/>
-<connect gate="G$1" pin="(PCINT5/!RESET!/ADC0/DW/D5-A0)PB5" pad="1"/>
-<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" pad="7"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2750521/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=AE9986-ND" constant="no"/>
-<attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="AE9986-ND" constant="no"/>
-<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
-<attribute name="MPN" value="  ATTINY85-20PU" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="A 08-LC-TT" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ATTINY85" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DIP-8_CONNECTOR" package="DIP-8">
-<connects>
-<connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/AIN0/OC0A/!OC1A!/AREF/PCINT0/D0-PWM0)PB0" pad="5"/>
-<connect gate="G$1" pin="(PCINT3/XTAL1/CLKI/!OC1B!/ADC3/D3-A3)PB3" pad="2"/>
-<connect gate="G$1" pin="(PCINT4/XTAL2/CLKO/OC1B/ADC2/D4-A2-PWM4)PB4" pad="3"/>
-<connect gate="G$1" pin="(PCINT5/!RESET!/ADC0/DW/D5-A0)PB5" pad="1"/>
-<connect gate="G$1" pin="(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2/D2-A1)PB2" pad="7"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3645122/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="_DIP-8_ATTINY-85" package="DIP787W45P254L958H533Q8B_DIP-8_ATTINY-X5">
 <connects>
 <connect gate="G$1" pin="(MISO/DO/AIN1/OC0B/OC1A/PCINT1/D1-PWM1)PB1" pad="6"/>
@@ -3783,7 +3703,15 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:3650792/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589893" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATTINY85-20PU" constant="no"/>
+<attribute name="VALUE" value="ATtiny85" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_DIP-8_ATTINY-85_CONNECTOR" package="DIP787W45P254L831H533Q8B_DIP-8_CONNECTOR">
@@ -3801,7 +3729,21 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:3650803/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589893" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=AE9986-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY85-20PU-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="AE9986-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Assmann WSW Components" constant="no"/>
+<attribute name="MPN" value="ATTINY85-20PU" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="A 08-LC-TT" constant="no"/>
+<attribute name="VALUE" value="ATtiny85" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_SO-8_ATTINY-85V" package="SOIC127P798X216-8">

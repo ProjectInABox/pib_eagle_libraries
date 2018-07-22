@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -740,7 +740,7 @@ VVVVV
 <attribute name="MPN" value="0894010210" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="0873690200" constant="no"/>
 <attribute name="MPN_CRIMP" value="50212-8000" constant="no"/>
-<attribute name="VALUE" value="Molex RA 2mm pitch" constant="no"/>
+<attribute name="VALUE" value="7.4V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -772,7 +772,7 @@ VVVVV
 <attribute name="MPN" value="0894000220" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="0873690200" constant="no"/>
 <attribute name="MPN_CRIMP" value="50212-8000" constant="no"/>
-<attribute name="VALUE" value="Molex VERT 2mm pitch" constant="no"/>
+<attribute name="VALUE" value="7.4V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -804,7 +804,7 @@ VVVVV
 <attribute name="MPN" value="0530470210" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="51021-0200" constant="no"/>
 <attribute name="MPN_CRIMP" value="0500798000" constant="no"/>
-<attribute name="VALUE" value="Molex VERT 1.25mm pitch" constant="no"/>
+<attribute name="VALUE" value="7.4V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -836,7 +836,7 @@ VVVVV
 <attribute name="MPN" value="0530480210" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="51021-0200" constant="no"/>
 <attribute name="MPN_CRIMP" value="0500798000" constant="no"/>
-<attribute name="VALUE" value="Molex RA 1.25mm pitch" constant="no"/>
+<attribute name="VALUE" value="7.4V" constant="no"/>
 </technology>
 </technologies>
 </device>

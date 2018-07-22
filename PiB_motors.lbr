@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -561,6 +561,33 @@ MOTOR</text>
 <wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
 <pin name="VCC" x="7.62" y="2.54" length="middle" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="MOTOR">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="+" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="3.556" y="0.508" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="3.556" y="-0.508" size="0.635" layer="96" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="0" y1="-0.127" x2="-0.508" y2="0.635" width="0.254" layer="94" curve="90"/>
+<wire x1="-0.508" y1="0.635" x2="-1.27" y2="-0.127" width="0.254" layer="94" curve="90"/>
+<wire x1="-1.27" y1="-0.127" x2="-0.762" y2="-0.635" width="0.254" layer="94" curve="90"/>
+<wire x1="-0.762" y1="-0.635" x2="0" y2="-0.127" width="0.254" layer="94" curve="90"/>
+<wire x1="1.27" y1="0.127" x2="0.762" y2="0.635" width="0.254" layer="94" curve="90"/>
+<wire x1="0.762" y1="0.635" x2="0" y2="-0.127" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-0.127" x2="0.508" y2="-0.635" width="0.254" layer="94" curve="90"/>
+<wire x1="0.508" y1="-0.635" x2="1.27" y2="0.127" width="0.254" layer="94" curve="90"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="2.54"/>
+<vertex x="-0.762" y="3.048"/>
+<vertex x="0.762" y="3.048"/>
+<vertex x="0.762" y="2.54"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="-3.048"/>
+<vertex x="-0.762" y="-2.54"/>
+<vertex x="0.762" y="-2.54"/>
+<vertex x="0.762" y="-3.048"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FAULHABER" prefix="MTR" uservalue="yes">
@@ -733,6 +760,30 @@ MOTOR</text>
 <attribute name="MPN_CONNECTOR-FEMALE" value="855" constant="no"/>
 <attribute name="MPN_ENCODER" value="3081" constant="no"/>
 <attribute name="VALUE" value="6V 30:1 12-CPR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOTOR" prefix="MOTOR">
+<gates>
+<gate name="G$1" symbol="MOTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SIZE-130" package="CONNECTOR_MOTOR">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.pololu.com/product/1117/specs" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.pololu.com/product/1117" constant="no"/>
+<attribute name="DISTPN" value="1117" constant="no"/>
+<attribute name="MFR" value="Pololu" constant="no"/>
+<attribute name="MPN" value="1117" constant="no"/>
+<attribute name="VALUE" value="800mA/6V" constant="no"/>
 </technology>
 </technologies>
 </device>
