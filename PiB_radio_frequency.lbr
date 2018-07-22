@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -597,62 +597,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <gate name="G$1" symbol="BLUETOOTH_HM-10" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1X06-RA-FEMALE" package="1X06-RA-FEMALE_CONNECTOR_BLUETOOTH_HM-10">
-<connects>
-<connect gate="G$1" pin="BRK" pad="BRK"/>
-<connect gate="G$1" pin="GND" pad="TX"/>
-<connect gate="G$1" pin="RX" pad="VCC"/>
-<connect gate="G$1" pin="STATE" pad="STATE"/>
-<connect gate="G$1" pin="TX" pad="GND"/>
-<connect gate="G$1" pin="VCC" pad="RX"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://fab.cba.mit.edu/classes/863.15/doc/tutorials/programming/bluetooth/bluetooth40_en.pdf" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
-<attribute name="DIST" value="Amazon" constant="no"/>
-<attribute name="DISTLINK" value="https://www.amazon.com/SunFounder-Bluetooth-Master-Module-Arduino/dp/B00V07U93U" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-receptacles-female-sockets/315?k=S5442-ND" constant="no"/>
-<attribute name="DISTPN" value="BC24838" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="S5442-ND" constant="no"/>
-<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="JNHuaMao Technology Company " constant="no"/>
-<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="HM-10" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="PPTC061LGBN-RC" constant="no"/>
-<attribute name="VALUE" value="HM-10" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="1X06-VERT-FEMALE" package="1X06-VERT-FEMALE_CONNECTOR_BLUETOOTH_HM-10">
-<connects>
-<connect gate="G$1" pin="BRK" pad="STATE"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RX" pad="RX"/>
-<connect gate="G$1" pin="STATE" pad="BRK"/>
-<connect gate="G$1" pin="TX" pad="TX"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://fab.cba.mit.edu/classes/863.15/doc/tutorials/programming/bluetooth/bluetooth40_en.pdf" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
-<attribute name="DIST" value="Amazon" constant="no"/>
-<attribute name="DISTLINK" value="https://www.amazon.com/SunFounder-Bluetooth-Master-Module-Arduino/dp/B00V07U93U" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PPTC061LFBN-RC" constant="no"/>
-<attribute name="DISTPN" value="BC24838" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="S7004-ND" constant="no"/>
-<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="JNHuaMao Technology Company " constant="no"/>
-<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="HM-10" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="PPTC061LFBN-RC" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="HM-10" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_1X06_PTH_RA_FEMALE" package="1X06-RA-FEMALE_CONNECTOR_BLUETOOTH_HM-10">
 <connects>
 <connect gate="G$1" pin="BRK" pad="BRK"/>
@@ -667,6 +611,18 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DATASHEET" value="http://fab.cba.mit.edu/classes/863.15/doc/tutorials/programming/bluetooth/bluetooth40_en.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/drawings/78_P(N)PxCxx1LGBN-RC,_10493-G.pdf" constant="no"/>
+<attribute name="DIST" value="Amazon" constant="no"/>
+<attribute name="DISTLINK" value="https://www.amazon.com/SunFounder-Bluetooth-Master-Module-Arduino/dp/B00V07U93U" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PPTC061LGBN-RC" constant="no"/>
+<attribute name="DISTPN" value="BC24838" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S5442-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="JNHuaMao Technology Company" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="HM-10" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PPTC061LGBN-RC" constant="no"/>
 <attribute name="VALUE" value="HM-10" constant="no"/>
 </technology>
 </technologies>
@@ -684,7 +640,21 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <package3dinstance package3d_urn="urn:adsk.eagle:package:3729593/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="http://fab.cba.mit.edu/classes/863.15/doc/tutorials/programming/bluetooth/bluetooth40_en.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf" constant="no"/>
+<attribute name="DIST" value="Amazon" constant="no"/>
+<attribute name="DISTLINK" value="https://www.amazon.com/SunFounder-Bluetooth-Master-Module-Arduino/dp/B00V07U93U" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PPTC061LFBN-RC" constant="no"/>
+<attribute name="DISTPN" value="BC24838" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S7004-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="JNHuaMao Technology Company" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="HM-10" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PPTC061LFBN-RC" constant="no"/>
+<attribute name="VALUE" value="HM-10" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
