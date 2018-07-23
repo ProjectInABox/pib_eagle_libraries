@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1224,7 +1224,10 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="BLUE" value="https://www.digikey.com/products/en?keywords=754-1807-ND" constant="no"/>
 <attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
+<attribute name="GREEN" value="https://www.digikey.com/products/en?keywords=754-1808-ND" constant="no"/>
+<attribute name="RED" value="https://www.digikey.com/products/en?keywords=754-1761-ND" constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
 </technology>
 </technologies>
