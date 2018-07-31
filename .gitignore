@@ -2,6 +2,8 @@
 
 !PiB*.lbr
 
+!MetadataUpdater.py
+
 !.gitignore
 
 !lib_swirly.lbr
