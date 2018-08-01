@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1044,8 +1044,8 @@
 <pad name="6" x="3.937" y="-1.27" drill="0.723" diameter="1.446"/>
 <pad name="7" x="3.937" y="1.27" drill="0.723" diameter="1.446"/>
 <pad name="8" x="3.937" y="3.81" drill="0.723" diameter="1.446"/>
-<text x="0" y="5.8605" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.715" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="5.4" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.4" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-5.08" y1="5.08" x2="-1" y2="5.08" width="0.127" layer="21"/>
 <wire x1="1" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
@@ -1114,8 +1114,8 @@
 <pad name="12" x="3.97" y="2.54" drill="0.7385" diameter="1.477"/>
 <pad name="13" x="3.97" y="5.08" drill="0.7385" diameter="1.477"/>
 <pad name="14" x="3.97" y="7.62" drill="0.7385" diameter="1.477"/>
-<text x="0" y="10.475" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.475" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="9.184" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.2" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-5.08" y1="8.89" x2="-5.08" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-8.89" x2="5.08" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-8.89" x2="5.08" y2="8.89" width="0.127" layer="21"/>
@@ -1227,8 +1227,8 @@
 <pad name="18" x="3.97" y="6.35" drill="0.7385" diameter="1.477"/>
 <pad name="19" x="3.97" y="8.89" drill="0.7385" diameter="1.477"/>
 <pad name="20" x="3.97" y="11.43" drill="0.7385" diameter="1.477"/>
-<text x="0" y="13.625" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-13.625" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="13" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13.1" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="-5.08" y1="12.7" x2="-5.08" y2="-12.7" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-12.7" x2="5.08" y2="12.7" width="0.127" layer="21"/>
