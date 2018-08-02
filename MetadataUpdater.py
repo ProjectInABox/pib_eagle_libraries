@@ -217,6 +217,6 @@ if __name__ == '__main__':
     files = globEagleLibraries(receivedFile[0][0])
     for toUpdate in tqdm(files, ascii=True, desc='File'):
       updateMetadata(toUpdate)
-    print('\n\n\nFinished')
-    if error_evaluated:
-      print('\t Check log.txt for warnings')
+  print('\n\n\33[100mFinished\033[0m')
+  if error_evaluated:
+    print('\33[100m'+'\t Check log.txt for warnings'+'\033[0m')
