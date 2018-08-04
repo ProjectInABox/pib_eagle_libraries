@@ -836,7 +836,7 @@
 <smd name="62" x="-2.75" y="4.6447" dx="1.2" dy="0.264" layer="1" roundness="100" rot="R90"/>
 <smd name="63" x="-3.25" y="4.6447" dx="1.2" dy="0.264" layer="1" roundness="100" rot="R90"/>
 <smd name="64" x="-3.75" y="4.6447" dx="1.2" dy="0.264" layer="1" roundness="100" rot="R90"/>
-<smd name="EP" x="0" y="0" dx="5.65" dy="4.75" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="EP" x="0" y="0" dx="5.65" dy="4.75" layer="1" roundness="5" thermals="no"/>
 <text x="0" y="5.7" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.7" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <pad name="P$1" x="-1.5" y="1.5" drill="0.254" stop="no" thermals="no"/>

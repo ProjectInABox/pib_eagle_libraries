@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -826,7 +826,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="VREG-LINEAR-FIXED">
+<symbol name="VREG-LINEAR">
 <wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -838,7 +838,7 @@
 <text x="0" y="2.032" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <text x="-6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
 <text x="6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
-<text x="0" y="-4.445" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
+<text x="0" y="-4.445" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND/ADJ</text>
 </symbol>
 <symbol name="VREG-SWITCHING_LMZ2678T">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -1079,7 +1079,7 @@
 <devicesets>
 <deviceset name="VREG_LINEAR_FIXED" prefix="VREG" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR-FIXED" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_LM340MP-5_1.5A-5V" package="SOT223-4">
@@ -1741,7 +1741,7 @@
 <deviceset name="VREG_LINEAR_MCP1700" prefix="VREG" uservalue="yes">
 <description>&lt;b&gt;&lt;big&gt;MCP1700 Voltage Regulator Series&lt;/b&gt;&lt;/big&gt;</description>
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR-FIXED" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_SOT-23_" package="SOT95P237X112-3_SOT-23-3">
@@ -1799,7 +1799,7 @@
 </deviceset>
 <deviceset name="VREG_TL1963A-XX_1.5A_LN_LDO_FAST-TRANSIENT">
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR-FIXED" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_SOT-223-4_TL1963A-33_1.5A-3.3V" package="SOT229P700X180-4">
@@ -1903,6 +1903,34 @@
 <attribute name="MFR" value="Rohm Semiconductor" constant="no"/>
 <attribute name="MPN" value="BD60GC0WEFJ-E2" constant="no"/>
 <attribute name="VALUE" value="BD60GC0WEFJ 1A/6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM1117-X_LINEAR_LDO" prefix="VREG">
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_LM1117-5.0_800MA-5V" package="SOT229P700X180-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VI" pad="3"/>
+<connect gate="G$1" pin="VO" pad="2 4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2900305/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lm1117.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LM1117IMPX-5.0%2FNOPBCT-ND" constant="no"/>
+<attribute name="DISTPN" value="LM1117IMPX-5.0/NOPBCT-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM1117IMPX-5.0/NOPB" constant="no"/>
+<attribute name="VALUE" value="LM1117-5.0 800mA/5V" constant="no"/>
 </technology>
 </technologies>
 </device>
