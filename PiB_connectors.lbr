@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2377,6 +2377,32 @@
 <wire x1="22.1" y1="-14.4" x2="22.1" y2="2.6" width="0.127" layer="39"/>
 <wire x1="22.1" y1="2.6" x2="-22.1" y2="2.6" width="0.127" layer="39"/>
 </package>
+<package name="HDRVR4W75P254_1X4_1066X254X850B" urn="urn:adsk.eagle:footprint:4517832/1" locally_modified="yes">
+<description>Single-row, 4-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 10.66 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X4), 4-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.75 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 10.66 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<wire x1="9.315" y1="-1.27" x2="-1.695" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="-1.695" y1="-1.27" x2="-1.695" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.695" y1="1.27" x2="9.315" y2="1.27" width="0.12" layer="21"/>
+<wire x1="9.315" y1="1.27" x2="9.315" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="9.315" y1="-1.27" x2="-1.695" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="-1.695" y1="-1.27" x2="-1.695" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.695" y1="1.27" x2="9.315" y2="1.27" width="0.12" layer="51"/>
+<wire x1="9.315" y1="1.27" x2="9.315" y2="-1.27" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.02" diameter="2.04"/>
+<pad name="2" x="2.54" y="0" drill="1.02" diameter="2.04"/>
+<pad name="3" x="5.08" y="0" drill="1.02" diameter="2.04"/>
+<pad name="4" x="7.62" y="0" drill="1.02" diameter="2.04"/>
+<text x="0" y="1.4" size="0.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="-1.4" size="0.25" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="-1.8" y1="1.4" x2="-1.8" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="-1.8" y1="-1.4" x2="9.4" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="9.4" y1="-1.4" x2="9.4" y2="1.4" width="0.127" layer="39"/>
+<wire x1="9.4" y1="1.4" x2="-1.8" y2="1.4" width="0.127" layer="39"/>
+<wire x1="-1.2" y1="1.2" x2="-1.2" y2="-1.2" width="0.127" layer="40"/>
+<wire x1="-1.2" y1="-1.2" x2="8.8" y2="-1.2" width="0.127" layer="40"/>
+<wire x1="8.8" y1="-1.2" x2="8.8" y2="1.2" width="0.127" layer="40"/>
+<wire x1="8.8" y1="1.2" x2="-1.2" y2="1.2" width="0.127" layer="40"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X06-RA-MALE" urn="urn:adsk.eagle:package:2993097/2" locally_modified="yes" type="model">
@@ -2492,6 +2518,13 @@
 <package3d name="1X06-VERT-FEMALE" urn="urn:adsk.eagle:package:4269504/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="1X06-VERT-FEMALE"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRVR4W75P254_1X4_1066X254X850B" urn="urn:adsk.eagle:package:4517829/1" locally_modified="yes" type="model">
+<description>Single-row, 4-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 10.66 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X4), 4-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.75 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 10.66 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRVR4W75P254_1X4_1066X254X850B"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3489,27 +3522,6 @@ CARD</text>
 <gate name="G$1" symbol="1X04" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_VERT-FEMALE" package="1X04-VERT-FEMALE">
-<connects>
-<connect gate="G$1" pin="1" pad="4"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="3" pad="2"/>
-<connect gate="G$1" pin="4" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=PPPC041LFBN-RC&amp;v=35" constant="no"/>
-<attribute name="DISTPN" value="S7037-ND " constant="no"/>
-<attribute name="MFR" value="Sullins Connector Solutions " constant="no"/>
-<attribute name="MPN" value="PPPC041LFBN-RC " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="1x04-VERT-FEMALE" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_VERT-MALE_2.54MM" package="1X04-VERT-MALE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -3529,6 +3541,22 @@ CARD</text>
 <attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="PEC04SAAN" constant="no"/>
 <attribute name="VALUE" value="1x04 VERT MALE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH_VERT-FEMALE_2.54MM" package="HDRVR4W75P254_1X4_1066X254X850B">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4517829/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?mpart=PPPC041LFBN-RC&amp;v=35" constant="no"/>
+<attribute name="DISTPN" value="S7037-ND" constant="no"/>
+<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PPPC041LFBN-RC" constant="no"/>
+<attribute name="VALUE" value="1x04 VERT FEMALE" constant="no"/>
 </technology>
 </technologies>
 </device>

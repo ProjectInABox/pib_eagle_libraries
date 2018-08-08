@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1089,25 +1089,6 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-805_250V-5%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E220JW01-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21A5C2E220JW01D/490-5534-1-ND/2334930" constant="no"/>
-<attribute name="DISTPN" value="490-5534-1-ND " constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
-<attribute name="MPN" value="GRM21A5C2E220JW01D " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="22PF/250V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_CER_SMD-0402-100V-5%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1148,6 +1129,25 @@
 </technology>
 </technologies>
 </device>
+<device name="_CER_SMD-0805_250V-5%" package="CAPC2012X95_SMD-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2940050/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E220JW01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTPN" value="490-5534-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM21A5C2E220JW01D" constant="no"/>
+<attribute name="VALUE" value="22pF/250V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="0.75PF" prefix="C" uservalue="yes">
@@ -1155,25 +1155,6 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-805_100V-33%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2AR75CB01-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GQM2195C2AR75CB01D/490-3585-1-ND/789585" constant="no"/>
-<attribute name="DISTPN" value="490-3585-1-ND " constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
-<attribute name="MPN" value="GQM2195C2AR75CB01D " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="0.75PF/100V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_CER_SMD-0402_50V-33%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1210,6 +1191,26 @@
 <attribute name="DISTPN" value="490-3552-1-ND" constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GQM1885C2AR75CB01D" constant="no"/>
+<attribute name="VALUE" value="0.75pF/100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CER_SMD-0805_100V-33%" package="CAPC2012X95_SMD-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2940050/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2AR75CB01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-3585-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-3585-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GQM2195C2AR75CB01D" constant="no"/>
 <attribute name="VALUE" value="0.75pF/100V" constant="no"/>
 </technology>
 </technologies>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -320,6 +320,20 @@
 <wire x1="1.7" y1="-1.05" x2="-1.7" y2="-1.05" width="0.127" layer="39"/>
 <wire x1="-1.7" y1="-1.05" x2="-1.7" y2="1.05" width="0.127" layer="39"/>
 </package>
+<package name="INDC2012X145" urn="urn:adsk.eagle:footprint:4582451/1">
+<description>Chip, 2.00 X 1.25 X 1.45 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
+<wire x1="1.1" y1="1.0467" x2="-1.1" y2="1.0467" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-1.0467" x2="-1.1" y2="-1.0467" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.12" layer="51"/>
+<wire x1="1.1" y1="0.725" x2="1.1" y2="-0.725" width="0.12" layer="51"/>
+<smd name="1" x="-0.925" y="0" dx="1.0653" dy="1.4653" layer="1"/>
+<smd name="2" x="0.925" y="0" dx="1.0653" dy="1.4653" layer="1"/>
+<text x="0" y="1.6817" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.6817" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="_AXIAL_L22.9-D11.4" urn="urn:adsk.eagle:package:2752786/2" type="model">
@@ -357,6 +371,13 @@
 <packageinstance name="INDC2012X100"/>
 </packageinstances>
 </package3d>
+<package3d name="INDC2012X145" urn="urn:adsk.eagle:package:4582448/1" type="model">
+<description>Chip, 2.00 X 1.25 X 1.45 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDC2012X145"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="INDUCTOR">
@@ -391,27 +412,6 @@
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-805_0.5A-0.65OHM-10%" package="_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2752787/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=CB2012T100KR&amp;fileName=CB2012T100KR_SS&amp;mode=specSheetDownload" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2452-1-ND" constant="no"/>
-<attribute name="DISTPN" value="587-2452-1-ND" constant="no"/>
-<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
-<attribute name="MPN" value="CB2012T100KR" constant="no"/>
-<attribute name="VALUE" value="10uH" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_SMD-0603_0.38A-0.468OHM-10%" package="INDC1608X60">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -429,6 +429,26 @@
 <attribute name="MFR" value="Taiyo Yuden" constant="no"/>
 <attribute name="MPN" value="Taiyo Yuden" constant="no"/>
 <attribute name="VALUE" value="10uH/380mA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0805_0.5A-0.65OHM-10%" package="INDC2012X145">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4582448/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/wound02_e.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2452-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-2452-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="CB2012T100KR" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
 </technology>
 </technologies>
 </device>

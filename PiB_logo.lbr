@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="15" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -9723,7 +9723,7 @@
 <wire x1="24.631640625" y1="29.421340625" x2="23.462109375" y2="30.01391875" width="0.01" layer="20"/>
 </package>
 <package name="PIB_LOGO_30MM">
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="9.1888625" y="14.9568375"/>
 <vertex x="7.2689375" y="14.5724625"/>
 <vertex x="5.355265625" y="14.1556625"/>
@@ -9768,7 +9768,7 @@
 <vertex x="10.8064375" y="12.537303125"/>
 <vertex x="10.358784375" y="14.364259375"/>
 </polygon>
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="11.41425" y="9.9431625"/>
 <vertex x="10.49471875" y="9.9431625"/>
 <vertex x="10.6408125" y="9.30488125"/>
@@ -9785,7 +9785,7 @@
 <vertex x="12.0876875" y="7.0412125"/>
 <vertex x="11.663471875" y="8.87363125"/>
 </polygon>
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="-13.42325" y="0.03418125"/>
 <vertex x="-13.303328125" y="-0.506446875"/>
 <vertex x="-12.8998125" y="-2.281053125"/>
@@ -9800,7 +9800,7 @@
 <vertex x="-12.261534375" y="-0.863475"/>
 <vertex x="-12.4623125" y="0.03418125"/>
 </polygon>
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="-10.7048875" y="-7.637303125"/>
 <vertex x="-11.682234375" y="-7.637303125"/>
 <vertex x="-11.2861375" y="-9.37988125"/>
@@ -9874,7 +9874,7 @@
 <vertex x="-10.652159375" y="-7.863878125"/>
 <vertex x="-10.70489375" y="-7.6373125"/>
 </polygon>
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="-8.542" y="-7.637303125"/>
 <vertex x="-6.90254375" y="-7.637303125"/>
 <vertex x="-6.90254375" y="-7.484959375"/>
@@ -9902,7 +9902,7 @@
 <vertex x="-8.537725" y="-6.5111125"/>
 <vertex x="-8.542025" y="-7.6372875"/>
 </polygon>
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="-2.514265625" y="-7.637303125"/>
 <vertex x="-1.1841875" y="-7.637303125"/>
 <vertex x="-1.1841875" y="-6.972459375"/>
@@ -9918,7 +9918,7 @@
 <vertex x="-2.514265625" y="-5.387696875"/>
 <vertex x="-2.514265625" y="-7.149025"/>
 </polygon>
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="0.411515625" y="-7.637303125"/>
 <vertex x="1.87440625" y="-7.637303125"/>
 <vertex x="1.87440625" y="-6.65331875"/>
@@ -9949,7 +9949,7 @@
 <vertex x="0.41155625" y="-6.295509375"/>
 <vertex x="0.41155625" y="-7.637303125"/>
 </polygon>
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="8.87870625" y="-7.637303125"/>
 <vertex x="10.046671875" y="-7.637303125"/>
 <vertex x="9.752140625" y="-6.881446875"/>
@@ -9963,7 +9963,7 @@
 <vertex x="8.39745625" y="-5.28613125"/>
 <vertex x="8.808784375" y="-7.2212875"/>
 </polygon>
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="10.60409375" y="-7.637303125"/>
 <vertex x="11.7814375" y="-7.637303125"/>
 <vertex x="12.38534375" y="-6.387696875"/>
@@ -9979,7 +9979,7 @@
 <vertex x="11.80175" y="-5.304490625"/>
 <vertex x="11.069328125" y="-6.78456875"/>
 </polygon>
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="-13.42325" y="0.03418125"/>
 <vertex x="-12.4623125" y="0.03418125"/>
 <vertex x="-12.653715625" y="0.88886875"/>
@@ -10089,7 +10089,7 @@
 <vertex x="-13.631046875" y="0.97168125"/>
 <vertex x="-13.423234375" y="0.03418125"/>
 </polygon>
-<polygon width="0.001" layer="25">
+<polygon width="0.00126875" layer="25">
 <vertex x="-1.1841875" y="0.03418125"/>
 <vertex x="-1.1841875" y="1.658009375"/>
 <vertex x="-1.84903125" y="1.658009375"/>
