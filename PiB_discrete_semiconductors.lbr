@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -199,33 +199,6 @@
 <wire x1="-20" y1="20" x2="-20" y2="-20" width="0.127" layer="39"/>
 <text x="0" y="-8.89" size="1.27" layer="21" font="vector" ratio="10" align="center">CHECK POLARITY MARKINGS</text>
 </package>
-<package name="SOD123F">
-<smd name="K" x="1.8" y="0" dx="1.7" dy="1.9" layer="1" roundness="50" rot="R180"/>
-<smd name="A" x="-1.8" y="0" dx="1.7" dy="1.9" layer="1" roundness="50" rot="R180"/>
-<wire x1="1.75" y1="0.8" x2="-1.75" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.75" y1="-0.8" x2="-1.75" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="-0.8" x2="-1.75" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.75" y1="-0.8" x2="1.75" y2="0.8" width="0.1" layer="51"/>
-<text x="0" y="1.651" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="10" rot="R180" align="center">&gt;VALUE</text>
-<rectangle x1="-1.75" y1="-0.8" x2="-1.05" y2="0.8" layer="51"/>
-<rectangle x1="1.05" y1="-0.8" x2="1.75" y2="0.8" layer="51"/>
-<wire x1="-1.008" y1="0" x2="-0.427" y2="0" width="0.1" layer="21"/>
-<wire x1="0.377" y1="0" x2="1.008" y2="0" width="0.1" layer="21"/>
-<wire x1="-0.377" y1="0.527" x2="-0.377" y2="-0.527" width="0.1" layer="21"/>
-<wire x1="0.377" y1="0" x2="-0.377" y2="0.527" width="0.1" layer="21"/>
-<wire x1="-0.377" y1="-0.527" x2="0.377" y2="0" width="0.1" layer="21"/>
-<wire x1="0.377" y1="0.527" x2="0.377" y2="0" width="0.1" layer="21"/>
-<wire x1="0.377" y1="0" x2="0.377" y2="-0.527" width="0.1" layer="21"/>
-<wire x1="-2.794" y1="1.143" x2="2.794" y2="1.143" width="0.1" layer="21"/>
-<wire x1="2.794" y1="1.143" x2="2.794" y2="-1.143" width="0.1" layer="21"/>
-<wire x1="2.794" y1="-1.143" x2="-2.794" y2="-1.143" width="0.1" layer="21"/>
-<wire x1="-2.794" y1="-1.143" x2="-2.794" y2="1.143" width="0.1" layer="21"/>
-<wire x1="-2.921" y1="-1.27" x2="2.921" y2="-1.27" width="0.1" layer="39"/>
-<wire x1="2.921" y1="-1.27" x2="2.921" y2="1.27" width="0.1" layer="39"/>
-<wire x1="2.921" y1="1.27" x2="-2.921" y2="1.27" width="0.1" layer="39"/>
-<wire x1="-2.921" y1="1.27" x2="-2.921" y2="-1.27" width="0.1" layer="39"/>
-</package>
 <package name="D0-201AD">
 <pad name="A" x="-8" y="0" drill="1.4" diameter="2.5" shape="square"/>
 <pad name="K" x="8" y="0" drill="1.4" diameter="2.5"/>
@@ -248,24 +221,6 @@
 <wire x1="-9.5" y1="-3" x2="-9.5" y2="3" width="0.127" layer="39"/>
 <text x="0" y="3.302" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.302" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="G" x="-0.95" y="-1.3" dx="1" dy="1.5" layer="1" roundness="50"/>
-<smd name="S" x="0.95" y="-1.3" dx="1" dy="1.5" layer="1" roundness="50"/>
-<smd name="D" x="0" y="1" dx="2.9" dy="2.05" layer="1" roundness="50"/>
-<wire x1="-1.7" y1="-2.3" x2="-1.7" y2="2.3" width="0.127" layer="39"/>
-<wire x1="1.7" y1="-2.3" x2="1.7" y2="2.3" width="0.127" layer="39"/>
-<wire x1="1.7" y1="-2.3" x2="-1.7" y2="-2.3" width="0.127" layer="39"/>
-<wire x1="1.7" y1="2.3" x2="-1.7" y2="2.3" width="0.127" layer="39"/>
-<text x="0" y="3.048" size="1.27" layer="25" font="vector" ratio="10" align="center">&gt;Name</text>
 </package>
 <package name="4-SMD-DFS">
 <smd name="AC1" x="-2.55" y="-4.52" dx="1.2" dy="1.82" layer="1"/>
@@ -403,56 +358,6 @@
 <wire x1="2.3" y1="-1" x2="2.3" y2="1" width="0.127" layer="39"/>
 <wire x1="2.3" y1="1" x2="-2.3" y2="1" width="0.127" layer="39"/>
 </package>
-<package name="SC-70FL/MCPH3">
-<smd name="3" x="0" y="1.05" dx="0.5" dy="0.7" layer="1" roundness="50"/>
-<smd name="1" x="-0.65" y="-1.05" dx="0.5" dy="0.7" layer="1" roundness="50"/>
-<smd name="2" x="0.65" y="-1.05" dx="0.5" dy="0.7" layer="1" roundness="50"/>
-<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.127" layer="21"/>
-<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.127" layer="21"/>
-<circle x="-0.6" y="-0.35" radius="0.21213125" width="0" layer="21"/>
-<wire x1="-1.1" y1="0.9" x2="-0.3" y2="0.9" width="0.1524" layer="39"/>
-<wire x1="-0.3" y1="0.9" x2="-0.3" y2="1.5" width="0.1524" layer="39"/>
-<wire x1="-0.3" y1="1.5" x2="0.3" y2="1.5" width="0.1524" layer="39"/>
-<wire x1="0.3" y1="1.5" x2="0.3" y2="0.9" width="0.1524" layer="39"/>
-<wire x1="0.3" y1="0.9" x2="1.1" y2="0.9" width="0.1524" layer="39"/>
-<wire x1="1.1" y1="0.9" x2="1.1" y2="-0.9" width="0.1524" layer="39"/>
-<wire x1="1.1" y1="-0.9" x2="1" y2="-0.9" width="0.1524" layer="39"/>
-<wire x1="1" y1="-0.9" x2="1" y2="-1.5" width="0.1524" layer="39"/>
-<wire x1="1" y1="-1.5" x2="0.3" y2="-1.5" width="0.1524" layer="39"/>
-<wire x1="0.3" y1="-1.5" x2="0.3" y2="-0.9" width="0.1524" layer="39"/>
-<wire x1="0.3" y1="-0.9" x2="-0.3" y2="-0.9" width="0.1524" layer="39"/>
-<wire x1="-0.3" y1="-0.9" x2="-0.3" y2="-1.5" width="0.1524" layer="39"/>
-<wire x1="-0.3" y1="-1.5" x2="-1" y2="-1.5" width="0.1524" layer="39"/>
-<wire x1="-1" y1="-1.5" x2="-1" y2="-0.9" width="0.1524" layer="39"/>
-<wire x1="-1" y1="-0.9" x2="-1.1" y2="-0.9" width="0.1524" layer="39"/>
-<wire x1="-1.1" y1="-0.9" x2="-1.1" y2="0.9" width="0.1524" layer="39"/>
-<text x="-1.1" y="0" size="0.381" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.5" y="0" size="0.381" layer="25" rot="R90" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="SOD-923F/0402">
-<smd name="A" x="-0.425" y="0" dx="0.6" dy="0.55" layer="1" roundness="50"/>
-<smd name="K" x="0.425" y="0" dx="0.6" dy="0.55" layer="1" roundness="50"/>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.05" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.05" layer="51"/>
-<text x="0" y="0.792" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="-0.808" size="0.4064" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.05" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.05" layer="51"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
-<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
-<wire x1="-0.878" y1="0.416" x2="-0.878" y2="-0.416" width="0.1" layer="39"/>
-<wire x1="-0.878" y1="-0.416" x2="0.878" y2="-0.416" width="0.1" layer="39"/>
-<wire x1="0.878" y1="-0.416" x2="0.878" y2="0.416" width="0.1" layer="39"/>
-<wire x1="0.878" y1="0.416" x2="-0.878" y2="0.416" width="0.1" layer="39"/>
-<wire x1="-0.851" y1="0.389" x2="-0.851" y2="-0.389" width="0.1" layer="21"/>
-<wire x1="-0.851" y1="-0.389" x2="0.851" y2="-0.389" width="0.1" layer="21"/>
-<wire x1="0.851" y1="-0.389" x2="0.851" y2="0.389" width="0.1" layer="21"/>
-<wire x1="0.851" y1="0.389" x2="-0.851" y2="0.389" width="0.1" layer="21"/>
-<rectangle x1="0.546" y1="-0.389" x2="0.846" y2="0.389" layer="21"/>
-<text x="1.27" y="-0.254" size="0.6096" layer="21">-</text>
-</package>
 <package name="DFN100X60X55-2" urn="urn:adsk.eagle:footprint:2933441/1" locally_modified="yes">
 <description>DFN2, 1 X 0.6 X 0.55 mm body
 &lt;p&gt;DFN2 package with body size 1 X 0.6 X 0.55 mm&lt;/p&gt;</description>
@@ -493,85 +398,6 @@
 <wire x1="2.5" y1="1.2" x2="-2.5" y2="1.2" width="0.127" layer="39"/>
 <wire x1="-2.5" y1="1.2" x2="-2.5" y2="-1.2" width="0.127" layer="39"/>
 </package>
-<package name="SOTFL65P209X90-3" urn="urn:adsk.eagle:footprint:2940071/1" locally_modified="yes">
-<description>3-SOTFL, 0.65 mm pitch, 2.1 mm span, 2 X 1.6 X 0.9 mm body
-&lt;p&gt;3-pin SOTFL package with 0.65 mm pitch, 2.1 mm span with body size 2 X 1.6 X 0.9 mm&lt;/p&gt;</description>
-<circle x="-0.965" y="1.3975" radius="0.075" width="0" layer="21"/>
-<wire x1="-0.83" y1="1.1825" x2="0.83" y2="1.1825" width="0.12" layer="21"/>
-<wire x1="-0.83" y1="-1.1825" x2="0.83" y2="-1.1825" width="0.12" layer="21"/>
-<wire x1="0.83" y1="-1.03" x2="-0.83" y2="-1.03" width="0.12" layer="51"/>
-<wire x1="-0.83" y1="-1.03" x2="-0.83" y2="1.03" width="0.12" layer="51"/>
-<wire x1="-0.83" y1="1.03" x2="0.83" y2="1.03" width="0.12" layer="51"/>
-<wire x1="0.83" y1="1.03" x2="0.83" y2="-1.03" width="0.12" layer="51"/>
-<smd name="1" x="-0.9575" y="0.65" dx="0.6851" dy="0.4371" layer="1" thermals="no"/>
-<smd name="2" x="-0.9575" y="-0.65" dx="0.6851" dy="0.4371" layer="1" thermals="no"/>
-<smd name="3" x="0.9575" y="0" dx="0.6851" dy="0.4371" layer="1" thermals="no"/>
-<text x="0" y="1.4" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.4" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-1.6" y1="-1.3" x2="1" y2="-1.3" width="0.127" layer="39"/>
-<wire x1="1.5" y1="-0.5" x2="1.5" y2="0.5" width="0.127" layer="39"/>
-<wire x1="1" y1="1.3" x2="-1.6" y2="1.3" width="0.127" layer="39"/>
-<wire x1="-1.6" y1="1.3" x2="-1.6" y2="-1.3" width="0.127" layer="39"/>
-<wire x1="1.5" y1="0.5" x2="1" y2="0.5" width="0.127" layer="39"/>
-<wire x1="1" y1="0.5" x2="1" y2="1.3" width="0.127" layer="39"/>
-<wire x1="1" y1="-1.3" x2="1" y2="-0.5" width="0.127" layer="39"/>
-<wire x1="1" y1="-0.5" x2="1.5" y2="-0.5" width="0.127" layer="39"/>
-</package>
-<package name="SOT-723">
-<wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.06" layer="51"/>
-<wire x1="0.6" y1="0.4" x2="0.6" y2="-0.4" width="0.06" layer="51"/>
-<wire x1="0.6" y1="-0.4" x2="-0.6" y2="-0.4" width="0.06" layer="51"/>
-<wire x1="-0.6" y1="-0.4" x2="-0.6" y2="0.4" width="0.06" layer="51"/>
-<smd name="D" x="0" y="0.5" dx="0.4" dy="0.45" layer="1"/>
-<smd name="S" x="0.4" y="-0.5" dx="0.35" dy="0.45" layer="1"/>
-<smd name="G" x="-0.4" y="-0.5" dx="0.35" dy="0.45" layer="1"/>
-<text x="-0.8" y="0" size="0.254" layer="25" font="vector" ratio="5" rot="R90" align="center">&gt;NAME</text>
-<text x="0.8" y="0" size="0.254" layer="27" font="vector" ratio="5" rot="R90" align="center">&gt;VALUE</text>
-<wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.0762" layer="21"/>
-<wire x1="0.6" y1="0.4" x2="0.6" y2="-0.4" width="0.0762" layer="21"/>
-<wire x1="0.6" y1="-0.4" x2="-0.1" y2="-0.4" width="0.0762" layer="21"/>
-<wire x1="-0.1" y1="-0.4" x2="-0.6" y2="0" width="0.0762" layer="21"/>
-<wire x1="-0.6" y1="0" x2="-0.6" y2="0.4" width="0.0762" layer="21"/>
-<wire x1="-0.65" y1="0.45" x2="-0.2" y2="0.45" width="0.0762" layer="39"/>
-<wire x1="-0.2" y1="0.45" x2="-0.2" y2="0.75" width="0.0762" layer="39"/>
-<wire x1="-0.2" y1="0.75" x2="0.2" y2="0.75" width="0.0762" layer="39"/>
-<wire x1="0.2" y1="0.75" x2="0.2" y2="0.45" width="0.0762" layer="39"/>
-<wire x1="0.2" y1="0.45" x2="0.65" y2="0.45" width="0.0762" layer="39"/>
-<wire x1="0.65" y1="0.45" x2="0.65" y2="-0.45" width="0.0762" layer="39"/>
-<wire x1="0.65" y1="-0.45" x2="0.6" y2="-0.45" width="0.0762" layer="39"/>
-<wire x1="0.6" y1="-0.45" x2="0.6" y2="-0.75" width="0.0762" layer="39"/>
-<wire x1="0.6" y1="-0.75" x2="0.2" y2="-0.75" width="0.0762" layer="39"/>
-<wire x1="0.2" y1="-0.75" x2="0.2" y2="-0.45" width="0.0762" layer="39"/>
-<wire x1="0.2" y1="-0.45" x2="-0.2" y2="-0.45" width="0.0762" layer="39"/>
-<wire x1="-0.2" y1="-0.45" x2="-0.2" y2="-0.75" width="0.0762" layer="39"/>
-<wire x1="-0.2" y1="-0.75" x2="-0.6" y2="-0.75" width="0.0762" layer="39"/>
-<wire x1="-0.6" y1="-0.75" x2="-0.6" y2="-0.45" width="0.0762" layer="39"/>
-<wire x1="-0.6" y1="-0.45" x2="-0.65" y2="-0.45" width="0.0762" layer="39"/>
-<wire x1="-0.65" y1="-0.45" x2="-0.65" y2="0.45" width="0.0762" layer="39"/>
-</package>
-<package name="SOT95P287X112-3" urn="urn:adsk.eagle:footprint:3076854/1" locally_modified="yes">
-<description>3-SOT23, 0.95 mm pitch, 2.87 mm span, 2.92 X 1.3 X 1.12 mm body
-&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.87 mm span with body size 2.92 X 1.3 X 1.12 mm&lt;/p&gt;</description>
-<circle x="-2.309" y="2.1335" radius="0.25" width="0" layer="21"/>
-<wire x1="-0.7" y1="1.5625" x2="0.7" y2="1.5625" width="0.12" layer="21"/>
-<wire x1="0.7" y1="1.5625" x2="0.7" y2="0.5525" width="0.12" layer="21"/>
-<wire x1="-0.7" y1="-1.5625" x2="0.7" y2="-1.5625" width="0.12" layer="21"/>
-<wire x1="0.7" y1="-1.5625" x2="0.7" y2="-0.5525" width="0.12" layer="21"/>
-<wire x1="0.7" y1="-1.52" x2="-0.7" y2="-1.52" width="0.12" layer="51"/>
-<wire x1="-0.7" y1="-1.52" x2="-0.7" y2="1.52" width="0.12" layer="51"/>
-<wire x1="-0.7" y1="1.52" x2="0.7" y2="1.52" width="0.12" layer="51"/>
-<wire x1="0.7" y1="1.52" x2="0.7" y2="-1.52" width="0.12" layer="51"/>
-<smd name="1" x="-1.025" y="0.95" dx="1.8" dy="1" layer="1"/>
-<smd name="2" x="-1.025" y="-0.95" dx="1.8" dy="1" layer="1"/>
-<smd name="3" x="1.15" y="0" dx="2.05" dy="2.9" layer="1" stop="no"/>
-<text x="0" y="1.9" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.9" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<rectangle x1="0.6" y1="-0.5" x2="2.1" y2="0.5" layer="29"/>
-<wire x1="-2.3" y1="1.7" x2="-2.3" y2="-1.7" width="0.127" layer="39"/>
-<wire x1="-2.3" y1="-1.7" x2="2.6" y2="-1.7" width="0.127" layer="39"/>
-<wire x1="2.6" y1="-1.7" x2="2.6" y2="1.7" width="0.127" layer="39"/>
-<wire x1="2.6" y1="1.7" x2="-2.3" y2="1.7" width="0.127" layer="39"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="DFN100X60X55-2" urn="urn:adsk.eagle:package:2933421/1" locally_modified="yes" type="model">
@@ -586,20 +412,6 @@
 &lt;p&gt;SODFL package with 3.5 mm span with body size 2.6 X 1.6 X 1.7 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SODFL3516X170"/>
-</packageinstances>
-</package3d>
-<package3d name="SOTFL65P209X90-3" urn="urn:adsk.eagle:package:2940066/1" locally_modified="yes" type="model">
-<description>3-SOTFL, 0.65 mm pitch, 2.1 mm span, 2 X 1.6 X 0.9 mm body
-&lt;p&gt;3-pin SOTFL package with 0.65 mm pitch, 2.1 mm span with body size 2 X 1.6 X 0.9 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOTFL65P209X90-3"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT95P287X112-3" urn="urn:adsk.eagle:package:3076853/1" locally_modified="yes" type="model">
-<description>3-SOT23, 0.95 mm pitch, 2.87 mm span, 2.92 X 1.3 X 1.12 mm body
-&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.87 mm span with body size 2.92 X 1.3 X 1.12 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOT95P287X112-3"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -665,54 +477,6 @@
 <wire x1="-1.524" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="1.524" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.524" y1="-2.54" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
-</symbol>
-<symbol name="MOSFET_N-CHANNEL">
-<wire x1="0" y1="0.762" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0" y1="3.683" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.397" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.397" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-3.683" width="0.254" layer="94"/>
-<wire x1="-2.413" y1="2.54" x2="-2.413" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="0.254" y="0"/>
-<vertex x="1.27" y="0.762"/>
-<vertex x="1.27" y="-0.762"/>
-</polygon>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<text x="2.794" y="0.254" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
-<text x="2.794" y="-0.254" size="0.635" layer="96" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
-</symbol>
-<symbol name="MOSFET_P-CHANNEL">
-<wire x1="0" y1="0.762" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0" y1="3.683" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.397" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.397" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-3.683" width="0.254" layer="94"/>
-<wire x1="-2.413" y1="2.54" x2="-2.413" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="1.778" y="0"/>
-<vertex x="0.762" y="0.762"/>
-<vertex x="0.762" y="-0.762"/>
-</polygon>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<text x="3.048" y="0.762" size="0.8128" layer="95" font="vector" ratio="10" align="center-left">&gt;NAME</text>
-<text x="3.048" y="-0.508" size="0.6096" layer="96" font="vector" ratio="10" align="center-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -880,34 +644,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET_N-CHANNEL" prefix="Q" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="MOSFET_N-CHANNEL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_SI2302CDS_2.9A-20V-0.057OHM_" package="SOT95P287X112-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3076853/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.vishay.com/docs/63653/si2302dds.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=SI2302DDS-T1-GE3CT-ND" constant="no"/>
-<attribute name="DISTPN" value="SI2302DDS-T1-GE3CT-ND" constant="no"/>
-<attribute name="MFR" value="Vishay Siliconix" constant="no"/>
-<attribute name="MPN" value="SI2302DDS-T1-GE3" constant="no"/>
-<attribute name="VALUE" value="SI2302CDS 2.9A/20V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="DIODE_SWITCHING">
 <gates>
 <gate name="G$1" symbol="DIODE_GENERAL-PURPOSE" x="0" y="0"/>
@@ -971,61 +707,6 @@
 <attribute name="MFR" value="Diodes Incorporated" constant="no"/>
 <attribute name="MPN" value="1N4148WS-7-F" constant="no"/>
 <attribute name="VALUE" value="1.25V/150mA" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="POWER_NCHAN" prefix="NFET" uservalue="yes">
-<description>Collection of Power MOSFET</description>
-<gates>
-<gate name="G$1" symbol="MOSFET_N-CHANNEL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_MCH3474_NMOS_4A-30V" package="SOTFL65P209X90-3">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2940066/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/MCH3474.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=MCH3474-TL-WOSCT" constant="no"/>
-<attribute name="DISTPN" value="MCH3474-TL-WOSCT-ND" constant="no"/>
-<attribute name="MFR" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="MCH3474-TL-W" constant="no"/>
-<attribute name="VALUE" value="MCH3474 4A/30V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOSFET_P-CHANNEL" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="MOSFET_P-CHANNEL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SSM3J35AMFV_0.25A_10V_1.4OHM" package="SOT-723">
-<connects>
-<connect gate="G$1" pin="D" pad="D"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="S" pad="S"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="https://toshiba.semicon-storage.com/info/docget.jsp?did=56960&amp;prodName=SSM3J35AMFV" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3J35AMFVL3F/SSM3J35AMFVL3FCT-ND/8543458" constant="no"/>
-<attribute name="DISTPN" value="SSM3J35AMFVL3FCT-ND" constant="no"/>
-<attribute name="MFR" value="Toshiba Semiconductor and Storage" constant="no"/>
-<attribute name="MPN" value="SSM3J35AMFV,L3F" constant="no"/>
-<attribute name="VALUE" value="SSM3J35AMFV 250mA/10V/1.4Ω" constant="no"/>
 </technology>
 </technologies>
 </device>
