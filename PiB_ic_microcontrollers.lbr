@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1970,58 +1970,6 @@
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATMEGA328P-MNR " constant="no"/>
 <attribute name="TESTED" value="NO" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_TQFP-32" package="TQFP-32">
-<connects>
-<connect gate="A" pin="(!SS!/OC1B/PCINT2/D10-PWM10)PB2" pad="14"/>
-<connect gate="A" pin="(ADC0/PCINT8/D14-A0)PC0" pad="23"/>
-<connect gate="A" pin="(ADC1/PCINT9/D15-A1)PC1" pad="24"/>
-<connect gate="A" pin="(ADC2/PCINT10/D16-A2)PC2" pad="25"/>
-<connect gate="A" pin="(ADC3/PCINT11/D17-A3)PC3" pad="26"/>
-<connect gate="A" pin="(AIN0/OC0A/PCINT22/D6-PWM6)PD6" pad="10"/>
-<connect gate="A" pin="(AIN1/PCINT23/D7)PD7" pad="11"/>
-<connect gate="A" pin="(INT0/PCINT18/D2)PD2" pad="32"/>
-<connect gate="A" pin="(INT1/OC2B/PCINT19/D3-PWM3)PD3" pad="1"/>
-<connect gate="A" pin="(LKO/ICP1/PCINT0/D8)PB0" pad="12"/>
-<connect gate="A" pin="(MISO/PCINT4/D12)PB4" pad="16"/>
-<connect gate="A" pin="(MOSI/OC2A/PCINT3/D11-PWM11)PB3" pad="15"/>
-<connect gate="A" pin="(PCINT1/OC1A/D9-PWM9)PB1" pad="13"/>
-<connect gate="A" pin="(RXD/PCINT16/D0)PD0" pad="30"/>
-<connect gate="A" pin="(SCK/PCINT5/D13)PB5" pad="17"/>
-<connect gate="A" pin="(SCL/ADC5/PCINT13/D19-A5)PC5" pad="28"/>
-<connect gate="A" pin="(SDA/ADC4/PCINT12/D18-A4)PC4" pad="27"/>
-<connect gate="A" pin="(T0/XCK/PCINT20/D4)PD4" pad="2"/>
-<connect gate="A" pin="(T1/OC0B/PCINT21/D5-PWM5)PD5" pad="9"/>
-<connect gate="A" pin="(TXD/PCINT17/D1)PD1" pad="31"/>
-<connect gate="A" pin="ADC6" pad="19"/>
-<connect gate="A" pin="ADC7" pad="22"/>
-<connect gate="A" pin="AREF" pad="20"/>
-<connect gate="A" pin="AVCC" pad="18"/>
-<connect gate="A" pin="GND@1" pad="21"/>
-<connect gate="A" pin="GND@2" pad="3"/>
-<connect gate="A" pin="GND@3" pad="5"/>
-<connect gate="A" pin="PB6(D20*/XTAL1/TOSC1/PCINT6)" pad="7"/>
-<connect gate="A" pin="PB7(D21*/XTAL2/TOSC2/PCINT7)" pad="8"/>
-<connect gate="A" pin="PC6(D22*/PCINT14/!RESET!)" pad="29"/>
-<connect gate="A" pin="VCC@1" pad="6"/>
-<connect gate="A" pin="VCC@2" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2750533/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-AUR/ATMEGA328P-AURCT-ND/3789455" constant="no"/>
-<attribute name="DISTPN" value="ATMEGA328P-AURCT-ND " constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATMEGA328P-AUR" constant="no"/>
-<attribute name="TESTED" value="No" constant="no"/>
-<attribute name="VALUE" value="ATMEGA328P" constant="no"/>
 </technology>
 </technologies>
 </device>
