@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1941,10 +1941,10 @@
 <vertex x="4" y="-2.4"/>
 </polygon>
 </package>
-<package name="POWER_JACK_PTH_ID2.1MM-OD5.5MM" urn="urn:adsk.eagle:footprint:3034491/2">
+<package name="POWER_JACK_PTH_ID2.1MM-OD5.5MM" urn="urn:adsk.eagle:footprint:3034491/2" locally_modified="yes">
 <pad name="PWR" x="0" y="3" drill="1.3" shape="long"/>
-<pad name="GND@1" x="0" y="-3" drill="1.3" shape="long"/>
-<pad name="GND@2" x="4.7" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="GND_JACK" x="0" y="-3" drill="1.3" shape="long"/>
+<pad name="GND_BATTERY" x="4.7" y="0" drill="1.3" shape="long" rot="R90"/>
 <text x="0" y="-7.874" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-9.271" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 <wire x1="-5" y1="-16" x2="6" y2="-16" width="0.1" layer="39"/>
@@ -2388,10 +2388,10 @@
 <wire x1="-1.695" y1="-1.27" x2="-1.695" y2="1.27" width="0.12" layer="51"/>
 <wire x1="-1.695" y1="1.27" x2="9.315" y2="1.27" width="0.12" layer="51"/>
 <wire x1="9.315" y1="1.27" x2="9.315" y2="-1.27" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.02" diameter="2.04"/>
-<pad name="2" x="2.54" y="0" drill="1.02" diameter="2.04"/>
-<pad name="3" x="5.08" y="0" drill="1.02" diameter="2.04"/>
-<pad name="4" x="7.62" y="0" drill="1.02" diameter="2.04"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
+<pad name="3" x="5.08" y="0" drill="1" diameter="1.85"/>
+<pad name="4" x="7.62" y="0" drill="1" diameter="1.85"/>
 <text x="0" y="1.4" size="0.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="-1.4" size="0.25" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-1.8" y1="1.4" x2="-1.8" y2="-1.4" width="0.127" layer="39"/>
@@ -2415,11 +2415,11 @@
 <wire x1="-1.695" y1="-10.25" x2="-1.695" y2="-1.6" width="0.12" layer="51"/>
 <wire x1="-1.695" y1="-1.6" x2="11.855" y2="-1.6" width="0.12" layer="51"/>
 <wire x1="11.855" y1="-1.6" x2="11.855" y2="-10.25" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1" diameter="2"/>
-<pad name="2" x="2.54" y="0" drill="1" diameter="2"/>
-<pad name="3" x="5.08" y="0" drill="1" diameter="2"/>
-<pad name="4" x="7.62" y="0" drill="1" diameter="2"/>
-<pad name="5" x="10.16" y="0" drill="1" diameter="2"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
+<pad name="3" x="5.08" y="0" drill="1" diameter="1.85"/>
+<pad name="4" x="7.62" y="0" drill="1" diameter="1.85"/>
+<pad name="5" x="10.16" y="0" drill="1" diameter="1.85"/>
 <text x="0" y="1.3" size="0.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="-1.8" size="0.25" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-1.84" y1="-10.4" x2="12" y2="-10.4" width="0.127" layer="39"/>
@@ -2439,12 +2439,12 @@
 <wire x1="-1.695" y1="-10.25" x2="-1.695" y2="-1.6" width="0.12" layer="51"/>
 <wire x1="-1.695" y1="-1.6" x2="14.395" y2="-1.6" width="0.12" layer="51"/>
 <wire x1="14.395" y1="-1.6" x2="14.395" y2="-10.25" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.0485" diameter="2.0971"/>
-<pad name="2" x="2.54" y="0" drill="1.0485" diameter="2.0971"/>
-<pad name="3" x="5.08" y="0" drill="1.0485" diameter="2.0971"/>
-<pad name="4" x="7.62" y="0" drill="1.0485" diameter="2.0971"/>
-<pad name="5" x="10.16" y="0" drill="1.0485" diameter="2.0971"/>
-<pad name="6" x="12.7" y="0" drill="1.0485" diameter="2.0971"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
+<pad name="3" x="5.08" y="0" drill="1" diameter="1.85"/>
+<pad name="4" x="7.62" y="0" drill="1" diameter="1.85"/>
+<pad name="5" x="10.16" y="0" drill="1" diameter="1.85"/>
+<pad name="6" x="12.7" y="0" drill="1" diameter="1.85"/>
 <text x="0" y="1.3835" size="0.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="-1.785" size="0.25" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-1.85" y1="-10.4" x2="14.55" y2="-10.4" width="0.127" layer="39"/>
@@ -2464,8 +2464,8 @@
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.12" layer="51"/>
 <wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.12" layer="51"/>
 <wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1" diameter="2"/>
-<pad name="2" x="2.54" y="0" drill="1" diameter="2"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
 <text x="0" y="2.3" size="0.5" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="-1.6" size="0.25" layer="27" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-1.5" y1="-1.5" x2="4.0397" y2="-1.5" width="0.127" layer="39"/>
@@ -2485,8 +2485,8 @@
 <wire x1="-1.52" y1="-1.27" x2="-1.52" y2="1.27" width="0.12" layer="51"/>
 <wire x1="-1.52" y1="1.27" x2="4.06" y2="1.27" width="0.12" layer="51"/>
 <wire x1="4.06" y1="1.27" x2="4.06" y2="-1.27" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1" diameter="2"/>
-<pad name="2" x="2.54" y="0" drill="1" diameter="2"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
 <text x="0" y="2.3" size="0.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="0" y="-1.6" size="0.25" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-1.66" y1="-1.5" x2="4.2" y2="-1.5" width="0.127" layer="39"/>
@@ -2497,7 +2497,7 @@
 <package name="HDRV3W64P254_1X3_762X254X838B" urn="urn:adsk.eagle:footprint:4781733/1" locally_modified="yes">
 <description>Single-row, 3-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 7.62 X 2.54 X 8.38 mm body
 &lt;p&gt;Single-row (1X3), 3-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 7.62 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<circle x="0" y="1.8631" radius="0.25" width="0" layer="21"/>
+<circle x="-1.4" y="1.46" radius="0.5" width="0" layer="21"/>
 <wire x1="6.4407" y1="-1.3591" x2="-1.3607" y2="-1.3591" width="0.12" layer="21"/>
 <wire x1="-1.3607" y1="-1.3591" x2="-1.3607" y2="1.3591" width="0.12" layer="21"/>
 <wire x1="-1.3607" y1="1.3591" x2="6.4407" y2="1.3591" width="0.12" layer="21"/>
@@ -2506,17 +2506,21 @@
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.12" layer="51"/>
 <wire x1="-1.27" y1="1.27" x2="6.35" y2="1.27" width="0.12" layer="51"/>
 <wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1" diameter="2"/>
-<pad name="2" x="2.54" y="0" drill="1" diameter="2"/>
-<pad name="3" x="5.08" y="0" drill="1" diameter="2"/>
-<text x="0" y="2.3" size="0.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="-1.6" size="0.25" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
-<wire x1="-1.5" y1="-1.5" x2="6.58" y2="-1.5" width="0.127" layer="39"/>
-<wire x1="6.58" y1="-1.5" x2="6.58" y2="1.5" width="0.127" layer="39"/>
-<wire x1="6.58" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="39"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="39"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
+<pad name="3" x="5.08" y="0" drill="1" diameter="1.85"/>
+<text x="0" y="1.524" size="0.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.25" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="-1.524" y1="-1.524" x2="6.604" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="6.604" y1="-1.524" x2="6.604" y2="1.524" width="0.127" layer="39"/>
+<wire x1="6.604" y1="1.524" x2="-1.524" y2="1.524" width="0.127" layer="39"/>
+<wire x1="-1.524" y1="1.524" x2="-1.524" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="-1.143" y1="-1.143" x2="6.223" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="6.223" y1="-1.143" x2="6.223" y2="1.143" width="0.127" layer="40"/>
+<wire x1="6.223" y1="1.143" x2="-1.143" y2="1.143" width="0.127" layer="40"/>
 </package>
-<package name="HDRVR3W64P254_1X3_812X254X850B" urn="urn:adsk.eagle:footprint:4781757/1">
+<package name="HDRVR3W64P254_1X3_812X254X850B" urn="urn:adsk.eagle:footprint:4781757/1" locally_modified="yes">
 <description>Single-row, 3-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 8.12 X 2.54 X 8.50 mm body
 &lt;p&gt;Single-row (1X3), 3-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 8.12 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <circle x="0" y="1.8631" radius="0.25" width="0" layer="21"/>
@@ -2528,11 +2532,168 @@
 <wire x1="-1.52" y1="-1.27" x2="-1.52" y2="1.27" width="0.12" layer="51"/>
 <wire x1="-1.52" y1="1.27" x2="6.6" y2="1.27" width="0.12" layer="51"/>
 <wire x1="6.6" y1="1.27" x2="6.6" y2="-1.27" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.1051" diameter="2.2102"/>
-<pad name="2" x="2.54" y="0" drill="1.1051" diameter="2.2102"/>
-<pad name="3" x="5.08" y="0" drill="1.1051" diameter="2.2102"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
+<pad name="3" x="5.08" y="0" drill="1" diameter="1.85"/>
 <text x="0" y="2.7481" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.9941" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="HDRV6W64P254_2X3_762X483X838B_AVR-ISP" urn="urn:adsk.eagle:footprint:4860722/1" locally_modified="yes">
+<description>Double-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 7.62 X 4.83 X 8.38 mm body
+&lt;p&gt;Double-row (2X3), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 7.62 X 4.83 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-1.2" y="1.2" radius="0.5" width="0" layer="21"/>
+<wire x1="6.4407" y1="-3.8991" x2="-1.3607" y2="-3.8991" width="0.12" layer="21"/>
+<wire x1="-1.3607" y1="-3.8991" x2="-1.3607" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="-1.3607" y1="1.3591" x2="6.4407" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="6.4407" y1="1.3591" x2="6.4407" y2="-3.8991" width="0.12" layer="21"/>
+<wire x1="6.35" y1="-3.685" x2="-1.27" y2="-3.685" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-3.685" x2="-1.27" y2="1.145" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="1.145" x2="6.35" y2="1.145" width="0.12" layer="51"/>
+<wire x1="6.35" y1="1.145" x2="6.35" y2="-3.685" width="0.12" layer="51"/>
+<pad name="VCC" x="0" y="0" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="MOSI" x="2.54" y="0" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="GND" x="5.08" y="0" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="RESET" x="5.08" y="-2.54" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="SCK" x="2.54" y="-2.54" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="MISO" x="0" y="-2.54" drill="1" diameter="1.85" shape="octagon"/>
+<text x="-1.524" y="-1.27" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="6.604" y="-1.27" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<wire x1="-1.524" y1="-4.064" x2="6.604" y2="-4.064" width="0.127" layer="39"/>
+<wire x1="6.604" y1="-4.064" x2="6.604" y2="1.524" width="0.127" layer="39"/>
+<wire x1="6.604" y1="1.524" x2="-1.524" y2="1.524" width="0.127" layer="39"/>
+<wire x1="-1.524" y1="1.524" x2="-1.524" y2="-4.064" width="0.127" layer="39"/>
+<wire x1="-1.143" y1="-3.683" x2="6.223" y2="-3.683" width="0.127" layer="40"/>
+<wire x1="6.223" y1="-3.683" x2="6.223" y2="1.143" width="0.127" layer="40"/>
+<wire x1="6.223" y1="1.143" x2="-1.143" y2="1.143" width="0.127" layer="40"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="-3.683" width="0.127" layer="40"/>
+<text x="0" y="1.524" size="0.5" layer="21" font="vector" ratio="10" align="bottom-center">VCC</text>
+<text x="2.54" y="1.524" size="0.5" layer="21" font="vector" ratio="10" align="bottom-center">MOSI</text>
+<text x="5.08" y="1.524" size="0.5" layer="21" font="vector" ratio="10" align="bottom-center">GND</text>
+<text x="0" y="-4.064" size="0.5" layer="21" font="vector" ratio="10" align="top-center">MISO</text>
+<text x="2.54" y="-4.064" size="0.5" layer="21" font="vector" ratio="10" align="top-center">SCK</text>
+<text x="5.08" y="-4.064" size="0.5" layer="21" font="vector" ratio="10" align="top-center">RESET</text>
+</package>
+<package name="HDRV6W64P254_2X3_762X483X838B" urn="urn:adsk.eagle:footprint:4860760/1" locally_modified="yes">
+<description>Double-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 7.62 X 4.83 X 8.38 mm body
+&lt;p&gt;Double-row (2X3), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 7.62 X 4.83 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-1.3" y="1.2" radius="0.5" width="0" layer="21"/>
+<wire x1="6.4407" y1="-3.8991" x2="-1.3607" y2="-3.8991" width="0.12" layer="21"/>
+<wire x1="-1.3607" y1="-3.8991" x2="-1.3607" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="-1.3607" y1="1.3591" x2="6.4407" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="6.4407" y1="1.3591" x2="6.4407" y2="-3.8991" width="0.12" layer="21"/>
+<wire x1="6.35" y1="-3.685" x2="-1.27" y2="-3.685" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-3.685" x2="-1.27" y2="1.145" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="1.145" x2="6.35" y2="1.145" width="0.12" layer="51"/>
+<wire x1="6.35" y1="1.145" x2="6.35" y2="-3.685" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="3" x="5.08" y="0" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="4" x="5.08" y="-2.54" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="5" x="2.54" y="-2.54" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="6" x="0" y="-2.54" drill="1" diameter="1.85" shape="octagon"/>
+<text x="-0.019" y="1.557" size="0.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="-4.119" size="0.25" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="-1.524" y1="-4.064" x2="6.604" y2="-4.064" width="0.127" layer="39"/>
+<wire x1="6.604" y1="-4.064" x2="6.604" y2="1.524" width="0.127" layer="39"/>
+<wire x1="6.604" y1="1.524" x2="-1.524" y2="1.524" width="0.127" layer="39"/>
+<wire x1="-1.524" y1="1.524" x2="-1.524" y2="-4.064" width="0.127" layer="39"/>
+<wire x1="-1.143" y1="-3.683" x2="6.223" y2="-3.683" width="0.127" layer="40"/>
+<wire x1="6.223" y1="-3.683" x2="6.223" y2="1.143" width="0.127" layer="40"/>
+<wire x1="6.223" y1="1.143" x2="-1.143" y2="1.143" width="0.127" layer="40"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="-3.683" width="0.127" layer="40"/>
+</package>
+<package name="HDRV6W64P254_1X6_1524X254X838B_FTDI" urn="urn:adsk.eagle:footprint:4862716/1" locally_modified="yes">
+<description>Single-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 15.24 X 2.54 X 8.38 mm body
+&lt;p&gt;Single-row (1X6), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 15.24 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-1.4" y="1.36" radius="0.5" width="0" layer="21"/>
+<wire x1="14.0607" y1="-1.3591" x2="-1.3607" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="-1.3607" y1="-1.3591" x2="-1.3607" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="-1.3607" y1="1.3591" x2="14.0607" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="14.0607" y1="1.3591" x2="14.0607" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="13.97" y1="-1.27" x2="-1.27" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="13.97" y2="1.27" width="0.12" layer="51"/>
+<wire x1="13.97" y1="1.27" x2="13.97" y2="-1.27" width="0.12" layer="51"/>
+<pad name="DTR" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="RX" x="2.54" y="0" drill="1" diameter="1.85"/>
+<pad name="TX" x="5.08" y="0" drill="1" diameter="1.85"/>
+<pad name="VCC" x="7.62" y="0" drill="1" diameter="1.85"/>
+<pad name="CTS" x="10.16" y="0" drill="1" diameter="1.85"/>
+<pad name="GND" x="12.7" y="0" drill="1" diameter="1.85"/>
+<text x="-1.6" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="14.3" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<wire x1="-1.524" y1="1.524" x2="-1.524" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="-1.524" y1="-1.524" x2="14.224" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="14.224" y1="-1.524" x2="14.224" y2="1.524" width="0.127" layer="39"/>
+<wire x1="14.224" y1="1.524" x2="-1.524" y2="1.524" width="0.127" layer="39"/>
+<wire x1="-1.0922" y1="1.143" x2="-1.0922" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="-1.0922" y1="-1.143" x2="13.843" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="13.843" y1="-1.143" x2="13.843" y2="1.143" width="0.127" layer="40"/>
+<wire x1="13.843" y1="1.143" x2="-1.0922" y2="1.143" width="0.127" layer="40"/>
+<text x="0" y="-1.476" size="0.5" layer="21" font="vector" ratio="10" align="top-center">DTR</text>
+<text x="2.54" y="-1.476" size="0.5" layer="21" font="vector" ratio="10" align="top-center">RX</text>
+<text x="5.08" y="-1.476" size="0.5" layer="21" font="vector" ratio="10" align="top-center">TX</text>
+<text x="7.62" y="-1.476" size="0.5" layer="21" font="vector" ratio="10" align="top-center">VCC</text>
+<text x="10.16" y="-1.476" size="0.5" layer="21" font="vector" ratio="10" align="top-center">CTS</text>
+<text x="12.7" y="-1.476" size="0.5" layer="21" font="vector" ratio="10" align="top-center">GND</text>
+</package>
+<package name="HDRV6W64P254_1X6_1524X254X838B" urn="urn:adsk.eagle:footprint:4862720/1" locally_modified="yes">
+<description>Single-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 15.24 X 2.54 X 8.38 mm body
+&lt;p&gt;Single-row (1X6), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 15.24 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-1.4" y="1.36" radius="0.5" width="0" layer="21"/>
+<wire x1="14.0607" y1="-1.3591" x2="-1.3607" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="-1.3607" y1="-1.3591" x2="-1.3607" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="-1.3607" y1="1.3591" x2="14.0607" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="14.0607" y1="1.3591" x2="14.0607" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="13.97" y1="-1.27" x2="-1.27" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="13.97" y2="1.27" width="0.12" layer="51"/>
+<wire x1="13.97" y1="1.27" x2="13.97" y2="-1.27" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
+<pad name="3" x="5.08" y="0" drill="1" diameter="1.85"/>
+<pad name="4" x="7.62" y="0" drill="1" diameter="1.85"/>
+<pad name="5" x="10.16" y="0" drill="1" diameter="1.85"/>
+<pad name="6" x="12.7" y="0" drill="1" diameter="1.85"/>
+<text x="0" y="1.6" size="0.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="-1.6" size="0.25" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="-1.524" y1="1.524" x2="-1.524" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="-1.524" y1="-1.524" x2="14.224" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="14.224" y1="-1.524" x2="14.224" y2="1.524" width="0.127" layer="39"/>
+<wire x1="14.224" y1="1.524" x2="-1.524" y2="1.524" width="0.127" layer="39"/>
+<wire x1="-1.0922" y1="1.143" x2="-1.0922" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="-1.0922" y1="-1.143" x2="13.843" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="13.843" y1="-1.143" x2="13.843" y2="1.143" width="0.127" layer="40"/>
+<wire x1="13.843" y1="1.143" x2="-1.0922" y2="1.143" width="0.127" layer="40"/>
+</package>
+<package name="HDRVR6W64P254_1X6_1574X254X850B" urn="urn:adsk.eagle:footprint:4862726/1" locally_modified="yes">
+<description>Single-row, 6-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 15.74 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X6), 6-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 15.74 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-1.6" y="1.36" radius="0.5" width="0" layer="21"/>
+<wire x1="14.22" y1="-1.3591" x2="-1.52" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="-1.3591" x2="-1.52" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="1.3591" x2="14.22" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="14.22" y1="1.3591" x2="14.22" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="14.22" y1="-1.27" x2="-1.52" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="-1.27" x2="-1.52" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="1.27" x2="14.22" y2="1.27" width="0.12" layer="51"/>
+<wire x1="14.22" y1="1.27" x2="14.22" y2="-1.27" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
+<pad name="3" x="5.08" y="0" drill="1" diameter="1.85"/>
+<pad name="4" x="7.62" y="0" drill="1" diameter="1.85"/>
+<pad name="5" x="10.16" y="0" drill="1" diameter="1.85"/>
+<pad name="6" x="12.7" y="0" drill="1" diameter="1.85"/>
+<text x="0" y="1.6" size="0.5" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="-1.6" size="0.25" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="-1.651" y1="-1.524" x2="14.351" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="14.351" y1="-1.524" x2="14.351" y2="1.524" width="0.127" layer="39"/>
+<wire x1="14.351" y1="1.524" x2="-1.651" y2="1.524" width="0.127" layer="39"/>
+<wire x1="-1.651" y1="1.524" x2="-1.651" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="-1.143" y1="-1.143" x2="13.843" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="13.843" y1="-1.143" x2="13.843" y2="1.143" width="0.127" layer="40"/>
+<wire x1="13.843" y1="1.143" x2="-1.143" y2="1.143" width="0.127" layer="40"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="-1.143" width="0.127" layer="40"/>
 </package>
 </packages>
 <packages3d>
@@ -2556,7 +2717,7 @@
 <packageinstance name="2X03-VERT-MALE"/>
 </packageinstances>
 </package3d>
-<package3d name="POWER_JACK_PTH_ID2.1MM-OD5.5MM" urn="urn:adsk.eagle:package:3034525/4" type="model">
+<package3d name="POWER_JACK_PTH_ID2.1MM-OD5.5MM" urn="urn:adsk.eagle:package:3034525/4" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="POWER_JACK_PTH_ID2.1MM-OD5.5MM"/>
 </packageinstances>
@@ -2693,11 +2854,46 @@
 <packageinstance name="HDRV3W64P254_1X3_762X254X838B"/>
 </packageinstances>
 </package3d>
-<package3d name="HDRVR3W64P254_1X3_812X254X850B" urn="urn:adsk.eagle:package:4781756/1" type="model">
+<package3d name="HDRVR3W64P254_1X3_812X254X850B" urn="urn:adsk.eagle:package:4781756/1" locally_modified="yes" type="model">
 <description>Single-row, 3-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 8.12 X 2.54 X 8.50 mm body
 &lt;p&gt;Single-row (1X3), 3-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 8.12 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="HDRVR3W64P254_1X3_812X254X850B"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRV6W64P254_2X3_762X483X838B" urn="urn:adsk.eagle:package:4860635/1" locally_modified="yes" type="model">
+<description>Double-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 7.62 X 4.83 X 8.38 mm body
+&lt;p&gt;Double-row (2X3), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 7.62 X 4.83 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRV6W64P254_2X3_762X483X838B_AVR-ISP"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRV6W64P254_2X3_762X483X838B" urn="urn:adsk.eagle:package:4860757/1" locally_modified="yes" type="model">
+<description>Double-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 7.62 X 4.83 X 8.38 mm body
+&lt;p&gt;Double-row (2X3), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 7.62 X 4.83 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRV6W64P254_2X3_762X483X838B"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRV6W64P254_1X6_1524X254X838B" urn="urn:adsk.eagle:package:4861768/1" locally_modified="yes" type="model">
+<description>Single-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 15.24 X 2.54 X 8.38 mm body
+&lt;p&gt;Single-row (1X6), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 15.24 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRV6W64P254_1X6_1524X254X838B_FTDI"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRV6W64P254_1X6_1524X254X838B" urn="urn:adsk.eagle:package:4862719/1" locally_modified="yes" type="model">
+<description>Single-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 15.24 X 2.54 X 8.38 mm body
+&lt;p&gt;Single-row (1X6), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 15.24 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRV6W64P254_1X6_1524X254X838B"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRVR6W64P254_1X6_1574X254X850B" urn="urn:adsk.eagle:package:4862723/1" locally_modified="yes" type="model">
+<description>Single-row, 6-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 15.74 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X6), 6-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 15.74 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRVR6W64P254_1X6_1574X254X850B"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2925,10 +3121,10 @@
 <wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
 <rectangle x1="-5.08" y1="1.778" x2="5.08" y2="3.302" layer="94"/>
 <pin name="PWR" x="7.62" y="2.54" visible="off" length="short" rot="R180"/>
-<pin name="GND@1" x="7.62" y="0" visible="off" length="short" rot="R180"/>
-<pin name="GND@2" x="7.62" y="-2.54" visible="off" length="short" rot="R180"/>
-<text x="0" y="6.096" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="4.064" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<pin name="GND_BATTERY" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<pin name="GND_JACK" x="7.62" y="-2.54" visible="off" length="short" rot="R180"/>
+<text x="0" y="4.064" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.556" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </symbol>
 <symbol name="RPI-GPIO_CONNECTOR">
 <wire x1="29.21" y1="-2.54" x2="30.48" y2="-2.54" width="0.6096" layer="94"/>
@@ -3761,54 +3957,6 @@ CARD</text>
 </technology>
 </technologies>
 </device>
-<device name="_PTH_VERT-MALE_2.54MM" package="1X06-VERT-MALE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3074903/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC06SAAN" constant="no"/>
-<attribute name="DISTPN" value="S1012E-06-ND" constant="no"/>
-<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="PEC06SAAN" constant="no"/>
-<attribute name="VALUE" value="1x06 VERT MALE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_PTH_VERT-FEMALE_2.54MM" package="1X06-VERT-FEMALE">
-<connects>
-<connect gate="G$1" pin="1" pad="6"/>
-<connect gate="G$1" pin="2" pad="5"/>
-<connect gate="G$1" pin="3" pad="4"/>
-<connect gate="G$1" pin="4" pad="3"/>
-<connect gate="G$1" pin="5" pad="2"/>
-<connect gate="G$1" pin="6" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4269504/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PPTC061LFBN-RC" constant="no"/>
-<attribute name="DISTPN" value="S7004-ND" constant="no"/>
-<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="PPTC061LFBN-RC" constant="no"/>
-<attribute name="VALUE" value="1x06 VERT FEMALE" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_PTH_RA_FEMALE_2.54MM" package="HDRRAR6W60P254_1X6_1574X850X274B">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -3830,6 +3978,54 @@ CARD</text>
 <attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
 <attribute name="MPN" value="PPTC061LGBN-RC" constant="no"/>
 <attribute name="VALUE" value="PTH RA FEMALE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH_VERT_MALE_2.54MM" package="HDRV6W64P254_1X6_1524X254X838B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4862719/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/C10436.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC06SAAN" constant="no"/>
+<attribute name="DISTPN" value="S1012E-06-ND" constant="no"/>
+<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PEC06SAAN" constant="no"/>
+<attribute name="VALUE" value="PTH VERT MALE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH_VERT_FEMALE_2.54MM" package="HDRVR6W64P254_1X6_1574X254X850B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4862723/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PPTC061LFBN-RC" constant="no"/>
+<attribute name="DISTPN" value="S7004-ND" constant="no"/>
+<attribute name="MFR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PPTC061LFBN-RC" constant="no"/>
+<attribute name="VALUE" value="PTH VERT FEMALE" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4022,7 +4218,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <technology name=""/>
 </technologies>
 </device>
-<device name="_PTH_VERT-MALE" package="2X3-NS">
+<device name="_PTH_VERT_MALE_2.54MM" package="HDRV6W64P254_2X3_762X483X838B_AVR-ISP">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="MISO" pad="MISO"/>
@@ -4032,7 +4228,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2993074/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4860635/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4042,7 +4238,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="DISTPN" value="609-3234-ND" constant="no"/>
 <attribute name="MFR" value="Amphenol FCI" constant="no"/>
 <attribute name="MPN" value="67997-206HLF" constant="no"/>
-<attribute name="VALUE" value="AVRISP" constant="no"/>
+<attribute name="VALUE" value="PTH VERT MALE" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4084,22 +4280,22 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </technology>
 </technologies>
 </device>
-<device name="_PTH-VERT-MALE" package="FTDI_BASIC-6PIN-MALE-VERT">
+<device name="_PTH_VERT_MALE_2.54MM" package="HDRV6W64P254_1X6_1524X254X838B_FTDI">
 <connects>
 <connect gate="G$1" pin="CTS" pad="CTS"/>
 <connect gate="G$1" pin="DTR" pad="DTR"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RXI" pad="RXI"/>
-<connect gate="G$1" pin="TXO" pad="TXO"/>
+<connect gate="G$1" pin="RXI" pad="RX"/>
+<connect gate="G$1" pin="TXO" pad="TX"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3074894/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4861768/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/DEV-09873_Web.pdf" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="https://drawings-pdf.s3.amazonaws.com/C10436.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1568-1104-ND" constant="no"/>
 <attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PEC06SAAN" constant="no"/>
@@ -4123,8 +4319,8 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <devices>
 <device name="SLOT" package="POWER_JACK_SLOT_ID2.1MM-OD5.5MM">
 <connects>
-<connect gate="G$1" pin="GND@1" pad="GND@2"/>
-<connect gate="G$1" pin="GND@2" pad="GND@1"/>
+<connect gate="G$1" pin="GND_BATTERY" pad="GND@2"/>
+<connect gate="G$1" pin="GND_JACK" pad="GND@1"/>
 <connect gate="G$1" pin="PWR" pad="PWR"/>
 </connects>
 <technologies>
@@ -4141,27 +4337,10 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </technology>
 </technologies>
 </device>
-<device name="PTH" package="POWER_JACK_PTH_ID2.1MM-OD5.5MM">
-<connects>
-<connect gate="G$1" pin="GND@1" pad="GND@2"/>
-<connect gate="G$1" pin="GND@2" pad="GND@1"/>
-<connect gate="G$1" pin="PWR" pad="PWR"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="https://www.cui.com/product/resource/pj-059a.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=CP-059A-ND" constant="no"/>
-<attribute name="DISTPN" value="CP-059A-ND" constant="no"/>
-<attribute name="MFR" value="CUI Inc." constant="no"/>
-<attribute name="MPN" value="PJ-059A" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_PTH_ID2.1MM-OD5.5MM" package="POWER_JACK_PTH_ID2.1MM-OD5.5MM">
 <connects>
-<connect gate="G$1" pin="GND@1" pad="GND@1"/>
-<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND_BATTERY" pad="GND_BATTERY"/>
+<connect gate="G$1" pin="GND_JACK" pad="GND_JACK"/>
 <connect gate="G$1" pin="PWR" pad="PWR"/>
 </connects>
 <package3dinstances>
@@ -4483,30 +4662,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <gate name="G$1" symbol="2X03" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_PTH_VERT-MALE" package="2X03-VERT-MALE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2993090/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=609-3234-ND" constant="no"/>
-<attribute name="DISTPN" value="609-3234-ND" constant="no"/>
-<attribute name="MFR" value="Amphenol FCI" constant="no"/>
-<attribute name="MPN" value="67997-206HLF" constant="no"/>
-<attribute name="VALUE" value="2x03 VERT MALE" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_PTH_VERT-MALE_SHROUDED-4" package="2X03-VERT-MALE_SHROUDED">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -4527,6 +4682,30 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="DISTPN" value="3M15451-ND" constant="no"/>
 <attribute name="MFR" value="3M" constant="no"/>
 <attribute name="MPN" value="30306-6002HB" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_PTH_VERT_MALE_2.54MM" package="HDRV6W64P254_2X3_762X483X838B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4860757/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=609-3234-ND" constant="no"/>
+<attribute name="DISTPN" value="609-3234-ND" constant="no"/>
+<attribute name="MFR" value="Amphenol FCI" constant="no"/>
+<attribute name="MPN" value="67997-206HLF" constant="no"/>
+<attribute name="VALUE" value="PTH VERT MALE" constant="no"/>
 </technology>
 </technologies>
 </device>
