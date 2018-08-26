@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -541,6 +541,86 @@
 <wire x1="-2.9" y1="-1.3" x2="-2.9" y2="1.3" width="0.127" layer="39"/>
 <wire x1="-2.9" y1="1.3" x2="-2.1" y2="1.3" width="0.127" layer="39"/>
 </package>
+<package name="UFL_CONNECTOR">
+<smd name="2" x="-1.475" y="0" dx="2.2" dy="1.05" layer="1" roundness="20" rot="R90"/>
+<smd name="3" x="1.475" y="0" dx="2.2" dy="1.05" layer="1" roundness="20" rot="R90"/>
+<smd name="1" x="0" y="-1.525" dx="1" dy="1.05" layer="1" roundness="20" rot="R180"/>
+<wire x1="-1.3" y1="1.3" x2="1.3" y2="1.3" width="0.127" layer="51"/>
+<wire x1="1.3" y1="1.3" x2="1.3" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="1.3" y1="-1.3" x2="-1.3" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-1.3" y1="-1.3" x2="-1.3" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-1.3" y1="1.3" x2="0.65" y2="1.3" width="0.127" layer="21"/>
+<wire x1="0.65" y1="1.3" x2="1.3" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.3" y1="0.65" x2="1.3" y2="0" width="0.127" layer="21"/>
+<wire x1="1.3" y1="0" x2="1.3" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-0.9" x2="1.3" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-1.3" x2="0.25" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="0.25" y1="-1.3" x2="0" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.3" x2="-0.25" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="-1.3" x2="-1.3" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.3" x2="-1.3" y2="1.3" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.9192375" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.282840625" width="0" layer="21"/>
+<wire x1="0" y1="-1.3" x2="0" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.55" x2="0.25" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="0.25" y1="-1.55" x2="0.25" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.55" x2="-0.25" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="-1.55" x2="-0.25" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-1.4" x2="0.2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-1.5" x2="0.15" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.3" y1="0" x2="1.55" y2="0" width="0.127" layer="21"/>
+<wire x1="1.55" y1="0" x2="1.55" y2="0.9" width="0.127" layer="21"/>
+<wire x1="1.55" y1="0.9" x2="1.3" y2="0.9" width="0.127" layer="21"/>
+<wire x1="1.55" y1="0" x2="1.55" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-0.9" x2="1.3" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.85" x2="1.45" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="1.45" y1="-0.85" x2="1.45" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.3" y1="0.9" x2="1.3" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="0.65" x2="-1.55" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="0" x2="-1.55" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="0" x2="-1.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="0" x2="-1.3" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="0.9" x2="-1.55" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="0" x2="-1.3" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-0.9" x2="-1.55" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="0.8" x2="-1.45" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.85" x2="-1.4" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.85" x2="-1.4" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="-1.45" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="0.9" x2="-1.55" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="0.25" y1="1.55" x2="0" y2="1.55" width="0.127" layer="21"/>
+<wire x1="0" y1="1.55" x2="-0.25" y2="1.55" width="0.127" layer="21"/>
+<wire x1="0" y1="1.55" x2="0" y2="1.3" width="0.127" layer="21"/>
+<wire x1="0" y1="1.3" x2="0.25" y2="1.3" width="0.127" layer="21"/>
+<wire x1="0.25" y1="1.3" x2="0.25" y2="1.55" width="0.127" layer="21"/>
+<wire x1="0" y1="1.3" x2="-0.25" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="1.3" x2="-0.25" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="1.45" x2="0.2" y2="1.45" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="1.35" x2="0.15" y2="1.35" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="1.4" x2="-0.3" y2="1.4" width="0.127" layer="39"/>
+<wire x1="-0.3" y1="1.4" x2="-0.3" y2="1.6" width="0.127" layer="39"/>
+<wire x1="-0.3" y1="1.6" x2="0.3" y2="1.6" width="0.127" layer="39"/>
+<wire x1="0.3" y1="1.6" x2="0.3" y2="1.4" width="0.127" layer="39"/>
+<wire x1="0.3" y1="1.4" x2="1.4" y2="1.4" width="0.127" layer="39"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="1.1" width="0.127" layer="39"/>
+<wire x1="1.4" y1="1.1" x2="2" y2="1.1" width="0.127" layer="39"/>
+<wire x1="2" y1="1.1" x2="2" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="2" y1="-1.1" x2="1.4" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="1.4" y1="-1.1" x2="1.4" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="1.4" y1="-1.4" x2="0.5" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="0.5" y1="-1.4" x2="0.5" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="0.5" y1="-2.1" x2="-0.5" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="-0.5" y1="-2.1" x2="-0.5" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="-0.5" y1="-1.4" x2="-1.4" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="-1.4" y1="-1.1" x2="-2" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="-2" y1="-1.1" x2="-2" y2="1.1" width="0.127" layer="39"/>
+<wire x1="-2" y1="1.1" x2="-1.4" y2="1.1" width="0.127" layer="39"/>
+<wire x1="-1.4" y1="1.1" x2="-1.4" y2="1.4" width="0.127" layer="39"/>
+<text x="0" y="1.905" size="0.4064" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="LEDC6522X100" urn="urn:adsk.eagle:package:2933495/1" locally_modified="yes" type="model">
@@ -714,6 +794,20 @@
 <text x="0" y="25.4" size="1.27" layer="94" font="vector" align="center">NRF24L01</text>
 <text x="0" y="22.86" size="1.27" layer="94" font="vector" align="center">VDD: 1.9 - 3.6V</text>
 <text x="0" y="20.32" size="1.27" layer="94" font="vector" align="center">2.4 GHz 4dBm RF IC</text>
+</symbol>
+<symbol name="COAX/RF_CABLE">
+<text x="-0.762" y="4.572" size="1.27" layer="96" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<text x="-0.762" y="5.588" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<pin name="SIGNAL1" x="-2.54" y="2.54" visible="off" length="short" direction="in"/>
+<pin name="PGND" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.15" layer="94"/>
+<wire x1="2.032" y1="-5.588" x2="3.048" y2="-5.588" width="0.15" layer="94"/>
+<wire x1="1.524" y1="-5.08" x2="3.556" y2="-5.08" width="0.15" layer="94"/>
+<circle x="2.54" y="0" radius="2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="1.481059375" width="0" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.15" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.15" layer="94"/>
+<wire x1="1.778" y1="-5.334" x2="3.302" y2="-5.334" width="0.15" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -944,6 +1038,35 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <attribute name="DISTPN" value="1490-1019-ND" constant="no"/>
 <attribute name="MPN" value="NRF24L01P-T" constant="no"/>
 <attribute name="VALUE" value="NRF24L01+" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UMCC/U.FL-CONNECTOR" prefix="ANT">
+<gates>
+<gate name="G$1" symbol="COAX/RF_CABLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MALE-50Ω_UFL-RP.SMA-ANT" package="UFL_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="PGND" pad="2 3" route="any"/>
+<connect gate="G$1" pin="SIGNAL1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Kenmei" constant="no"/>
+<attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1909763&amp;DocType=Customer+Drawing&amp;DocLang=English" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/W90XX/doc_part/W90XX.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1909763-1/A118077CT-ND/4729711" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/product-detail/en/pulselarsen-antennas/W9006/1837-1026-ND/2267902" constant="no"/>
+<attribute name="DISTPN" value="A118077CT-ND" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="1837-1026-ND" constant="no"/>
+<attribute name="MFR" value="TE Connectivity AMP Connectors" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="PulseLarsen Antennas" constant="no"/>
+<attribute name="MPN" value="1909763-1" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="W9006" constant="no"/>
 </technology>
 </technologies>
 </device>
