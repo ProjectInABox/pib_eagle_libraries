@@ -429,6 +429,35 @@ MOTOR</text>
 <text x="2.54" y="-1.524" size="0.5" layer="21" font="vector" ratio="10" align="top-center">VCC</text>
 <text x="5.08" y="-1.524" size="0.5" layer="21" font="vector" ratio="10" align="top-center">GND</text>
 </package>
+<package name="HDRVR3W64P254_1X3_812X254X850B" urn="urn:adsk.eagle:footprint:4781757/1" locally_modified="yes">
+<description>Single-row, 3-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 8.12 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X3), 3-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 8.12 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-1.6" y="1.46" radius="0.5" width="0" layer="21"/>
+<wire x1="6.6" y1="-1.3591" x2="-1.52" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="-1.3591" x2="-1.52" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="1.3591" x2="6.6" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="6.6" y1="1.3591" x2="6.6" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="6.6" y1="-1.27" x2="-1.52" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="-1.27" x2="-1.52" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="1.27" x2="6.6" y2="1.27" width="0.12" layer="51"/>
+<wire x1="6.6" y1="1.27" x2="6.6" y2="-1.27" width="0.12" layer="51"/>
+<pad name="SIG" x="0" y="0" drill="1" diameter="1.85"/>
+<pad name="VCC" x="2.54" y="0" drill="1" diameter="1.85"/>
+<pad name="GND" x="5.08" y="0" drill="1" diameter="1.85"/>
+<text x="-1.778" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="6.858" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<wire x1="-1.651" y1="-1.524" x2="6.731" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="6.731" y1="-1.524" x2="6.731" y2="1.524" width="0.127" layer="39"/>
+<wire x1="6.731" y1="1.524" x2="-1.651" y2="1.524" width="0.127" layer="39"/>
+<wire x1="-1.651" y1="1.524" x2="-1.651" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="-1.143" y1="-1.143" x2="6.223" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="6.223" y1="-1.143" x2="6.223" y2="1.143" width="0.127" layer="40"/>
+<wire x1="6.223" y1="1.143" x2="-1.143" y2="1.143" width="0.127" layer="40"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="-1.143" width="0.127" layer="40"/>
+<text x="0" y="-1.524" size="0.5" layer="21" font="vector" ratio="10" align="top-center">SIG</text>
+<text x="2.54" y="-1.524" size="0.5" layer="21" font="vector" ratio="10" align="top-center">VCC</text>
+<text x="5.08" y="-1.524" size="0.5" layer="21" font="vector" ratio="10" align="top-center">GND</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="02X03-SHROUDED_FAULHABER1717T" urn="urn:adsk.eagle:package:3056049/2" locally_modified="yes" type="model">
@@ -446,6 +475,13 @@ MOTOR</text>
 &lt;p&gt;Single-row (1X3), 3-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 7.62 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="HDRV3W64P254_1X3_762X254X838B"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRVR3W64P254_1X3_812X254X850B" urn="urn:adsk.eagle:package:4781756/1" locally_modified="yes" type="model">
+<description>Single-row, 3-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 8.12 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X3), 3-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 8.12 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRVR3W64P254_1X3_812X254X850B"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -683,6 +719,33 @@ MOTOR</text>
 <attribute name="MPN" value="HK15298B" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="PEC03SAAN" constant="no"/>
 <attribute name="VALUE" value="HK15298B" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MG90S_PTH_VERT_FEMALE_2.54MM" package="HDRVR3W64P254_1X3_812X254X850B">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SIG" pad="SIG"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4781756/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="N/A" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" constant="no"/>
+<attribute name="DIST" value="Amazon" constant="no"/>
+<attribute name="DISTLINK" value="https://www.amazon.com/RioRand-MG90S-Metal-Geared-Helicopter/dp/B00M8SR0ZK/ref=sr_1_1?s=toys-and-games&amp;ie=UTF8&amp;qid=1472114876&amp;sr=1-1&amp;keywords=MG90s+Micro+Metal+Geared+Servo" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=PPTC031LFBN-RC" constant="no"/>
+<attribute name="DISTPN" value="B00M8SR0ZK" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S7001-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="TowerPro" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="MG90S" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PPTC031LFBN-RC" constant="no"/>
+<attribute name="VALUE" value="MG90S" constant="no"/>
 </technology>
 </technologies>
 </device>
