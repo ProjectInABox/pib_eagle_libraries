@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -164,46 +164,6 @@
 </layers>
 <library>
 <packages>
-<package name="_SMD-805" urn="urn:adsk.eagle:footprint:2752782/1">
-<description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.12" layer="51"/>
-<wire x1="-1.05" y1="0.68" x2="1.05" y2="0.68" width="0.12" layer="51"/>
-<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.12" layer="51"/>
-<wire x1="1.05" y1="0.68" x2="1.05" y2="-0.68" width="0.12" layer="51"/>
-<wire x1="-0.5" y1="0" x2="-0.45" y2="0" width="0.1" layer="21"/>
-<wire x1="0.45" y1="0" x2="0.5" y2="0" width="0.1" layer="21"/>
-<wire x1="-1.778" y1="1.016" x2="-1.778" y2="-1.016" width="0.1" layer="39"/>
-<wire x1="-1.778" y1="-1.016" x2="1.778" y2="-1.016" width="0.1" layer="39"/>
-<wire x1="1.778" y1="-1.016" x2="1.778" y2="1.016" width="0.1" layer="39"/>
-<wire x1="1.778" y1="1.016" x2="-1.778" y2="1.016" width="0.1" layer="39"/>
-<wire x1="-1.651" y1="0.889" x2="-1.651" y2="-0.889" width="0.1" layer="21"/>
-<wire x1="-1.651" y1="-0.889" x2="1.651" y2="-0.889" width="0.1" layer="21"/>
-<wire x1="1.651" y1="-0.889" x2="1.651" y2="0.889" width="0.1" layer="21"/>
-<wire x1="1.651" y1="0.889" x2="-1.651" y2="0.889" width="0.1" layer="21"/>
-<wire x1="-0.45" y1="0" x2="-0.325" y2="0.15" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.325" y1="0.15" x2="-0.175" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.175" y1="0" x2="-0.175" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="-0.175" y1="-0.05" x2="-0.275" y2="-0.1" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.325" y1="0" x2="-0.275" y2="-0.1" width="0.1" layer="21" curve="90"/>
-<wire x1="0.325" y1="-0.05" x2="0.225" y2="-0.1" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.325" y1="0" x2="0.325" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="0.175" y1="0" x2="0.325" y2="0.15" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.325" y1="0.15" x2="0.45" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.175" y1="0" x2="0.225" y2="-0.1" width="0.1" layer="21" curve="90"/>
-<wire x1="-0.125" y1="0.175" x2="0.075" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.075" y1="-0.05" x2="-0.025" y2="-0.1" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.075" y1="0" x2="0.075" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="-0.075" y1="0" x2="-0.025" y2="-0.1" width="0.1" layer="21" curve="90"/>
-<wire x1="-0.075" y1="0" x2="0.125" y2="0.175" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.125" y1="0.175" x2="0.325" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.325" y1="0" x2="-0.125" y2="0.175" width="0.1" layer="21" curve="-90"/>
-<text x="0" y="1.3" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="-1.316" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<smd name="1" x="-1" y="0" dx="1" dy="1.45" layer="1" roundness="50" rot="R180"/>
-<smd name="2" x="1" y="0" dx="1" dy="1.45" layer="1" roundness="50"/>
-<rectangle x1="-1.1" y1="-0.625" x2="-0.5" y2="0.625" layer="51"/>
-<rectangle x1="0.5" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
-</package>
 <package name="_AXIAL_L22.9-D11.4" urn="urn:adsk.eagle:footprint:2752781/1">
 <pad name="1" x="-15" y="0" drill="1" diameter="2"/>
 <pad name="2" x="15" y="0" drill="1" diameter="2"/>
@@ -226,45 +186,6 @@
 <text x="0" y="1.27" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
-<package name="_SMD-0603" urn="urn:adsk.eagle:footprint:2752780/1">
-<wire x1="-0.5" y1="0" x2="-0.45" y2="0" width="0.1" layer="21"/>
-<wire x1="0.45" y1="0" x2="0.5" y2="0" width="0.1" layer="21"/>
-<wire x1="-0.45" y1="0" x2="-0.325" y2="0.15" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.325" y1="0.15" x2="-0.175" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.175" y1="0" x2="-0.175" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="-0.175" y1="-0.05" x2="-0.275" y2="-0.1" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.325" y1="0" x2="-0.275" y2="-0.1" width="0.1" layer="21" curve="90"/>
-<wire x1="0.325" y1="-0.05" x2="0.225" y2="-0.1" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.325" y1="0" x2="0.325" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="0.175" y1="0" x2="0.325" y2="0.15" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.325" y1="0.15" x2="0.45" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.175" y1="0" x2="0.225" y2="-0.1" width="0.1" layer="21" curve="90"/>
-<wire x1="-0.125" y1="0.175" x2="0.075" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.075" y1="-0.05" x2="-0.025" y2="-0.1" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.075" y1="0" x2="0.075" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="-0.075" y1="0" x2="-0.025" y2="-0.1" width="0.1" layer="21" curve="90"/>
-<wire x1="-0.075" y1="0" x2="0.125" y2="0.175" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.125" y1="0.175" x2="0.325" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.325" y1="0" x2="-0.125" y2="0.175" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="-1.578" y1="0.616" x2="-1.578" y2="-0.616" width="0.1" layer="39"/>
-<wire x1="-1.578" y1="-0.616" x2="1.578" y2="-0.616" width="0.1" layer="39"/>
-<wire x1="1.578" y1="-0.616" x2="1.578" y2="0.616" width="0.1" layer="39"/>
-<wire x1="1.578" y1="0.616" x2="-1.578" y2="0.616" width="0.1" layer="39"/>
-<wire x1="-1.551" y1="0.589" x2="-1.551" y2="-0.589" width="0.1" layer="21"/>
-<wire x1="-1.551" y1="-0.589" x2="1.551" y2="-0.589" width="0.1" layer="21"/>
-<wire x1="1.551" y1="-0.589" x2="1.551" y2="0.589" width="0.1" layer="21"/>
-<wire x1="1.551" y1="0.589" x2="-1.551" y2="0.589" width="0.1" layer="21"/>
-<smd name="1" x="-1" y="0" dx="0.95" dy="1" layer="1" roundness="50"/>
-<smd name="2" x="1" y="0" dx="0.95" dy="1" layer="1" roundness="50"/>
-<text x="0" y="1.046" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="-1.062" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.6" y2="0.4" layer="51"/>
-<rectangle x1="0.6" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
-</package>
 <package name="_SMD-3331" urn="urn:adsk.eagle:footprint:2752779/1">
 <smd name="2" x="3.6" y="0" dx="3" dy="2.8" layer="1" rot="R90"/>
 <smd name="1" x="-3.6" y="0" dx="3" dy="2.8" layer="1" rot="R90"/>
@@ -284,7 +205,7 @@
 <text x="0.8" y="0" size="0.5" layer="25" rot="R90" align="center">&gt;VALUE</text>
 <text x="0" y="-3.5" size="0.5" layer="21" align="center">WE7443340220</text>
 </package>
-<package name="INDC1608X60" urn="urn:adsk.eagle:footprint:2899747/1" locally_modified="yes">
+<package name="INDC1608X60-0603" urn="urn:adsk.eagle:footprint:2899747/1" locally_modified="yes">
 <description>CHIP, 1.6 X 0.8 X 0.6 mm body
 &lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.6 mm&lt;/p&gt;</description>
 <wire x1="0.9" y1="0.7217" x2="-0.9" y2="0.7217" width="0.12" layer="21"/>
@@ -302,7 +223,7 @@
 <wire x1="1.6" y1="-0.9" x2="-1.6" y2="-0.9" width="0.127" layer="39"/>
 <wire x1="-1.6" y1="-0.9" x2="-1.6" y2="0.9" width="0.127" layer="39"/>
 </package>
-<package name="INDC2012X100" urn="urn:adsk.eagle:footprint:3069079/1" locally_modified="yes">
+<package name="INDC2012X100-0805" urn="urn:adsk.eagle:footprint:3069079/1" locally_modified="yes">
 <description>CHIP, 2 X 1.25 X 1 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.25 X 1 mm&lt;/p&gt;</description>
 <wire x1="1" y1="0.8949" x2="-1" y2="0.8949" width="0.12" layer="21"/>
@@ -320,7 +241,7 @@
 <wire x1="1.7" y1="-1.05" x2="-1.7" y2="-1.05" width="0.127" layer="39"/>
 <wire x1="-1.7" y1="-1.05" x2="-1.7" y2="1.05" width="0.127" layer="39"/>
 </package>
-<package name="INDC2012X145" urn="urn:adsk.eagle:footprint:4582451/1">
+<package name="INDC2012X145-0805" urn="urn:adsk.eagle:footprint:4582451/1" locally_modified="yes">
 <description>Chip, 2.00 X 1.25 X 1.45 mm body
 &lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
 <wire x1="1.1" y1="1.0467" x2="-1.1" y2="1.0467" width="0.12" layer="21"/>
@@ -341,41 +262,30 @@
 <packageinstance name="_AXIAL_L22.9-D11.4"/>
 </packageinstances>
 </package3d>
-<package3d name="_SMD-0603" urn="urn:adsk.eagle:package:2752785/2" type="model">
-<packageinstances>
-<packageinstance name="_SMD-0603"/>
-</packageinstances>
-</package3d>
 <package3d name="_SMD-3331" urn="urn:adsk.eagle:package:2752784/2" type="model">
 <packageinstances>
 <packageinstance name="_SMD-3331"/>
-</packageinstances>
-</package3d>
-<package3d name="_SMD-805" urn="urn:adsk.eagle:package:2752787/4" type="model">
-<description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<packageinstances>
-<packageinstance name="_SMD-805"/>
 </packageinstances>
 </package3d>
 <package3d name="INDC1608X60" urn="urn:adsk.eagle:package:2899745/1" locally_modified="yes" type="model">
 <description>CHIP, 1.6 X 0.8 X 0.6 mm body
 &lt;p&gt;CHIP package with body size 1.6 X 0.8 X 0.6 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="INDC1608X60"/>
+<packageinstance name="INDC1608X60-0603"/>
 </packageinstances>
 </package3d>
 <package3d name="INDC2012X100" urn="urn:adsk.eagle:package:3069078/1" locally_modified="yes" type="model">
 <description>CHIP, 2 X 1.25 X 1 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.25 X 1 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="INDC2012X100"/>
+<packageinstance name="INDC2012X100-0805"/>
 </packageinstances>
 </package3d>
-<package3d name="INDC2012X145" urn="urn:adsk.eagle:package:4582448/1" type="model">
+<package3d name="INDC2012X145" urn="urn:adsk.eagle:package:4582448/1" locally_modified="yes" type="model">
 <description>Chip, 2.00 X 1.25 X 1.45 mm body
 &lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="INDC2012X145"/>
+<packageinstance name="INDC2012X145-0805"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -412,7 +322,7 @@
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-0603_0.38A-0.468OHM-10%" package="INDC1608X60">
+<device name="_SMD-0603_0.38A-0.468OHM-10%" package="INDC1608X60-0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -432,7 +342,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0805_0.5A-0.65OHM-10%" package="INDC2012X145">
+<device name="_SMD-0805_0.5A-0.65OHM-10%" package="INDC2012X145-0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -488,7 +398,7 @@
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-0603_470MA-0.312OHM-20%" package="INDC1608X60">
+<device name="_SMD-0603_470MA-0.312OHM-20%" package="INDC1608X60-0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -508,7 +418,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0805_1.1A-0.175OHM-20%" package="INDC2012X100">
+<device name="_SMD-0805_1.1A-0.175OHM-20%" package="INDC2012X100-0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
