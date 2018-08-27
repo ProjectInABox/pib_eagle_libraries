@@ -357,83 +357,6 @@ MOTOR</text>
 <wire x1="2.4" y1="-1.1" x2="2.4" y2="1.1" width="0.127" layer="40"/>
 <wire x1="2.4" y1="1.1" x2="-2.4" y2="1.1" width="0.127" layer="40"/>
 </package>
-<package name="1X03-VERT-MALE" urn="urn:adsk.eagle:footprint:3035483/1" locally_modified="yes">
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="SIG" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="VCC" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="GND" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-</package>
-<package name="2X3-NS" urn="urn:adsk.eagle:footprint:2993036/4" locally_modified="yes">
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
-<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
-<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
-<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="3.81" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="-4" y1="2.7" x2="4" y2="2.7" width="0.127" layer="39"/>
-<wire x1="4" y1="2.7" x2="4" y2="-2.7" width="0.127" layer="39"/>
-<wire x1="4" y1="-2.7" x2="-4" y2="-2.7" width="0.127" layer="39"/>
-<wire x1="-4" y1="-2.7" x2="-4" y2="2.7" width="0.127" layer="39"/>
-<text x="4.218" y="0" size="0.5" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
-<text x="-4.245" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="-2.54" y="-3.048" size="0.5" layer="21" font="vector" ratio="10" align="center">MISO</text>
-<text x="0" y="-3.048" size="0.5" layer="21" font="vector" ratio="10" align="center">SCK</text>
-<text x="2.54" y="-3.048" size="0.5" layer="21" font="vector" ratio="10" align="center">RESET</text>
-<text x="2.54" y="3.048" size="0.5" layer="21" font="vector" ratio="10" align="center">GND</text>
-<text x="-2.54" y="3.048" size="0.5" layer="21" font="vector" ratio="10" align="center">VCC</text>
-<text x="0" y="3.048" size="0.5" layer="21" font="vector" ratio="10" align="center">MOSI</text>
-<pad name="MISO" x="-2.54" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="VCC" x="-2.54" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="SCK" x="0" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="MOSI" x="0" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="RESET" x="2.54" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="GND" x="2.54" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-</package>
 <package name="2X03-VERT-MALE" urn="urn:adsk.eagle:footprint:2993052/1" locally_modified="yes">
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
 <rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
@@ -508,19 +431,9 @@ MOTOR</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="1X03-VERT-MALE" urn="urn:adsk.eagle:package:3035518/2" locally_modified="yes" type="model">
-<packageinstances>
-<packageinstance name="1X03-VERT-MALE"/>
-</packageinstances>
-</package3d>
 <package3d name="02X03-SHROUDED_FAULHABER1717T" urn="urn:adsk.eagle:package:3056049/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="02X03-SHROUDED_FAULHABER1717T"/>
-</packageinstances>
-</package3d>
-<package3d name="2X3-NS" urn="urn:adsk.eagle:package:2993074/7" locally_modified="yes" type="model">
-<packageinstances>
-<packageinstance name="2X3-NS"/>
 </packageinstances>
 </package3d>
 <package3d name="2X03-VERT-MALE" urn="urn:adsk.eagle:package:2993090/2" locally_modified="yes" type="model">
@@ -719,33 +632,6 @@ MOTOR</text>
 <gate name="G$1" symbol="1X03" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SERVO-PN" package="1X03-VERT-MALE">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SIG" pad="SIG"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:3035518/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="https://hobbyking.com/en_us/hobbykingtm-coreless-digital-hv-mg-bb-servo-20kg-0-16sec-66g.html?___store=en_us" constant="no"/>
-<attribute name="DATASHEET_CONNECTOR" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
-<attribute name="DIST" value="HobbyKing" constant="no"/>
-<attribute name="DISTLINK" value="https://hobbyking.com/en_us/hobbykingtm-coreless-digital-hv-mg-bb-servo-20kg-0-16sec-66g.html?___store=en_us" constant="no"/>
-<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=S1012E-03-ND" constant="no"/>
-<attribute name="DISTPN" value="HK15298B" constant="no"/>
-<attribute name="DISTPN_CONNECTOR" value="S1012E-03-ND" constant="no"/>
-<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
-<attribute name="MFR" value="HobbyKing" constant="no"/>
-<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="MPN" value="HK15298B" constant="no"/>
-<attribute name="MPN_CONNECTOR" value="PEC03SAAN" constant="no"/>
-<attribute name="VALUE" value="HK15298B" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_MG90S_PTH_VERT_MALE_2.54MM" package="HDRV3W64P254_1X3_762X254X838B">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
@@ -770,6 +656,33 @@ MOTOR</text>
 <attribute name="MPN" value="MG90S" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="PEC03SAAN" constant="no"/>
 <attribute name="VALUE" value="MG90S" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_HK15298B_PTH_VERT_MALE_2.54MM" package="HDRV3W64P254_1X3_762X254X838B">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SIG" pad="SIG"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4781732/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="N/A" constant="no"/>
+<attribute name="DATASHEET_CONNECTOR" value="P(G,R,A)xCxxSxxN Drawing, Straight" constant="no"/>
+<attribute name="DIST" value="HobbyKing" constant="no"/>
+<attribute name="DISTLINK" value="https://hobbyking.com/en_us/hobbykingtm-coreless-digital-hv-mg-bb-servo-20kg-0-16sec-66g.html?___store=en_us" constant="no"/>
+<attribute name="DISTLINK_CONNECTOR" value="https://www.digikey.com/products/en?keywords=S1012E-03-ND" constant="no"/>
+<attribute name="DISTPN" value="HK15298B" constant="no"/>
+<attribute name="DISTPN_CONNECTOR" value="S1012E-03-ND" constant="no"/>
+<attribute name="DIST_CONNECTOR" value="Digikey" constant="no"/>
+<attribute name="MFR" value="HobbyKing" constant="no"/>
+<attribute name="MFR_CONNECTOR" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="HK15298B" constant="no"/>
+<attribute name="MPN_CONNECTOR" value="PEC03SAAN" constant="no"/>
+<attribute name="VALUE" value="HK15298B" constant="no"/>
 </technology>
 </technologies>
 </device>
