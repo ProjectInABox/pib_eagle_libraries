@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -169,7 +169,7 @@
 <package name="OSCCC500X320X110_CRYSTAL" urn="urn:adsk.eagle:footprint:2939177/2" locally_modified="yes">
 <description>OSCILLATOR CORNERCONCAVE, 5 X 3.2 X 1.1 mm body
 &lt;p&gt;OSCILLATOR CORNERCONCAVE package with body size 5 X 3.2 X 1.1 mm&lt;/p&gt;</description>
-<circle x="-3.3659" y="-1.65" radius="0.25" width="0" layer="21"/>
+<circle x="-3" y="-2.15" radius="0.5" width="0" layer="21"/>
 <wire x1="-2.8159" y1="0.3901" x2="-2.8159" y2="-0.3901" width="0.12" layer="21"/>
 <wire x1="2.8159" y1="0.3901" x2="2.8159" y2="-0.3901" width="0.12" layer="21"/>
 <wire x1="-0.9901" y1="1.9159" x2="0.9901" y2="1.9159" width="0.12" layer="21"/>
@@ -178,16 +178,15 @@
 <wire x1="-2.55" y1="-1.65" x2="-2.55" y2="1.65" width="0.12" layer="51"/>
 <wire x1="-2.55" y1="1.65" x2="2.55" y2="1.65" width="0.12" layer="51"/>
 <wire x1="2.55" y1="1.65" x2="2.55" y2="-1.65" width="0.12" layer="51"/>
-<wire x1="-3" y1="-2.1" x2="3" y2="-2.1" width="0.127" layer="39"/>
-<wire x1="3" y1="-2.1" x2="3" y2="2.1" width="0.127" layer="39"/>
-<wire x1="3" y1="2.1" x2="-3" y2="2.1" width="0.127" layer="39"/>
-<wire x1="-3" y1="2.1" x2="-3" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="-2.921" y1="-2.032" x2="2.921" y2="-2.032" width="0.127" layer="39"/>
+<wire x1="2.921" y1="-2.032" x2="2.921" y2="2.032" width="0.127" layer="39"/>
+<wire x1="2.921" y1="2.032" x2="-2.921" y2="2.032" width="0.127" layer="39"/>
+<wire x1="-2.921" y1="2.032" x2="-2.921" y2="-2.032" width="0.127" layer="39"/>
 <smd name="1" x="-2" y="-1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
 <smd name="2" x="2" y="-1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
 <smd name="3" x="2" y="1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
 <smd name="4" x="-2" y="1.25" dx="1.5118" dy="1.2118" layer="1" thermals="no"/>
-<text x="0" y="2.2" size="0.5" layer="25" font="vector" ratio="10" rot="SR0" align="center">&gt;NAME</text>
-<text x="0" y="-2.2" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="2.032" size="0.5" layer="25" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
 <text x="0" y="0" size="0.5" layer="21" font="vector" ratio="10" rot="SR0" align="center">&gt;VALUE</text>
 </package>
 <package name="DFN320X130X100-3_RESONATOR" urn="urn:adsk.eagle:footprint:4517822/1" locally_modified="yes">
@@ -204,6 +203,10 @@
 <text x="0" y="1.2" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.2" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <smd name="2" x="0" y="0" dx="0.56" dy="1.4702" layer="1"/>
+<wire x1="-1.778" y1="-1.143" x2="1.778" y2="-1.143" width="0.127" layer="39"/>
+<wire x1="1.778" y1="-1.143" x2="1.778" y2="1.143" width="0.127" layer="39"/>
+<wire x1="1.778" y1="1.143" x2="-1.778" y2="1.143" width="0.127" layer="39"/>
+<wire x1="-1.778" y1="1.143" x2="-1.778" y2="-1.143" width="0.127" layer="39"/>
 </package>
 </packages>
 <packages3d>
