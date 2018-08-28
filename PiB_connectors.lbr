@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2091,7 +2091,9 @@
 <pad name="3" x="0" y="-1.27" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="4" x="0" y="1.27" drill="1.016" diameter="1.8796" rot="R180"/>
 </package>
-<package name="_MOLEX-89401_RA_PITCH-2MM" urn="urn:adsk.eagle:footprint:2971486/3">
+<package name="_MOLEX-89401_RA_PITCH-2MM" urn="urn:adsk.eagle:footprint:2971486/3" locally_modified="yes">
+<pad name="1" x="-1" y="0" drill="0.8" diameter="1.6"/>
+<pad name="2" x="1" y="0" drill="0.8" diameter="1.6"/>
 <wire x1="-2.425" y1="0" x2="2.425" y2="0" width="0.127" layer="21"/>
 <wire x1="-2.425" y1="6.6" x2="-2.425" y2="2" width="0.127" layer="51"/>
 <wire x1="-2.425" y1="2" x2="2.425" y2="2" width="0.127" layer="51"/>
@@ -2107,16 +2109,20 @@
 <wire x1="3" y1="-1" x2="2.425" y2="-1" width="0.127" layer="21"/>
 <wire x1="2.425" y1="-1" x2="2.425" y2="0" width="0.127" layer="21"/>
 <wire x1="3" y1="-1" x2="3" y2="6.6" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="6.75" x2="-3.15" y2="-1.15" width="0.127" layer="39"/>
-<wire x1="-3.15" y1="-1.15" x2="3.15" y2="-1.15" width="0.127" layer="39"/>
-<wire x1="3.15" y1="-1.15" x2="3.2" y2="6.75" width="0.127" layer="39"/>
-<wire x1="3.2" y1="6.75" x2="-3.15" y2="6.75" width="0.127" layer="39"/>
-<pad name="1" x="-1" y="0" drill="0.8"/>
-<pad name="2" x="1" y="0" drill="0.8"/>
-<text x="-2.54" y="7.62" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-3.175" y1="6.731" x2="-3.175" y2="-1.143" width="0.127" layer="39"/>
+<wire x1="-3.175" y1="-1.143" x2="3.175" y2="-1.143" width="0.127" layer="39"/>
+<wire x1="3.175" y1="-1.143" x2="3.175" y2="6.731" width="0.127" layer="39"/>
+<wire x1="3.175" y1="6.731" x2="-3.175" y2="6.731" width="0.127" layer="39"/>
+<text x="0" y="-1.143" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="1.016" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.032" y1="1.016" x2="-2.032" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="2.032" y1="-1.016" x2="2.032" y2="1.016" width="0.127" layer="40"/>
+<wire x1="2.032" y1="1.016" x2="-2.032" y2="1.016" width="0.127" layer="40"/>
 </package>
-<package name="_MOLEX-89400_VERT_PITCH-2MM" urn="urn:adsk.eagle:footprint:2972595/3">
+<package name="_MOLEX-89400_VERT_PITCH-2MM" urn="urn:adsk.eagle:footprint:2972595/3" locally_modified="yes">
+<pad name="1" x="-1" y="0" drill="0.8" diameter="1.6"/>
+<pad name="2" x="1" y="0" drill="0.8" diameter="1.6"/>
 <wire x1="-2.425" y1="2.45" x2="-2.425" y2="-1.2" width="0.127" layer="51"/>
 <wire x1="-2.425" y1="-1.2" x2="2.425" y2="-1.2" width="0.127" layer="51"/>
 <wire x1="2.425" y1="-1.2" x2="2.425" y2="2.45" width="0.127" layer="51"/>
@@ -2129,16 +2135,18 @@
 <wire x1="0.375" y1="-1.2" x2="0.375" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="0.375" y1="-1.7" x2="3" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="-2.425" y1="2.45" x2="2.425" y2="2.45" width="0.127" layer="51"/>
-<wire x1="-3.15" y1="3.1" x2="-3.15" y2="-1.85" width="0.127" layer="39"/>
-<wire x1="-3.15" y1="-1.85" x2="3.15" y2="-1.85" width="0.127" layer="39"/>
-<wire x1="3.15" y1="-1.85" x2="3.15" y2="3.1" width="0.127" layer="39"/>
-<wire x1="3.15" y1="3.1" x2="-3.15" y2="3.1" width="0.127" layer="39"/>
-<pad name="1" x="-1" y="0" drill="0.8"/>
-<pad name="2" x="1" y="0" drill="0.8"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-3.175" y1="3.175" x2="-3.175" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="-3.175" y1="-1.905" x2="3.175" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="3.175" y1="-1.905" x2="3.175" y2="3.175" width="0.127" layer="39"/>
+<wire x1="3.175" y1="3.175" x2="-3.175" y2="3.175" width="0.127" layer="39"/>
+<text x="0" y="-1.905" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="1.016" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="2.032" y1="-1.016" x2="2.032" y2="1.016" width="0.127" layer="40"/>
+<wire x1="2.032" y1="1.016" x2="-2.032" y2="1.016" width="0.127" layer="40"/>
+<wire x1="-2.032" y1="1.016" x2="-2.032" y2="-1.016" width="0.127" layer="40"/>
 </package>
-<package name="_MOLEX-0530470210_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:footprint:2973709/2">
+<package name="_MOLEX-0530470210_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:footprint:2973709/2" locally_modified="yes">
 <pad name="1" x="-0.625" y="0" drill="0.5"/>
 <pad name="2" x="0.625" y="0" drill="0.5"/>
 <wire x1="-2.125" y1="-1.15" x2="2.125" y2="-1.15" width="0.127" layer="21"/>
@@ -2149,14 +2157,18 @@
 <wire x1="1.525" y1="-0.75" x2="1.525" y2="1.65" width="0.127" layer="51"/>
 <wire x1="1.525" y1="1.65" x2="-1.525" y2="1.65" width="0.127" layer="51"/>
 <wire x1="-1.525" y1="1.65" x2="-1.525" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="2.2" x2="-2.25" y2="-1.3" width="0.127" layer="39"/>
-<wire x1="-2.25" y1="-1.3" x2="2.25" y2="-1.3" width="0.127" layer="39"/>
-<wire x1="2.25" y1="-1.3" x2="2.25" y2="2.2" width="0.127" layer="39"/>
-<wire x1="2.25" y1="2.2" x2="-2.25" y2="2.2" width="0.127" layer="39"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-2.286" y1="2.159" x2="-2.286" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.286" y1="-1.27" x2="2.286" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.286" y1="-1.27" x2="2.286" y2="2.159" width="0.127" layer="39"/>
+<wire x1="2.286" y1="2.159" x2="-2.286" y2="2.159" width="0.127" layer="39"/>
+<text x="0" y="-1.27" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="0.762" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-1.397" y1="-0.762" x2="1.397" y2="-0.762" width="0.127" layer="40"/>
+<wire x1="1.397" y1="-0.762" x2="1.397" y2="0.762" width="0.127" layer="40"/>
+<wire x1="1.397" y1="0.762" x2="-1.397" y2="0.762" width="0.127" layer="40"/>
+<wire x1="-1.397" y1="0.762" x2="-1.397" y2="-0.762" width="0.127" layer="40"/>
 </package>
-<package name="_MOLEX-0530480210_RA_PITCH-1.25MM" urn="urn:adsk.eagle:footprint:2973710/2">
+<package name="_MOLEX-0530480210_RA_PITCH-1.25MM" urn="urn:adsk.eagle:footprint:2973710/2" locally_modified="yes">
 <pad name="1" x="-0.625" y="0" drill="0.5"/>
 <pad name="2" x="0.625" y="0" drill="0.5"/>
 <wire x1="-2.125" y1="-1.05" x2="-1.425" y2="-1.05" width="0.127" layer="21"/>
@@ -2171,14 +2183,18 @@
 <wire x1="-1.425" y1="-1.05" x2="-1.425" y2="-0.6" width="0.127" layer="21"/>
 <wire x1="-1.425" y1="-0.6" x2="1.425" y2="-0.6" width="0.127" layer="21"/>
 <wire x1="1.425" y1="-0.6" x2="1.425" y2="-1.05" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="-1.1" x2="2.2" y2="-1.1" width="0.127" layer="39"/>
-<wire x1="2.2" y1="-1.1" x2="2.2" y2="7" width="0.127" layer="39"/>
-<wire x1="2.2" y1="7" x2="-2.2" y2="7" width="0.127" layer="39"/>
-<wire x1="-2.2" y1="7" x2="-2.2" y2="-1.1" width="0.127" layer="39"/>
-<text x="-2.54" y="6.35" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-2.286" y1="-1.143" x2="2.286" y2="-1.143" width="0.127" layer="39"/>
+<wire x1="2.286" y1="-1.143" x2="2.286" y2="4.572" width="0.127" layer="39"/>
+<wire x1="2.286" y1="4.572" x2="-2.286" y2="4.572" width="0.127" layer="39"/>
+<wire x1="-2.286" y1="4.572" x2="-2.286" y2="-1.143" width="0.127" layer="39"/>
+<text x="0" y="-1.27" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="1.143" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-1.397" y1="-0.762" x2="1.397" y2="-0.762" width="0.127" layer="40"/>
+<wire x1="1.397" y1="-0.762" x2="1.397" y2="0.762" width="0.127" layer="40"/>
+<wire x1="1.397" y1="0.762" x2="-1.397" y2="0.762" width="0.127" layer="40"/>
+<wire x1="-1.397" y1="0.762" x2="-1.397" y2="-0.762" width="0.127" layer="40"/>
 </package>
-<package name="_MOLEX-0530470310_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:footprint:3035511/1">
+<package name="_MOLEX-0530470310_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:footprint:3035511/1" locally_modified="yes">
 <pad name="1" x="-1.25" y="0" drill="0.5"/>
 <pad name="2" x="0" y="0" drill="0.5"/>
 <pad name="3" x="1.25" y="0" drill="0.5"/>
@@ -2190,12 +2206,16 @@
 <wire x1="2.15" y1="-0.75" x2="2.15" y2="1.65" width="0.127" layer="51"/>
 <wire x1="2.15" y1="1.65" x2="-2.15" y2="1.65" width="0.127" layer="51"/>
 <wire x1="-2.15" y1="1.65" x2="-2.15" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="-2.875" y1="2.2" x2="-2.875" y2="-1.3" width="0.127" layer="39"/>
-<wire x1="-2.875" y1="-1.3" x2="2.875" y2="-1.3" width="0.127" layer="39"/>
-<wire x1="2.875" y1="-1.3" x2="2.875" y2="2.2" width="0.127" layer="39"/>
-<wire x1="2.875" y1="2.2" x2="-2.875" y2="2.2" width="0.127" layer="39"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-2.921" y1="2.159" x2="-2.921" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.921" y1="-1.27" x2="2.921" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.921" y1="-1.27" x2="2.921" y2="2.159" width="0.127" layer="39"/>
+<wire x1="2.921" y1="2.159" x2="-2.921" y2="2.159" width="0.127" layer="39"/>
+<text x="0" y="-1.27" size="0.5" layer="25" font="vector" ratio="10" align="top-center">&gt;NAME</text>
+<text x="0" y="0.762" size="0.25" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.032" y1="0.762" x2="-2.032" y2="-0.762" width="0.127" layer="40"/>
+<wire x1="-2.032" y1="-0.762" x2="2.032" y2="-0.762" width="0.127" layer="40"/>
+<wire x1="2.032" y1="-0.762" x2="2.032" y2="0.762" width="0.127" layer="40"/>
+<wire x1="2.032" y1="0.762" x2="-2.032" y2="0.762" width="0.127" layer="40"/>
 </package>
 <package name="2X03-VERT-MALE_SHROUDED" urn="urn:adsk.eagle:footprint:3056040/2">
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
@@ -2810,27 +2830,27 @@ WHT</text>
 <packageinstance name="POWER_JACK_PTH_ID2.1MM-OD5.5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="BATTERY_MOLEX-" urn="urn:adsk.eagle:package:2971487/4" type="model">
+<package3d name="BATTERY_MOLEX-" urn="urn:adsk.eagle:package:2971487/4" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="_MOLEX-89401_RA_PITCH-2MM"/>
 </packageinstances>
 </package3d>
-<package3d name="BATTERY_MOLEX-89401_VERT_PITCH-2MM" urn="urn:adsk.eagle:package:2972596/4" type="model">
+<package3d name="BATTERY_MOLEX-89401_VERT_PITCH-2MM" urn="urn:adsk.eagle:package:2972596/4" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="_MOLEX-89400_VERT_PITCH-2MM"/>
 </packageinstances>
 </package3d>
-<package3d name="BATTERY_MOLEX-0530470210_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:package:2973718/3" type="model">
+<package3d name="BATTERY_MOLEX-0530470210_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:package:2973718/3" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="_MOLEX-0530470210_VERT_PITCH-1.25MM"/>
 </packageinstances>
 </package3d>
-<package3d name="BATTERY_MOLEX-0530480210_RA_PITCH-1.25MM" urn="urn:adsk.eagle:package:2973719/3" type="model">
+<package3d name="BATTERY_MOLEX-0530480210_RA_PITCH-1.25MM" urn="urn:adsk.eagle:package:2973719/3" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="_MOLEX-0530480210_RA_PITCH-1.25MM"/>
 </packageinstances>
 </package3d>
-<package3d name="_MOLEX-0530470310_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:package:3035545/2" type="model">
+<package3d name="_MOLEX-0530470310_VERT_PITCH-1.25MM" urn="urn:adsk.eagle:package:3035545/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="_MOLEX-0530470310_VERT_PITCH-1.25MM"/>
 </packageinstances>
@@ -5270,29 +5290,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <gate name="G$1" symbol="USB_SERIAL_CABLE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="USB_SERIAL_CABLE">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RX/WHT" pad="RX"/>
-<connect gate="G$1" pin="TX/GRN" pad="TX"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CONNECTOR_DATASHEET" value="http://www.sullinscorp.com/drawings/77____C___S___N-OMIT,_M500,_STRAIGHT,_C10436.pdf" constant="no"/>
-<attribute name="CONNECTOR_DIST" value="Digikey" constant="no"/>
-<attribute name="CONNECTOR_DISTLINK" value="https://www.digikey.com/products/en?keywords=PEC03SAAN" constant="no"/>
-<attribute name="CONNECTOR_DISTPN" value="S1012E-03-ND" constant="no"/>
-<attribute name="CONNECTOR_MFR" value="Sullins Connector Solutions" constant="no"/>
-<attribute name="CONNECTOR_MPN" value="PEC03SAAN" constant="no"/>
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Olimex%20LTD%20PDFs/USB-SERIAL-CABLE-F_Web.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1188-1018-ND" constant="no"/>
-<attribute name="DISTPN" value="1188-1018-ND" constant="no"/>
-<attribute name="MFR" value="Olimex LTD" constant="no"/>
-<attribute name="MPN" value="USB-SERIAL-CABLE-F" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_PL-2303_3.3V_PTH_VERT_MALE_2.54MM_NO-PWR" package="HDRV3W64P254_1X3_762X254X838B_USB-SERIAL-CABLE">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
