@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -392,11 +392,11 @@ MOTOR</text>
 <wire x1="-4" y1="-2.8" x2="-4" y2="2.8" width="0.127" layer="39"/>
 <text x="0" y="3" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <pad name="1" x="-2.54" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="6" x="-2.54" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="2" x="0" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="5" x="0" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="3" x="2.54" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="4" x="2.54" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="3" x="0" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="4" x="0" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="5" x="2.54" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="6" x="2.54" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
 <circle x="-4" y="-3" radius="0.5" width="0" layer="21"/>
 <text x="0" y="-3" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 </package>
@@ -458,6 +458,39 @@ MOTOR</text>
 <text x="2.54" y="-1.524" size="0.5" layer="21" font="vector" ratio="10" align="top-center">VCC</text>
 <text x="5.08" y="-1.524" size="0.5" layer="21" font="vector" ratio="10" align="top-center">GND</text>
 </package>
+<package name="HDRV6W64P254_2X3_762X483X838B_AVR-ISP" urn="urn:adsk.eagle:footprint:4860722/1" locally_modified="yes">
+<description>Double-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 7.62 X 4.83 X 8.38 mm body
+&lt;p&gt;Double-row (2X3), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 7.62 X 4.83 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-3.94" y="-2.57" radius="0.5" width="0" layer="21"/>
+<wire x1="3.9007" y1="-2.6291" x2="-3.9007" y2="-2.6291" width="0.12" layer="21"/>
+<wire x1="-3.9007" y1="-2.6291" x2="-3.9007" y2="2.6291" width="0.12" layer="21"/>
+<wire x1="-3.9007" y1="2.6291" x2="3.9007" y2="2.6291" width="0.12" layer="21"/>
+<wire x1="3.9007" y1="2.6291" x2="3.9007" y2="-2.6291" width="0.12" layer="21"/>
+<wire x1="3.81" y1="-2.415" x2="-3.81" y2="-2.415" width="0.12" layer="51"/>
+<wire x1="-3.81" y1="-2.415" x2="-3.81" y2="2.415" width="0.12" layer="51"/>
+<wire x1="-3.81" y1="2.415" x2="3.81" y2="2.415" width="0.12" layer="51"/>
+<wire x1="3.81" y1="2.415" x2="3.81" y2="-2.415" width="0.12" layer="51"/>
+<pad name="2" x="-2.54" y="1.27" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="4" x="0" y="1.27" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="6" x="2.54" y="1.27" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="5" x="2.54" y="-1.27" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="3" x="0" y="-1.27" drill="1" diameter="1.85" shape="octagon"/>
+<pad name="1" x="-2.54" y="-1.27" drill="1" diameter="1.85" shape="octagon"/>
+<text x="-4.064" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="4.064" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<wire x1="-4.064" y1="-2.794" x2="4.064" y2="-2.794" width="0.127" layer="39"/>
+<wire x1="4.064" y1="-2.794" x2="4.064" y2="2.794" width="0.127" layer="39"/>
+<wire x1="4.064" y1="2.794" x2="-4.064" y2="2.794" width="0.127" layer="39"/>
+<wire x1="-4.064" y1="2.794" x2="-4.064" y2="-2.794" width="0.127" layer="39"/>
+<wire x1="-3.683" y1="-2.413" x2="3.683" y2="-2.413" width="0.127" layer="40"/>
+<wire x1="3.683" y1="-2.413" x2="3.683" y2="2.413" width="0.127" layer="40"/>
+<wire x1="3.683" y1="2.413" x2="-3.683" y2="2.413" width="0.127" layer="40"/>
+<wire x1="-3.683" y1="2.413" x2="-3.683" y2="-2.413" width="0.127" layer="40"/>
+<text x="-2.54" y="2.794" size="0.5" layer="21" font="vector" ratio="10" align="bottom-center">VCC</text>
+<text x="0" y="2.794" size="0.5" layer="21" font="vector" ratio="10" align="bottom-center">MOSI</text>
+<text x="2.54" y="2.794" size="0.5" layer="21" font="vector" ratio="10" align="bottom-center">GND</text>
+<rectangle x1="-0.762" y1="-3.048" x2="0.762" y2="-2.286" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="02X03-SHROUDED_FAULHABER1717T" urn="urn:adsk.eagle:package:3056049/2" locally_modified="yes" type="model">
@@ -482,6 +515,13 @@ MOTOR</text>
 &lt;p&gt;Single-row (1X3), 3-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 8.12 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="HDRVR3W64P254_1X3_812X254X850B"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRV6W64P254_2X3_762X483X838B" urn="urn:adsk.eagle:package:4860635/1" locally_modified="yes" type="model">
+<description>Double-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 7.62 X 4.83 X 8.38 mm body
+&lt;p&gt;Double-row (2X3), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 7.62 X 4.83 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRV6W64P254_2X3_762X483X838B_AVR-ISP"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -758,12 +798,12 @@ MOTOR</text>
 <devices>
 <device name="_30:1_6V_12-CPR" package="2X03-VERT-MALE">
 <connects>
-<connect gate="G$1" pin="CHA" pad="4"/>
-<connect gate="G$1" pin="CHB" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="MTR+" pad="6"/>
+<connect gate="G$1" pin="CHA" pad="6"/>
+<connect gate="G$1" pin="CHB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="MTR+" pad="2"/>
 <connect gate="G$1" pin="MTR-" pad="1"/>
-<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:2993090/2"/>
@@ -800,6 +840,22 @@ MOTOR</text>
 <attribute name="MPN_ENCODER" value="3081" constant="no"/>
 <attribute name="VALUE" value="6V 30:1 12-CPR" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="_30:1_6V_12-CPR_" package="HDRV6W64P254_2X3_762X483X838B_AVR-ISP">
+<connects>
+<connect gate="G$1" pin="CHA" pad="6"/>
+<connect gate="G$1" pin="CHB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="MTR+" pad="2"/>
+<connect gate="G$1" pin="MTR-" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4860635/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
