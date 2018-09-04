@@ -2484,27 +2484,27 @@
 <package name="HDRV2W64P254_1X2_508X254X838B" urn="urn:adsk.eagle:footprint:4781709/1" locally_modified="yes">
 <description>Single-row, 2-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 5.08 X 2.54 X 8.38 mm body
 &lt;p&gt;Single-row (1X2), 2-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 5.08 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<circle x="-1.4" y="-1.4" radius="0.5" width="0" layer="21"/>
-<wire x1="3.9007" y1="-1.3591" x2="-1.3607" y2="-1.3591" width="0.12" layer="21"/>
-<wire x1="-1.3607" y1="-1.3591" x2="-1.3607" y2="1.3591" width="0.12" layer="21"/>
-<wire x1="-1.3607" y1="1.3591" x2="3.9007" y2="1.3591" width="0.12" layer="21"/>
-<wire x1="3.9007" y1="1.3591" x2="3.9007" y2="-1.3591" width="0.12" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.12" layer="51"/>
-<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.12" layer="51"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
-<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
-<text x="-1.651" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="4.191" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
-<wire x1="-1.524" y1="-1.524" x2="4.064" y2="-1.524" width="0.127" layer="39"/>
-<wire x1="4.064" y1="-1.524" x2="4.064" y2="1.524" width="0.127" layer="39"/>
-<wire x1="4.064" y1="1.524" x2="-1.524" y2="1.524" width="0.127" layer="39"/>
-<wire x1="-1.524" y1="1.524" x2="-1.524" y2="-1.524" width="0.127" layer="39"/>
-<wire x1="-1.143" y1="-1.143" x2="3.683" y2="-1.143" width="0.127" layer="40"/>
-<wire x1="3.683" y1="-1.143" x2="3.683" y2="1.143" width="0.127" layer="40"/>
-<wire x1="3.683" y1="1.143" x2="-1.143" y2="1.143" width="0.127" layer="40"/>
-<wire x1="-1.143" y1="1.143" x2="-1.143" y2="-1.143" width="0.127" layer="40"/>
+<circle x="-2.67" y="-1.4" radius="0.5" width="0" layer="21"/>
+<wire x1="2.6307" y1="-1.3591" x2="-2.6307" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="-2.6307" y1="-1.3591" x2="-2.6307" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="-2.6307" y1="1.3591" x2="2.6307" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="2.6307" y1="1.3591" x2="2.6307" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.12" layer="51"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.12" layer="51"/>
+<pad name="1" x="-1.27" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="1.27" y="0" drill="1" diameter="1.85"/>
+<text x="-2.921" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.921" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<wire x1="-2.794" y1="-1.524" x2="2.794" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="2.794" y1="-1.524" x2="2.794" y2="1.524" width="0.127" layer="39"/>
+<wire x1="2.794" y1="1.524" x2="-2.794" y2="1.524" width="0.127" layer="39"/>
+<wire x1="-2.794" y1="1.524" x2="-2.794" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="-2.413" y1="-1.143" x2="2.413" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="2.413" y1="-1.143" x2="2.413" y2="1.143" width="0.127" layer="40"/>
+<wire x1="2.413" y1="1.143" x2="-2.413" y2="1.143" width="0.127" layer="40"/>
+<wire x1="-2.413" y1="1.143" x2="-2.413" y2="-1.143" width="0.127" layer="40"/>
 </package>
 <package name="HDRVR2W64P254_1X2_558X254X850B" urn="urn:adsk.eagle:footprint:4781722/1" locally_modified="yes">
 <description>Single-row, 2-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 5.58 X 2.54 X 8.50 mm body
@@ -2685,31 +2685,31 @@
 <package name="HDRV6W64P254_1X6_1524X254X838B" urn="urn:adsk.eagle:footprint:4862720/1" locally_modified="yes">
 <description>Single-row, 6-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 15.24 X 2.54 X 8.38 mm body
 &lt;p&gt;Single-row (1X6), 6-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 15.24 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<circle x="-1.4" y="-1.4" radius="0.5" width="0" layer="21"/>
-<wire x1="14.0607" y1="-1.3591" x2="-1.3607" y2="-1.3591" width="0.12" layer="21"/>
-<wire x1="-1.3607" y1="-1.3591" x2="-1.3607" y2="1.3591" width="0.12" layer="21"/>
-<wire x1="-1.3607" y1="1.3591" x2="14.0607" y2="1.3591" width="0.12" layer="21"/>
-<wire x1="14.0607" y1="1.3591" x2="14.0607" y2="-1.3591" width="0.12" layer="21"/>
-<wire x1="13.97" y1="-1.27" x2="-1.27" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.12" layer="51"/>
-<wire x1="-1.27" y1="1.27" x2="13.97" y2="1.27" width="0.12" layer="51"/>
-<wire x1="13.97" y1="1.27" x2="13.97" y2="-1.27" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1" diameter="1.85"/>
-<pad name="2" x="2.54" y="0" drill="1" diameter="1.85"/>
-<pad name="3" x="5.08" y="0" drill="1" diameter="1.85"/>
-<pad name="4" x="7.62" y="0" drill="1" diameter="1.85"/>
-<pad name="5" x="10.16" y="0" drill="1" diameter="1.85"/>
-<pad name="6" x="12.7" y="0" drill="1" diameter="1.85"/>
-<text x="-1.651" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="14.351" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
-<wire x1="-1.524" y1="1.524" x2="-1.524" y2="-1.524" width="0.127" layer="39"/>
-<wire x1="-1.524" y1="-1.524" x2="14.224" y2="-1.524" width="0.127" layer="39"/>
-<wire x1="14.224" y1="-1.524" x2="14.224" y2="1.524" width="0.127" layer="39"/>
-<wire x1="14.224" y1="1.524" x2="-1.524" y2="1.524" width="0.127" layer="39"/>
-<wire x1="-1.0922" y1="1.143" x2="-1.0922" y2="-1.143" width="0.127" layer="40"/>
-<wire x1="-1.0922" y1="-1.143" x2="13.843" y2="-1.143" width="0.127" layer="40"/>
-<wire x1="13.843" y1="-1.143" x2="13.843" y2="1.143" width="0.127" layer="40"/>
-<wire x1="13.843" y1="1.143" x2="-1.0922" y2="1.143" width="0.127" layer="40"/>
+<circle x="-7.75" y="-1.4" radius="0.5" width="0" layer="21"/>
+<wire x1="7.7107" y1="-1.3591" x2="-7.7107" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="-7.7107" y1="-1.3591" x2="-7.7107" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="-7.7107" y1="1.3591" x2="7.7107" y2="1.3591" width="0.12" layer="21"/>
+<wire x1="7.7107" y1="1.3591" x2="7.7107" y2="-1.3591" width="0.12" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.12" layer="51"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.12" layer="51"/>
+<pad name="1" x="-6.35" y="0" drill="1" diameter="1.85"/>
+<pad name="2" x="-3.81" y="0" drill="1" diameter="1.85"/>
+<pad name="3" x="-1.27" y="0" drill="1" diameter="1.85"/>
+<pad name="4" x="1.27" y="0" drill="1" diameter="1.85"/>
+<pad name="5" x="3.81" y="0" drill="1" diameter="1.85"/>
+<pad name="6" x="6.35" y="0" drill="1" diameter="1.85"/>
+<text x="-8.001" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="8.001" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
+<wire x1="-7.874" y1="1.524" x2="-7.874" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="-7.874" y1="-1.524" x2="7.874" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="7.874" y1="-1.524" x2="7.874" y2="1.524" width="0.127" layer="39"/>
+<wire x1="7.874" y1="1.524" x2="-7.874" y2="1.524" width="0.127" layer="39"/>
+<wire x1="-7.4422" y1="1.143" x2="-7.4422" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="-7.4422" y1="-1.143" x2="7.493" y2="-1.143" width="0.127" layer="40"/>
+<wire x1="7.493" y1="-1.143" x2="7.493" y2="1.143" width="0.127" layer="40"/>
+<wire x1="7.493" y1="1.143" x2="-7.4422" y2="1.143" width="0.127" layer="40"/>
 </package>
 <package name="HDRVR6W64P254_1X6_1574X254X850B" urn="urn:adsk.eagle:footprint:4862726/1" locally_modified="yes">
 <description>Single-row, 6-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 15.74 X 2.54 X 8.50 mm body

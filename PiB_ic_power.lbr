@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -727,7 +727,7 @@
 <package name="SOT229P700X180-4" urn="urn:adsk.eagle:footprint:2900308/1" locally_modified="yes">
 <description>4-SOT223, 2.3 mm pitch, 7 mm span, 6.5 X 3.5 X 1.8 mm body
 &lt;p&gt;4-pin SOT223 package with 2.3 mm pitch, 7 mm span with body size 6.5 X 3.5 X 1.8 mm&lt;/p&gt;</description>
-<circle x="-2.9276" y="3.0949" radius="0.075" width="0" layer="21"/>
+<circle x="-3.175" y="3.429" radius="0.3" width="0" layer="21"/>
 <wire x1="-1.85" y1="3.0199" x2="-1.85" y2="3.35" width="0.12" layer="21"/>
 <wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.12" layer="21"/>
 <wire x1="1.85" y1="3.35" x2="1.85" y2="1.8486" width="0.12" layer="21"/>
@@ -741,17 +741,17 @@
 <smd name="1" x="-3.125" y="2.3" dx="1.7603" dy="0.9319" layer="1"/>
 <smd name="2" x="-3.125" y="0" dx="1.7603" dy="0.9319" layer="1"/>
 <smd name="3" x="-3.125" y="-2.3" dx="1.7603" dy="0.9319" layer="1"/>
-<smd name="4" x="3.125" y="0" dx="1.7603" dy="3.1891" layer="1"/>
-<text x="0" y="3.985" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.985" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="-4.4" y1="3.5" x2="-4.4" y2="-3.5" width="0.127" layer="39"/>
-<wire x1="-4.4" y1="-3.5" x2="2.2" y2="-3.5" width="0.127" layer="39"/>
-<wire x1="4.4" y1="-2" x2="4.4" y2="2" width="0.127" layer="39"/>
-<wire x1="2.2" y1="3.5" x2="-4.4" y2="3.5" width="0.127" layer="39"/>
-<wire x1="2.2" y1="3.5" x2="2.2" y2="2" width="0.127" layer="39"/>
-<wire x1="2.2" y1="2" x2="4.4" y2="2" width="0.127" layer="39"/>
-<wire x1="2.2" y1="-3.5" x2="2.2" y2="-2" width="0.127" layer="39"/>
-<wire x1="2.2" y1="-2" x2="4.4" y2="-2" width="0.127" layer="39"/>
+<smd name="TAB" x="3.125" y="0" dx="1.7603" dy="3.1891" layer="1"/>
+<text x="4.318" y="-0.254" size="0.5" layer="25" font="vector" ratio="10" rot="SR270" align="bottom-center">&gt;NAME</text>
+<text x="0" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="SR270" align="center">&gt;VALUE</text>
+<wire x1="-4.318" y1="3.556" x2="-4.318" y2="-3.556" width="0.127" layer="39"/>
+<wire x1="-4.318" y1="-3.556" x2="2.032" y2="-3.556" width="0.127" layer="39"/>
+<wire x1="4.318" y1="-1.905" x2="4.318" y2="1.905" width="0.127" layer="39"/>
+<wire x1="2.032" y1="3.556" x2="-4.318" y2="3.556" width="0.127" layer="39"/>
+<wire x1="2.032" y1="3.556" x2="2.032" y2="1.905" width="0.127" layer="39"/>
+<wire x1="2.032" y1="1.905" x2="4.318" y2="1.905" width="0.127" layer="39"/>
+<wire x1="2.032" y1="-3.556" x2="2.032" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="2.032" y1="-1.905" x2="4.318" y2="-1.905" width="0.127" layer="39"/>
 </package>
 <package name="SOIC127P600X100-8" urn="urn:adsk.eagle:footprint:3741295/1" locally_modified="yes">
 <description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 1 mm body
@@ -1808,7 +1808,7 @@
 <devices>
 <device name="_SOT-223-4_TL1963A-33_1.5A-3.3V" package="SOT229P700X180-4">
 <connects>
-<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="GND" pad="2 TAB"/>
 <connect gate="G$1" pin="VI" pad="1"/>
 <connect gate="G$1" pin="VO" pad="3"/>
 </connects>
@@ -1921,7 +1921,7 @@
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="VI" pad="3"/>
-<connect gate="G$1" pin="VO" pad="2 4"/>
+<connect gate="G$1" pin="VO" pad="2 TAB"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:2900305/1"/>
@@ -1935,6 +1935,34 @@
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="LM1117IMPX-5.0/NOPB" constant="no"/>
 <attribute name="VALUE" value="LM1117-5.0 800mA/5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC39100-XX" prefix="VREG">
+<gates>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_MIC39100-5.0_1A" package="SOT229P700X180-4">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 TAB"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2900305/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/20005834A.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=576-1173-ND" constant="no"/>
+<attribute name="DISTPN" value="576-1173-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="MIC39100-5.0WS" constant="no"/>
+<attribute name="VALUE" value="MIC39100-5.0 5V/1A" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -182,7 +182,7 @@
 <text x="0" y="-1.778" size="0.8128" layer="21" font="vector" rot="R90" align="center-right">GND</text>
 <text x="2.54" y="-1.778" size="0.8128" layer="21" font="vector" rot="R90" align="center-right">VCC</text>
 </package>
-<package name="CONNECTOR_TEMPERATURE-SENSOR_DHT22">
+<package name="TEMPERATURE-SENSOR_DHT22" urn="urn:adsk.eagle:footprint:4944998/1">
 <wire x1="-2.27" y1="0.635" x2="-2.27" y2="1.905" width="0.2032" layer="21"/>
 <wire x1="-2.27" y1="1.905" x2="-1.635" y2="2.54" width="0.2032" layer="21"/>
 <wire x1="-0.365" y1="2.54" x2="0.27" y2="1.905" width="0.2032" layer="21"/>
@@ -206,6 +206,11 @@
 <wire x1="-0.365" y1="-2.54" x2="0.27" y2="-3.175" width="0.2032" layer="21"/>
 <wire x1="0.27" y1="-3.175" x2="0.27" y2="-4.445" width="0.2032" layer="21"/>
 <wire x1="0.27" y1="-4.445" x2="-0.365" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="-1.635" y1="-5.08" x2="-0.365" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="-5.85" y1="-7.55" x2="1.85" y2="-7.55" width="0.127" layer="51"/>
+<wire x1="1.85" y1="-7.55" x2="1.85" y2="7.55" width="0.127" layer="51"/>
+<wire x1="1.85" y1="7.55" x2="-5.85" y2="7.55" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="7.55" x2="-5.85" y2="-7.55" width="0.127" layer="51"/>
 <pad name="GND" x="-1" y="-3.81" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="NC" x="-1" y="-1.27" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="DATA" x="-1" y="1.27" drill="1.016" diameter="1.8796" rot="R180"/>
@@ -220,11 +225,6 @@
 <text x="-2.5" y="1.23" size="0.6096" layer="21" font="vector" ratio="10" rot="SR0" align="center-right">DATA</text>
 <text x="-1" y="5.588" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="-1" y="-5.588" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-1.635" y1="-5.08" x2="-0.365" y2="-5.08" width="0.2032" layer="21"/>
-<wire x1="-5.85" y1="-7.55" x2="1.85" y2="-7.55" width="0.127" layer="51"/>
-<wire x1="1.85" y1="-7.55" x2="1.85" y2="7.55" width="0.127" layer="51"/>
-<wire x1="1.85" y1="7.55" x2="-5.85" y2="7.55" width="0.127" layer="51"/>
-<wire x1="-5.85" y1="7.55" x2="-5.85" y2="-7.55" width="0.127" layer="51"/>
 </package>
 <package name="CONNECTOR_TMP36">
 <pad name="1" x="-2.54" y="-1.27" drill="0.8128" diameter="1.8796"/>
@@ -399,6 +399,11 @@
 <packageinstance name="_MOLEX-0530480210_RA_PITCH-1.25MM"/>
 </packageinstances>
 </package3d>
+<package3d name="TEMPERATURE-SENSOR_DHT22" urn="urn:adsk.eagle:package:4945009/2" type="model">
+<packageinstances>
+<packageinstance name="TEMPERATURE-SENSOR_DHT22"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="IR-SENSOR_SHARP-GP2Y0A21YK0F">
@@ -526,17 +531,19 @@
 <gate name="G$1" symbol="TEMPERATURE-SENSOR_DHT22" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CONNECTOR_TEMPERATURE-SENSOR_DHT22">
+<device name="_DHT22_AM2302_TEMPERATURE-HUMIDITY" package="TEMPERATURE-SENSOR_DHT22">
 <connects>
 <connect gate="G$1" pin="DATA" pad="DATA"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="NC" pad="NC"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4945009/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="https://cdn-shop.adafruit.com/datasheets/DHT22.pdf" constant="no"/>
+<attribute name="DATASHEET" value="https://cdn-learn.adafruit.com/downloads/pdf/dht.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=1528-1504-ND" constant="no"/>
 <attribute name="DISTPN" value="1528-1504-ND" constant="no"/>

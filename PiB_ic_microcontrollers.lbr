@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1375,6 +1375,100 @@
 <wire x1="4.5" y1="-6" x2="4.5" y2="-4.5" width="0.127" layer="39"/>
 <wire x1="4.5" y1="-4.5" x2="6" y2="-4.5" width="0.127" layer="39"/>
 </package>
+<package name="DIP762W53P254L3467H457Q28B" urn="urn:adsk.eagle:footprint:4944648/1">
+<description>28-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 34.67 X 7.30 X 4.57 mm body
+&lt;p&gt;28-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 34.67 X 7.30 X 4.57 mm&lt;/p&gt;</description>
+<circle x="-5.1134" y="16.51" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.7465" y1="17.6234" x2="3.7465" y2="17.6234" width="0.12" layer="21"/>
+<wire x1="-3.7465" y1="-17.6234" x2="3.7465" y2="-17.6234" width="0.12" layer="21"/>
+<wire x1="3.7465" y1="-17.399" x2="-3.7465" y2="-17.399" width="0.12" layer="51"/>
+<wire x1="-3.7465" y1="-17.399" x2="-3.7465" y2="17.399" width="0.12" layer="51"/>
+<wire x1="-3.7465" y1="17.399" x2="3.7465" y2="17.399" width="0.12" layer="51"/>
+<wire x1="3.7465" y1="17.399" x2="3.7465" y2="-17.399" width="0.12" layer="51"/>
+<pad name="1" x="-3.81" y="16.51" drill="0.7994" diameter="1.5988"/>
+<pad name="2" x="-3.81" y="13.97" drill="0.7994" diameter="1.5988"/>
+<pad name="3" x="-3.81" y="11.43" drill="0.7994" diameter="1.5988"/>
+<pad name="4" x="-3.81" y="8.89" drill="0.7994" diameter="1.5988"/>
+<pad name="5" x="-3.81" y="6.35" drill="0.7994" diameter="1.5988"/>
+<pad name="6" x="-3.81" y="3.81" drill="0.7994" diameter="1.5988"/>
+<pad name="7" x="-3.81" y="1.27" drill="0.7994" diameter="1.5988"/>
+<pad name="8" x="-3.81" y="-1.27" drill="0.7994" diameter="1.5988"/>
+<pad name="9" x="-3.81" y="-3.81" drill="0.7994" diameter="1.5988"/>
+<pad name="10" x="-3.81" y="-6.35" drill="0.7994" diameter="1.5988"/>
+<pad name="11" x="-3.81" y="-8.89" drill="0.7994" diameter="1.5988"/>
+<pad name="12" x="-3.81" y="-11.43" drill="0.7994" diameter="1.5988"/>
+<pad name="13" x="-3.81" y="-13.97" drill="0.7994" diameter="1.5988"/>
+<pad name="14" x="-3.81" y="-16.51" drill="0.7994" diameter="1.5988"/>
+<pad name="15" x="3.81" y="-16.51" drill="0.7994" diameter="1.5988"/>
+<pad name="16" x="3.81" y="-13.97" drill="0.7994" diameter="1.5988"/>
+<pad name="17" x="3.81" y="-11.43" drill="0.7994" diameter="1.5988"/>
+<pad name="18" x="3.81" y="-8.89" drill="0.7994" diameter="1.5988"/>
+<pad name="19" x="3.81" y="-6.35" drill="0.7994" diameter="1.5988"/>
+<pad name="20" x="3.81" y="-3.81" drill="0.7994" diameter="1.5988"/>
+<pad name="21" x="3.81" y="-1.27" drill="0.7994" diameter="1.5988"/>
+<pad name="22" x="3.81" y="1.27" drill="0.7994" diameter="1.5988"/>
+<pad name="23" x="3.81" y="3.81" drill="0.7994" diameter="1.5988"/>
+<pad name="24" x="3.81" y="6.35" drill="0.7994" diameter="1.5988"/>
+<pad name="25" x="3.81" y="8.89" drill="0.7994" diameter="1.5988"/>
+<pad name="26" x="3.81" y="11.43" drill="0.7994" diameter="1.5988"/>
+<pad name="27" x="3.81" y="13.97" drill="0.7994" diameter="1.5988"/>
+<pad name="28" x="3.81" y="16.51" drill="0.7994" diameter="1.5988"/>
+<text x="0" y="18.2584" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-18.2584" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIP762W53P254L3467H472Q28B" urn="urn:adsk.eagle:footprint:4944656/1" locally_modified="yes">
+<description>28-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 34.67 X 7.30 X 4.72 mm body
+&lt;p&gt;28-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 34.67 X 7.30 X 4.72 mm&lt;/p&gt;</description>
+<circle x="-3.8" y="18.1" radius="0.5" width="0" layer="21"/>
+<wire x1="-3.7465" y1="17.6234" x2="3.7465" y2="17.6234" width="0.12" layer="21"/>
+<wire x1="-3.7465" y1="-17.6234" x2="3.7465" y2="-17.6234" width="0.12" layer="21"/>
+<wire x1="3.7465" y1="-17.399" x2="-3.7465" y2="-17.399" width="0.12" layer="51"/>
+<wire x1="-3.7465" y1="-17.399" x2="-3.7465" y2="17.399" width="0.12" layer="51"/>
+<wire x1="-3.7465" y1="17.399" x2="3.7465" y2="17.399" width="0.12" layer="51"/>
+<wire x1="3.7465" y1="17.399" x2="3.7465" y2="-17.399" width="0.12" layer="51"/>
+<pad name="1" x="-3.81" y="16.51" drill="0.7994" diameter="1.5988"/>
+<pad name="2" x="-3.81" y="13.97" drill="0.7994" diameter="1.5988"/>
+<pad name="3" x="-3.81" y="11.43" drill="0.7994" diameter="1.5988"/>
+<pad name="4" x="-3.81" y="8.89" drill="0.7994" diameter="1.5988"/>
+<pad name="5" x="-3.81" y="6.35" drill="0.7994" diameter="1.5988"/>
+<pad name="6" x="-3.81" y="3.81" drill="0.7994" diameter="1.5988"/>
+<pad name="7" x="-3.81" y="1.27" drill="0.7994" diameter="1.5988"/>
+<pad name="8" x="-3.81" y="-1.27" drill="0.7994" diameter="1.5988"/>
+<pad name="9" x="-3.81" y="-3.81" drill="0.7994" diameter="1.5988"/>
+<pad name="10" x="-3.81" y="-6.35" drill="0.7994" diameter="1.5988"/>
+<pad name="11" x="-3.81" y="-8.89" drill="0.7994" diameter="1.5988"/>
+<pad name="12" x="-3.81" y="-11.43" drill="0.7994" diameter="1.5988"/>
+<pad name="13" x="-3.81" y="-13.97" drill="0.7994" diameter="1.5988"/>
+<pad name="14" x="-3.81" y="-16.51" drill="0.7994" diameter="1.5988"/>
+<pad name="15" x="3.81" y="-16.51" drill="0.7994" diameter="1.5988"/>
+<pad name="16" x="3.81" y="-13.97" drill="0.7994" diameter="1.5988"/>
+<pad name="17" x="3.81" y="-11.43" drill="0.7994" diameter="1.5988"/>
+<pad name="18" x="3.81" y="-8.89" drill="0.7994" diameter="1.5988"/>
+<pad name="19" x="3.81" y="-6.35" drill="0.7994" diameter="1.5988"/>
+<pad name="20" x="3.81" y="-3.81" drill="0.7994" diameter="1.5988"/>
+<pad name="21" x="3.81" y="-1.27" drill="0.7994" diameter="1.5988"/>
+<pad name="22" x="3.81" y="1.27" drill="0.7994" diameter="1.5988"/>
+<pad name="23" x="3.81" y="3.81" drill="0.7994" diameter="1.5988"/>
+<pad name="24" x="3.81" y="6.35" drill="0.7994" diameter="1.5988"/>
+<pad name="25" x="3.81" y="8.89" drill="0.7994" diameter="1.5988"/>
+<pad name="26" x="3.81" y="11.43" drill="0.7994" diameter="1.5988"/>
+<pad name="27" x="3.81" y="13.97" drill="0.7994" diameter="1.5988"/>
+<pad name="28" x="3.81" y="16.51" drill="0.7994" diameter="1.5988"/>
+<text x="0" y="17.78" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-17.78" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-4.953" y1="-17.78" x2="4.953" y2="-17.78" width="0.127" layer="39"/>
+<wire x1="4.953" y1="-17.78" x2="4.953" y2="17.78" width="0.127" layer="39"/>
+<wire x1="4.953" y1="17.78" x2="-4.953" y2="17.78" width="0.127" layer="39"/>
+<wire x1="-4.953" y1="17.78" x2="-4.953" y2="-17.78" width="0.127" layer="39"/>
+<wire x1="-4.953" y1="-17.653" x2="-2.667" y2="-17.653" width="0.127" layer="40"/>
+<wire x1="-2.667" y1="-17.653" x2="-2.667" y2="17.526" width="0.127" layer="40"/>
+<wire x1="-2.667" y1="17.526" x2="-4.953" y2="17.526" width="0.127" layer="40"/>
+<wire x1="-4.953" y1="17.526" x2="-4.953" y2="-17.653" width="0.127" layer="40"/>
+<wire x1="2.667" y1="-17.653" x2="4.953" y2="-17.653" width="0.127" layer="40"/>
+<wire x1="2.667" y1="-17.653" x2="2.667" y2="17.526" width="0.127" layer="40"/>
+<wire x1="4.953" y1="17.526" x2="4.953" y2="-17.653" width="0.127" layer="40"/>
+<wire x1="4.953" y1="17.526" x2="2.667" y2="17.526" width="0.127" layer="40"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIP-20" urn="urn:adsk.eagle:package:2750531/2" locally_modified="yes" type="model">
@@ -1481,6 +1575,20 @@
 <packageinstance name="QFP80P900X900X120-32"/>
 </packageinstances>
 </package3d>
+<package3d name="DIP762W53P254L3467H457Q28B" urn="urn:adsk.eagle:package:4944306/1" type="model">
+<description>28-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 34.67 X 7.30 X 4.57 mm body
+&lt;p&gt;28-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 34.67 X 7.30 X 4.57 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP762W53P254L3467H457Q28B"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP762W53P254L3467H472Q28B" urn="urn:adsk.eagle:package:4944652/1" locally_modified="yes" type="model">
+<description>28-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 34.67 X 7.30 X 4.72 mm body
+&lt;p&gt;28-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 34.67 X 7.30 X 4.72 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP762W53P254L3467H472Q28B"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="ATMEGA128RFA1">
@@ -1551,65 +1659,23 @@
 <text x="-22.86" y="-48.26" size="0.8128" layer="94" font="vector" ratio="10" align="center-left">CONNECT CLKI &amp; TST to GND</text>
 </symbol>
 <symbol name="ATMEGA328P-28">
-<pin name="PB0" x="-22.86" y="-5.08" length="middle"/>
-<pin name="PB1(OC1A)" x="-22.86" y="-7.62" length="middle"/>
-<pin name="PB2(OC1B/!SS!)" x="-22.86" y="-10.16" length="middle"/>
-<pin name="PB3(OC2A/MOSI)" x="-22.86" y="-12.7" length="middle"/>
-<pin name="PB4(MISO)" x="-22.86" y="-15.24" length="middle"/>
-<pin name="PB5(SCK)" x="-22.86" y="-17.78" length="middle"/>
-<pin name="PB7(XTAL2)" x="-22.86" y="-22.86" length="middle"/>
-<pin name="PB6(XTAL1)" x="-22.86" y="-20.32" length="middle"/>
-<pin name="VCC" x="-22.86" y="15.24" length="middle"/>
-<pin name="AVCC" x="-22.86" y="12.7" length="middle"/>
-<pin name="AREF" x="-22.86" y="10.16" length="middle"/>
-<pin name="GND@1" x="-22.86" y="7.62" length="middle"/>
-<pin name="GND@2" x="-22.86" y="5.08" length="middle"/>
-<pin name="PC0(ADC0)" x="25.4" y="-22.86" length="middle" rot="R180"/>
-<pin name="PC1(ADC1)" x="25.4" y="-20.32" length="middle" rot="R180"/>
-<pin name="PC2(ADC2)" x="25.4" y="-17.78" length="middle" rot="R180"/>
-<pin name="PC3(ADC3)" x="25.4" y="-15.24" length="middle" rot="R180"/>
-<pin name="PC4(SDA)" x="25.4" y="-12.7" length="middle" rot="R180"/>
-<pin name="PC5(SCL)" x="25.4" y="-10.16" length="middle" rot="R180"/>
-<pin name="PC6(!RESET!)" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="PD0(RXD)" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="PD1(TXD)" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="PD2" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="PD3(OC2B)" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="PD4" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="PD5(OC0B)" x="25.4" y="10.16" length="middle" rot="R180"/>
-<pin name="PD6(OC0A)" x="25.4" y="12.7" length="middle" rot="R180"/>
-<pin name="PD7" x="25.4" y="15.24" length="middle" rot="R180"/>
-<pin name="GND@3" x="-22.86" y="2.54" length="middle"/>
-<wire x1="-17.78" y1="25.4" x2="-17.78" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-25.4" x2="20.32" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-25.4" x2="20.32" y2="25.4" width="0.254" layer="94"/>
-<wire x1="20.32" y1="25.4" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
-<text x="0" y="22.86" size="1.27" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="20.32" size="1.27" layer="95" font="vector" align="bottom-center">ATMEGA328P-28PIN</text>
-</symbol>
-<symbol name="ATMEGA328P-32">
 <pin name="(INT1/OC2B/PCINT19/D3-PWM3)PD3" x="45.72" y="-17.78" length="middle" rot="R180"/>
 <pin name="(T0/XCK/PCINT20/D4)PD4" x="45.72" y="-20.32" length="middle" rot="R180"/>
-<pin name="GND@2" x="-45.72" y="-25.4" length="middle" direction="pwr"/>
-<pin name="VCC@2" x="-45.72" y="20.32" length="middle" direction="pwr"/>
-<pin name="GND@3" x="-45.72" y="-27.94" length="middle" direction="pwr"/>
-<pin name="VCC@1" x="-45.72" y="22.86" length="middle" direction="pwr"/>
+<pin name="GND" x="-45.72" y="-27.94" length="middle" direction="pwr"/>
+<pin name="VCC" x="-45.72" y="22.86" length="middle" direction="pwr"/>
 <pin name="PB6(D20*/XTAL1/TOSC1/PCINT6)" x="-45.72" y="-5.08" length="middle"/>
 <pin name="PB7(D21*/XTAL2/TOSC2/PCINT7)" x="-45.72" y="-15.24" length="middle"/>
 <pin name="(T1/OC0B/PCINT21/D5-PWM5)PD5" x="45.72" y="-22.86" length="middle" rot="R180"/>
 <pin name="(AIN0/OC0A/PCINT22/D6-PWM6)PD6" x="45.72" y="-25.4" length="middle" rot="R180"/>
 <pin name="(AIN1/PCINT23/D7)PD7" x="45.72" y="-27.94" length="middle" rot="R180"/>
-<pin name="(LKO/ICP1/PCINT0/D8)PB0" x="45.72" y="25.4" length="middle" rot="R180"/>
+<pin name="(CLKO/ICP1/PCINT0/D8)PB0" x="45.72" y="25.4" length="middle" rot="R180"/>
 <pin name="(PCINT1/OC1A/D9-PWM9)PB1" x="45.72" y="22.86" length="middle" rot="R180"/>
 <pin name="(!SS!/OC1B/PCINT2/D10-PWM10)PB2" x="45.72" y="20.32" length="middle" rot="R180"/>
 <pin name="(MOSI/OC2A/PCINT3/D11-PWM11)PB3" x="45.72" y="17.78" length="middle" rot="R180"/>
 <pin name="(MISO/PCINT4/D12)PB4" x="45.72" y="15.24" length="middle" rot="R180"/>
 <pin name="(SCK/PCINT5/D13)PB5" x="45.72" y="12.7" length="middle" rot="R180"/>
-<pin name="AVCC" x="-45.72" y="17.78" length="middle" direction="pwr"/>
-<pin name="ADC6" x="-45.72" y="-17.78" length="middle" direction="in"/>
-<pin name="AREF" x="-45.72" y="15.24" length="middle" direction="pas"/>
-<pin name="GND@1" x="-45.72" y="-22.86" length="middle" direction="pwr"/>
-<pin name="ADC7" x="-45.72" y="-20.32" length="middle" direction="in"/>
+<pin name="AVCC" x="-45.72" y="20.32" length="middle" direction="pwr"/>
+<pin name="AREF" x="-45.72" y="17.78" length="middle" direction="pas"/>
 <pin name="(ADC0/PCINT8/D14-A0)PC0" x="45.72" y="7.62" length="middle" rot="R180"/>
 <pin name="(ADC1/PCINT9/D15-A1)PC1" x="45.72" y="5.08" length="middle" rot="R180"/>
 <pin name="(ADC2/PCINT10/D16-A2)PC2" x="45.72" y="2.54" length="middle" rot="R180"/>
@@ -1627,8 +1693,47 @@
 <text x="0" y="28.448" size="1.27" layer="95" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-30.734" size="0.635" layer="96" font="vector" ratio="10" rot="SR0" align="top-center">&gt;VALUE</text>
 <text x="-27.94" y="22.86" size="0.8128" layer="94" font="vector" ratio="10">*RESET pin must be disabled</text>
-<text x="-45.72" y="-17.78" size="1.27" layer="97" font="vector" ratio="10" align="bottom-right">NC</text>
-<text x="-45.72" y="-20.32" size="1.27" layer="97" font="vector" ratio="10" align="bottom-right">NC</text>
+<text x="-38.1" y="-10.16" size="1.27" layer="94" font="vector" ratio="10" align="center-left">*Internal oscillator must be enabled</text>
+</symbol>
+<symbol name="ATMEGA328P-32">
+<pin name="(INT1/OC2B/PCINT19/D3-PWM3)PD3" x="45.72" y="-17.78" length="middle" rot="R180"/>
+<pin name="(T0/XCK/PCINT20/D4)PD4" x="45.72" y="-20.32" length="middle" rot="R180"/>
+<pin name="VCC" x="-45.72" y="22.86" length="middle" direction="pwr"/>
+<pin name="PB6(D20*/XTAL1/TOSC1/PCINT6)" x="-45.72" y="-5.08" length="middle"/>
+<pin name="PB7(D21*/XTAL2/TOSC2/PCINT7)" x="-45.72" y="-15.24" length="middle"/>
+<pin name="(T1/OC0B/PCINT21/D5-PWM5)PD5" x="45.72" y="-22.86" length="middle" rot="R180"/>
+<pin name="(AIN0/OC0A/PCINT22/D6-PWM6)PD6" x="45.72" y="-25.4" length="middle" rot="R180"/>
+<pin name="(AIN1/PCINT23/D7)PD7" x="45.72" y="-27.94" length="middle" rot="R180"/>
+<pin name="(LKO/ICP1/PCINT0/D8)PB0" x="45.72" y="25.4" length="middle" rot="R180"/>
+<pin name="(PCINT1/OC1A/D9-PWM9)PB1" x="45.72" y="22.86" length="middle" rot="R180"/>
+<pin name="(!SS!/OC1B/PCINT2/D10-PWM10)PB2" x="45.72" y="20.32" length="middle" rot="R180"/>
+<pin name="(MOSI/OC2A/PCINT3/D11-PWM11)PB3" x="45.72" y="17.78" length="middle" rot="R180"/>
+<pin name="(MISO/PCINT4/D12)PB4" x="45.72" y="15.24" length="middle" rot="R180"/>
+<pin name="(SCK/PCINT5/D13)PB5" x="45.72" y="12.7" length="middle" rot="R180"/>
+<pin name="AVCC" x="-45.72" y="20.32" length="middle" direction="pwr"/>
+<pin name="ADC6" x="-45.72" y="-22.86" length="middle" direction="in"/>
+<pin name="AREF" x="-45.72" y="17.78" length="middle" direction="pas"/>
+<pin name="GND" x="-45.72" y="-27.94" length="middle" direction="pwr"/>
+<pin name="ADC7" x="-45.72" y="-25.4" length="middle" direction="in"/>
+<pin name="(ADC0/PCINT8/D14-A0)PC0" x="45.72" y="7.62" length="middle" rot="R180"/>
+<pin name="(ADC1/PCINT9/D15-A1)PC1" x="45.72" y="5.08" length="middle" rot="R180"/>
+<pin name="(ADC2/PCINT10/D16-A2)PC2" x="45.72" y="2.54" length="middle" rot="R180"/>
+<pin name="(ADC3/PCINT11/D17-A3)PC3" x="45.72" y="0" length="middle" rot="R180"/>
+<pin name="(SDA/ADC4/PCINT12/D18-A4)PC4" x="45.72" y="-2.54" length="middle" rot="R180"/>
+<pin name="(SCL/ADC5/PCINT13/D19-A5)PC5" x="45.72" y="-5.08" length="middle" rot="R180"/>
+<pin name="PC6(D22*/PCINT14/!RESET!)" x="-45.72" y="25.4" length="middle"/>
+<pin name="(RXD/PCINT16/D0)PD0" x="45.72" y="-10.16" length="middle" rot="R180"/>
+<pin name="(TXD/PCINT17/D1)PD1" x="45.72" y="-12.7" length="middle" rot="R180"/>
+<pin name="(INT0/PCINT18/D2)PD2" x="45.72" y="-15.24" length="middle" rot="R180"/>
+<wire x1="-40.64" y1="27.94" x2="-40.64" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="-40.64" y1="-30.48" x2="40.64" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="40.64" y1="-30.48" x2="40.64" y2="27.94" width="0.1524" layer="94"/>
+<wire x1="40.64" y1="27.94" x2="-40.64" y2="27.94" width="0.1524" layer="94"/>
+<text x="0" y="28.448" size="1.27" layer="95" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-30.734" size="0.635" layer="96" font="vector" ratio="10" rot="SR0" align="top-center">&gt;VALUE</text>
+<text x="-27.94" y="22.86" size="0.8128" layer="94" font="vector" ratio="10">*RESET pin must be disabled</text>
+<text x="-45.72" y="-22.86" size="1.27" layer="97" font="vector" ratio="10" align="bottom-right">NC</text>
+<text x="-45.72" y="-25.4" size="1.27" layer="97" font="vector" ratio="10" align="bottom-right">NC</text>
 <text x="-38.1" y="-10.16" size="1.27" layer="94" font="vector" ratio="10" align="center-left">*Internal oscillator must be enabled</text>
 </symbol>
 <symbol name="ATTINYX313">
@@ -1862,55 +1967,51 @@
 <deviceset name="ATMEGA328P-28" prefix="MCU" uservalue="yes">
 <description>ATMEGA328P 28PIN IC</description>
 <gates>
-<gate name="A" symbol="ATMEGA328P-28" x="0" y="0"/>
+<gate name="G$1" symbol="ATMEGA328P-28" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_VFQFN-28_EXPOSED-PAD" package="VFQFN-28">
+<device name="_28-PDIP_8BIT_32KB" package="DIP762W53P254L3467H472Q28B">
 <connects>
-<connect gate="A" pin="AREF" pad="17"/>
-<connect gate="A" pin="AVCC" pad="16"/>
-<connect gate="A" pin="GND@1" pad="4"/>
-<connect gate="A" pin="GND@2" pad="18"/>
-<connect gate="A" pin="GND@3" pad="29"/>
-<connect gate="A" pin="PB0" pad="10"/>
-<connect gate="A" pin="PB1(OC1A)" pad="11"/>
-<connect gate="A" pin="PB2(OC1B/!SS!)" pad="12"/>
-<connect gate="A" pin="PB3(OC2A/MOSI)" pad="13"/>
-<connect gate="A" pin="PB4(MISO)" pad="14"/>
-<connect gate="A" pin="PB5(SCK)" pad="15"/>
-<connect gate="A" pin="PB6(XTAL1)" pad="5"/>
-<connect gate="A" pin="PB7(XTAL2)" pad="6"/>
-<connect gate="A" pin="PC0(ADC0)" pad="19"/>
-<connect gate="A" pin="PC1(ADC1)" pad="20"/>
-<connect gate="A" pin="PC2(ADC2)" pad="21"/>
-<connect gate="A" pin="PC3(ADC3)" pad="22"/>
-<connect gate="A" pin="PC4(SDA)" pad="23"/>
-<connect gate="A" pin="PC5(SCL)" pad="24"/>
-<connect gate="A" pin="PC6(!RESET!)" pad="25"/>
-<connect gate="A" pin="PD0(RXD)" pad="26"/>
-<connect gate="A" pin="PD1(TXD)" pad="27"/>
-<connect gate="A" pin="PD2" pad="28"/>
-<connect gate="A" pin="PD3(OC2B)" pad="1"/>
-<connect gate="A" pin="PD4" pad="2"/>
-<connect gate="A" pin="PD5(OC0B)" pad="7"/>
-<connect gate="A" pin="PD6(OC0A)" pad="8"/>
-<connect gate="A" pin="PD7" pad="9"/>
-<connect gate="A" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="(!SS!/OC1B/PCINT2/D10-PWM10)PB2" pad="16"/>
+<connect gate="G$1" pin="(ADC0/PCINT8/D14-A0)PC0" pad="23"/>
+<connect gate="G$1" pin="(ADC1/PCINT9/D15-A1)PC1" pad="24"/>
+<connect gate="G$1" pin="(ADC2/PCINT10/D16-A2)PC2" pad="25"/>
+<connect gate="G$1" pin="(ADC3/PCINT11/D17-A3)PC3" pad="26"/>
+<connect gate="G$1" pin="(AIN0/OC0A/PCINT22/D6-PWM6)PD6" pad="12"/>
+<connect gate="G$1" pin="(AIN1/PCINT23/D7)PD7" pad="13"/>
+<connect gate="G$1" pin="(CLKO/ICP1/PCINT0/D8)PB0" pad="14"/>
+<connect gate="G$1" pin="(INT0/PCINT18/D2)PD2" pad="4"/>
+<connect gate="G$1" pin="(INT1/OC2B/PCINT19/D3-PWM3)PD3" pad="5"/>
+<connect gate="G$1" pin="(MISO/PCINT4/D12)PB4" pad="18"/>
+<connect gate="G$1" pin="(MOSI/OC2A/PCINT3/D11-PWM11)PB3" pad="17"/>
+<connect gate="G$1" pin="(PCINT1/OC1A/D9-PWM9)PB1" pad="15"/>
+<connect gate="G$1" pin="(RXD/PCINT16/D0)PD0" pad="2"/>
+<connect gate="G$1" pin="(SCK/PCINT5/D13)PB5" pad="19"/>
+<connect gate="G$1" pin="(SCL/ADC5/PCINT13/D19-A5)PC5" pad="28"/>
+<connect gate="G$1" pin="(SDA/ADC4/PCINT12/D18-A4)PC4" pad="27"/>
+<connect gate="G$1" pin="(T0/XCK/PCINT20/D4)PD4" pad="6"/>
+<connect gate="G$1" pin="(T1/OC0B/PCINT21/D5-PWM5)PD5" pad="11"/>
+<connect gate="G$1" pin="(TXD/PCINT17/D1)PD1" pad="3"/>
+<connect gate="G$1" pin="AREF" pad="21"/>
+<connect gate="G$1" pin="AVCC" pad="20"/>
+<connect gate="G$1" pin="GND" pad="8 22"/>
+<connect gate="G$1" pin="PB6(D20*/XTAL1/TOSC1/PCINT6)" pad="9"/>
+<connect gate="G$1" pin="PB7(D21*/XTAL2/TOSC2/PCINT7)" pad="10"/>
+<connect gate="G$1" pin="PC6(D22*/PCINT14/!RESET!)" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2750536/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4944652/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf" constant="no"/>
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATMEGA328P-MMHRCT-ND%20" constant="no"/>
-<attribute name="DISTPN" value="ATMEGA328P-MMHRCT-ND " constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATMEGA328P-PU-ND" constant="no"/>
+<attribute name="DISTPN" value="ATMEGA328P-PU-ND" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATMEGA328P-MMHR " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ATMEGA328P" constant="no"/>
+<attribute name="MPN" value="ATMEGA328P-PU" constant="no"/>
+<attribute name="VALUE" value="ATMEGA328p" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1948,14 +2049,11 @@
 <connect gate="A" pin="ADC7" pad="22"/>
 <connect gate="A" pin="AREF" pad="20"/>
 <connect gate="A" pin="AVCC" pad="18"/>
-<connect gate="A" pin="GND@1" pad="21"/>
-<connect gate="A" pin="GND@2" pad="3"/>
-<connect gate="A" pin="GND@3" pad="5"/>
+<connect gate="A" pin="GND" pad="3 5 21"/>
 <connect gate="A" pin="PB6(D20*/XTAL1/TOSC1/PCINT6)" pad="7"/>
 <connect gate="A" pin="PB7(D21*/XTAL2/TOSC2/PCINT7)" pad="8"/>
 <connect gate="A" pin="PC6(D22*/PCINT14/!RESET!)" pad="29"/>
-<connect gate="A" pin="VCC@1" pad="6"/>
-<connect gate="A" pin="VCC@2" pad="4"/>
+<connect gate="A" pin="VCC" pad="4 6"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:2750535/2"/>
@@ -1999,14 +2097,11 @@
 <connect gate="A" pin="ADC7" pad="22"/>
 <connect gate="A" pin="AREF" pad="20"/>
 <connect gate="A" pin="AVCC" pad="18"/>
-<connect gate="A" pin="GND@1" pad="3"/>
-<connect gate="A" pin="GND@2" pad="5"/>
-<connect gate="A" pin="GND@3" pad="21"/>
+<connect gate="A" pin="GND" pad="3 5 21"/>
 <connect gate="A" pin="PB6(D20*/XTAL1/TOSC1/PCINT6)" pad="7"/>
 <connect gate="A" pin="PB7(D21*/XTAL2/TOSC2/PCINT7)" pad="8"/>
 <connect gate="A" pin="PC6(D22*/PCINT14/!RESET!)" pad="29"/>
-<connect gate="A" pin="VCC@1" pad="4"/>
-<connect gate="A" pin="VCC@2" pad="6"/>
+<connect gate="A" pin="VCC" pad="4 6"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:3740499/1"/>

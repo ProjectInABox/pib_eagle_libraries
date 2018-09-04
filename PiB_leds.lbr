@@ -573,7 +573,7 @@
 <package name="LEDC2012X120_LED-0805" urn="urn:adsk.eagle:footprint:2966316/2" locally_modified="yes">
 <description>CHIP, 2 X 1.25 X 1.2 mm body
 &lt;p&gt;CHIP package with body size 2 X 1.25 X 1.2 mm&lt;/p&gt;</description>
-<circle x="-2.1176" y="0" radius="0.1" width="0" layer="21"/>
+<circle x="-2.286" y="0" radius="0.3" width="0" layer="21"/>
 <wire x1="1.05" y1="0.9036" x2="-1.7186" y2="0.9036" width="0.12" layer="21"/>
 <wire x1="-1.7186" y1="0.9036" x2="-1.7186" y2="-0.9036" width="0.12" layer="21"/>
 <wire x1="-1.7186" y1="-0.9036" x2="1.05" y2="-0.9036" width="0.12" layer="21"/>
@@ -581,10 +581,10 @@
 <wire x1="-1.05" y1="-0.675" x2="-1.05" y2="0.675" width="0.12" layer="51"/>
 <wire x1="-1.05" y1="0.675" x2="1.05" y2="0.675" width="0.12" layer="51"/>
 <wire x1="1.05" y1="0.675" x2="1.05" y2="-0.675" width="0.12" layer="51"/>
-<wire x1="-1.8" y1="-1" x2="1.8" y2="-1" width="0.127" layer="39"/>
-<wire x1="1.8" y1="-1" x2="1.8" y2="1" width="0.127" layer="39"/>
-<wire x1="1.8" y1="1" x2="-1.8" y2="1" width="0.127" layer="39"/>
-<wire x1="-1.8" y1="1" x2="-1.8" y2="-1" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="-1.016" x2="1.905" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-1.016" x2="1.905" y2="1.016" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.016" x2="-1.905" y2="1.016" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="1.016" x2="-1.905" y2="-1.016" width="0.127" layer="39"/>
 <smd name="A" x="-0.9596" y="0" dx="1.01" dy="1.3791" layer="1"/>
 <smd name="K" x="0.9596" y="0" dx="1.01" dy="1.3791" layer="1"/>
 <text x="0" y="1" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
