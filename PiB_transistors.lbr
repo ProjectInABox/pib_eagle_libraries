@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -278,6 +278,28 @@
 <wire x1="1.016" y1="-1.27" x2="1.016" y2="-0.381" width="0.127" layer="39"/>
 <wire x1="1.016" y1="-0.381" x2="1.524" y2="-0.381" width="0.127" layer="39"/>
 </package>
+<package name="SOT65P210X90-3" urn="urn:adsk.eagle:footprint:5287930/1" locally_modified="yes">
+<description>3-SOT23, 0.65 mm pitch, 2.10 mm span, 2.10 X 1.24 X 0.90 mm body
+&lt;p&gt;3-pin SOT23 package with 0.65 mm pitch, 2.10 mm span with body size 2.10 X 1.24 X 0.90 mm&lt;/p&gt;</description>
+<circle x="-0.762" y="1.27" radius="0.3" width="0" layer="21"/>
+<wire x1="-0.62" y1="1.2249" x2="0.62" y2="1.2249" width="0.12" layer="21"/>
+<wire x1="0.62" y1="1.2249" x2="0.62" y2="0.5149" width="0.12" layer="21"/>
+<wire x1="-0.62" y1="-1.2249" x2="0.62" y2="-1.2249" width="0.12" layer="21"/>
+<wire x1="0.62" y1="-1.2249" x2="0.62" y2="-0.5149" width="0.12" layer="21"/>
+<wire x1="0.62" y1="-1.05" x2="-0.62" y2="-1.05" width="0.12" layer="51"/>
+<wire x1="-0.62" y1="-1.05" x2="-0.62" y2="1.05" width="0.12" layer="51"/>
+<wire x1="-0.62" y1="1.05" x2="0.62" y2="1.05" width="0.12" layer="51"/>
+<wire x1="0.62" y1="1.05" x2="0.62" y2="-1.05" width="0.12" layer="51"/>
+<smd name="1" x="-0.86" y="0.65" dx="1.1918" dy="0.5218" layer="1"/>
+<smd name="2" x="-0.86" y="-0.65" dx="1.1918" dy="0.5218" layer="1"/>
+<smd name="3" x="0.86" y="0" dx="1.1918" dy="0.5218" layer="1"/>
+<text x="0" y="1.524" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-1.651" y1="-1.397" x2="1.651" y2="-1.397" width="0.127" layer="39"/>
+<wire x1="1.651" y1="-1.397" x2="1.651" y2="1.397" width="0.127" layer="39"/>
+<wire x1="1.651" y1="1.397" x2="-1.651" y2="1.397" width="0.127" layer="39"/>
+<wire x1="-1.651" y1="1.397" x2="-1.651" y2="-1.397" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOP65P640X120-16" urn="urn:adsk.eagle:package:3470175/1" locally_modified="yes" type="model">
@@ -299,6 +321,13 @@
 &lt;p&gt;3-pin SOTFL package with 0.65 mm pitch, 2.1 mm span with body size 2 X 1.6 X 0.9 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOTFL65P209X90-3"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT65P210X90-3" urn="urn:adsk.eagle:package:5287928/1" locally_modified="yes" type="model">
+<description>3-SOT23, 0.65 mm pitch, 2.10 mm span, 2.10 X 1.24 X 0.90 mm body
+&lt;p&gt;3-pin SOT23 package with 0.65 mm pitch, 2.10 mm span with body size 2.10 X 1.24 X 0.90 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT65P210X90-3"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -374,6 +403,40 @@
 <text x="3.048" y="0.762" size="0.8128" layer="95" font="vector" ratio="10" align="center-left">&gt;NAME</text>
 <text x="3.048" y="-0.508" size="0.6096" layer="96" font="vector" ratio="10" align="center-left">&gt;VALUE</text>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="BJT_NPN">
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<text x="3.048" y="0.508" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="3.048" y="-0.508" size="0.635" layer="96" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="-2.54"/>
+<vertex x="1.905" y="-1.651"/>
+<vertex x="1.397" y="-2.413"/>
+</polygon>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="BJT_PNP">
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<text x="3.048" y="0.508" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="3.048" y="-0.508" size="0.635" layer="96" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="1.27"/>
+<vertex x="1.27" y="1.524"/>
+<vertex x="0.762" y="2.286"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -496,6 +559,34 @@
 <attribute name="MFR" value="ON Semiconductor" constant="no"/>
 <attribute name="MPN" value="MCH3474-TL-W" constant="no"/>
 <attribute name="VALUE" value="MCH3474 4A/30V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BJT_NPN" prefix="BJT">
+<gates>
+<gate name="G$1" symbol="BJT_NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_MMBT2222_0.6A-40V" package="SOT65P210X90-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5287928/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.onsemi.com/pub/Collateral/MMBT2222AWT1-D.PDF" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/on-semiconductor/MMBT2222AWT1G/MMBT2222AWT1GOSCT-ND/1139807" constant="no"/>
+<attribute name="DISTPN" value="MMBT2222AWT1GOSCT-ND" constant="no"/>
+<attribute name="MFR" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="MMBT2222AWT1G" constant="no"/>
+<attribute name="VALUE" value="MMBT2222 0.6A/40V" constant="no"/>
 </technology>
 </technologies>
 </device>

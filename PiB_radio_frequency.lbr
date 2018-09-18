@@ -627,6 +627,90 @@
 <text x="0" y="-6" size="1.27" layer="51" font="vector" align="center">EXT. ANT</text>
 <text x="0" y="6" size="1.27" layer="51" font="vector" align="center">&gt;NAME</text>
 </package>
+<package name="ESP8266-12E" urn="urn:adsk.eagle:footprint:5287749/1">
+<wire x1="-8" y1="12" x2="-8" y2="-12" width="0.127" layer="21"/>
+<wire x1="-8" y1="-12" x2="8" y2="-12" width="0.127" layer="21"/>
+<wire x1="8" y1="-12" x2="8" y2="12" width="0.127" layer="21"/>
+<wire x1="8" y1="12" x2="-8" y2="12" width="0.127" layer="21"/>
+<wire x1="-9.271" y1="-13.208" x2="9.271" y2="-13.208" width="0.127" layer="39"/>
+<wire x1="9.271" y1="-13.208" x2="9.271" y2="12.192" width="0.127" layer="39"/>
+<wire x1="9.271" y1="12.192" x2="-9.271" y2="12.192" width="0.127" layer="39"/>
+<wire x1="-9.271" y1="12.192" x2="-9.271" y2="-13.208" width="0.127" layer="39"/>
+<wire x1="-8.255" y1="5.207" x2="8.255" y2="5.207" width="0.127" layer="40"/>
+<wire x1="8.255" y1="5.207" x2="8.255" y2="12.065" width="0.127" layer="40"/>
+<wire x1="8.255" y1="12.065" x2="-8.255" y2="12.065" width="0.127" layer="40"/>
+<wire x1="-8.255" y1="12.065" x2="-8.255" y2="5.207" width="0.127" layer="40"/>
+<smd name="8" x="-8" y="-10.2" dx="2" dy="0.8" layer="1"/>
+<smd name="7" x="-8" y="-8.2" dx="2" dy="0.8" layer="1"/>
+<smd name="6" x="-8" y="-6.2" dx="2" dy="0.8" layer="1"/>
+<smd name="5" x="-8" y="-4.2" dx="2" dy="0.8" layer="1"/>
+<smd name="4" x="-8" y="-2.2" dx="2" dy="0.8" layer="1"/>
+<smd name="3" x="-8" y="-0.2" dx="2" dy="0.8" layer="1"/>
+<smd name="2" x="-8" y="1.8" dx="2" dy="0.8" layer="1"/>
+<smd name="1" x="-8" y="3.8" dx="2" dy="0.8" layer="1"/>
+<smd name="15" x="8" y="-10.2" dx="2" dy="0.8" layer="1"/>
+<smd name="16" x="8" y="-8.2" dx="2" dy="0.8" layer="1"/>
+<smd name="17" x="8" y="-6.2" dx="2" dy="0.8" layer="1"/>
+<smd name="18" x="8" y="-4.2" dx="2" dy="0.8" layer="1"/>
+<smd name="19" x="8" y="-2.2" dx="2" dy="0.8" layer="1"/>
+<smd name="20" x="8" y="-0.2" dx="2" dy="0.8" layer="1"/>
+<smd name="21" x="8" y="1.8" dx="2" dy="0.8" layer="1"/>
+<smd name="22" x="8" y="3.8" dx="2" dy="0.8" layer="1"/>
+<smd name="14" x="5" y="-12" dx="2" dy="0.8" layer="1" rot="R90"/>
+<smd name="13" x="3" y="-12" dx="2" dy="0.8" layer="1" rot="R90"/>
+<smd name="12" x="1" y="-12" dx="2" dy="0.8" layer="1" rot="R90"/>
+<smd name="11" x="-1" y="-12" dx="2" dy="0.8" layer="1" rot="R90"/>
+<smd name="10" x="-3" y="-12" dx="2" dy="0.8" layer="1" rot="R90"/>
+<smd name="9" x="-5" y="-12" dx="2" dy="0.8" layer="1" rot="R90"/>
+<polygon width="0.127" layer="51">
+<vertex x="4" y="6"/>
+<vertex x="-6" y="6"/>
+<vertex x="-6" y="11"/>
+<vertex x="-4.5" y="11"/>
+<vertex x="-4.5" y="8"/>
+<vertex x="-3.5" y="8"/>
+<vertex x="-3.5" y="11"/>
+<vertex x="-2" y="11"/>
+<vertex x="-2" y="8"/>
+<vertex x="-1" y="8"/>
+<vertex x="-1" y="11"/>
+<vertex x="0.5" y="11"/>
+<vertex x="0.5" y="8"/>
+<vertex x="1.5" y="8"/>
+<vertex x="1.5" y="11"/>
+<vertex x="6.5" y="11"/>
+<vertex x="6.5" y="10.5"/>
+<vertex x="2" y="10.5"/>
+<vertex x="2" y="7.6"/>
+<vertex x="0" y="7.6"/>
+<vertex x="0" y="10.5"/>
+<vertex x="-0.5" y="10.5"/>
+<vertex x="-0.5" y="7.6"/>
+<vertex x="-2.5" y="7.6"/>
+<vertex x="-2.5" y="10.5"/>
+<vertex x="-3" y="10.5"/>
+<vertex x="-3" y="7.5"/>
+<vertex x="-5" y="7.5"/>
+<vertex x="-5" y="10.5"/>
+<vertex x="-5.5" y="10.5"/>
+<vertex x="-5.5" y="6.5"/>
+<vertex x="4" y="6.5"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-6.7" y="-10.7"/>
+<vertex x="6.7" y="-10.7"/>
+<vertex x="6.7" y="5"/>
+<vertex x="-6.7" y="5"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="5.6" y="5.4"/>
+<vertex x="7.6" y="5.4"/>
+<vertex x="7.6" y="6.4"/>
+<vertex x="5.6" y="6.4"/>
+</polygon>
+<text x="0" y="12.192" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="11.811" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="LEDC6522X100" urn="urn:adsk.eagle:package:2933495/1" locally_modified="yes" type="model">
@@ -686,6 +770,11 @@
 <packageinstance name="UFL_CONNECTOR"/>
 </packageinstances>
 </package3d>
+<package3d name="ESP8266-12E" urn="urn:adsk.eagle:package:5287766/2" type="model">
+<packageinstances>
+<packageinstance name="ESP8266-12E"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="ANTENNA2">
@@ -731,8 +820,8 @@
 <pin name="RX" x="5.08" y="0" visible="pin" length="middle" direction="in" rot="R180"/>
 <pin name="TX" x="5.08" y="2.54" visible="pin" length="middle" direction="out" rot="R180"/>
 <pin name="VCC" x="5.08" y="5.08" visible="pin" length="middle" direction="pas" rot="R180"/>
-<text x="-5.08" y="8.128" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="-5.08" y="-10.668" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="1.27" y="8.128" size="1.27" layer="95" font="vector" ratio="10" align="bottom-right">&gt;NAME</text>
+<text x="1.27" y="-10.668" size="0.635" layer="96" font="vector" ratio="10" align="top-right">&gt;VALUE</text>
 <wire x1="-1.27" y1="-7.62" x2="0" y2="-7.62" width="0.6096" layer="94"/>
 <pin name="GND" x="5.08" y="-7.62" visible="pin" length="middle" direction="pas" rot="R180"/>
 </symbol>
@@ -829,6 +918,50 @@
 <text x="0.508" y="-0.508" size="1.27" layer="96" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <text x="0.508" y="0.508" size="1.27" layer="95" font="vector" ratio="10">&gt;NAME</text>
 <wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ESP8266-12E">
+<wire x1="-17.78" y1="25.4" x2="-17.78" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-27.94" x2="17.78" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-27.94" x2="17.78" y2="25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="25.4" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
+<pin name="VCC" x="-20.32" y="22.86" length="short"/>
+<pin name="GND" x="-20.32" y="-25.4" length="short"/>
+<pin name="RESET" x="20.32" y="22.86" length="short" rot="R180"/>
+<pin name="CS1/TXD0/GPIO1" x="20.32" y="-25.4" length="short" rot="R180"/>
+<pin name="TOUT/ADC" x="20.32" y="20.32" length="short" rot="R180"/>
+<pin name="CHPD/EN" x="20.32" y="17.78" length="short" rot="R180"/>
+<pin name="WAKE/GPIO16" x="20.32" y="15.24" length="short" rot="R180"/>
+<pin name="HSPI-CLK/GPIO14" x="20.32" y="12.7" length="short" rot="R180"/>
+<pin name="HSPI-Q/GPIO12" x="20.32" y="10.16" length="short" rot="R180"/>
+<pin name="HSPI-D/CTS0/RXD2/GPIO13" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="SD-CMD/MOSI" x="20.32" y="5.08" length="short" rot="R180"/>
+<pin name="SD-D0/MISO" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="SD-D2/GPIO9" x="20.32" y="0" length="short" rot="R180"/>
+<pin name="SD-D3/CS/GPIO10" x="20.32" y="-2.54" length="short" rot="R180"/>
+<pin name="SD-D1/INT" x="20.32" y="-5.08" length="short" rot="R180"/>
+<pin name="SD-CLK/CLK" x="20.32" y="-7.62" length="short" rot="R180"/>
+<pin name="HSPI-CS/RTS0/TXD2/GPIO15" x="20.32" y="-10.16" length="short" rot="R180"/>
+<pin name="TXD1/GPIO2" x="20.32" y="-12.7" length="short" rot="R180"/>
+<pin name="*CS2/GPIO0" x="20.32" y="-15.24" length="short" rot="R180"/>
+<pin name="GPIO4" x="20.32" y="-17.78" length="short" rot="R180"/>
+<pin name="GPIO5" x="20.32" y="-20.32" length="short" rot="R180"/>
+<pin name="RXD0/GPIO3" x="20.32" y="-22.86" length="short" rot="R180"/>
+<text x="22.86" y="5.08" size="1.27" layer="94" font="vector" ratio="10">NC</text>
+<text x="22.86" y="2.54" size="1.27" layer="94" font="vector" ratio="10">NC</text>
+<text x="22.86" y="0" size="1.27" layer="94" font="vector" ratio="10">NC</text>
+<text x="22.86" y="-2.54" size="1.27" layer="94" font="vector" ratio="10">NC</text>
+<text x="22.86" y="-5.08" size="1.27" layer="94" font="vector" ratio="10">NC</text>
+<text x="22.86" y="-7.62" size="1.27" layer="94" font="vector" ratio="10">NC</text>
+<text x="0" y="26.162" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-28.448" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="-15.24" y="20.32" size="0.635" layer="94" font="vector" ratio="10" align="top-left">When you use SLEEP MODE,
+GPIO16 &amp; RESET should be connected
+and GPIO16 will output LOW
+to reset the system at the time of wakeup</text>
+<text x="-15.24" y="5.08" size="0.635" layer="94" font="vector" ratio="10" align="top-left">On every boot/reset/wakeup
+GPIO15 must keep LOW,
+GPIO2 must keep HIGH</text>
+<text x="5.08" y="-17.78" size="0.635" layer="94" font="vector" ratio="10" align="center-right">*HIGH run, LOW flash</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1132,10 +1265,61 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </device>
 </devices>
 </deviceset>
+<deviceset name="ESP8266-12E">
+<gates>
+<gate name="G$1" symbol="ESP8266-12E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_ESP8622-12E" package="ESP8266-12E">
+<connects>
+<connect gate="G$1" pin="*CS2/GPIO0" pad="18"/>
+<connect gate="G$1" pin="CHPD/EN" pad="3"/>
+<connect gate="G$1" pin="CS1/TXD0/GPIO1" pad="22"/>
+<connect gate="G$1" pin="GND" pad="15"/>
+<connect gate="G$1" pin="GPIO4" pad="19"/>
+<connect gate="G$1" pin="GPIO5" pad="20"/>
+<connect gate="G$1" pin="HSPI-CLK/GPIO14" pad="5"/>
+<connect gate="G$1" pin="HSPI-CS/RTS0/TXD2/GPIO15" pad="16"/>
+<connect gate="G$1" pin="HSPI-D/CTS0/RXD2/GPIO13" pad="7"/>
+<connect gate="G$1" pin="HSPI-Q/GPIO12" pad="6"/>
+<connect gate="G$1" pin="RESET" pad="1"/>
+<connect gate="G$1" pin="RXD0/GPIO3" pad="21"/>
+<connect gate="G$1" pin="SD-CLK/CLK" pad="14"/>
+<connect gate="G$1" pin="SD-CMD/MOSI" pad="9"/>
+<connect gate="G$1" pin="SD-D0/MISO" pad="10"/>
+<connect gate="G$1" pin="SD-D1/INT" pad="13"/>
+<connect gate="G$1" pin="SD-D2/GPIO9" pad="11"/>
+<connect gate="G$1" pin="SD-D3/CS/GPIO10" pad="12"/>
+<connect gate="G$1" pin="TOUT/ADC" pad="2"/>
+<connect gate="G$1" pin="TXD1/GPIO2" pad="17"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="WAKE/GPIO16" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5287766/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-specs.pdf" constant="no"/>
+<attribute name="DIST" value="Amazon" constant="no"/>
+<attribute name="DISTLINK" value="https://www.amazon.com/Gowoops-ESP8266-Wireless-Transceiver-Development/dp/B01M4IOFIT/ref=sr_1_7?ie=UTF8&amp;qid=1537090267&amp;sr=8-7&amp;keywords=esp8266+12e" constant="no"/>
+<attribute name="DISTPN" value="B01M4IOFIT" constant="no"/>
+<attribute name="MFR" value="Espressif Systems" constant="no"/>
+<attribute name="MPN" value="ESP8266-12E" constant="no"/>
+<attribute name="VALUE" value="ESP8266-12E" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
