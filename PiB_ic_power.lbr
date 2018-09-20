@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -650,7 +650,7 @@
 <package name="SOT95P237X112-3_SOT-23-3" urn="urn:adsk.eagle:footprint:2889830/1" locally_modified="yes">
 <description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.86 X 1.28 X 1.12 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.86 X 1.28 X 1.12 mm&lt;/p&gt;</description>
-<circle x="-1.1879" y="1.5914" radius="0.075" width="0" layer="21"/>
+<circle x="-0.889" y="1.778" radius="0.3" width="0" layer="21"/>
 <wire x1="-0.7" y1="1.5764" x2="0.7" y2="1.5764" width="0.12" layer="21"/>
 <wire x1="0.7" y1="1.5764" x2="0.7" y2="0.5664" width="0.12" layer="21"/>
 <wire x1="-0.7" y1="-1.5764" x2="0.7" y2="-1.5764" width="0.12" layer="21"/>
@@ -662,12 +662,12 @@
 <smd name="1" x="-1.064" y="0.95" dx="1.2235" dy="0.6248" layer="1" thermals="no"/>
 <smd name="2" x="-1.064" y="-0.95" dx="1.2235" dy="0.6248" layer="1" thermals="no"/>
 <smd name="3" x="1.064" y="0" dx="1.2235" dy="0.6248" layer="1" thermals="no"/>
-<text x="0" y="2.3014" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.2114" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-2" y1="-1.6" x2="2" y2="-1.6" width="0.127" layer="39"/>
-<wire x1="2" y1="-1.6" x2="2" y2="1.6" width="0.127" layer="39"/>
-<wire x1="2" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="39"/>
-<wire x1="-2" y1="1.6" x2="-2" y2="-1.6" width="0.127" layer="39"/>
+<text x="0" y="1.905" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.778" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-1.905" y1="-1.778" x2="1.905" y2="-1.778" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-1.778" x2="1.905" y2="1.778" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.778" x2="-1.905" y2="1.778" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="1.778" x2="-1.905" y2="-1.778" width="0.127" layer="39"/>
 </package>
 <package name="TO170P1363X457-6" urn="urn:adsk.eagle:footprint:2899158/1" locally_modified="yes">
 <description>6-TO, DPAK, 1.702 mm pitch, 13.6395 mm span, 9.410029999999999 X 8.89 X 4.572 mm body
@@ -1748,7 +1748,7 @@
 <gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SOT-23_" package="SOT95P237X112-3_SOT-23-3">
+<device name="_MCP1700T-3302_3.3V-250MA_SOT-23" package="SOT95P237X112-3_SOT-23-3">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="VI" pad="3"/>
@@ -1766,6 +1766,27 @@
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="MCP1700T-3302E/TT" constant="no"/>
 <attribute name="VALUE" value="250mA/3.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MCP1700T-1802_1.8V-200MA_SOT-23" package="SOT95P237X112-3_SOT-23-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VI" pad="3"/>
+<connect gate="G$1" pin="VO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2889826/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=MCP1700T1802ETTCT-ND" constant="no"/>
+<attribute name="DISTPN" value="MCP1700T1802ETTCT-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="MCP1700T-1802E/TT" constant="no"/>
+<attribute name="VALUE" value="MCP1700-1802 1.8V/200mA" constant="no"/>
 </technology>
 </technologies>
 </device>
