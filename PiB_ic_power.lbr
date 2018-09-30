@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -664,15 +664,15 @@
 <smd name="3" x="1.064" y="0" dx="1.2235" dy="0.6248" layer="1" thermals="no"/>
 <text x="0" y="1.905" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.778" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-1.905" y1="-1.778" x2="1.905" y2="-1.778" width="0.127" layer="39"/>
-<wire x1="1.905" y1="-1.778" x2="1.905" y2="1.778" width="0.127" layer="39"/>
-<wire x1="1.905" y1="1.778" x2="-1.905" y2="1.778" width="0.127" layer="39"/>
-<wire x1="-1.905" y1="1.778" x2="-1.905" y2="-1.778" width="0.127" layer="39"/>
+<wire x1="-1.8542" y1="-1.7018" x2="1.8542" y2="-1.7018" width="0.127" layer="39"/>
+<wire x1="1.8542" y1="-1.7018" x2="1.8542" y2="1.7018" width="0.127" layer="39"/>
+<wire x1="1.8542" y1="1.7018" x2="-1.8542" y2="1.7018" width="0.127" layer="39"/>
+<wire x1="-1.8542" y1="1.7018" x2="-1.8542" y2="-1.7018" width="0.127" layer="39"/>
 </package>
 <package name="TO170P1363X457-6" urn="urn:adsk.eagle:footprint:2899158/1" locally_modified="yes">
 <description>6-TO, DPAK, 1.702 mm pitch, 13.6395 mm span, 9.410029999999999 X 8.89 X 4.572 mm body
 &lt;p&gt;6-pin TO, DPAK package with 1.702 mm pitch, 13.6395 mm span with body size 9.410029999999999 X 8.89 X 4.572 mm&lt;/p&gt;</description>
-<circle x="-6.3107" y="4.2573" radius="0.075" width="0" layer="21"/>
+<circle x="-6.35" y="4.572" radius="0.3" width="0" layer="21"/>
 <wire x1="5.4607" y1="5.6739" x2="5.4607" y2="5.2705" width="0.12" layer="21"/>
 <wire x1="5.4607" y1="5.2705" x2="-3.9373" y2="5.2705" width="0.12" layer="21"/>
 <wire x1="-3.9373" y1="5.2705" x2="-3.9373" y2="-5.2705" width="0.12" layer="21"/>
@@ -682,22 +682,22 @@
 <wire x1="-3.9373" y1="-5.2705" x2="-3.9373" y2="5.2705" width="0.12" layer="51"/>
 <wire x1="-3.9373" y1="5.2705" x2="5.4607" y2="5.2705" width="0.12" layer="51"/>
 <wire x1="5.4607" y1="5.2705" x2="5.4607" y2="-5.2705" width="0.12" layer="51"/>
-<smd name="1" x="-6.3107" y="3.404" dx="2.3327" dy="1.0485" layer="1"/>
-<smd name="2" x="-6.3107" y="1.702" dx="2.3327" dy="1.0485" layer="1"/>
-<smd name="3" x="-6.3107" y="0" dx="2.3327" dy="1.0485" layer="1"/>
-<smd name="4" x="-6.3107" y="-1.702" dx="2.3327" dy="1.0485" layer="1"/>
+<smd name="1" x="-6.3107" y="3.404" dx="2.3327" dy="1.0485" layer="1" thermals="no"/>
+<smd name="2" x="-6.3107" y="1.702" dx="2.3327" dy="1.0485" layer="1" thermals="no"/>
+<smd name="3" x="-6.3107" y="0" dx="2.3327" dy="1.0485" layer="1" thermals="no"/>
+<smd name="4" x="-6.3107" y="-1.702" dx="2.3327" dy="1.0485" layer="1" thermals="no"/>
 <smd name="5" x="-6.3107" y="-3.404" dx="2.3327" dy="1.0485" layer="1"/>
-<smd name="6" x="2.5348" y="0" dx="9.8846" dy="10.8398" layer="1"/>
+<smd name="TAB" x="2.5348" y="0" dx="9.8846" dy="10.8398" layer="1"/>
 <text x="0" y="6.3089" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-6.3089" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-4.5" y1="-6.1" x2="8.1" y2="-6.1" width="0.127" layer="39"/>
-<wire x1="8.1" y1="-6.1" x2="8.1" y2="6.1" width="0.127" layer="39"/>
-<wire x1="8.1" y1="6.1" x2="-4.5" y2="6.1" width="0.127" layer="39"/>
-<wire x1="-8.1" y1="4.5" x2="-8.1" y2="-4.5" width="0.127" layer="39"/>
-<wire x1="-8.1" y1="-4.5" x2="-4.5" y2="-4.5" width="0.127" layer="39"/>
-<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="-6.1" width="0.127" layer="39"/>
-<wire x1="-4.5" y1="6.1" x2="-4.5" y2="4.5" width="0.127" layer="39"/>
-<wire x1="-4.5" y1="4.5" x2="-8.1" y2="4.5" width="0.127" layer="39"/>
+<wire x1="-4.191" y1="-7.62" x2="12.827" y2="-7.62" width="0.127" layer="39"/>
+<wire x1="12.827" y1="-7.62" x2="12.827" y2="7.62" width="0.127" layer="39"/>
+<wire x1="12.827" y1="7.62" x2="-4.191" y2="7.62" width="0.127" layer="39"/>
+<wire x1="-7.747" y1="4.191" x2="-7.747" y2="-4.191" width="0.127" layer="39"/>
+<wire x1="-7.747" y1="-4.191" x2="-4.191" y2="-4.191" width="0.127" layer="39"/>
+<wire x1="-4.191" y1="-4.191" x2="-4.191" y2="-7.62" width="0.127" layer="39"/>
+<wire x1="-4.191" y1="7.62" x2="-4.191" y2="4.191" width="0.127" layer="39"/>
+<wire x1="-4.191" y1="4.191" x2="-7.747" y2="4.191" width="0.127" layer="39"/>
 </package>
 <package name="SOIC127P600X265-8" urn="urn:adsk.eagle:footprint:2899755/1" locally_modified="yes">
 <description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 2.65 mm body
@@ -719,10 +719,10 @@
 <smd name="8" x="2.4734" y="1.905" dx="1.9685" dy="0.5991" layer="1" thermals="no"/>
 <text x="0" y="2.667" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.667" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-3.683" y1="-2.667" x2="-3.683" y2="2.667" width="0.127" layer="39"/>
-<wire x1="-3.683" y1="2.667" x2="3.683" y2="2.667" width="0.127" layer="39"/>
-<wire x1="3.683" y1="2.667" x2="3.683" y2="-2.667" width="0.127" layer="39"/>
-<wire x1="3.683" y1="-2.667" x2="-3.683" y2="-2.667" width="0.127" layer="39"/>
+<wire x1="-3.6322" y1="-2.6416" x2="-3.6322" y2="2.6416" width="0.127" layer="39"/>
+<wire x1="-3.6322" y1="2.6416" x2="3.6322" y2="2.6416" width="0.127" layer="39"/>
+<wire x1="3.6322" y1="2.6416" x2="3.6322" y2="-2.6416" width="0.127" layer="39"/>
+<wire x1="3.6322" y1="-2.6416" x2="-3.6322" y2="-2.6416" width="0.127" layer="39"/>
 </package>
 <package name="SOT229P700X180-4" urn="urn:adsk.eagle:footprint:2900308/1" locally_modified="yes">
 <description>4-SOT223, 2.3 mm pitch, 7 mm span, 6.5 X 3.5 X 1.8 mm body
@@ -1477,7 +1477,7 @@
 <device name="_LT1764EQ-1.8_3A_1.8V" package="TO170P1363X457-6">
 <connects>
 <connect gate="G$1" pin="!SHDN" pad="1"/>
-<connect gate="G$1" pin="GND" pad="3 6"/>
+<connect gate="G$1" pin="GND" pad="3 TAB"/>
 <connect gate="G$1" pin="SENSE" pad="5"/>
 <connect gate="G$1" pin="VIN" pad="2"/>
 <connect gate="G$1" pin="VOUT" pad="4"/>
@@ -1508,7 +1508,7 @@
 <connects>
 <connect gate="G$1" pin="EN" pad="1"/>
 <connect gate="G$1" pin="FLG" pad="5"/>
-<connect gate="G$1" pin="GND" pad="3 6"/>
+<connect gate="G$1" pin="GND" pad="3 TAB"/>
 <connect gate="G$1" pin="VIN" pad="2"/>
 <connect gate="G$1" pin="VOUT" pad="4"/>
 </connects>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -747,7 +747,7 @@
 <package name="QFN50P900X900X90-64" urn="urn:adsk.eagle:footprint:2900264/2" locally_modified="yes">
 <description>64-QFN, 0.5 mm pitch, 9 X 9 X 0.9 mm body
 &lt;p&gt;64-pin QFN package with 0.5 mm pitch with body size 9 X 9 X 0.9 mm&lt;/p&gt;</description>
-<circle x="-4.829" y="4.811" radius="0.3" width="0" layer="21"/>
+<circle x="-4.826" y="4.826" radius="0.5" width="0" layer="21"/>
 <wire x1="-4.5" y1="4.136" x2="-4.5" y2="4.5" width="0.12" layer="21"/>
 <wire x1="-4.5" y1="4.5" x2="-4.136" y2="4.5" width="0.12" layer="21"/>
 <wire x1="4.5" y1="4.136" x2="4.5" y2="4.5" width="0.12" layer="21"/>

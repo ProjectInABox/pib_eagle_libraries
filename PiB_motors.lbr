@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -417,10 +417,10 @@ MOTOR</text>
 <pad name="GND" x="5.08" y="0" drill="1" diameter="1.85"/>
 <text x="-1.524" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="6.604" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
-<wire x1="-1.524" y1="-1.524" x2="6.604" y2="-1.524" width="0.127" layer="39"/>
-<wire x1="6.604" y1="-1.524" x2="6.604" y2="1.524" width="0.127" layer="39"/>
-<wire x1="6.604" y1="1.524" x2="-1.524" y2="1.524" width="0.127" layer="39"/>
-<wire x1="-1.524" y1="1.524" x2="-1.524" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="-1.4732" y1="-1.4478" x2="6.5532" y2="-1.4478" width="0.127" layer="39"/>
+<wire x1="6.5532" y1="-1.4478" x2="6.5532" y2="1.4478" width="0.127" layer="39"/>
+<wire x1="6.5532" y1="1.4478" x2="-1.4732" y2="1.4478" width="0.127" layer="39"/>
+<wire x1="-1.4732" y1="1.4478" x2="-1.4732" y2="-1.4478" width="0.127" layer="39"/>
 <wire x1="-1.143" y1="1.143" x2="-1.143" y2="-1.143" width="0.127" layer="40"/>
 <wire x1="-1.143" y1="-1.143" x2="6.223" y2="-1.143" width="0.127" layer="40"/>
 <wire x1="6.223" y1="-1.143" x2="6.223" y2="1.143" width="0.127" layer="40"/>
