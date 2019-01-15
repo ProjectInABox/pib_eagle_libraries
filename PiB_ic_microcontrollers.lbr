@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1114,7 +1114,7 @@
 <package name="DIP794W46P254L1919H533Q14B_DIP-14_CONNECTOR" urn="urn:adsk.eagle:footprint:3660579/1" locally_modified="yes">
 <description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
 &lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 19.19 X 6.605 X 5.33 mm&lt;/p&gt;</description>
-<circle x="-4.1318" y="9.8625" radius="0.25" width="0" layer="21"/>
+<circle x="-3.8" y="10.1" radius="0.5" width="0" layer="21"/>
 <wire x1="3.555" y1="-9.84" x2="-3.555" y2="-9.84" width="0.12" layer="51"/>
 <wire x1="-3.555" y1="-9.84" x2="-3.555" y2="9.84" width="0.12" layer="51"/>
 <wire x1="-3.555" y1="9.84" x2="-1" y2="9.84" width="0.12" layer="51"/>
@@ -1149,6 +1149,14 @@
 <wire x1="-5.3" y1="-9.1" x2="5.3" y2="-9.1" width="0.127" layer="39"/>
 <wire x1="5.3" y1="-9.1" x2="5.3" y2="9.1" width="0.127" layer="39"/>
 <wire x1="5.3" y1="9.1" x2="-5.3" y2="9.1" width="0.127" layer="39"/>
+<wire x1="-4.9" y1="-8.6" x2="-3" y2="-8.6" width="0.127" layer="40"/>
+<wire x1="-3" y1="-8.6" x2="-3" y2="8.6" width="0.127" layer="40"/>
+<wire x1="-3" y1="8.6" x2="-4.9" y2="8.6" width="0.127" layer="40"/>
+<wire x1="-4.9" y1="8.6" x2="-4.9" y2="-8.6" width="0.127" layer="40"/>
+<wire x1="3" y1="-8.6" x2="4.9" y2="-8.6" width="0.127" layer="40"/>
+<wire x1="4.9" y1="-8.6" x2="4.9" y2="8.6" width="0.127" layer="40"/>
+<wire x1="4.9" y1="8.6" x2="3" y2="8.6" width="0.127" layer="40"/>
+<wire x1="3" y1="8.6" x2="3" y2="-8.6" width="0.127" layer="40"/>
 </package>
 <package name="DIP794W46P254L1919H533Q14B" urn="urn:adsk.eagle:footprint:3660579/1">
 <description>14-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 19.19 X 6.605 X 5.33 mm body
@@ -1221,7 +1229,7 @@
 <package name="DIP794W46P254L2573H533Q20B_DIP-20_CONNECTOR" urn="urn:adsk.eagle:footprint:3660612/1" locally_modified="yes">
 <description>20-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 25.735 X 6.605 X 5.33 mm body
 &lt;p&gt;20-pin DIP package with 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span with body size 25.735 X 6.605 X 5.33 mm&lt;/p&gt;</description>
-<circle x="-4.0971" y="13.6033" radius="0.25" width="0" layer="21"/>
+<circle x="-3.7" y="13.2" radius="0.5" width="0" layer="21"/>
 <wire x1="3.555" y1="-12.99" x2="-3.555" y2="-12.99" width="0.12" layer="51"/>
 <wire x1="-3.555" y1="-12.99" x2="-3.555" y2="12.99" width="0.12" layer="51"/>
 <wire x1="-3.555" y1="12.99" x2="-1" y2="12.99" width="0.12" layer="51"/>
@@ -1262,6 +1270,14 @@
 <wire x1="-5.3" y1="-12.9" x2="5.3" y2="-12.9" width="0.127" layer="39"/>
 <wire x1="5.3" y1="-12.9" x2="5.3" y2="12.9" width="0.127" layer="39"/>
 <wire x1="5.3" y1="12.9" x2="-5.3" y2="12.9" width="0.127" layer="39"/>
+<wire x1="-4.9" y1="12.4" x2="-3" y2="12.4" width="0.127" layer="40"/>
+<wire x1="-3" y1="12.4" x2="-3" y2="-12.4" width="0.127" layer="40"/>
+<wire x1="-3" y1="-12.4" x2="-4.9" y2="-12.4" width="0.127" layer="40"/>
+<wire x1="-4.9" y1="-12.4" x2="-4.9" y2="12.4" width="0.127" layer="40"/>
+<wire x1="3" y1="-12.4" x2="4.9" y2="-12.4" width="0.127" layer="40"/>
+<wire x1="4.9" y1="-12.4" x2="4.9" y2="12.4" width="0.127" layer="40"/>
+<wire x1="4.9" y1="12.4" x2="3" y2="12.4" width="0.127" layer="40"/>
+<wire x1="3" y1="12.4" x2="3" y2="-12.4" width="0.127" layer="40"/>
 </package>
 <package name="DIP794W46P254L2573H533Q20B" urn="urn:adsk.eagle:footprint:3660612/1">
 <description>20-DIP, 2.54 mm (0.10 in) pitch, 7.94 mm (0.31 in) span, 25.735 X 6.605 X 5.33 mm body
@@ -1489,6 +1505,47 @@
 <wire x1="4.953" y1="17.526" x2="4.953" y2="-17.653" width="0.127" layer="40"/>
 <wire x1="4.953" y1="17.526" x2="2.667" y2="17.526" width="0.127" layer="40"/>
 </package>
+<package name="SOIC127P1032X265-20" urn="urn:adsk.eagle:footprint:7208784/1" locally_modified="yes">
+<description>20-SOIC, 1.27 mm pitch, 10.32 mm span, 12.80 X 7.50 X 2.65 mm body
+&lt;p&gt;20-pin SOIC package with 1.27 mm pitch, 10.32 mm span with body size 12.80 X 7.50 X 2.65 mm&lt;/p&gt;</description>
+<circle x="-4.1" y="6.9" radius="0.5" width="0" layer="21"/>
+<wire x1="-3.8" y1="6.2899" x2="-3.8" y2="6.5" width="0.12" layer="21"/>
+<wire x1="-3.8" y1="6.5" x2="3.8" y2="6.5" width="0.12" layer="21"/>
+<wire x1="3.8" y1="6.5" x2="3.8" y2="6.2899" width="0.12" layer="21"/>
+<wire x1="-3.8" y1="-6.2899" x2="-3.8" y2="-6.5" width="0.12" layer="21"/>
+<wire x1="-3.8" y1="-6.5" x2="3.8" y2="-6.5" width="0.12" layer="21"/>
+<wire x1="3.8" y1="-6.5" x2="3.8" y2="-6.2899" width="0.12" layer="21"/>
+<wire x1="3.8" y1="-6.5" x2="-3.8" y2="-6.5" width="0.12" layer="51"/>
+<wire x1="-3.8" y1="-6.5" x2="-3.8" y2="6.5" width="0.12" layer="51"/>
+<wire x1="-3.8" y1="6.5" x2="3.8" y2="6.5" width="0.12" layer="51"/>
+<wire x1="3.8" y1="6.5" x2="3.8" y2="-6.5" width="0.12" layer="51"/>
+<smd name="1" x="-4.7036" y="5.715" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="2" x="-4.7036" y="4.445" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="3" x="-4.7036" y="3.175" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="4" x="-4.7036" y="1.905" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="5" x="-4.7036" y="0.635" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="6" x="-4.7036" y="-0.635" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="7" x="-4.7036" y="-1.905" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="8" x="-4.7036" y="-3.175" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="9" x="-4.7036" y="-4.445" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="10" x="-4.7036" y="-5.715" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="11" x="4.7036" y="-5.715" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="12" x="4.7036" y="-4.445" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="13" x="4.7036" y="-3.175" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="14" x="4.7036" y="-1.905" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="15" x="4.7036" y="-0.635" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="16" x="4.7036" y="0.635" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="17" x="4.7036" y="1.905" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="18" x="4.7036" y="3.175" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="19" x="4.7036" y="4.445" dx="2.3524" dy="0.6419" layer="1"/>
+<smd name="20" x="4.7036" y="5.715" dx="2.3524" dy="0.6419" layer="1"/>
+<text x="0" y="6.7" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.7" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-6.4" y1="-6.7" x2="6.4" y2="-6.7" width="0.127" layer="39"/>
+<wire x1="6.4" y1="-6.7" x2="6.4" y2="6.7" width="0.127" layer="39"/>
+<wire x1="6.4" y1="6.7" x2="-6.4" y2="6.7" width="0.127" layer="39"/>
+<wire x1="-6.4" y1="6.7" x2="-6.4" y2="-6.7" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIP-20" urn="urn:adsk.eagle:package:2750531/2" locally_modified="yes" type="model">
@@ -1609,6 +1666,13 @@
 <packageinstance name="DIP762W53P254L3467H472Q28B"/>
 </packageinstances>
 </package3d>
+<package3d name="SOIC127P1032X265-20" urn="urn:adsk.eagle:package:7208772/1" locally_modified="yes" type="model">
+<description>20-SOIC, 1.27 mm pitch, 10.32 mm span, 12.80 X 7.50 X 2.65 mm body
+&lt;p&gt;20-pin SOIC package with 1.27 mm pitch, 10.32 mm span with body size 12.80 X 7.50 X 2.65 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P1032X265-20"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="ATMEGA128RFA1">
@@ -1673,7 +1737,7 @@
 <pin name="TST" x="-27.94" y="-45.72" length="short" direction="pwr"/>
 <pin name="XTAL1" x="-27.94" y="7.62" length="short" direction="pas"/>
 <pin name="XTAL2" x="-27.94" y="-2.54" length="short" direction="pas"/>
-<text x="0" y="-56.388" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="-56.388" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <wire x1="25.4" y1="53.34" x2="-25.4" y2="53.34" width="0.254" layer="94"/>
 <text x="24.892" y="-55.372" size="0.6096" layer="97" font="vector" align="bottom-right">*Cannot use AX in Arduino IDE, just do NOT pinMode</text>
 <text x="-22.86" y="-48.26" size="0.8128" layer="94" font="vector" ratio="10" align="center-left">CONNECT CLKI &amp; TST to GND</text>
@@ -1759,32 +1823,32 @@
 <text x="-32.004" y="-24.13" size="1.27" layer="94" font="vector" ratio="10" align="center-left">NC (not connected)</text>
 </symbol>
 <symbol name="ATTINYX313">
-<wire x1="-30.48" y1="22.86" x2="-30.48" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-30.48" y1="-30.48" x2="30.48" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-30.48" x2="30.48" y2="22.86" width="0.254" layer="94"/>
-<wire x1="30.48" y1="22.86" x2="-30.48" y2="22.86" width="0.254" layer="94"/>
-<pin name="VCC" x="-33.02" y="20.32" length="short" direction="pas"/>
-<pin name="GND" x="-33.02" y="-27.94" length="short" direction="pas"/>
-<pin name="(PCINT8/CLKI/XTAL1/D3)PA0" x="33.02" y="20.32" length="short" rot="R180"/>
-<pin name="(PCINT9/XTAL2/D2)PA1" x="33.02" y="17.78" length="short" rot="R180"/>
-<pin name="PCINT10/!RESET!/DW/D17)PA2" x="33.02" y="15.24" length="short" rot="R180"/>
-<pin name="(AIN0/PCINT0/D9)PB0" x="33.02" y="10.16" length="short" rot="R180"/>
-<pin name="(AIN1/PCINT1/D10)PB1" x="33.02" y="7.62" length="short" rot="R180"/>
-<pin name="(OC0A/PCINT2/D11-PWM11)PB2" x="33.02" y="5.08" length="short" rot="R180"/>
-<pin name="(OC1A/PCINT3/D12-PWM12)PB3" x="33.02" y="2.54" length="short" rot="R180"/>
-<pin name="(OC1B/PCINT4/D13-PWM13)PB4" x="33.02" y="0" length="short" rot="R180"/>
-<pin name="(MOSI/DI/SDA/PCINT5/D14)PB5" x="33.02" y="-2.54" length="short" rot="R180"/>
-<pin name="(MISO/DO/PCINT6/D15)PB6" x="33.02" y="-5.08" length="short" rot="R180"/>
-<pin name="(USCK/SCL/SCK/PCINT7/D16)PB7" x="33.02" y="-7.62" length="short" rot="R180"/>
-<pin name="(ICPI/PCINT17/D8)PD6" x="33.02" y="-27.94" length="short" rot="R180"/>
-<text x="0" y="-30.988" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-35.56" y1="22.86" x2="-35.56" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-25.4" x2="35.56" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-25.4" x2="35.56" y2="22.86" width="0.254" layer="94"/>
+<wire x1="35.56" y1="22.86" x2="-35.56" y2="22.86" width="0.254" layer="94"/>
+<pin name="VCC" x="-38.1" y="20.32" length="short" direction="pas"/>
+<pin name="GND" x="-38.1" y="-22.86" length="short" direction="pas"/>
+<pin name="(PCINT8/CLKI/XTAL1/D3)PA0" x="-38.1" y="-2.54" length="short"/>
+<pin name="(PCINT9/XTAL2/D2)PA1" x="-38.1" y="-12.7" length="short"/>
+<pin name="PCINT10/!RESET!/DW/D17)PA2" x="38.1" y="20.32" length="short" rot="R180"/>
+<pin name="(AIN0/PCINT0/D9)PB0" x="38.1" y="15.24" length="short" rot="R180"/>
+<pin name="(AIN1/PCINT1/D10)PB1" x="38.1" y="12.7" length="short" rot="R180"/>
+<pin name="(OC0A/PCINT2/D11-PWM11)PB2" x="38.1" y="10.16" length="short" rot="R180"/>
+<pin name="(OC1A/PCINT3/D12-PWM12)PB3" x="38.1" y="7.62" length="short" rot="R180"/>
+<pin name="(OC1B/PCINT4/D13-PWM13)PB4" x="38.1" y="5.08" length="short" rot="R180"/>
+<pin name="(MOSI/DI/SDA/PCINT5/D14)PB5" x="38.1" y="2.54" length="short" rot="R180"/>
+<pin name="(MISO/DO/PCINT6/D15)PB6" x="38.1" y="0" length="short" rot="R180"/>
+<pin name="(USCK/SCL/SCK/PCINT7/D16)PB7" x="38.1" y="-2.54" length="short" rot="R180"/>
+<pin name="(ICPI/PCINT17/D8)PD6" x="38.1" y="-22.86" length="short" rot="R180"/>
+<text x="0" y="-25.908" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <text x="0" y="23.368" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<pin name="(PCINT11/RXD/D0)PD0" x="33.02" y="-12.7" length="short" rot="R180"/>
-<pin name="(PCINT12/TXD/D1)PD1" x="33.02" y="-15.24" length="short" rot="R180"/>
-<pin name="(PCINT13/CKOUT/XCK/INT0/D4)PD2" x="33.02" y="-17.78" length="short" rot="R180"/>
-<pin name="(PCINT14/INT1/D5)PD3" x="33.02" y="-20.32" length="short" rot="R180"/>
-<pin name="(PCINT15/T0/D6)PD4" x="33.02" y="-22.86" length="short" rot="R180"/>
-<pin name="(PCINT16/OC0B/T1/D7)PD5" x="33.02" y="-25.4" length="short" rot="R180"/>
+<pin name="(PCINT11/RXD/D0)PD0" x="38.1" y="-7.62" length="short" rot="R180"/>
+<pin name="(PCINT12/TXD/D1)PD1" x="38.1" y="-10.16" length="short" rot="R180"/>
+<pin name="(PCINT13/CKOUT/XCK/INT0/D4)PD2" x="38.1" y="-12.7" length="short" rot="R180"/>
+<pin name="(PCINT14/INT1/D5)PD3" x="38.1" y="-15.24" length="short" rot="R180"/>
+<pin name="(PCINT15/T0/D6)PD4" x="38.1" y="-17.78" length="short" rot="R180"/>
+<pin name="(PCINT16/OC0B/T1/D7)PD5" x="38.1" y="-20.32" length="short" rot="R180"/>
 </symbol>
 <symbol name="ATTINYX4">
 <wire x1="-33.02" y1="17.78" x2="-33.02" y2="-17.78" width="0.254" layer="94"/>
@@ -1793,19 +1857,19 @@
 <wire x1="33.02" y1="17.78" x2="-33.02" y2="17.78" width="0.254" layer="94"/>
 <pin name="VCC" x="-35.56" y="15.24" length="short" direction="pas"/>
 <pin name="GND" x="-35.56" y="-15.24" length="short" direction="pas"/>
-<pin name="(ADC0/AREF/PCINT0/D0-A0)PA0" x="35.56" y="15.24" length="short" rot="R180"/>
-<pin name="(ADC1/AIN0/PCINT1/D1-A1)PA1" x="35.56" y="12.7" length="short" rot="R180"/>
-<pin name="(ADC2/AIN1/PCINT2/D2-A2)PA2" x="35.56" y="10.16" length="short" rot="R180"/>
+<pin name="(ADC0/AREF/PCINT0/D10-A0)PA0" x="35.56" y="15.24" length="short" rot="R180"/>
+<pin name="(ADC1/AIN0/PCINT1/D9-A1)PA1" x="35.56" y="12.7" length="short" rot="R180"/>
+<pin name="(ADC2/AIN1/PCINT2/D8-A2)PA2" x="35.56" y="10.16" length="short" rot="R180"/>
 <pin name="(ADC3/T0/PCINT3/D7-A3)PA3" x="35.56" y="7.62" length="short" rot="R180"/>
-<pin name="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" x="35.56" y="5.08" length="short" rot="R180"/>
+<pin name="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" x="35.56" y="5.08" length="short" rot="R180"/>
 <pin name="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" x="35.56" y="2.54" length="short" rot="R180"/>
-<pin name="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" x="35.56" y="0" length="short" rot="R180"/>
-<pin name="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" x="35.56" y="-2.54" length="short" rot="R180"/>
-<pin name="(PCINT8/XTAL1/CLKI/D10)PB0" x="35.56" y="-7.62" length="short" rot="R180"/>
-<pin name="(PCINT9/XTAL2/D9)PB1" x="35.56" y="-10.16" length="short" rot="R180"/>
-<pin name="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" x="35.56" y="-12.7" length="short" rot="R180"/>
+<pin name="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" x="35.56" y="0" length="short" rot="R180"/>
+<pin name="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" x="35.56" y="-2.54" length="short" rot="R180"/>
+<pin name="(PCINT8/XTAL1/CLKI/D0)PB0" x="35.56" y="-7.62" length="short" rot="R180"/>
+<pin name="(PCINT9/XTAL2/D1)PB1" x="35.56" y="-10.16" length="short" rot="R180"/>
+<pin name="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" x="35.56" y="-12.7" length="short" rot="R180"/>
 <pin name="(PCINT11/!RESET!/DW/D11)PB3" x="35.56" y="-15.24" length="short" rot="R180"/>
-<text x="0" y="-18.288" size="1.27" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<text x="0" y="-18.288" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <text x="0" y="18.288" size="1.27" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 </symbol>
 <symbol name="ATTINYX5">
@@ -2240,18 +2304,18 @@
 <devices>
 <device name="_SOIC-14" package="SOIC127P599X175-14_SOIC-14">
 <connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D0-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D1-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D2-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
 <connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
 <connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
 <connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D10)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D9)PB1" pad="3"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
@@ -2272,18 +2336,18 @@
 </device>
 <device name="_SOIC-14_NO_SILK" package="SOIC127P599X175-14_SOIC-14_NO-SILK">
 <connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D0-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D1-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D2-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
 <connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
 <connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
 <connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D10)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D9)PB1" pad="3"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
@@ -2304,18 +2368,18 @@
 </device>
 <device name="_DIP-14_ATTINY-84" package="DIP793W45P254L1919H533Q14B_DIP-14_ATTINY-X4">
 <connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D0-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D1-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D2-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
 <connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
 <connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
 <connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D10)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D9)PB1" pad="3"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
@@ -2336,18 +2400,18 @@
 </device>
 <device name="_DIP-14_ATTINY-84_CONNECTOR" package="DIP794W46P254L1919H533Q14B_DIP-14_CONNECTOR">
 <connects>
-<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D0-A0)PA0" pad="13"/>
-<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D1-A1)PA1" pad="12"/>
-<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D2-A2)PA2" pad="11"/>
+<connect gate="G$1" pin="(ADC0/AREF/PCINT0/D10-A0)PA0" pad="13"/>
+<connect gate="G$1" pin="(ADC1/AIN0/PCINT1/D9-A1)PA1" pad="12"/>
+<connect gate="G$1" pin="(ADC2/AIN1/PCINT2/D8-A2)PA2" pad="11"/>
 <connect gate="G$1" pin="(ADC3/T0/PCINT3/D7-A3)PA3" pad="10"/>
-<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D4-A4)PA4" pad="9"/>
+<connect gate="G$1" pin="(ADC4/USCK/SCL/T1/PCINT4/D6-A4)PA4" pad="9"/>
 <connect gate="G$1" pin="(ADC5/DO/MISO/OC1B/PCINT5/D5-A5-PWM5)PA5" pad="8"/>
-<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D8-PWM8)PB2" pad="5"/>
+<connect gate="G$1" pin="(PCINT10/INT0/OCA0/CKOUT/D2-PWM2)PB2" pad="5"/>
 <connect gate="G$1" pin="(PCINT11/!RESET!/DW/D11)PB3" pad="4"/>
-<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D6-A6-PWM6)PA6" pad="7"/>
-<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D7-A7-PWM7)PA7" pad="6"/>
-<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D10)PB0" pad="2"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D9)PB1" pad="3"/>
+<connect gate="G$1" pin="(PCINT6/OC1A/SDA/MOSI/DI/ADC6/D4-A6-PWM4)PA6" pad="7"/>
+<connect gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7/D3-A7-PWM3)PA7" pad="6"/>
+<connect gate="G$1" pin="(PCINT8/XTAL1/CLKI/D0)PB0" pad="2"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D1)PB1" pad="3"/>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
@@ -2470,43 +2534,6 @@
 <gate name="G$1" symbol="ATTINYX313" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SO-20" package="SO-20_REMAKE_THIS">
-<connects>
-<connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
-<connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
-<connect gate="G$1" pin="(ICPI/PCINT17/D8)PD6" pad="11"/>
-<connect gate="G$1" pin="(MISO/DO/PCINT6/D15)PB6" pad="18"/>
-<connect gate="G$1" pin="(MOSI/DI/SDA/PCINT5/D14)PB5" pad="17"/>
-<connect gate="G$1" pin="(OC0A/PCINT2/D11-PWM11)PB2" pad="14"/>
-<connect gate="G$1" pin="(OC1A/PCINT3/D12-PWM12)PB3" pad="15"/>
-<connect gate="G$1" pin="(OC1B/PCINT4/D13-PWM13)PB4" pad="16"/>
-<connect gate="G$1" pin="(PCINT11/RXD/D0)PD0" pad="2"/>
-<connect gate="G$1" pin="(PCINT12/TXD/D1)PD1" pad="3"/>
-<connect gate="G$1" pin="(PCINT13/CKOUT/XCK/INT0/D4)PD2" pad="6"/>
-<connect gate="G$1" pin="(PCINT14/INT1/D5)PD3" pad="7"/>
-<connect gate="G$1" pin="(PCINT15/T0/D6)PD4" pad="8"/>
-<connect gate="G$1" pin="(PCINT16/OC0B/T1/D7)PD5" pad="9"/>
-<connect gate="G$1" pin="(PCINT8/CLKI/XTAL1/D3)PA0" pad="5"/>
-<connect gate="G$1" pin="(PCINT9/XTAL2/D2)PA1" pad="4"/>
-<connect gate="G$1" pin="(USCK/SCL/SCK/PCINT7/D16)PB7" pad="19"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="PCINT10/!RESET!/DW/D17)PA2" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="20"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.mouser.com/ds/2/268/doc8246-1066134.pdf" constant="no"/>
-<attribute name="DIST" value="Mouser" constant="no"/>
-<attribute name="DISTLINK" value="http://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATTINY4313-SU/?qs=sGAEpiMZZMvqv2n3s2xjse40PngS4U1xqwE9RLcpR7Q%3d" constant="no"/>
-<attribute name="DISTPN" value=" 556-ATTINY4313-SU" constant="no"/>
-<attribute name="MFR" value="Microchip Technology" constant="no"/>
-<attribute name="MPN" value="ATTINY4313-SU" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="ATTINY4313/4KB" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_DIP-20_ATTINY-4313" package="DIP793W45P254L2573H533Q20B_DIP-20_ATTINY-X313">
 <connects>
 <connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
@@ -2586,6 +2613,44 @@
 <attribute name="MPN" value="ATTINY4313-PU" constant="no"/>
 <attribute name="MPN_CONNECTOR" value="A 20-LC-TT" constant="no"/>
 <attribute name="VALUE" value="ATtiny4313" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_ATTINY-2313_SOIC-20" package="SOIC127P1032X265-20">
+<connects>
+<connect gate="G$1" pin="(AIN0/PCINT0/D9)PB0" pad="12"/>
+<connect gate="G$1" pin="(AIN1/PCINT1/D10)PB1" pad="13"/>
+<connect gate="G$1" pin="(ICPI/PCINT17/D8)PD6" pad="11"/>
+<connect gate="G$1" pin="(MISO/DO/PCINT6/D15)PB6" pad="18"/>
+<connect gate="G$1" pin="(MOSI/DI/SDA/PCINT5/D14)PB5" pad="17"/>
+<connect gate="G$1" pin="(OC0A/PCINT2/D11-PWM11)PB2" pad="14"/>
+<connect gate="G$1" pin="(OC1A/PCINT3/D12-PWM12)PB3" pad="15"/>
+<connect gate="G$1" pin="(OC1B/PCINT4/D13-PWM13)PB4" pad="16"/>
+<connect gate="G$1" pin="(PCINT11/RXD/D0)PD0" pad="2"/>
+<connect gate="G$1" pin="(PCINT12/TXD/D1)PD1" pad="3"/>
+<connect gate="G$1" pin="(PCINT13/CKOUT/XCK/INT0/D4)PD2" pad="6"/>
+<connect gate="G$1" pin="(PCINT14/INT1/D5)PD3" pad="7"/>
+<connect gate="G$1" pin="(PCINT15/T0/D6)PD4" pad="8"/>
+<connect gate="G$1" pin="(PCINT16/OC0B/T1/D7)PD5" pad="9"/>
+<connect gate="G$1" pin="(PCINT8/CLKI/XTAL1/D3)PA0" pad="5"/>
+<connect gate="G$1" pin="(PCINT9/XTAL2/D2)PA1" pad="4"/>
+<connect gate="G$1" pin="(USCK/SCL/SCK/PCINT7/D16)PB7" pad="19"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="PCINT10/!RESET!/DW/D17)PA2" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7208772/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2543-AVR-ATtiny2313_Datasheet.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=ATTINY2313-20SU-ND" constant="no"/>
+<attribute name="DISTPN" value="ATTINY2313-20SU-ND" constant="no"/>
+<attribute name="MFR" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="ATTINY2313-20SU" constant="no"/>
+<attribute name="VALUE" value="ATtiny2313" constant="no"/>
 </technology>
 </technologies>
 </device>

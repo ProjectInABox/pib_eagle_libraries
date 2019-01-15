@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -300,6 +300,29 @@
 <wire x1="1.651" y1="1.397" x2="-1.651" y2="1.397" width="0.127" layer="39"/>
 <wire x1="-1.651" y1="1.397" x2="-1.651" y2="-1.397" width="0.127" layer="39"/>
 </package>
+<package name="SOT65P230X110-6" urn="urn:adsk.eagle:footprint:6899147/1" locally_modified="yes">
+<description>6-SOT23, 0.65 mm pitch, 2.30 mm span, 2.00 X 1.25 X 1.10 mm body
+&lt;p&gt;6-pin SOT23 package with 0.65 mm pitch, 2.30 mm span with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-0.9" y="1.4" radius="0.3" width="0" layer="21"/>
+<wire x1="-0.675" y1="1.1836" x2="0.675" y2="1.1836" width="0.12" layer="21"/>
+<wire x1="-0.675" y1="-1.1836" x2="0.675" y2="-1.1836" width="0.12" layer="21"/>
+<wire x1="0.675" y1="-1.1" x2="-0.675" y2="-1.1" width="0.12" layer="51"/>
+<wire x1="-0.675" y1="-1.1" x2="-0.675" y2="1.1" width="0.12" layer="51"/>
+<wire x1="-0.675" y1="1.1" x2="0.675" y2="1.1" width="0.12" layer="51"/>
+<wire x1="0.675" y1="1.1" x2="0.675" y2="-1.1" width="0.12" layer="51"/>
+<smd name="1" x="-1.0573" y="0.65" dx="1.0556" dy="0.4391" layer="1"/>
+<smd name="2" x="-1.0573" y="0" dx="1.0556" dy="0.4391" layer="1"/>
+<smd name="3" x="-1.0573" y="-0.65" dx="1.0556" dy="0.4391" layer="1"/>
+<smd name="4" x="1.0573" y="-0.65" dx="1.0556" dy="0.4391" layer="1"/>
+<smd name="5" x="1.0573" y="0" dx="1.0556" dy="0.4391" layer="1"/>
+<smd name="6" x="1.0573" y="0.65" dx="1.0556" dy="0.4391" layer="1"/>
+<text x="0" y="1.3" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.3" size="0.25" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-1.8" y1="-1.3" x2="1.8" y2="-1.3" width="0.127" layer="39"/>
+<wire x1="1.8" y1="-1.3" x2="1.8" y2="1.3" width="0.127" layer="39"/>
+<wire x1="1.8" y1="1.3" x2="-1.8" y2="1.3" width="0.127" layer="39"/>
+<wire x1="-1.8" y1="1.3" x2="-1.8" y2="-1.3" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOP65P640X120-16" urn="urn:adsk.eagle:package:3470175/1" locally_modified="yes" type="model">
@@ -328,6 +351,13 @@
 &lt;p&gt;3-pin SOT23 package with 0.65 mm pitch, 2.10 mm span with body size 2.10 X 1.24 X 0.90 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT65P210X90-3"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT65P230X110-6" urn="urn:adsk.eagle:package:6899146/1" locally_modified="yes" type="model">
+<description>6-SOT23, 0.65 mm pitch, 2.30 mm span, 2.00 X 1.25 X 1.10 mm body
+&lt;p&gt;6-pin SOT23 package with 0.65 mm pitch, 2.30 mm span with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT65P230X110-6"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -437,6 +467,50 @@
 <vertex x="1.27" y="1.524"/>
 <vertex x="0.762" y="2.286"/>
 </polygon>
+</symbol>
+<symbol name="MOSFET_N-CHANNEL_2-ARRAY">
+<wire x1="0" y1="13.462" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="11.938" width="0.254" layer="94"/>
+<wire x1="0" y1="16.383" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="14.097" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="0" y1="11.303" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="9.017" width="0.254" layer="94"/>
+<wire x1="-2.413" y1="15.24" x2="-2.413" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="0" y2="10.16" width="0.1524" layer="94"/>
+<circle x="2.54" y="10.16" radius="0.3592" width="0" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.254" y="12.7"/>
+<vertex x="1.27" y="13.462"/>
+<vertex x="1.27" y="11.938"/>
+</polygon>
+<pin name="G1" x="-5.08" y="10.16" visible="off" length="short" direction="pas"/>
+<pin name="D1" x="2.54" y="17.78" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S1" x="2.54" y="7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="-2.286" y="0.254" size="1.27" layer="95" font="vector" ratio="10" align="bottom-right">&gt;NAME</text>
+<wire x1="0" y1="-11.938" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="0" y2="-13.462" width="0.254" layer="94"/>
+<wire x1="0" y1="-9.017" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-11.303" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="2.54" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="0" y1="-14.097" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="0" y2="-16.383" width="0.254" layer="94"/>
+<wire x1="-2.413" y1="-10.16" x2="-2.413" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="2.54" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="0" y2="-15.24" width="0.1524" layer="94"/>
+<circle x="2.54" y="-15.24" radius="0.3592" width="0" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.254" y="-12.7"/>
+<vertex x="1.27" y="-11.938"/>
+<vertex x="1.27" y="-13.462"/>
+</polygon>
+<pin name="G2" x="-5.08" y="-15.24" visible="off" length="short" direction="pas"/>
+<pin name="D2" x="2.54" y="-7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S2" x="2.54" y="-17.78" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="-2.286" y="-0.254" size="0.635" layer="96" font="vector" ratio="10" align="top-right">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -587,6 +661,37 @@
 <attribute name="MFR" value="ON Semiconductor" constant="no"/>
 <attribute name="MPN" value="MMBT2222AWT1G" constant="no"/>
 <attribute name="VALUE" value="MMBT2222 0.6A/40V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOSFET_N-CHANNEL_2-ARRAY" prefix="NFET">
+<gates>
+<gate name="G$1" symbol="MOSFET_N-CHANNEL_2-ARRAY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_2N7002DW_115MA-60V" package="SOT65P230X110-6">
+<connects>
+<connect gate="G$1" pin="D1" pad="6"/>
+<connect gate="G$1" pin="D2" pad="3"/>
+<connect gate="G$1" pin="G1" pad="2"/>
+<connect gate="G$1" pin="G2" pad="5"/>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6899146/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.mccsemi.com/up_pdf/2N7002DW(SOT-363).PDF" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=2N7002DW-TPCT-ND" constant="no"/>
+<attribute name="DISTPN" value="2N7002DW-TPCT-ND" constant="no"/>
+<attribute name="MFR" value="Micro Commercial Co" constant="no"/>
+<attribute name="MPN" value="2N7002DW-TP" constant="no"/>
+<attribute name="VALUE" value="2N7002DW" constant="no"/>
 </technology>
 </technologies>
 </device>
