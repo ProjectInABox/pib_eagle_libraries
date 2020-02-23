@@ -3022,7 +3022,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATSAMD11" prefix="MCU">
+<deviceset name="ATSAMD11" prefix="MCU" uservalue="yes">
 <description>&lt;b&gt; Atmel SAM D11 ARM M0 uC &lt;/b&gt;
 &lt;p&gt; M0 Cortex family of Atmel chips with USB differential inputs. Used commonly as a USB to TTL convertor for UPDI interfacing. &lt;/p&gt;</description>
 <gates>
@@ -3069,12 +3069,13 @@
 <attribute name="DISTPN" value="ATSAMD11D14A-MUTCT-ND" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATSAMD11D14A-MUT" constant="no"/>
+<attribute name="VALUE" value="ATSAMD11D" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA4809" prefix="MCU">
+<deviceset name="ATMEGA4809" prefix="MCU" uservalue="yes">
 <description>&lt;b&gt;Atmega 809 Family Chips&lt;/b&gt;
 
 &lt;p&gt;Spiritual successor to the general Arduino series chips with various new peripherals and an integrated crystal. Uses a new mux pin swappable pin arrangement.&lt;/p&gt;</description>
@@ -3146,6 +3147,7 @@
 <attribute name="DISTPN" value="150-ATMEGA4809-MURCT-ND" constant="no"/>
 <attribute name="MFR" value="Microchip Technology" constant="no"/>
 <attribute name="MPN" value="ATMEGA4809-MUR" constant="no"/>
+<attribute name="VALUE" value="ATMEGA4809" constant="no"/>
 </technology>
 </technologies>
 </device>
