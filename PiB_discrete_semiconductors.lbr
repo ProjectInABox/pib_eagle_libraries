@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -478,6 +478,35 @@
 <wire x1="1.5" y1="-0.6" x2="1.5" y2="0.6" width="0.127" layer="39"/>
 <wire x1="1.5" y1="0.6" x2="-1.5" y2="0.6" width="0.127" layer="39"/>
 </package>
+<package name="SOT190P230X110-4M" urn="urn:adsk.eagle:footprint:17540621/1" locally_modified="yes">
+<description>4-SOT143, 1.90 mm pitch, 2.30 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;4-pin SOT143 package with 1.90 mm pitch, 2.30 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-1.2538" y="1.769" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.7" y1="1.579" x2="0.7" y2="1.579" width="0.12" layer="21"/>
+<wire x1="-0.7" y1="-1.579" x2="0.7" y2="-1.579" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.1283" y="0.75" dx="1.3588" dy="1.03" layer="1"/>
+<smd name="2" x="-1.1283" y="-0.95" dx="1.3588" dy="0.63" layer="1"/>
+<smd name="3" x="1.1283" y="-0.95" dx="1.3588" dy="0.63" layer="1"/>
+<smd name="4" x="1.1283" y="0.95" dx="1.3588" dy="0.63" layer="1"/>
+<text x="0" y="2.654" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.214" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-0.7" y1="1.6" x2="0.7" y2="1.6" width="0.127" layer="39"/>
+<wire x1="0.7" y1="1.6" x2="0.7" y2="1.4" width="0.127" layer="39"/>
+<wire x1="0.7" y1="1.4" x2="1.9" y2="1.4" width="0.127" layer="39"/>
+<wire x1="1.9" y1="1.4" x2="1.9" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="1.9" y1="-1.4" x2="0.8" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="0.8" y1="-1.4" x2="0.8" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="0.8" y1="-1.6" x2="-0.8" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="-0.8" y1="-1.6" x2="-0.8" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="-0.8" y1="-1.4" x2="-1.9" y2="-1.4" width="0.127" layer="39"/>
+<wire x1="-1.9" y1="-1.4" x2="-1.9" y2="1.4" width="0.127" layer="39"/>
+<wire x1="-1.9" y1="1.4" x2="-0.7" y2="1.4" width="0.127" layer="39"/>
+<wire x1="-0.7" y1="1.4" x2="-0.7" y2="1.6" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="DFN100X60X55-2" urn="urn:adsk.eagle:package:2933421/1" locally_modified="yes" type="model">
@@ -513,6 +542,13 @@
 &lt;p&gt;SODFL package with 1.60 mm span with body size 1.20 X 0.80 X 0.70 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SODFL1608X70"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT190P230X110-4M" urn="urn:adsk.eagle:package:17540613/1" type="model">
+<description>4-SOT143, 1.90 mm pitch, 2.30 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;4-pin SOT143 package with 1.90 mm pitch, 2.30 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT190P230X110-4M"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -578,6 +614,70 @@
 <wire x1="-1.524" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="1.524" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.524" y1="-2.54" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="DIODE_ESD">
+<text x="-1.27" y="7.366" size="0.8128" layer="96" font="vector" ratio="10" align="center">&gt;VALUE</text>
+<text x="-1.27" y="8.636" size="0.8128" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-1.27" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-3.81" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-5.08" x2="-6.35" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-6.35" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-5.08" x2="-6.35" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-5.08" x2="-3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-5.08" x2="-3.81" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="-0.635" y2="6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="0.635" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="5.08" visible="pad" length="point" direction="pwr" rot="R180"/>
+<pin name="P$4" x="7.62" y="5.08" visible="pad" length="point" direction="pwr"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<pin name="P$2" x="-2.54" y="-10.16" visible="pad" length="point" rot="R270"/>
+<pin name="P$3" x="0" y="-10.16" visible="pad" length="point" rot="R270"/>
+<circle x="-7.62" y="0" radius="0.254" width="0" layer="94"/>
+<circle x="-2.54" y="0" radius="0.254" width="0" layer="94"/>
+<circle x="5.08" y="0" radius="0.254" width="0" layer="94"/>
+<circle x="-7.62" y="5.08" radius="0.254" width="0" layer="94"/>
+<circle x="5.08" y="5.08" radius="0.254" width="0" layer="94"/>
+<circle x="0" y="-5.08" radius="0.254" width="0" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -868,6 +968,36 @@
 <attribute name="MFR" value="Diodes Incorporated" constant="no"/>
 <attribute name="MPN" value="1N4148WS-7-F" constant="no"/>
 <attribute name="VALUE" value="1.25V/150mA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PRTR5V0U2X_ESD">
+<description>&lt;b&gt;ESD Protection Diode IC&lt;/b&gt;
+&lt;p&gt; Used largely for protecting against random electrical surges on high-frequency lines. This means it's largely useful for high speed differential connections such as USB2.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE_ESD" x="0" y="0"/>
+</gates>
+<devices>
+<device name=",215" package="SOT190P230X110-4M">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17540613/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/nexperia-usa-inc/PRTR5V0U2X215/1727-3884-1-ND/1589981" constant="no"/>
+<attribute name="DISTPN" value="1727-3884-1-ND" constant="no"/>
+<attribute name="MFR" value="Nexperia USA Inc." constant="no"/>
+<attribute name="MPN" value="PRTR5V0U2X,215" constant="no"/>
 </technology>
 </technologies>
 </device>

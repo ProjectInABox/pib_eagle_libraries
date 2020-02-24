@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -323,6 +323,29 @@
 <wire x1="1.8" y1="1.3" x2="-1.8" y2="1.3" width="0.127" layer="39"/>
 <wire x1="-1.8" y1="1.3" x2="-1.8" y2="-1.3" width="0.127" layer="39"/>
 </package>
+<package name="SOT65P210X110-6M" urn="urn:adsk.eagle:footprint:17541159/1" locally_modified="yes">
+<description>6-SOT23, 0.65 mm pitch, 2.10 mm span, 2.00 X 1.25 X 1.10 mm body
+&lt;p&gt;6-pin SOT23 package with 0.65 mm pitch, 2.10 mm span with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-1.1448" y="1.379" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.625" y1="1.189" x2="0.625" y2="1.189" width="0.12" layer="21"/>
+<wire x1="-0.625" y1="-1.189" x2="0.625" y2="-1.189" width="0.12" layer="21"/>
+<wire x1="0.675" y1="-1.1" x2="-0.675" y2="-1.1" width="0.12" layer="51"/>
+<wire x1="-0.675" y1="-1.1" x2="-0.675" y2="1.1" width="0.12" layer="51"/>
+<wire x1="-0.675" y1="1.1" x2="0.675" y2="1.1" width="0.12" layer="51"/>
+<wire x1="0.675" y1="1.1" x2="0.675" y2="-1.1" width="0.12" layer="51"/>
+<smd name="1" x="-1.0204" y="0.65" dx="1.2884" dy="0.5" layer="1"/>
+<smd name="2" x="-1.0204" y="0" dx="1.2884" dy="0.4" layer="1"/>
+<smd name="3" x="-1.0204" y="-0.65" dx="1.2884" dy="0.5" layer="1"/>
+<smd name="4" x="1.0204" y="-0.65" dx="1.2884" dy="0.5" layer="1"/>
+<smd name="5" x="1.0204" y="0" dx="1.2884" dy="0.4" layer="1"/>
+<smd name="6" x="1.0204" y="0.65" dx="1.2884" dy="0.5" layer="1"/>
+<text x="0" y="2.264" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.824" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-1.9" y1="1.2" x2="1.9" y2="1.2" width="0.127" layer="39"/>
+<wire x1="1.9" y1="1.2" x2="1.9" y2="-1.2" width="0.127" layer="39"/>
+<wire x1="1.9" y1="-1.2" x2="-1.9" y2="-1.2" width="0.127" layer="39"/>
+<wire x1="-1.9" y1="-1.2" x2="-1.9" y2="1.2" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOP65P640X120-16" urn="urn:adsk.eagle:package:3470175/1" locally_modified="yes" type="model">
@@ -358,6 +381,13 @@
 &lt;p&gt;6-pin SOT23 package with 0.65 mm pitch, 2.30 mm span with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT65P230X110-6"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT65P210X110-6M" urn="urn:adsk.eagle:package:17541151/1" type="box">
+<description>6-SOT23, 0.65 mm pitch, 2.10 mm span, 2.00 X 1.25 X 1.10 mm body
+&lt;p&gt;6-pin SOT23 package with 0.65 mm pitch, 2.10 mm span with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT65P210X110-6M"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -692,6 +722,38 @@
 <attribute name="MFR" value="Micro Commercial Co" constant="no"/>
 <attribute name="MPN" value="2N7002DW-TP" constant="no"/>
 <attribute name="VALUE" value="2N7002DW" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HF_MOSFET_N-CHANNEL_2-ARRAY" prefix="NFET" uservalue="yes">
+<description>&lt;b&gt; Fast Switching NMOS Array &lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N-CHANNEL_2-ARRAY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_BSS138PS" package="SOT65P210X110-6M">
+<connects>
+<connect gate="G$1" pin="D1" pad="6"/>
+<connect gate="G$1" pin="D2" pad="3"/>
+<connect gate="G$1" pin="G1" pad="2"/>
+<connect gate="G$1" pin="G2" pad="5"/>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17541151/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/micro-commercial-co/2N7002DW-TP/2N7002DW-TPCT-ND/819647" constant="no"/>
+<attribute name="DISTPN" value="2N7002DW-TPCT-ND" constant="no"/>
+<attribute name="MFR" value="Micro Commercial Co" constant="no"/>
+<attribute name="MPN" value="2N7002DW-TP" constant="no"/>
+<attribute name="VALUE" value="350mA" constant="no"/>
 </technology>
 </technologies>
 </device>
