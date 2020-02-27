@@ -727,7 +727,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="HF_MOSFET_N-CHANNEL_2-ARRAY" prefix="NFET" uservalue="yes">
+<deviceset name="FAST_MOSFET_N-CHANNEL_2-ARRAY" prefix="NFET" uservalue="yes">
 <description>&lt;b&gt; Fast Switching NMOS Array &lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MOSFET_N-CHANNEL_2-ARRAY" x="0" y="0"/>

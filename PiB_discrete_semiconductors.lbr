@@ -973,7 +973,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="PRTR5V0U2X_ESD">
+<deviceset name="PRTR5V0U2X_ESD" prefix="D">
 <description>&lt;b&gt;ESD Protection Diode IC&lt;/b&gt;
 &lt;p&gt; Used largely for protecting against random electrical surges on high-frequency lines. This means it's largely useful for high speed differential connections such as USB2.&lt;/p&gt;</description>
 <gates>
